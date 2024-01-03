@@ -30,6 +30,7 @@ const Header = () => {
                   Contact
                 </NavDropdown.Item>
               </NavDropdown>
+              <Nav.Link href="#signin"><button>Signin</button></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
