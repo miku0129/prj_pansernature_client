@@ -5,6 +5,8 @@ import BasicLayout from "./routes/basic-layout.component";
 import Home from "./components/home/home.component";
 import ArticlesPreview from "./components/articles-preview/articles-preview.component";
 import Contact from "./components/contact/contact.component";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 
 function App() {
