@@ -15,22 +15,28 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Articles</Nav.Link>
+
               <NavDropdown title="About us" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Community</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="#action/3.1">
                   Activity
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Our books
-                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">Books</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Support</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Contact
-                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4">Contact</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#signin"><button>Signin</button></Nav.Link>
+
+              <Nav.Link href="#link">Articles</Nav.Link>
+
+              <NavDropdown title="Account" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1">
+                  Your profile
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">Setting</NavDropdown.Item>
+                {/* <NavDropdown.Item href="#action/3.3">Setting</NavDropdown.Item> */}
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.4">Sign out</NavDropdown.Item>
+              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>
