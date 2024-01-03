@@ -1,0 +1,60 @@
+export const dummy_articles = {
+  articles: [
+    {
+      id: 1,
+      title: "title",
+      category: "life",
+      published_date: "2024/01/01",
+      text: "Bonjour! Comment ça va aujourd'hui? Le soleil brille et la journée promet d'être magnifique. Profitez bien de chaque moment!",
+    },
+    {
+      id: 2,
+      title: "title",
+      category: "education",
+      published_date: "2024/01/02",
+      text: "Excusez-moi, où se trouve la bibliothèque? J'ai besoin de trouver un livre intéressant à lire ce week-end. Merci beaucoup pour votre aide!",
+    },
+    {
+      id: 3,
+      title: "title",
+      category: "career",
+      published_date: "2024/01/03",
+      text: "Félicitations pour votre succès! Votre travail acharné et votre détermination ont porté leurs fruits. Continuez à exceller et à réaliser vos rêves.",
+    },
+    {
+      id: 4,
+      title: "title",
+      category: "life",
+      published_date: "2024/01/04",
+      text: "Bonjour! Comment ça va aujourd'hui? Le soleil brille et la journée promet d'être magnifique. Profitez bien de chaque moment!",
+    },
+    {
+      id: 5,
+      title: "title",
+      category: "career",
+      published_date: "2024/01/05",
+      text: "Excusez-moi, où se trouve la bibliothèque? J'ai besoin de trouver un livre intéressant à lire ce week-end. Merci beaucoup pour votre aide!",
+    },
+    {
+      id: 6,
+      title: "title",
+      category: "career",
+      published_date: "2024/01/06",
+      text: "Félicitations pour votre succès! Votre travail acharné et votre détermination ont porté leurs fruits. Continuez à exceller et à réaliser vos rêves.",
+    },
+    {
+      id: 7,
+      title: "title",
+      category: "life",
+      published_date: "2024/01/07",
+      text: "Bonjour! Comment ça va aujourd'hui? Le soleil brille et la journée promet d'être magnifique. Profitez bien de chaque moment!",
+    },
+    {
+      id: 8,
+      title: "title",
+      category: "career",
+      published_date: "2024/01/08",
+      text: "Excusez-moi, où se trouve la bibliothèque? J'ai besoin de trouver un livre intéressant à lire ce week-end. Merci beaucoup pour votre aide!",
+    },
+  ],
+};
