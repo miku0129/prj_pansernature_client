@@ -4,9 +4,10 @@ import { Routes, Route } from "react-router-dom";
 import BasicLayout from "./routes/basic-layout.component";
 import Home from "./components/home/home.component";
 import ArticlesPreview from "./components/articles-preview/articles-preview.component";
+import Article from "./components/article/article.component";
 import Contact from "./components/contact/contact.component";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/*" element={<BasicLayout />}>
           <Route index element={<Home />} />
           <Route path="articles" element={<ArticlesPreview />} />
+          <Route path="articles/:id" element={<Article />}></Route>
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>

@@ -4,9 +4,18 @@ import ReactPaginate from "react-paginate";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import { ArticlesPreviewCustomLink } from "./articles-preview.styles";
 import "./articles-preview.styles.scss";
 
 import { dummy_articles } from "./__dummy-article-data__";
+
+type Article = {
+  id: number;
+  title: string;
+  category: string;
+  published_date: string;
+  text: string;
+};
 
 type CurrentItems = {
   currentItems: Article[];
@@ -23,23 +32,25 @@ const ArticlesPreview = () => {
       <div className="items">
         <Row xs={1} md={3} className="g-4">
           {currentItems &&
-            currentItems.map((item, idx) => {
-              const text_intro = item.text.slice(0, 50);
+            currentItems.map((article, idx) => {
+              const text_intro = article.text.slice(0, 50);
               return (
                 <Col key={idx}>
-                  <Card className="article-card">
-                    <Card.Img
-                      variant="top"
-                      src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2022&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/100px160"
-                    />
-                    <Card.Body>
-                      <Card.Title>{item.title} </Card.Title>
-                      <p>
-                        <span>{item.id}/</span>category: {item.category}
-                      </p>
-                      <Card.Text>{text_intro}...</Card.Text>
-                    </Card.Body>
-                  </Card>
+                  <ArticlesPreviewCustomLink to={`/articles/${article.id}`}>
+                    <Card className="article-card">
+                      <Card.Img
+                        variant="top"
+                        src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2022&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/100px160"
+                      />
+                      <Card.Body>
+                        <Card.Title>{article.title} </Card.Title>
+                        <p>
+                          <span>{article.id}/</span>category: {article.category}
+                        </p>
+                        <Card.Text>{text_intro}...</Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </ArticlesPreviewCustomLink>
                 </Col>
               );
             })}
