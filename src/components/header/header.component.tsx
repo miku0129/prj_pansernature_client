@@ -6,6 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { CustomLink } from "../../utilities/components.styles";
 import "./header.styles.scss";
+import { CustomHashLink } from "../../utilities/components.styles";
 
 const Header = () => {
   return (
@@ -19,9 +20,15 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <NavDropdown title="About" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">About us</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Support</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Books</NavDropdown.Item>
+                <NavDropdown.Item href="/#about">
+                  <CustomHashLink to="/#about">About us</CustomHashLink>
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/#support">
+                  <CustomHashLink to="/#support">Support</CustomHashLink>
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/#books">
+                  <CustomHashLink to="/#books">Books</CustomHashLink>
+                </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">Contact</NavDropdown.Item>
               </NavDropdown>

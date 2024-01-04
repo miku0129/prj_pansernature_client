@@ -15,7 +15,7 @@ const { book_list } = dummy_book_list;
 const Books = () => {
   return (
     <Fragment>
-      <BooksContentLayout>
+      <BooksContentLayout id="books">
         <h2 className="books-title">Our Books</h2>
         <Row xs={1} md={2} className="g-4">
           {book_list &&
@@ -25,12 +25,14 @@ const Books = () => {
                 <Col key={idx}>
                   <Card>
                     <div className="book-img-container">
-                      <Card.Img className="book-img" variant="top" src={book.img} />
+                      <Card.Img
+                        className="book-img"
+                        variant="top"
+                        src={book.img}
+                      />
                     </div>
                     <Card.Body>
-                      <Card.Text>
-                        {book_desc_intro}
-                      </Card.Text>
+                      <Card.Text>{book_desc_intro}</Card.Text>
                       <Card.Link>Learn more</Card.Link>
                     </Card.Body>
                   </Card>

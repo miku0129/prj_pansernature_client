@@ -9,7 +9,7 @@ import { supportUsHeaderText, supportUsImg } from "../../asset";
 const Support = () => {
   return (
     <Fragment>
-      <div>
+      <div id="support">
         <ContentLayout>
           <Card className="bg-dark text-white">
             <div className="custom-card-img-container">
@@ -25,22 +25,6 @@ const Support = () => {
           </Card>
         </ContentLayout>
       </div>
-
-      {/* <div className="about-us-contentainer">
-        <div className="about-us-img-container">
-          <img
-            className="about-us-img"
-            alt="about us visual"
-            src={aboutUsImg}
-          />
-        </div>
-        <div className="about-us-card-container">
-          <h2 className="about-us-card-title">Support our community</h2>
-          <div className="about-us-card">
-            <span>{supportUsHeaderText}</span>
-          </div>
-        </div>
-      </div> */}
     </Fragment>
   );
 };

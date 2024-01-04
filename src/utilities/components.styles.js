@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export const HeaderAndFooterLayout = styled.div`
   display: grid;
@@ -15,6 +16,11 @@ export const HomeLayout = styled.div`
 
 export const CustomLink = styled(Link)`
   text-decoration: none;
+`;
+
+export const CustomHashLink = styled(HashLink)`
+  text-decoration: none;
+  color: initial;
 `;
 
 export const CustomBtn = styled.button`
