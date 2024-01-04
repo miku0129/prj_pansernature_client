@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useEffect, useState, useContext } from "react";
 import ReactPaginate from "react-paginate";
 
 import Card from "react-bootstrap/Card";
@@ -7,15 +7,8 @@ import Row from "react-bootstrap/Row";
 import { ArticlesPreviewCustomLink } from "./articles-preview.styles";
 import "./articles-preview.styles.scss";
 
-import { dummy_articles } from "./__dummy-article-data__";
+import { ArticlesContext } from "../../context/articles.context";
 
-type Article = {
-  id: number;
-  title: string;
-  category: string;
-  published_date: string;
-  text: string;
-};
 
 type CurrentItems = {
   currentItems: Article[];
@@ -25,7 +18,7 @@ type ItemsPerPage = {
 };
 
 const ArticlesPreview = () => {
-  const { articles } = dummy_articles;
+  const articles = useContext(ArticlesContext)[0]
 
   function Items({ currentItems }: CurrentItems) {
     return (

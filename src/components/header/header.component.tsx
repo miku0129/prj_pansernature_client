@@ -18,10 +18,10 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <NavDropdown title="About Panser Nature" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Activity</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Books</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Support</NavDropdown.Item>
+              <NavDropdown title="About" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1">About us</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">Support</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Books</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">Contact</NavDropdown.Item>
               </NavDropdown>
@@ -29,15 +29,15 @@ const Header = () => {
                 <Nav.Link href="/articles">Articles</Nav.Link>
               </CustomLink>
               {/* 未ログイン状態の場合は"Sign in"というボタンを表示する */}
-              <NavDropdown title="Account" id="basic-nav-dropdown">
+              {/* <NavDropdown title="Account" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">
                   Your profile
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Setting</NavDropdown.Item>
-                {/* <NavDropdown.Item href="#action/3.3">Setting</NavDropdown.Item> */}
+                <NavDropdown.Item href="#action/3.3">Setting</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">Sign out</NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

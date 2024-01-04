@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { CustomBtn } from "../../utilities/components.styles";
 import "./article.styles.scss";
 
