@@ -22,8 +22,8 @@ export const CustomBtn = styled.button`
   border: none;
   color: white;
   border-radius: 5px;
-  width: 60px;
   height: 30px;
+  max-width: 150px;
 
   &:hover {
     background-color: white;

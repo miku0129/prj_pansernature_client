@@ -1,5 +1,6 @@
 .footer {
-  background: #d9ac99;
+  // background: #d9ac99;
+  background: #009250;
 }
 
 .footer ul {
@@ -14,7 +15,7 @@
 }
 
 .footer__content {
-  color: white;
+  color: gainsboro;
   padding: 3rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, 350px);
@@ -32,7 +33,7 @@
 }
 
 .footer__content h2 {
-  color: gray;
+  color: white;
   font-size: 0.875rem;
   font-weight: 800;
   letter-spacing: 1.25px;
@@ -47,14 +48,15 @@
 }
 
 .footer__disclaimer {
-  background: #a67908;
+  // background: #a67908;
+  background: #004928;
   color: var(--color-blue-200);
   padding: 1rem 0;
 }
 
 .footer__disclaimer p {
   margin: 0;
-  color: black;
+  color: gainsboro;
 }
 
 @media screen and (max-width: 40rem) {
