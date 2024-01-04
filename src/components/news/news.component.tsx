@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 import { ContentLayout } from "../../utilities/components.styles";
 import "./news.styles.scss";
 
-import { dummy_news } from "./__dumy-news-data__";
+import { dummy_news } from "./__dummy-news-data__";
 const { news } = dummy_news;
 
 const News = () => {
@@ -24,7 +24,9 @@ const News = () => {
                 return (
                   <Col key={idx}>
                     <Card>
-                      <Card.Img variant="top" src={item.img} />
+                      <div className="news-img-container">
+                        <Card.Img className="news-img" variant="top" src={item.img} />
+                      </div>
                       <Card.Body>
                         <Card.Title>{item.title}</Card.Title>
                         <Card.Text>{text_intro}...</Card.Text>

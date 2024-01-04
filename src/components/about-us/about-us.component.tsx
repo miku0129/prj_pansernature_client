@@ -8,7 +8,7 @@ const AboutUs = () => {
     <Fragment>
       <div className="about-us-contentainer">
         <div className="about-us-card-container">
-          <h2 className="about-us-card-title">About us...</h2>
+          <h2 className="about-us-card-title">About us</h2>
           <div className="about-us-card">
             <span>{aboutUsText}</span>
           </div>

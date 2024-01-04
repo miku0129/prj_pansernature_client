@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import { ContentLayout } from "../../utilities/components.styles";
+import { BooksContentLayout } from "./books.styles";
 
 import "./books.styles.scss";
 
@@ -15,7 +15,7 @@ const { book_list } = dummy_book_list;
 const Books = () => {
   return (
     <Fragment>
-      <ContentLayout>
+      <BooksContentLayout>
         <h2 className="books-title">Our Books</h2>
         <Row xs={1} md={2} className="g-4">
           {book_list &&
@@ -23,19 +23,22 @@ const Books = () => {
               const book_desc_intro = book.desc.slice(0, 100);
               return (
                 <Col key={idx}>
-                  <Card className="books-container">
-                    <Card.Header>{book.feature}</Card.Header>
+                  <Card>
+                    <div className="book-img-container">
+                      <Card.Img className="book-img" variant="top" src={book.img} />
+                    </div>
                     <Card.Body>
-                      <Card.Title>{book.title}</Card.Title>
-                      <Card.Text>{book_desc_intro}...</Card.Text>
-                      <Button variant="outline-success">Read more</Button>
+                      <Card.Text>
+                        {book_desc_intro}
+                      </Card.Text>
+                      <Card.Link>Learn more</Card.Link>
                     </Card.Body>
                   </Card>
                 </Col>
               );
             })}
         </Row>
-      </ContentLayout>
+      </BooksContentLayout>
     </Fragment>
   );
 };
