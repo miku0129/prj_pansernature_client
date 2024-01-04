@@ -13,10 +13,10 @@ const Home = () => {
     <Fragment>
       <HomeLayout>
         <MainVisual />
-        {/* <AboutUs />
+        <AboutUs />
         <News />
         <Support />
-        <Books /> */}
+        <Books />
       </HomeLayout>
     </Fragment>
   );

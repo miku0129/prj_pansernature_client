@@ -8,9 +8,9 @@ export const HeaderAndFooterLayout = styled.div`
 `;
 
 export const HomeLayout = styled.div`
-  display: grid;
-  grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 `;
 
 export const CustomLink = styled(Link)`
