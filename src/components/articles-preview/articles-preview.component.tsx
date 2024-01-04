@@ -9,7 +9,6 @@ import "./articles-preview.styles.scss";
 
 import { ArticlesContext } from "../../context/articles.context";
 
-
 type CurrentItems = {
   currentItems: Article[];
 };
@@ -18,7 +17,7 @@ type ItemsPerPage = {
 };
 
 const ArticlesPreview = () => {
-  const articles = useContext(ArticlesContext)[0]
+  const articles = useContext(ArticlesContext)[0];
 
   function Items({ currentItems }: CurrentItems) {
     return (
@@ -30,7 +29,18 @@ const ArticlesPreview = () => {
               return (
                 <Col key={idx}>
                   <ArticlesPreviewCustomLink to={`/articles/${article.id}`}>
-                    <Card className="article-card">
+                    <Card className="bg-dark text-white">
+                      <Card.Img
+                        src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2022&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/100px16"
+                        alt="Card image"
+                      />
+                      <Card.ImgOverlay>
+                        <Card.Title>article.title</Card.Title>
+                        <Card.Text>{text_intro}...</Card.Text>
+                      </Card.ImgOverlay>
+                    </Card>
+
+                    {/* <Card className="article-card">
                       <Card.Img
                         variant="top"
                         src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2022&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/100px160"
@@ -42,7 +52,7 @@ const ArticlesPreview = () => {
                         </p>
                         <Card.Text>{text_intro}...</Card.Text>
                       </Card.Body>
-                    </Card>
+                    </Card> */}
                   </ArticlesPreviewCustomLink>
                 </Col>
               );

@@ -31,3 +31,7 @@ export const CustomBtn = styled.button`
     border: solid 1px #009250;
   }
 `;
+
+export const ContentLayout = styled.div`
+  padding: 20px;
+`;
