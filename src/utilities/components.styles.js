@@ -7,6 +7,12 @@ export const HeaderAndFooterLayout = styled.div`
   min-height: 100vh;
 `;
 
+export const HomeLayout = styled.div`
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
+  min-height: 100vh;
+`;
+
 export const CustomLink = styled(Link)`
   text-decoration: none;
 `;
