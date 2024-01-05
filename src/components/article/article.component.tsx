@@ -24,7 +24,7 @@ const Article = () => {
           <h1>{article.title}</h1>
           <hr />
         </div>
-        <div>
+        <div className="article-text-container">
           <p>Category: {article.category}</p>
           <p>Published date: {article.published_date}</p>
           <text>{article.text}</text>

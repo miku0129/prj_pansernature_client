@@ -14,7 +14,7 @@ const Header = () => {
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <CustomLink to={"/"}>
-            <Navbar.Brand href="/">Panser Nature</Navbar.Brand>
+            <Navbar.Brand href="/"><span className="header-title">Panser Nature</span></Navbar.Brand>
           </CustomLink>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
