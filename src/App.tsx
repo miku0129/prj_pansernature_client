@@ -6,6 +6,7 @@ import Home from "./routes/home.component";
 import ArticlesPreview from "./components/articles-preview/articles-preview.component";
 import Article from "./components/article/article.component";
 import Contact from "./components/contact/contact.component";
+import Donation from "./components/donation/donation.component";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -19,6 +20,7 @@ function App() {
           <Route path="articles" element={<ArticlesPreview />} />
           <Route path="articles/:id" element={<Article />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="donation" element={<Donation />} />
         </Route>
       </Routes>
     </div>

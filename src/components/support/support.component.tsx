@@ -1,7 +1,11 @@
 import { Fragment } from "react";
 import Card from "react-bootstrap/Card";
 
-import { ContentLayout, CustomBtn } from "../../utilities/components.styles";
+import {
+  ContentLayout,
+  CustomBtn,
+  CustomLink,
+} from "../../utilities/components.styles";
 import "./support.styles.scss";
 
 import { supportUsHeaderText, supportUsImg } from "../../asset";
@@ -20,7 +24,9 @@ const Support = () => {
                 <h2>Support</h2>
               </Card.Title>
               <Card.Text>{supportUsHeaderText}</Card.Text>
-              <CustomBtn>Learn more</CustomBtn>
+              <CustomLink to={"/donation"}>
+                <CustomBtn>Donate now</CustomBtn>
+              </CustomLink>
             </Card.ImgOverlay>
           </Card>
         </ContentLayout>
