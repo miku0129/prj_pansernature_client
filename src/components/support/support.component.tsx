@@ -25,7 +25,7 @@ const Support = () => {
               </Card.Title>
               <Card.Text>{supportUsHeaderText}</Card.Text>
               <CustomLink to={"/donation"}>
-                <CustomBtn>Donate now</CustomBtn>
+                <CustomBtn>Learn more</CustomBtn>
               </CustomLink>
             </Card.ImgOverlay>
           </Card>
