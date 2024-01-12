@@ -35,7 +35,6 @@ const donation_info = [
 const Donation = () => {
   return (
     <Fragment>
-      {/* <ContentLayout className="donation-card-container"> */}
       <ContentLayout>
         <Accordion defaultActiveKey={["1"]} flush>
           {donation_info.map((info) => {
@@ -64,21 +63,6 @@ const Donation = () => {
                   </Card>
                 </Accordion.Body>
               </Accordion.Item>
-              // <Card className="donation-card">
-              //   <div className="donation-card-img-container">
-              //     <Card.Img
-              //       variant="top"
-              //       src={info.img_url}
-              //       className="donation-card-img"
-              //     />
-              //   </div>
-              //   <Card.Body className="donation-card-text-container">
-              //     <Card.Text>{info.text}</Card.Text>
-              //     <a href={info.payment_link} target="_blank" rel="noreferrer">
-              //       <CustomBtn>Donate {info.amount} euros</CustomBtn>
-              //     </a>
-              //   </Card.Body>
-              // </Card>
             );
           })}
         </Accordion>
