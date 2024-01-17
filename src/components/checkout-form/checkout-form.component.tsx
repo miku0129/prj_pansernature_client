@@ -46,7 +46,10 @@ const CheckoutForm = () => {
   return (
     <form onSubmit={handleSubmit}>
       <PaymentElement />
-      <button disabled={!stripe}>Submit</button>
+      <div>
+        <button disabled={!stripe}>Pay now</button>
+        <button>Back</button>
+      </div>
       {/* Show error message to your customers */}
       {errorMessage && <div>{errorMessage}</div>}
     </form>
