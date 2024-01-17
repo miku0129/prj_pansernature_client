@@ -2,7 +2,11 @@ import { Fragment } from "react";
 
 import Card from "react-bootstrap/Card";
 import Accordion from "react-bootstrap/Accordion";
-import { CustomBtn, ContentLayout } from "../../utilities/components.styles";
+import {
+  CustomBtn,
+  ContentLayout,
+  CustomLink,
+} from "../../utilities/components.styles";
 import "./donation.styles.scss";
 
 const donation_info = [
@@ -52,13 +56,16 @@ const Donation = () => {
                     </div>
                     <Card.Body className="donation-card-text-container">
                       <Card.Text>{info.text}</Card.Text>
-                      <a
+                      {/* <a
                         href={info.payment_link}
                         target="_blank"
                         rel="noreferrer"
                       >
                         <CustomBtn>Donate</CustomBtn>
-                      </a>
+                      </a> */}
+                      <CustomLink to={"checkout"}>
+                        <CustomBtn>Donate</CustomBtn>
+                      </CustomLink>
                     </Card.Body>
                   </Card>
                 </Accordion.Body>
