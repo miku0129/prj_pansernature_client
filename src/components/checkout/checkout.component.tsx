@@ -2,8 +2,10 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
-import DonationCheckoutForm from "../donation-checkout-form/donation-checkout-form.component";
-import "./donation-checkout.styles.scss";
+import CheckoutForm from "../checkout-form/checkout-form.component";
+
+import { ContentLayout } from "../../utilities/components.styles";
+import "./checkout.styles.scss";
 
 const initStripe = async () => {
   const res = await axios.get("http://localhost:8080/stripe");
@@ -12,7 +14,7 @@ const initStripe = async () => {
   return loadStripe(publishableKey);
 };
 
-const DonationCheckout = () => {
+const Checkout = () => {
   const [clientSecretSettings, setClientSecretSettings] = useState({
     clientSecret: "",
     loading: true,
@@ -22,7 +24,9 @@ const DonationCheckout = () => {
 
   useEffect(() => {
     async function createPaymentIntent() {
-      const response = await axios.post("http://localhost:8080/stripe", {});
+      const response = await axios.post("http://localhost:8080/stripe", {
+        amount: 200,
+      });
 
       setClientSecretSettings({
         clientSecret: response.data.client_secret,
@@ -33,7 +37,7 @@ const DonationCheckout = () => {
   }, []);
 
   return (
-    <div>
+    <ContentLayout>
       {clientSecretSettings.loading ? (
         <h1>Loading ...</h1>
       ) : (
@@ -44,11 +48,11 @@ const DonationCheckout = () => {
             appearance: { theme: "stripe" },
           }}
         >
-          <DonationCheckoutForm />
+          <CheckoutForm />
         </Elements>
       )}
-    </div>
+    </ContentLayout>
   );
 };
 
-export default DonationCheckout;
+export default Checkout;

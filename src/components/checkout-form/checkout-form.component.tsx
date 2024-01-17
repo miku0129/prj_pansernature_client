@@ -1,7 +1,12 @@
-import React, { useState } from 'react';
-import { useStripe, useElements, PaymentElement } from '@stripe/react-stripe-js';
+import React, { useState } from "react";
+import {
+  useStripe,
+  useElements,
+  PaymentElement,
+} from "@stripe/react-stripe-js";
+import "./checkout-form.styles.scss";
 
-const DonationCheckoutForm = () => {
+const CheckoutForm = () => {
   const stripe = useStripe();
   const elements = useElements();
 
@@ -18,11 +23,11 @@ const DonationCheckoutForm = () => {
       return;
     }
 
-    const {error} = await stripe.confirmPayment({
+    const { error } = await stripe.confirmPayment({
       //`Elements` instance that was used to create the Payment Element
       elements,
       confirmParams: {
-        return_url: 'http://localhost:3000/donation/status',
+        return_url: "http://localhost:3000/donation/checkout_status",
       },
     });
 
@@ -45,7 +50,7 @@ const DonationCheckoutForm = () => {
       {/* Show error message to your customers */}
       {errorMessage && <div>{errorMessage}</div>}
     </form>
-  )
+  );
 };
 
-export default DonationCheckoutForm;
+export default CheckoutForm;
