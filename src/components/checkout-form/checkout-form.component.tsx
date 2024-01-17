@@ -5,6 +5,7 @@ import {
   PaymentElement,
 } from "@stripe/react-stripe-js";
 import "./checkout-form.styles.scss";
+import { CustomLink } from "../../utilities/components.styles";
 
 const CheckoutForm = () => {
   const stripe = useStripe();
@@ -48,7 +49,9 @@ const CheckoutForm = () => {
       <PaymentElement />
       <div>
         <button disabled={!stripe}>Pay now</button>
-        <button>Back</button>
+        <CustomLink to={"/donation"}>
+          <button>Cancel</button>
+        </CustomLink>
       </div>
       {/* Show error message to your customers */}
       {errorMessage && <div>{errorMessage}</div>}

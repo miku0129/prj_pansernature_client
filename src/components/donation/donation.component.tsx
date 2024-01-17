@@ -43,7 +43,7 @@ const Donation = () => {
               </Card.Text>{" "}
             </div>
             <CustomLink to={"checkout"} state={{ amount: amount }}>
-              <CustomBtn>Donate</CustomBtn>
+              <CustomBtn disabled={amount===0}>Donate</CustomBtn>
             </CustomLink>
           </Card.ImgOverlay>
         </Card>
