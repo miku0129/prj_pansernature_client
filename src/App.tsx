@@ -23,8 +23,8 @@ function App() {
           <Route path="articles" element={<ArticlesPreview />} />
           <Route path="articles/:id" element={<Article />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="donation/" element={<Donation />} />
-          <Route path="donation/checkout/*" element={<Checkout />} />
+          <Route path="donation" element={<Donation />} />
+          <Route path="checkout/*" element={<Checkout />} />
           {/* <Route path="donation/checkout-status" element={<CheckoutStatus />} /> */}
         </Route>
       </Routes>

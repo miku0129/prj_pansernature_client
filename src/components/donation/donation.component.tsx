@@ -46,7 +46,7 @@ const Donation = () => {
                   Please enter the amount of your support.
                 </Card.Text>{" "}
               </div>
-              <CustomLink to={"checkout"} state={{ amount: amount }}>
+              <CustomLink to={"/checkout"} state={{ amount: amount }}>
                 <CustomBtn disabled={amount === 0}>Donate</CustomBtn>
               </CustomLink>
             </div>

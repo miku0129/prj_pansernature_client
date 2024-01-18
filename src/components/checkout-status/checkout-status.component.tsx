@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useStripe } from "@stripe/react-stripe-js";
 
+import {
+  ContentLayout,
+  CustomBtn,
+  CustomLink,
+} from "../../utilities/components.styles";
 import "./checkout-status.styles.scss";
 
 const CheckoutStatus = () => {
@@ -56,9 +61,12 @@ const CheckoutStatus = () => {
   }, [stripe]);
 
   return (
-    <div>
+    <ContentLayout>
       <h1 className="status-message">{message}</h1>
-    </div>
+      <CustomLink to={"/"}>
+        <CustomBtn>Back to home</CustomBtn>
+      </CustomLink>
+    </ContentLayout>
   );
 };
 
