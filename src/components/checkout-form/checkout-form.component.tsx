@@ -5,7 +5,12 @@ import {
   PaymentElement,
 } from "@stripe/react-stripe-js";
 import "./checkout-form.styles.scss";
-import { CustomLink } from "../../utilities/components.styles";
+import {
+  CustomLink,
+  CustomBtn,
+  CustomBtn_say_yes,
+  CustomBtnGroup,
+} from "../../utilities/components.styles";
 
 const CheckoutForm = () => {
   const stripe = useStripe();
@@ -47,12 +52,12 @@ const CheckoutForm = () => {
   return (
     <form onSubmit={handleSubmit}>
       <PaymentElement />
-      <div>
-        <button disabled={!stripe}>Pay now</button>
+      <CustomBtnGroup>
+        <CustomBtn_say_yes disabled={!stripe}>Pay now</CustomBtn_say_yes>
         <CustomLink to={"/donation"}>
-          <button>Cancel</button>
+          <CustomBtn>Cancel</CustomBtn>
         </CustomLink>
-      </div>
+      </CustomBtnGroup>
       {/* Show error message to your customers */}
       {errorMessage && <div>{errorMessage}</div>}
     </form>

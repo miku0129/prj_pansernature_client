@@ -38,6 +38,27 @@ export const CustomBtn = styled.button`
   }
 `;
 
+export const CustomBtn_say_yes = styled(CustomBtn)`
+  background-color: white;
+  color: #e06a3b;
+  border: solid 1px #e06a3b;
+  border-radius: 5px;
+  height: 40px;
+  max-width: 150px;
+
+  &:hover {
+    background-color: #e06a3b;
+    border: none;
+    color: white;
+  }
+`;
+
+export const CustomBtnGroup = styled.div`
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+`;
+
 export const ContentLayout = styled.div`
   padding: 20px;
 `;

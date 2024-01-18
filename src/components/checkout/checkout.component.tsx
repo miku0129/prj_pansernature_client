@@ -58,9 +58,9 @@ const Checkout = () => {
             appearance: { theme: "stripe" },
           }}
         >
-          <div>
-            You are going to donate {state.amount} euro.
-            <br /> Thank you for your support
+          <div className="checkout-confirmation-msg">
+            You are going to donate <span className="checkout-confirmation-amount">{state.amount}</span> euro. 
+            <br /> Thank you for your support. 
           </div>
           <CheckoutForm />
         </Elements>
