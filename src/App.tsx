@@ -24,8 +24,8 @@ function App() {
           <Route path="articles/:id" element={<Article />} />
           <Route path="contact" element={<Contact />} />
           <Route path="donation/" element={<Donation />} />
-          <Route path="donation/checkout" element={<Checkout />} />
-          <Route path="donation/checkout_status" element={<CheckoutStatus />} />
+          <Route path="donation/checkout/*" element={<Checkout />} />
+          {/* <Route path="donation/checkout-status" element={<CheckoutStatus />} /> */}
         </Route>
       </Routes>
     </div>

@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Routes, Route } from "react-router-dom";
 import axios from "axios";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
+
 import CheckoutForm from "../checkout-form/checkout-form.component";
+import CheckoutStatus from "../checkout-status/checkout-status.component";
 
 import { ContentLayout } from "../../utilities/components.styles";
 import "./checkout.styles.scss";
@@ -28,14 +30,18 @@ const Checkout = () => {
   const location = useLocation();
   const state = location.state as AmountType;
   console.log("state", state);
-  const amount = state.amount * 100;
+
+  let amount: undefined | number;
+  if (state) {
+    amount = state.amount * 100;
+  }
 
   const stripePromise = initStripe();
 
   useEffect(() => {
-    async function createPaymentIntent() {
+    async function createPaymentIntent(amt = 50) {
       const response = await axios.post("http://localhost:8080/stripe", {
-        amount: amount,
+        amount: amt,
       });
 
       setClientSecretSettings({
@@ -43,7 +49,7 @@ const Checkout = () => {
         loading: false,
       });
     }
-    createPaymentIntent();
+    createPaymentIntent(amount);
   }, [amount]);
 
   return (
@@ -58,11 +64,21 @@ const Checkout = () => {
             appearance: { theme: "stripe" },
           }}
         >
-          <div className="checkout-confirmation-msg">
-            You are going to donate <span className="checkout-confirmation-amount">{state.amount}</span> euro. 
-            <br /> Thank you for your support. 
-          </div>
-          <CheckoutForm />
+          {state && state.amount && (
+            <div className="checkout-confirmation-msg">
+              You are going to donate{" "}
+              <span className="checkout-confirmation-amount">
+                {state.amount}
+              </span>{" "}
+              euro.
+              <br /> Thank you for your support.
+            </div>
+          )}
+          {/* <CheckoutForm /> */}
+          <Routes>
+            <Route path="/*" element={<CheckoutForm />} />
+            <Route path="/checkout-status" element={<CheckoutStatus />} />
+          </Routes>
         </Elements>
       )}
     </ContentLayout>
