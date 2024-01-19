@@ -8,7 +8,7 @@ import "./checkout-form.styles.scss";
 import {
   CustomLink,
   CustomBtn,
-  CustomBtn_say_yes,
+  CustomBtnSayYes,
   CustomBtnGroup,
 } from "../../utilities/components.styles";
 
@@ -53,7 +53,7 @@ const CheckoutForm = () => {
     <form onSubmit={handleSubmit}>
       <PaymentElement />
       <CustomBtnGroup>
-        <CustomBtn_say_yes disabled={!stripe}>Pay now</CustomBtn_say_yes>
+        <CustomBtnSayYes disabled={!stripe}>Pay now</CustomBtnSayYes>
         <CustomLink to={"/donation"}>
           <CustomBtn>Cancel</CustomBtn>
         </CustomLink>

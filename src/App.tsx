@@ -9,7 +9,6 @@ import Contact from "./components/contact/contact.component";
 import Donation from "./components/donation/donation.component";
 
 import Checkout from "./components/checkout/checkout.component";
-import CheckoutStatus from "./components/checkout-status/checkout-status.component";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -25,7 +24,6 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="donation" element={<Donation />} />
           <Route path="checkout/*" element={<Checkout />} />
-          {/* <Route path="donation/checkout-status" element={<CheckoutStatus />} /> */}
         </Route>
       </Routes>
     </div>

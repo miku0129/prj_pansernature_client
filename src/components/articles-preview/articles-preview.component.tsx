@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState, useContext } from "react";
+import { Fragment, useState, useContext } from "react";
 import ReactPaginate from "react-paginate";
 
 import Card from "react-bootstrap/Card";

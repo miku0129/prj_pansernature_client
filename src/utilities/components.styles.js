@@ -38,7 +38,7 @@ export const CustomBtn = styled.button`
   }
 `;
 
-export const CustomBtn_say_yes = styled(CustomBtn)`
+export const CustomBtnSayYes = styled(CustomBtn)`
   background-color: white;
   color: #e06a3b;
   border: solid 1px #e06a3b;
