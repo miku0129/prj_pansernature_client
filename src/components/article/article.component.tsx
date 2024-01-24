@@ -15,25 +15,43 @@ const Article = () => {
   let article = articles.find((article: Article) => {
     return article.id === id;
   });
-  console.log("article", article);
 
   return (
-    article && (
-      <ArticleLayout>
+    <ArticleLayout>
+      <div>
+        <h1>{article.title}</h1>
+        <p>Category: {article.category}</p>
+        <p>Published date: {article.published_date}</p>
+        <hr />
+      </div>
+      <div className="article-text-container">
         <div>
-          <h1>{article.title}</h1>
-          <hr />
+          {article &&
+            article.text &&
+            article.text.map((paragraph: (string | string[])[]) => {
+              if (typeof paragraph === "string") {
+                return <p>{paragraph}</p>;
+              } else {
+                return (
+                  <ul>
+                    {paragraph.map((p) => {
+                      return <li>{p}</li>;
+                    })}
+                  </ul>
+                );
+              }
+            })}
         </div>
-        <div className="article-text-container">
-          <p>Category: {article.category}</p>
-          <p>Published date: {article.published_date}</p>
-          <text>{article.text}</text>
+        <div className="closing">
+          {article &&
+            article.closing &&
+            article.closing.map((paragraph: string) => <p>{paragraph}</p>)}
         </div>
-        <CustomBtn type="button" onClick={() => navigate(-1)}>
-          Retour
-        </CustomBtn>
-      </ArticleLayout>
-    )
+      </div>
+      <CustomBtn type="button" onClick={() => navigate(-1)}>
+        Retour
+      </CustomBtn>
+    </ArticleLayout>
   );
 };
 
