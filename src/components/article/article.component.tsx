@@ -17,7 +17,6 @@ const Article = () => {
     return article.id === id;
   });
 
-  console.log(article);
 
   return (
     <ArticleLayout>

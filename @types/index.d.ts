@@ -5,7 +5,7 @@ type Article = {
     title: string;
     category: string;
     published_date: string;
-    text: (string | ListInArticle)[];
+    text: (string | (string | ListInArticle)[])[];
   };
   
 
