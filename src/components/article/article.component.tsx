@@ -49,7 +49,22 @@ const Article = () => {
                 return (
                   <ul>
                     {paragraph.map((p) => {
-                      return <li>{p}</li>;
+                      if (p.includes("*")) {
+                        const sentence = p.split("*");
+                        return (
+                          <li>
+                            {sentence.map((words, idx) => {
+                              if (idx % 2 === 1) {
+                                return <strong>{words}</strong>;
+                              } else {
+                                return <span>{words}</span>;
+                              }
+                            })}
+                          </li>
+                        );
+                      } else {
+                        return <li>{p}</li>;
+                      }
                     })}
                   </ul>
                 );
@@ -58,7 +73,6 @@ const Article = () => {
         </div>
         <div className="closing">
           {article &&
-            article.closing &&
             article.closing.map((signature: string) => <p>{signature}</p>)}
         </div>
       </div>
