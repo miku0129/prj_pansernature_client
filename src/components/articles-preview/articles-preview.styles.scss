@@ -8,6 +8,23 @@
   gap: 10px;
 }
 
+.article-card-container {
+  @media (max-width: 450px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .article-card {
-  border: solid 1px gainsboro;
+  max-height: 250px;
+  min-height: 250px;
+  overflow: hidden;
+}
+
+.pagenate-container{
+  @media (max-width: 450px) {
+    display: flex;
+    justify-content: center;
+  }
+
 }

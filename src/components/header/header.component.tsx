@@ -14,14 +14,26 @@ const Header = () => {
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <CustomLink to={"/"}>
-            <Navbar.Brand href="/"><span className="header-title">Panser Nature</span></Navbar.Brand>
+            <h2 className="header-title">Panser Nature</h2>
           </CustomLink>
+
+          {/* <CustomLink to={"/"}>
+            <Navbar.Brand href="/">
+              <span className="header-title">Panser Nature</span>
+            </Navbar.Brand>
+          </CustomLink> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <NavDropdown title="About" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/#about">
-                  <CustomHashLink to="/#about">About us</CustomHashLink>
+                <CustomHashLink to="/#about">About us</CustomHashLink>
+                <CustomHashLink to="/#support">Support</CustomHashLink>
+                <CustomHashLink to="/#books">Books</CustomHashLink>
+                <NavDropdown.Divider />
+                <CustomHashLink to="/#contact">Contact</CustomHashLink>
+
+                {/* <NavDropdown.Item href="/#about">
+                <CustomHashLink to="/#about">About us</CustomHashLink>
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/#support">
                   <CustomHashLink to="/#support">Support</CustomHashLink>
@@ -30,11 +42,18 @@ const Header = () => {
                   <CustomHashLink to="/#books">Books</CustomHashLink>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Contact</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4">Contact</NavDropdown.Item> */}
               </NavDropdown>
-              <CustomLink to={"/articles"}>
+              <div className="header-articles-container">
+                <CustomLink className="header-articles" to={"/articles"}>
+                  Articles
+                </CustomLink>
+              </div>
+
+              {/* <CustomLink to={"/articles"}>
                 <Nav.Link href="/articles">Articles</Nav.Link>
-              </CustomLink>
+              </CustomLink> */}
+
               {/* 未ログイン状態の場合は"Sign in"というボタンを表示する */}
               {/* <NavDropdown title="Account" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">

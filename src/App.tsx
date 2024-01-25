@@ -8,8 +8,7 @@ import Article from "./components/article/article.component";
 import Contact from "./components/contact/contact.component";
 import Donation from "./components/donation/donation.component";
 
-import DonationCheckout from "./components/donation-checkout/donation-checkout.component";
-import DonationCheckoutStatus from "./components/donation-checkout-status/donation-checkout-status.component";
+import Checkout from "./components/checkout/checkout.component";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -23,9 +22,8 @@ function App() {
           <Route path="articles" element={<ArticlesPreview />} />
           <Route path="articles/:id" element={<Article />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="donation/" element={<Donation />} />
-          <Route path="donation/checkout" element={<DonationCheckout />} />
-          <Route path="donation/status" element={<DonationCheckoutStatus />} />
+          <Route path="donation" element={<Donation />} />
+          <Route path="checkout/*" element={<Checkout />} />
         </Route>
       </Routes>
     </div>
