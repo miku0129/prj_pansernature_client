@@ -9,5 +9,7 @@
 }
 
 .article-card {
-  border: solid 1px gainsboro;
+  max-height: 250px;
+  min-height: 250px;
+  overflow: hidden;
 }

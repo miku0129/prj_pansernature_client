@@ -29,7 +29,16 @@ const ArticlesPreview = () => {
               return (
                 <Col key={idx}>
                   <ArticlesPreviewCustomLink to={`/articles/${article.id}`}>
-                    <Card className="bg-dark text-white">
+                    <Card border="success" className="article-card" style={{ width: "18rem" }}>
+                      <Card.Header>{article.category}</Card.Header>
+                      <Card.Body>
+                        <Card.Title>{article.title}</Card.Title>
+                        <Card.Text>
+                          {text_intro}...
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                    {/* <Card className="bg-dark text-white">
                       <Card.Img
                         src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2022&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/100px16"
                         alt="Card image"
@@ -39,7 +48,7 @@ const ArticlesPreview = () => {
                         <Card.Text>{article.category}</Card.Text>
                         <Card.Text>{text_intro}...</Card.Text>
                       </Card.ImgOverlay>
-                    </Card>
+                    </Card> */}
 
                     {/* <Card className="article-card">
                       <Card.Img
