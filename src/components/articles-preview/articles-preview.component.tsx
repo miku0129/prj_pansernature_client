@@ -35,7 +35,7 @@ const ArticlesPreview = () => {
                         alt="Card image"
                       />
                       <Card.ImgOverlay>
-                        <Card.Title>{article.title}</Card.Title>
+                        <Card.Title>{article && article.title}</Card.Title>
                         <Card.Text>{article.category}</Card.Text>
                         <Card.Text>{text_intro}...</Card.Text>
                       </Card.ImgOverlay>

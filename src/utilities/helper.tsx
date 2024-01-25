@@ -1,41 +1,44 @@
-const buildList = (listItem: string) => {
+const buildList = (listItem: string, indexOfListItem: number) => {
   if (listItem.includes("*")) {
     const words = listItem.split("*");
     return (
-      <li>
-        {words.map((word, idx) => {
-          if (idx % 2 === 1) {
-            return <strong>{word}</strong>;
+      <li key={indexOfListItem}>
+        {words.map((word, indexOfWord) => {
+          if (indexOfWord % 2 === 1) {
+            return <strong key={indexOfWord}>{word}</strong>;
           } else {
-            return <span>{word}</span>;
+            return <span key={indexOfWord}>{word}</span>;
           }
         })}
       </li>
     );
   } else {
-    return <li>{listItem}</li>;
+    return <li key={indexOfListItem}>{listItem}</li>;
   }
 };
 
-export const buildArticle = (paragraph: string | string[]) => {
+export const buildArticle = (
+  paragraph: string | string[],
+  indexOfParagraph: number
+) => {
   if (!Array.isArray(paragraph)) {
     if (paragraph.includes("*")) {
       const sentence = paragraph.split("*");
       return (
-        <p>
-          {sentence.map((words, idx) => {
-            if (idx % 2 === 1) {
-              return <strong>{words}</strong>;
+        <p key={indexOfParagraph}>
+          {sentence.map((words, indexOfSentence) => {
+            if (indexOfSentence % 2 === 1) {
+              return <strong key={indexOfSentence}>{words}</strong>;
             } else {
-              return <span>{words}</span>;
+              return <span key={indexOfSentence}>{words}</span>;
             }
           })}
         </p>
       );
     } else {
-      return <p>{paragraph}</p>;
+      return <p key={indexOfParagraph}>{paragraph}</p>;
     }
   } else {
-    return <ul>{paragraph.map((p) => buildList(p))}</ul>;
+    return <ul key={indexOfParagraph}>{paragraph.map((p, idx) => buildList(p, idx))}</ul>;
   }
-}
+};

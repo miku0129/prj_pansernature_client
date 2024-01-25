@@ -17,24 +17,28 @@ const Article = () => {
     return article.id === id;
   });
 
+  console.log(article);
+
   return (
     <ArticleLayout>
       <div>
-        <h1>{article.title}</h1>
-        <p>Category: {article.category}</p>
-        <p>Published date: {article.published_date}</p>
+        <h1>{article && article.title}</h1>
+        <p>Category: {article && article.category}</p>
+        <p>Published date: {article && article.published_date}</p>
         <hr />
       </div>
       <div className="article-text-container">
         <div>
           {article &&
-            article.text.map((paragraph: string | string[]) =>
-              buildArticle(paragraph)
+            article.text.map((paragraph: string | string[], idx: number) =>
+              buildArticle(paragraph, idx)
             )}
         </div>
         <div className="closing">
           {article &&
-            article.closing.map((signature: string) => <p>{signature}</p>)}
+            article.closing.map((signature: string, idx: number) => (
+              <p key={idx}>{signature}</p>
+            ))}
         </div>
       </div>
       <CustomBtn type="button" onClick={() => navigate(-1)}>

@@ -28,7 +28,7 @@ const News = () => {
                         <Card.Img className="news-img" variant="top" src={item.img} />
                       </div>
                       <Card.Body>
-                        <Card.Title>{item.title}</Card.Title>
+                        <Card.Title>{item && item.title}</Card.Title>
                         <Card.Text>{text_intro}...</Card.Text>
                         <Card.Text>{item.published_date}</Card.Text>
                       </Card.Body>
