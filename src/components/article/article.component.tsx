@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { ArticlesContext } from "../../context/articles.context";
 import { CustomBtn } from "../../utilities/components.styles";
+import { buildArticle } from "../../utilities/helper";
 
 import { ArticleLayout } from "./article.styles";
 import "./article.styles.scss";
@@ -27,49 +28,9 @@ const Article = () => {
       <div className="article-text-container">
         <div>
           {article &&
-            article.text.map((paragraph: string | string[]) => {
-              if (!Array.isArray(paragraph)) {
-                if (paragraph.includes("*")) {
-                  const sentence = paragraph.split("*");
-                  return (
-                    <p>
-                      {sentence.map((words, idx) => {
-                        if (idx % 2 === 1) {
-                          return <strong>{words}</strong>;
-                        } else {
-                          return <span>{words}</span>;
-                        }
-                      })}
-                    </p>
-                  );
-                } else {
-                  return <p>{paragraph}</p>;
-                }
-              } else {
-                return (
-                  <ul>
-                    {paragraph.map((p) => {
-                      if (p.includes("*")) {
-                        const sentence = p.split("*");
-                        return (
-                          <li>
-                            {sentence.map((words, idx) => {
-                              if (idx % 2 === 1) {
-                                return <strong>{words}</strong>;
-                              } else {
-                                return <span>{words}</span>;
-                              }
-                            })}
-                          </li>
-                        );
-                      } else {
-                        return <li>{p}</li>;
-                      }
-                    })}
-                  </ul>
-                );
-              }
-            })}
+            article.text.map((paragraph: string | string[]) =>
+              buildArticle(paragraph)
+            )}
         </div>
         <div className="closing">
           {article &&
