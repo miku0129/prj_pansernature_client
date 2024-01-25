@@ -28,14 +28,19 @@ const ArticlesPreview = () => {
               const text_intro = article.text[0].slice(0, 120);
               return (
                 <Col key={idx}>
-                  <ArticlesPreviewCustomLink to={`/articles/${article.id}`}>
-                    <Card border="success" className="article-card" style={{ width: "18rem" }}>
+                  <ArticlesPreviewCustomLink
+                    to={`/articles/${article.id}`}
+                    className="article-card-container"
+                  >
+                    <Card
+                      border="success"
+                      className="article-card"
+                      style={{ width: "18rem" }}
+                    >
                       <Card.Header>{article.category}</Card.Header>
                       <Card.Body>
                         <Card.Title>{article.title}</Card.Title>
-                        <Card.Text>
-                          {text_intro}...
-                        </Card.Text>
+                        <Card.Text>{text_intro}...</Card.Text>
                       </Card.Body>
                     </Card>
                     {/* <Card className="bg-dark text-white">
@@ -87,34 +92,36 @@ const ArticlesPreview = () => {
     return (
       <>
         <Items currentItems={currentItems} />
-        <ReactPaginate
-          nextLabel="next >"
-          onPageChange={(e) => {
-            // Invoke when user click to request another page.
-            const { selected } = e;
-            const newOffset = (selected * itemsPerPage) % articles.length;
-            console.log(
-              `User requested page number ${selected}, which is offset ${newOffset}`
-            );
-            setItemOffset(newOffset);
-          }}
-          pageRangeDisplayed={3}
-          marginPagesDisplayed={2}
-          pageCount={pageCount}
-          previousLabel="< previous"
-          pageClassName="page-item"
-          pageLinkClassName="page-link"
-          previousClassName="page-item"
-          previousLinkClassName="page-link"
-          nextClassName="page-item"
-          nextLinkClassName="page-link"
-          breakLabel="..."
-          breakClassName="page-item"
-          breakLinkClassName="page-link"
-          containerClassName="pagination"
-          activeClassName="active"
-          renderOnZeroPageCount={null}
-        />
+        <div className="pagenate-container">
+          <ReactPaginate
+            nextLabel="next >"
+            onPageChange={(e) => {
+              // Invoke when user click to request another page.
+              const { selected } = e;
+              const newOffset = (selected * itemsPerPage) % articles.length;
+              console.log(
+                `User requested page number ${selected}, which is offset ${newOffset}`
+              );
+              setItemOffset(newOffset);
+            }}
+            pageRangeDisplayed={3}
+            marginPagesDisplayed={2}
+            pageCount={pageCount}
+            previousLabel="< previous"
+            pageClassName="page-item"
+            pageLinkClassName="page-link"
+            previousClassName="page-item"
+            previousLinkClassName="page-link"
+            nextClassName="page-item"
+            nextLinkClassName="page-link"
+            breakLabel="..."
+            breakClassName="page-item"
+            breakLinkClassName="page-link"
+            containerClassName="pagination"
+            activeClassName="active"
+            renderOnZeroPageCount={null}
+          />
+        </div>
       </>
     );
   }
