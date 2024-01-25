@@ -27,10 +27,24 @@ const Article = () => {
       <div className="article-text-container">
         <div>
           {article &&
-            article.text &&
-            article.text.map((paragraph: (string | string[])[]) => {
-              if (typeof paragraph === "string") {
-                return <p>{paragraph}</p>;
+            article.text.map((paragraph: string | string[]) => {
+              if (!Array.isArray(paragraph)) {
+                if (paragraph.includes("*")) {
+                  const sentence = paragraph.split("*");
+                  return (
+                    <p>
+                      {sentence.map((words, idx) => {
+                        if (idx % 2 === 1) {
+                          return <strong>{words}</strong>;
+                        } else {
+                          return <span>{words}</span>;
+                        }
+                      })}
+                    </p>
+                  );
+                } else {
+                  return <p>{paragraph}</p>;
+                }
               } else {
                 return (
                   <ul>
@@ -45,7 +59,7 @@ const Article = () => {
         <div className="closing">
           {article &&
             article.closing &&
-            article.closing.map((paragraph: string) => <p>{paragraph}</p>)}
+            article.closing.map((signature: string) => <p>{signature}</p>)}
         </div>
       </div>
       <CustomBtn type="button" onClick={() => navigate(-1)}>

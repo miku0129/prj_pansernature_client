@@ -25,7 +25,7 @@ const ArticlesPreview = () => {
         <Row xs={1} md={3} className="g-4">
           {currentItems &&
             currentItems.map((article, idx) => {
-              const text_intro = article.text.slice(0, 50);
+              const text_intro = article.text[0].slice(0, 120);
               return (
                 <Col key={idx}>
                   <ArticlesPreviewCustomLink to={`/articles/${article.id}`}>
@@ -35,7 +35,8 @@ const ArticlesPreview = () => {
                         alt="Card image"
                       />
                       <Card.ImgOverlay>
-                        <Card.Title>article.title</Card.Title>
+                        <Card.Title>{article.title}</Card.Title>
+                        <Card.Text>{article.category}</Card.Text>
                         <Card.Text>{text_intro}...</Card.Text>
                       </Card.ImgOverlay>
                     </Card>
