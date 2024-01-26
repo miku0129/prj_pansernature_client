@@ -45,6 +45,22 @@ const ArticlesPreview = () => {
     }
   }
 
+  //articleの個数がUIに影響する。後でデザイン調整が必要
+  if (articles && articles.length < 4) {
+    let counter = articles.length;
+    const empty_article = {
+      id: 0,
+      title: "place holder",
+      category: "",
+      published_date: "",
+      text: "",
+    };
+    while (counter < 4) {
+      articles.push(empty_article);
+      counter += 1;
+    }
+  }
+
   function Items({ currentItems }: CurrentItems) {
     return (
       <div className="items">
