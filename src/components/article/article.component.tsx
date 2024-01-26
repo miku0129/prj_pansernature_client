@@ -21,7 +21,7 @@ const Article = () => {
   return (
     <ArticleLayout>
       <div>
-        <h1>{article && article.title}</h1>
+        {/* <h1>{article && article.title}</h1>
         <p>Category: {article && article.category}</p>
         <p>Published date: {article && article.published_date}</p>
         <hr />
@@ -38,7 +38,7 @@ const Article = () => {
             article.closing.map((signature: string, idx: number) => (
               <p key={idx}>{signature}</p>
             ))}
-        </div>
+        </div> */}
       </div>
       <CustomBtn type="button" onClick={() => navigate(-1)}>
         Retour

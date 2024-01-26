@@ -16,10 +16,10 @@ export const articles = {
         "Les infatigables jardiniers sont les bactéries, les insectes qui découpent les éléments et les vers de terre qui creusent des galeries pour mélanger l'humus aux minéraux des roches mères pour pondre en surface des turricules, un engrais plus que parfait.",
         "Aucun produit chimique ne peut remplacer ce travail, nous pouvons tout juste y contribuer en le respectant, en l'aidant, en améliorant l'équilibre des structures et l'équilibre du pH, en y apportant : ",
         {
-          1: [
+          list: [
             "Des terres naturelles pour rééquilibrer l'équilibre entre argile, calcaire et sable :",
             {
-              1: [
+              list: [
                 "L'argile du type montmorillonite ;",
                 "Le calcaire avec la marne  (la chaux est à proscrire, elle est bactéricide) ;",
                 "Du sable concassé ou de pouzzolane ;",
