@@ -6,8 +6,11 @@ const highlightWord = (word: string, indexOfWord: number) => {
   }
 };
 
-const buildList = (listItem: string, indexOfListItem: number) => {
-  if (!Array.isArray(listItem)) {
+const buildList = (
+  listItem: string | InnerListOfArticle,
+  indexOfListItem: number
+) => {
+  if (typeof listItem === "string") {
     if (listItem.includes("*")) {
       const words = listItem.split("*");
       return (
@@ -19,15 +22,18 @@ const buildList = (listItem: string, indexOfListItem: number) => {
       return <li key={indexOfListItem}>{listItem}</li>;
     }
   } else {
-    return <ul>{listItem.map((item, idx) => buildList(item, idx))}</ul>;
+    return (
+      <ul>{listItem.list.map((listItem, idx) => buildList(listItem, idx))}</ul>
+    );
   }
 };
 
 export const buildArticle = (
-  paragraph: string | string[],
+  paragraph: string | ListOfArticle,
   indexOfParagraph: number
 ) => {
-  if (!Array.isArray(paragraph)) {
+  if (typeof paragraph === "string") {
+    console.log("para", paragraph);
     if (paragraph.includes("*")) {
       const sentence = paragraph.split("*");
       return (
@@ -43,7 +49,7 @@ export const buildArticle = (
   } else {
     return (
       <ul key={indexOfParagraph}>
-        {paragraph.map((pgh, idx) => buildList(pgh, idx))}
+        {paragraph.list.map((li, idx) => buildList(li, idx))}
       </ul>
     );
   }

@@ -1,5 +1,5 @@
-export const dummy_articles = {
-  articles: [
+export const articles = {
+  data: [
     {
       id: 0,
       title: "La liberté du citoyen est un droit imprescriptible",
@@ -14,18 +14,22 @@ export const dummy_articles = {
         "Elle ne s'arrête pas où celle des autres commence, mais elle doit être également (répartie) respectée par tous, pour que tous les individus puissent en jouir. Le but de toute association politique est la conservation des droits naturels et imprescriptibles  de l'homme, (de la femme et de l'enfant) : Ces *droits* sont *la Liberté, la Propriété, la Sûreté et la Résistance à l'oppression*. La liberté consiste à faire ce qui ne nuit pas à autrui ! Les représentants du peuple français doivent considérer (se rappeler) que l'ignorance, l'oubli ou le mépris des droits de l'homme et du citoyen, sont les seules causes des malheurs publics et de la corruption ! La *libre communication des pensées et des opinions est un des droits les plus précieux de L'homme*. Tout citoyen peut donc parler, écrire imprimer librement, sauf à répondre de l'abus de cette liberté.",
         "*Le Libéralisme n'a rien à voir avec la déclaration des droits de l'homme !* C'est la négation de la liberté par la mainmise, l'accaparement, le despotisme et la tyrannie de tout ce qui appartient aux peuples et aux nations, par la corruption, l'empoisonnement et la déchéance des populations ainsi asservies. *C'est seulement la libre circulation de l'argent*, aux seuls profits des financiers, ceux qui les obtiennent, qui en profitent, ce sont les propriétaires, les commanditaires des sociétés multinationales, des industries chimiques, pétrolières, agroalimentaires, pharmaceutiques et phytosanitaires…",
         "Ces prédateurs n'ont de cesse que de détruire tout ce qui est d'origine naturelle pour le remplacer par des produis chimiques de synthèse, des poisons certifiés consommables, parce qu'ils génèrent plus de profits immédiats… Ce sont des gens sans foi ni loi, prêts à toute les compromissions, tous les crimes, pourvu que cela leur rapporte un gain rapide et incontrôlé, même au péril de leur propre avenir. Que des élus politiques, de par les hautes fonctions qu'ils occupent, s'arrogent le droit de promulguer des oukases, des décrets, qui privent les citoyens de leur droits les plus élémentaires, ceux de jouir des bienfaits de la nature, pour se plier aux dictats des prédateurs de la nature, devraient être considéré comme des renégats, ceux qui renient le vote de ceux qui les ont élus.  Le décret de Juillet 2006, stipule qu'il est interdit, entre autres (sous peine d'emprisonnement et de très fortes amendes injustifiées):",
-        [
-          "Faire la promotion d'aliments naturellement produits, suivant le mode biologique, par ceux qui les obtiennent et d'en vanter la qualité ;",
-          "Conseiller les utilisateurs sur la façon de les préparer pour qu'ils améliorent la qualité des futurs aliments par le travail du sol ;",
-          "Vendre des plantes naturelles ramassées ou cultivées (prêle, ortie…) ;",
-          "En un mot tout ce qui peu ou pourrait nuire au commerce des poisons officiels, aux lobbies des officines, à la diffusion des aliments dénaturés dans les grandes surfaces et les McDo ! ",
-        ],
+        {
+          list: [
+            "Faire la promotion d'aliments naturellement produits, suivant le mode biologique, par ceux qui les obtiennent et d'en vanter la qualité ;",
+            "Conseiller les utilisateurs sur la façon de les préparer pour qu'ils améliorent la qualité des futurs aliments par le travail du sol ;",
+            "Vendre des plantes naturelles ramassées ou cultivées (prêle, ortie…) ;",
+            "En un mot tout ce qui peu ou pourrait nuire au commerce des poisons officiels, aux lobbies des officines, à la diffusion des aliments dénaturés dans les grandes surfaces et les McDo ! ",
+          ],
+        },
         "*La réponse est claire, c'est un devoir de civisme constitutionnel ! Il faut organiser la désobéissance civile au dirigisme sectaire :*",
-        [
-          "*S'opposer à l'oppression* : Un décret sauvage, publié en catimini, n'est pas une obligation s'il s'oppose aux droits constitutionnels, aux libertés individuelles, à la tradition séculaire de nos ancêtres ;",
-          "Cultiver les céréales, les légumes, c'est reproduire les plantes qui étaient naturelles à leur origine, récolter les fruits, dans les vergers ou dans la nature, est une liberté qui ne peut être conditionnée à la volonté du libéralisme sauvage ;",
-          "Hippocrate a dit « Que ton aliment soit ton meilleur médicament » ! Depuis la nuit des temps, la tradition, les us et coutumes, ont attribué aux plantes, aux céréales, aux légumes, des vertus médicinales reconnues pour leur efficacité, ce que ni la Médecine, ni la Pharmacie, n'ont jamais contesté. (Faudra-t-il aussi interdire la culture des céréales, des fruits ou des légumes parce qu'ils ont ou auraient des vertus nutritives saines ou médicinales ?)  ",
-        ],
+        {
+          list: [
+            "*S'opposer à l'oppression* : Un décret sauvage, publié en catimini, n'est pas une obligation s'il s'oppose aux droits constitutionnels, aux libertés individuelles, à la tradition séculaire de nos ancêtres ;",
+            "Cultiver les céréales, les légumes, c'est reproduire les plantes qui étaient naturelles à leur origine, récolter les fruits, dans les vergers ou dans la nature, est une liberté qui ne peut être conditionnée à la volonté du libéralisme sauvage ;",
+            "Hippocrate a dit « Que ton aliment soit ton meilleur médicament » ! Depuis la nuit des temps, la tradition, les us et coutumes, ont attribué aux plantes, aux céréales, aux légumes, des vertus médicinales reconnues pour leur efficacité, ce que ni la Médecine, ni la Pharmacie, n'ont jamais contesté. (Faudra-t-il aussi interdire la culture des céréales, des fruits ou des légumes parce qu'ils ont ou auraient des vertus nutritives saines ou médicinales ?)  ",
+          ],
+        },
         "Ils ne peuvent avoir d'un côté le monopole de la prescription ou de la vente des simples et d'un autre côté privilégier le seul commerce des drogues et poisons, d'autant que les molécules extraites des plantes, du fait  de leur mode d'extraction, n'ont plus les ferments qui permettent leur assimilation naturelle, ce qui n'est pas sans conséquences pour la santé. Bien des spécialités sont mises en vente sans que les procédures de vérification de leur efficacité ou de leur innocuité, n'ait été réellement conduites et contrôlées. Bien des « accidents » se traduisent par des traumatismes, des infirmités ou des décès constatés. La représentation ou le commerce de ces poisons n'ont jamais été inquiétés, pourtant ils sont complices de fait. (Hippocrate : « D'abord ne pas nuire » !)",
         "*La Terre ne nous appartient pas, elle nous a seulement été prêtée par nos enfants !* La Nature est ce que nous avons de plus précieux, elle n'est disponible que pour ceux qui la respectent, elle ne peut être privatisée, elle sera notre refuge, comme elle l'a été pour nos pères quand ils ont dû s'opposer à l'oppression nazie. A moins que d'ici-là, ces inconscients auront d'eux-mêmes détruit leur infâme copie. Le danger est aussi d'élire ceux qui se disent être des sauveurs intègres et qui par leur actes nuisent aux droits naturels et aux libertés essentielles. La Nature appartient à tous ceux qui la respectent et qui se font un devoir par leurs actes de la préserver, le mode de culture biologique est un bienfait qui ne peut se plier qu'aux lois de la Nature.",
         "C'est mon opinion et j'ai le droit de l'exprimer librement.",
@@ -33,7 +37,7 @@ export const dummy_articles = {
     },
     {
       id: 1,
-      title: "On récolte ce que l’on sème",
+      title: "On récolte ce que l'on sème",
       category: "Agri-jardin",
       published_date: "19/05/2012",
       closing: ["Michel le Jardinier de PANSERNATURE"],
@@ -58,24 +62,30 @@ export const dummy_articles = {
       text: [
         "En Mars, on commence à planter les légumes racines sur lesquels les derniers gels ne devraient pas agir. Semer sur côtière (un longue butte entre 2 sillons). Creuser un petit sillon dessus et y mettre une couche de terreau composté, semer en enfonçant légèrement  avec le doigt, une à deux graines tous les centimètres, (penser au volume pris à la récolte), puis recouvrir en ajoutant un mulch ou paillage. Dès que le semis a atteint 2 à 3 feuilles on l'éclaircit en enlevant ce qui est en surnombre et replanter ce qui a été retiré sur une nouvelle côtière. ",
         "La plantation se fait en espaçant les légumes d'au moins 30 cm dans le rang et entre chaque rang :",
-        [
-          "Début Mars : On sème : hâtive, fève, navet, radis, raifort ; on plante : ail, artichaut, asperge, bulbe d'oignon, poireau, thym… ;",
-          "Fin Mars - début Avril : On plante: lentille, oignon, panais, pois, pomme de terre ;",
-          "Début Avril : On plante : épinard,  betterave, carotte, laitue à couper, persil, radis, salsifis… ;",
-          "En Mai : On pourra déjà commencer à récolter.",
-        ],
+        {
+          list: [
+            "Début Mars : On sème : hâtive, fève, navet, radis, raifort ; on plante : ail, artichaut, asperge, bulbe d'oignon, poireau, thym… ;",
+            "Fin Mars - début Avril : On plante: lentille, oignon, panais, pois, pomme de terre ;",
+            "Début Avril : On plante : épinard,  betterave, carotte, laitue à couper, persil, radis, salsifis… ;",
+            "En Mai : On pourra déjà commencer à récolter.",
+          ],
+        },
         "*Une méthode de culture simplifiée* (Technique culturale simplifiée de Dominique Soltner) :",
-        [
-          "Après un désherbage à l'eau de pomme de terre (cuites avec la peau) ou au purin d'ortie pur, on dispose sur le sol un mulch épais composé d'une couche d'herbe, une légère couche de fumier, une couche de feuilles. Le tout doit avoir une épaisseur de  5 à 7 cm ;",
-          "On arrose le tout d'une tisane de jus d'ortie (un à 2 litres au m²), pour accélérer le compostage et on laisse agir au moins 2 mois ;",
-          "On plante les légumes, comme en pleine terre, dans le compost ainsi réalisé, on arrose si nécessaire, et on attend la récolte.",
-        ],
+        {
+          list: [
+            "Après un désherbage à l'eau de pomme de terre (cuites avec la peau) ou au purin d'ortie pur, on dispose sur le sol un mulch épais composé d'une couche d'herbe, une légère couche de fumier, une couche de feuilles. Le tout doit avoir une épaisseur de  5 à 7 cm ;",
+            "On arrose le tout d'une tisane de jus d'ortie (un à 2 litres au m²), pour accélérer le compostage et on laisse agir au moins 2 mois ;",
+            "On plante les légumes, comme en pleine terre, dans le compost ainsi réalisé, on arrose si nécessaire, et on attend la récolte.",
+          ],
+        },
         "Basé à Sainte-Gemmes-sur-Loire (49), Dominique cultive ainsi un hectare de maraîchage, sur un mulch de  foin, déposé en Novembre et planté en Mars. Il avoue avoir plus de temps passé à récolter qu'à planter.",
         "*La Culture sur Mandala* : c'est un cercle divisé comme on le fait pour les parts d'un gâteau.",
-        [
-          "Ce cercle peut être de deux mètres, jusqu'à cent mètres de diamètre. L'ensemble est recouvert  comme ci-dessus ;",
-          "Chaque parcelle ainsi définie est destinée à une culture associée selon la nature des légumes, parce qu'il a été constaté que certains légumes se portent mieux lorsqu'ils sont cultivés à côté d'un autre, cela évite certaines maladies et cela augmente la production.",
-        ],
+        {
+          list: [
+            "Ce cercle peut être de deux mètres, jusqu'à cent mètres de diamètre. L'ensemble est recouvert  comme ci-dessus ;",
+            "Chaque parcelle ainsi définie est destinée à une culture associée selon la nature des légumes, parce qu'il a été constaté que certains légumes se portent mieux lorsqu'ils sont cultivés à côté d'un autre, cela évite certaines maladies et cela augmente la production.",
+          ],
+        },
         "Le mandala est un cercle créé selon une rite hindou pour augmenter la force des prières aux divinités, chaque division du cercle est chargé de symboles de couleur qui invitent à la réflexion. Par extension, la culture en mandala recherche les meilleures dispositions pouvant favoriser, par la couleur des plantes, des fleurs, une action dynamique pour les récoltes. On peut sur un balcon ou une terrasse, disposer les pots de culture en cercle. On y constate que ces récoltes sont aussi réussies que dans notre méthode de culture naturelle, qui a l'avantage de travailler sur les équilibres énergétiques.",
       ],
     },
@@ -94,18 +104,22 @@ export const dummy_articles = {
         "*Toute la vie se crée et se développe au contact direct avec le sol !* La Nature n'a pas de laboureur pour enfouir sa vie. Les feuilles, les plantes, les fruits, les déjections des animaux qui broutent ou qui mangent les fruits, leurs carcasses tombent sur le sol, elles se dessèchent, elles se compostent naturellement en formant avec la croûte du sol, l'humus.",
         "Les infatigables jardiniers sont les bactéries, les insectes qui découpent les éléments et les vers de terre qui creusent des galeries pour mélanger l'humus aux minéraux des roches mères pour pondre en surface des turricules, un engrais plus que parfait.",
         "Aucun produit chimique ne peut remplacer ce travail, nous pouvons tout juste y contribuer en le respectant, en l'aidant, en améliorant l'équilibre des structures et l'équilibre du pH, en y apportant : ",
-        [
-          "Des terres naturelles pour rééquilibrer l'équilibre entre argile, calcaire et sable :",
-          [
-            "L'argile du type montmorillonite ;",
-            "Le calcaire avec la marne  (la chaux est à proscrire, elle est bactéricide) ;",
-            "Du sable concassé ou de pouzzolane ;",
+        {
+          list: [
+            "Des terres naturelles pour rééquilibrer l'équilibre entre argile, calcaire et sable :",
+            {
+              list: [
+                "L'argile du type montmorillonite ;",
+                "Le calcaire avec la marne  (la chaux est à proscrire, elle est bactéricide) ;",
+                "Du sable concassé ou de pouzzolane ;",
+              ],
+            },
+            "Le magnésium  est apporté par la dolomie, la kiésérite, le basalte ;",
+            "Le carbone est apporté par les plantes broyées ou par de la sciure de feuillus (paillage) ;",
+            "Le terreau composté sert à nourrir les plantes (le carbone est brûlé par la durée du compostage).",
+            "*Tout est apporté sur le sol, au contact su sol, comme il se doit.*",
           ],
-          "Le magnésium  est apporté par la dolomie, la kiésérite, le basalte ;",
-          "Le carbone est apporté par les plantes broyées ou par de la sciure de feuillus (paillage) ;",
-          "Le terreau composté sert à nourrir les plantes (le carbone est brûlé par la durée du compostage).",
-          "*Tout est apporté sur le sol, au contact su sol, comme il se doit.*",
-        ],
+        },
         "*Choisissez vos semis, vos plants !* Dans les jardineries, les dates de plantations sont indiquées sur les paquets, ainsi que celles de récoltes. Ne pas utiliser les plants ou les semis hybrides ou F1 qui sont des sélections modifiées ou transgéniques.",
 
         "Commencez par les légumes racines (carotte, navets, radis, pommes de terre) à la lune descendante, puis les légumes fruits (haricots, courges, courgettes, tomates) à la lune montante. Protégez vos plants et semis du gel par des tunnels ou des toiles (films). Paillez pour limiter les rayonnements solaires qui assèchent le sol et brûlent les plantes. Ne jamais enterrer un paillage, il ne se décompose pas dans le sol, surtout si c'est du bois, il se transformera en amadou qui est la nourriture des larves et des termites.",
@@ -123,14 +137,16 @@ export const dummy_articles = {
         "Dans un terrain bien équilibré, nourris avec le compost naturel et le magnésium, ou observe que les légumes et les fruits ne subissent pas les aléas alternés entre pluie et soleil, si propices au mildiou, à l'oïdium et autres maladies cryptogamiques. On a vu l'invasion de coccinelles chasser les guêpes et les frelons, sans aucun dommage pour les plantes ou les fruits. Cultiver sain et naturel n'est pas synonyme de difficultés ou de travaux en plus, et cela revient beaucoup moins cher.",
         "On ne le répétera jamais assez : *Cultiver naturel, c'est facile, c'est aussi bon que Bio !*",
         "C'est simple :",
-        [
-          "On mesure le sol et on amende avec des terres naturelles ;",
-          "On apporte du terreau composté avec du magnésium, sur toute la surface ;",
-          "On sème en sillon sur un lit terreau composté ou on plante dans un trou rempli de terreau composté. Il faut que la plante ait une bonne nourriture pour croître ;",
-          "On arrose avec de l'eau de pluie (si possible) ;",
-          "On protège la surface du sol, et autour des légumes, pour isoler le sol des rayons du soleil avec un paillage ;",
-          "Et on attend la récolte",
-        ],
+        {
+          list: [
+            "On mesure le sol et on amende avec des terres naturelles ;",
+            "On apporte du terreau composté avec du magnésium, sur toute la surface ;",
+            "On sème en sillon sur un lit terreau composté ou on plante dans un trou rempli de terreau composté. Il faut que la plante ait une bonne nourriture pour croître ;",
+            "On arrose avec de l'eau de pluie (si possible) ;",
+            "On protège la surface du sol, et autour des légumes, pour isoler le sol des rayons du soleil avec un paillage ;",
+            "Et on attend la récolte",
+          ],
+        },
         "Pas de désherbant ! Un sol bien protégé ne peut faire germer les adventices. S'il y a quelques plantes, elles seront rares et faciles à arracher. Pas de fongicides, ou autres pesticides, donc des économies.",
         "*Pour donner un coup de fouet,* on fait un mélange de terreau, de terre de bruyère et d'or brun, que l'on dilue dans un seau (2 kg pour 10 l d'eau) et on arrose le liquide au pied des plantes. Ce qui n'a pas été dissout sera ajouté au composteur avec les épluchures.",
         "*Une expérience a été faite sur un verger de 140 arbres*. Au départ il y avait de beaux ronds sans herbe sous les arbres, des arbres malades, avec des fruits talés, véreux. On a mesuré le sol et apporté seulement sur les ronds, sous les arbres, de la dolomie, de l'argile (environ 60 g/m² de chaque) et une légère couche de sciure de chêne (sans travailler le sol).",
@@ -145,24 +161,28 @@ export const dummy_articles = {
       closing: [],
       text: [
         "Plusieurs sites sont en cours d'intervention et de suivi :",
-        [
-          "Le jardin partagé du Centre Social de la Vallée Violette à Joué-lès-Tours ;",
-          "Le jardin du manoir de la Thibaudière à Chambray-lès-Tours ;",
-          "L'espace près des Etang de Narbonne qui dépend de la Régie des Quartiers à Joué-lès-Tours (système de réinsertion sociale).",
-        ],
+        {
+          list: [
+            "Le jardin partagé du Centre Social de la Vallée Violette à Joué-lès-Tours ;",
+            "Le jardin du manoir de la Thibaudière à Chambray-lès-Tours ;",
+            "L'espace près des Etang de Narbonne qui dépend de la Régie des Quartiers à Joué-lès-Tours (système de réinsertion sociale).",
+          ],
+        },
         "Pour ces sites, comme pour bien d'autres, notre intervention s'instaure dans une logique de conseil et de suivi sur la façon de jardiner ou de cultiver sans engrais chimiques, sans pesticides ou OGM.",
         "Nous effectuons des mesures de sol, nous les analysons avec notre laboratoire et nous commentons les résultats, avec les responsables des sites.",
         "Nous définissons les moyens d'intervention :",
-        [
-          "Choisir les terres naturelles qui peuvent rééquilibrer les sols et ramener la vie biologique ;",
-          "Acheter ou confectionner des composts ou des terreaux compostés, qui sont la nourriture des plantes ;",
-          "Comment agir sur la qualité de l'eau et comment la purifier et l'économiser ;",
-          "Choisir les semences naturelles et expliquer comment réussir un semis ou une plantation ;",
+        {
+          list: [
+            "Choisir les terres naturelles qui peuvent rééquilibrer les sols et ramener la vie biologique ;",
+            "Acheter ou confectionner des composts ou des terreaux compostés, qui sont la nourriture des plantes ;",
+            "Comment agir sur la qualité de l'eau et comment la purifier et l'économiser ;",
+            "Choisir les semences naturelles et expliquer comment réussir un semis ou une plantation ;",
 
-          "Expliquer comment protéger le sol pour qu'il puisse fonctionner naturellement ;",
-          "Former les acteurs, ceux qui jardinent ou qui cultivent pour qu'ils agissent au mieux ;",
-          "Confronter les résultats.",
-        ],
+            "Expliquer comment protéger le sol pour qu'il puisse fonctionner naturellement ;",
+            "Former les acteurs, ceux qui jardinent ou qui cultivent pour qu'ils agissent au mieux ;",
+            "Confronter les résultats.",
+          ],
+        },
         "Notre rôle n'est pas de devenir omniprésents ni incontournables, mais de faire en sorte que chacun ou celui qui le désire puisse diffuser à son tour la méthode, s'équiper en instruments de mesure et agir. Nous restaurons là pour aider par nos conseils à lever les doutes éventuels.",
         "Notre association est entièrement composée de bénévoles qui ont pour but d'informer, de former et d'agir pour que notre terre soit notre support vital bénéfique, non celle que notre société organise pour nous conduire à subir les aléas des erreurs qu'elle commet. Chaque fois que l'on plante dans un sol sain, équilibré, dynamique, les aliments que l'on en retire sont porteurs d'une santé qu'elle nous transmet.",
         "Nous avons édité un livret *« Les Initiatives pour l'Environnement et la Santé de l'association PANSERNATURE ». Prix : 3 €* plus frais d'envoi (1 €) contre un chèque.",
@@ -177,10 +197,12 @@ export const dummy_articles = {
       text: [
         "*Avril et Mai sont les principaux mois du printemps au jardin* : « En Avril ne te découvre pas d'un fil ! En Mai, fais ce qu'il te plait » ! Ce dicton est aussi vrai pour nous que pour les plantes : il y a certaines espèces qui ont encore besoin de se réchauffer un peu avant de s'ouvrir aux rayons du soleil.",
         "En Avril :",
-        [
-          "*On plante* : L'ail, l'artichaut, l'asperge, les carottes, l'échalote, l'oignon, les pommes de terre précoces ;",
-          "*On sème* : L'aubergine, les betteraves, le céleri à cote ou à branche, le chicon, les choux, l'épinard, l'oseille, le panais, le persil, le piment, les pois, le poireau, les radis, les salades, le topinambour,…",
-        ],
+        {
+          list: [
+            "*On plante* : L'ail, l'artichaut, l'asperge, les carottes, l'échalote, l'oignon, les pommes de terre précoces ;",
+            "*On sème* : L'aubergine, les betteraves, le céleri à cote ou à branche, le chicon, les choux, l'épinard, l'oseille, le panais, le persil, le piment, les pois, le poireau, les radis, les salades, le topinambour,…",
+          ],
+        },
         "Toujours se figurer de la place que le légume prendra lorsqu'il sera à maturité pour espacer les semis ou plantations. Par exemple : un pied de pomme de terre aura  un feuillage de 40 à 50 cm de surface, on plante les patates à un œil avec un espace de 50 cm en ligne et 60 cm en rang. Si une pomme de terre a 3 yeux, on peut couper la pomme de terre en 3 parties, l'œil dirigé vers la surface, à au moins 12 cm de profond en faisant un trou plus gros et en l'enveloppant avec du terreau composté. Ne jamais mettre de l'engrais vert ou du fumier dans le sol, sans l'avoir composté, à l'abri de l'air, la verdure pourrit et  occasionne la venue des larves d'insectes et de plantes dites nuisibles.",
         "*En mai, on plante* ce qui n'a pas été fait avant, dont les tomates (après les « Saints de Glace »), le soi-disant retard ne joue pas sur la récolte, sauf en serre. On sème presque tout ce que l'on veut. Ne jamais oublier que la nature doit être protégée, si l'on veut qu'elle nous le rende !",
         "Dès que les semis ont levé, que les deux ou trois premières feuilles apparaissent et qu'on peut les reconnaître, il faut impérativement les biner pour enlever ce qui ne convient pas et apporter la protection qui s'impose.",
@@ -203,15 +225,17 @@ export const dummy_articles = {
         "Notre association agit pour que chaque mètre carré de sol redevienne actif, et nous pouvons démontrer que la méthode que nous avons mise au point, permet de récolter tout autant que la culture intensive, à moindre prix, sans les aides, avec une qualité supérieure, ce que nous pouvons aussi mesurer par notre indice.",
         "Pour y parvenir, nous formons et mettons en place des conseillers techniques indépendants qui vont au contact des agriculteurs, des services d'espaces verts. Certains d'entre eux sont ingénieurs agronomes, d'autres, d'anciens conseillers.",
         "Nous ne demandons rien pour nous. *Nous vous demandons seulement d'agir* pour la restauration de la qualité saine de l'environnement, en légiférant pour :",
-        [
-          "*Supprimer les aides à l'irrigation sauvage*, aux pompages et puisages excessifs. L'eau est trop précieuse pour un arrosage en pleine chaleur dont 80 % s'évapore. Un bon sol, biologiquement actif réduit de 90 % de tels besoins ;",
+        {
+          list: [
+            "*Supprimer les aides à l'irrigation sauvage*, aux pompages et puisages excessifs. L'eau est trop précieuse pour un arrosage en pleine chaleur dont 80 % s'évapore. Un bon sol, biologiquement actif réduit de 90 % de tels besoins ;",
 
-          "*Supprimer les aides aux achats des pesticides*, voire interdire les pesticides qui empoisonnent les applicateurs et les consommateurs. Si on cultive en respectant la vie des sols, cela permet de le faire sans eux ;",
+            "*Supprimer les aides aux achats des pesticides*, voire interdire les pesticides qui empoisonnent les applicateurs et les consommateurs. Si on cultive en respectant la vie des sols, cela permet de le faire sans eux ;",
 
-          "*Favoriser le développement de l'agriculture biologique* qui est une activité rentable, si comme tout entreprise, elle est bien conduite ;",
+            "*Favoriser le développement de l'agriculture biologique* qui est une activité rentable, si comme tout entreprise, elle est bien conduite ;",
 
-          "*Abroger les textes qui tendent à limiter ou à interdire l'emploi des semences naturelles,* pour favoriser des semenciers qui triturent des semences pour qu'elles puissent être cultivées sur des sols appauvris et empoisonnés.",
-        ],
+            "*Abroger les textes qui tendent à limiter ou à interdire l'emploi des semences naturelles,* pour favoriser des semenciers qui triturent des semences pour qu'elles puissent être cultivées sur des sols appauvris et empoisonnés.",
+          ],
+        },
         "Il y a urgence à agir, parce que le cycle des catastrophes s'accentue, avec les drames.",
         "En restant à votre disposition, nous vous remercions, Monsieur le Ministre, d'avoir pris le temps de nous lire et nous vous prions de bien vouloir agréer nos salutations distinguées.",
       ],
@@ -243,21 +267,25 @@ export const dummy_articles = {
         "L'hiver est-il encore un hiver avec des températures d'Automne ou de Printemps ? Ce qui est sûr, ce sont les pollutions par émission de CO² qui sont en grande partie responsables de l'élévation de la température moyenne annuelle, majoritairement par des pays qui n'en n'ont rien à faire : pays asiatiques, pays de l'Est,  USA, parce que pour eux, le profit immédiat est plus important que l'état de notre planète, ce qu'elle deviendra dans 20 ou 30 ans.",
         "Le facteur aggravant est le maintient de l'activité morbide des industriels de l'agriculture et des jardiniers qui continuent de cultiver ou de jardiner avec des engrais chimiques et des pesticides, parce que c'est la négation de la vie, la pollution de l'air, de l'eau et des sols, en fait de ce qui nous fait vivre.",
         "Ce mode de culture qui consiste à continuer à :",
-        [
-          "Polluer les sols par des produits qui tuent la vie biologique (conduit au compactage des sols) ;",
-          "Retourner les sols en enfouissant la vie et les herbes encore vertes (formation des pourritures, insectes) ;",
-          "Brûler les sols laissés à nu par les rayons du soleil, favorise l'assèchement et l'érosion des terres ;",
-          "Empoisonner les récoltes par la présence des pesticides dans les fruits, les légumes, le vin…",
-        ],
+        {
+          list: [
+            "Polluer les sols par des produits qui tuent la vie biologique (conduit au compactage des sols) ;",
+            "Retourner les sols en enfouissant la vie et les herbes encore vertes (formation des pourritures, insectes) ;",
+            "Brûler les sols laissés à nu par les rayons du soleil, favorise l'assèchement et l'érosion des terres ;",
+            "Empoisonner les récoltes par la présence des pesticides dans les fruits, les légumes, le vin…",
+          ],
+        },
         "L'état, les collectivités, les élus, qui les laissent agir ou pire qui les financent (aides) sont co-responsables des fabricants de poisons et des maladies qui nous atteignent, parce qu'ils participent à la mise en place d'un terrain favorable à la venue des maladies qui minent la santé des plus faibles ou qui le deviennent.",
         "On ne le redira jamais assez, l'équilibre des fonctions vitales qui établissent un bon état de santé, ne peut provenir que d'une bonne et saine alimentation, produite par une agriculture ou un jardinage respectueux de la vie des sols et de la qualité des ingrédients utilisés.",
         "Il a été formellement  établi que le fait de consommer des aliments sains peut nous préserver de presque toutes les maladies infectieuses ou virales, par un équilibre nutritionnel qui comprend plus de 60 % d'aliments crus (légumes et fruits) et des aliments cuits à moins de 60°C ou à la vapeur.",
         "« Manger Bouger » n'est valable que si on consomme sain, sinon on accumule polluants et métaux lourds. C'est de notre responsabilité que de tout faire pour que nous agissions au mieux en organisant notre potager, notre verger, en améliorant la qualité des sols pour avoir de bonnes récoltes.",
         "L'association PANSERNATURE  28 rue de Chambord à  Joué-Lès-Tours (37300) a un laboratoire pour :",
-        [
-          "Mesurer l'équilibre des sols  (argile, calcaire, silice) ;",
-          "Analyser l'activité biologique des sols, ce qui permet de comprendre ce qui agit ou ne va pas.",
-        ],
+        {
+          list: [
+            "Mesurer l'équilibre des sols  (argile, calcaire, silice) ;",
+            "Analyser l'activité biologique des sols, ce qui permet de comprendre ce qui agit ou ne va pas.",
+          ],
+        },
         "Apportez ou envoyez un échantillon de terre (300 g) prélevé à 5 cm  de profondeur (40 €). Sous huit à dix jours, il vous sera fourni les résultats, les commentaires et les conseils, pour agir au mieux (apport d'amendements par des terres naturelles). Une permanence se tient au Centre Social  de la Vallée Violette de Joué- lès-Tours (28 rue de Chambord) tous les jeudi après-midi,  de 15H à 16 H, dans le cadre de l'animation du Jardin Partagé du Centre Social.",
         "Il faut au moins une fois par an aérer les sols en les « grelinant » avec une grelinette qui fait remonter les racines des anciennes récoltes, les cailloux, déracine les mauvaises herbes, ce qui ne fait pas retourner les sols. Le seul et véritable laboureur, infatigable, est le vers de terre qui peut transformer un terrain compact en  un terrain actif, si on l'aide un peu.",
         "Ensuite on apporte sur le sol un terreau composté, avec du magnésium, pour nourrir les futures semis ou plantations (au moins 2 cm d'épaisseur). Après les semis (dès la levée) ou plantations, on couvrira le sol pour protéger la vie du sol et le travail des vers de terre qui produisent une quantité impressionnante de turricules (15 à 20 g par trou). Imaginez  la quantité de l'apport de cet engrais parfait quand vous aurez 200 à 300 trous au m².",
@@ -287,23 +315,29 @@ export const dummy_articles = {
       text: [
         "Les mois qui démarrent la nouvelle année sont généralement des mois de froidure, de gel ! On ne touche pas à un sol gelé, cela n'apporte rien de bon parce que le froid produit les mêmes effets que la chaleur excessive des rayons solaires. C'est pour cela qu'on a conseillé de butter (apporter de la terre ou du terreau aux pieds des plantes fragiles). La plante fragile est une plante dont la sève n'a pas et le temps de descendre vers les racines. La sève contient 90 % d'eau. Le froid fait geler la sève qui éclate les tiges au ras du sol. Le mieux est d'avoir une serre qui permet de protéger les plantes.",
         "*Juste un peu de bon sens, il n'y a que 2 solstices* :",
-        [
-          "Celui de l'été, le 21 Juillet. Le soleil est au plus haut et ses rayons sont directs (plus chauds) ;",
-          "Celui de l'hiver, le 21 Décembre, le soleil est le plus rapproché mais ses rayons sont inclinés (plus froids).",
-        ],
+        {
+          list: [
+            "Celui de l'été, le 21 Juillet. Le soleil est au plus haut et ses rayons sont directs (plus chauds) ;",
+            "Celui de l'hiver, le 21 Décembre, le soleil est le plus rapproché mais ses rayons sont inclinés (plus froids).",
+          ],
+        },
         "Ce qui ne cadre pas avec nos saisons, telles qu'elles sont établies puisque l'on devrait considérer que : ",
-        [
-          "L'été devait débuter un mois et demi avant le 21 Juillet soit 7 Juin et se terminer le 6 Septembre",
-          "L'hiver devrait débuter le 7 Novembre et se terminer le 6 Février.",
-        ],
+        {
+          list: [
+            "L'été devait débuter un mois et demi avant le 21 Juillet soit 7 Juin et se terminer le 6 Septembre",
+            "L'hiver devrait débuter le 7 Novembre et se terminer le 6 Février.",
+          ],
+        },
         "La tradition a fait coïncider les saisons avec la généralité du comportement du sol et du climat. Le réchauffement du sol est plus tardif en fin d'hiver ce qui retarde le démarrage du printemps de Février en Mars, et tout ce qui s'en suit.",
         "Alors on réfléchi à ce que l'on va entreprendre pour que le Printemps soit celui des départs réussis. Dès la fin février, on pourra, si les  gelées inférieures à  -3°C, en fin de matinée, ou en début de matinée, on pourra préparer les sols :",
-        [
-          "Le gratter pour ôter les mauvaises herbes ;",
-          "Commencer à semer sous châssis les graines qui front leurs premières levées (2 à 3 feuilles), trois semaines plus tard ;",
-          "On trouve des germoirs dans les magasins de jardinage que l'on peut mettre à l'abri d'un balcon ou d'une haie. La vitre doit être tournée vers l'est ;",
-          "Utiliser un terreau bien grumeleux, (granuleux et non collant en masse) sans rapport de résineux, ni de boues de station d'épuration.",
-        ],
+        {
+          list: [
+            "Le gratter pour ôter les mauvaises herbes ;",
+            "Commencer à semer sous châssis les graines qui front leurs premières levées (2 à 3 feuilles), trois semaines plus tard ;",
+            "On trouve des germoirs dans les magasins de jardinage que l'on peut mettre à l'abri d'un balcon ou d'une haie. La vitre doit être tournée vers l'est ;",
+            "Utiliser un terreau bien grumeleux, (granuleux et non collant en masse) sans rapport de résineux, ni de boues de station d'épuration.",
+          ],
+        },
         "Si on n'a pas soi-même récolté les graines, il ne faut acheter que les graines naturelles, qui peuvent se reproduire (Biau Germe, Kokopelli), ce qui évite les traitements chimiques sur les graines et les OGM. Les  semences du type  « hybrides,  F1, ... »  sont à éviter, elles ne peuvent se reproduire.",
       ],
     },
@@ -314,9 +348,9 @@ export const dummy_articles = {
     //   category: "",
     //   published_date: "",
     //   closing: [
-
     //   ],
     //   text: [
+    // {list: [] }
     //   ],
     // },
   ],

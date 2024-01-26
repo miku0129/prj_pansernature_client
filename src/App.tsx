@@ -1,4 +1,5 @@
-import React from "react";
+// import { useEffect } from "react";
+// import { initializeItemsData } from "./utilities/firebase/firebase.utils";
 import { Routes, Route } from "react-router-dom";
 
 import BasicLayout from "./routes/basic-layout.component";
@@ -9,13 +10,21 @@ import Contact from "./components/contact/contact.component";
 import Donation from "./components/donation/donation.component";
 
 import Checkout from "./components/checkout/checkout.component";
+import ScrollToTop from "./utilities/scroll-to-top";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
+  // useEffect(() => {
+  //   const initCategoryData = async () => {
+  //     await initializeItemsData();
+  //   };
+  //   initCategoryData();
+  // }, []);
   return (
     <div>
+      <ScrollToTop />
       <Routes>
         <Route path="/*" element={<BasicLayout />}>
           <Route index element={<Home />} />

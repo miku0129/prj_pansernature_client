@@ -1,15 +1,20 @@
+.header-title-container{
+  margin-right: 20px;
+}
+
 .header-title {
   color: #009250;
 }
 
-.header-articles-container {
+.header-dropdown-menu-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.header-articles{
+.header-dropdown-menu{
     color: #495057;
+    margin: 5px;
 }
 
 div.dropdown-menu.show {

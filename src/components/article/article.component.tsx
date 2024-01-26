@@ -13,10 +13,13 @@ const Article = () => {
   const articles = useContext(ArticlesContext)[0];
   const params = useParams();
   let id = params.id !== undefined ? +params.id : "";
-  let article = articles.find((article: Article) => {
-    return article.id === id;
-  });
-
+  let article = (() => {
+    if (articles) {
+      return articles.find((article: Article) => {
+        return article.id === id;
+      });
+    }
+  })();
 
   return (
     <ArticleLayout>
@@ -29,7 +32,7 @@ const Article = () => {
       <div className="article-text-container">
         <div>
           {article &&
-            article.text.map((paragraph: string | string[], idx: number) =>
+            article.text.map((paragraph: string | ListOfArticle, idx: number) =>
               buildArticle(paragraph, idx)
             )}
         </div>
