@@ -45,7 +45,7 @@ export const initializeItemsData = async () => {
           category: article.category,
           published_date: article.published_date,
           closing: article.closing,
-          texts: article.texts
+          text: article.text
         });
       } catch (e) {
         console.error("Error adding document: ", e);
