@@ -1,3 +1,9 @@
+type AgriJardin = "Agri-jardin";
+type VieAssociative = "Vie-associative";
+type DesobeissanceCivile = "Désobéissance-civile";
+
+type PreviewTypes = AgriJardin | VieAssociative | DesobeissanceCivile 
+
 type InnerListOfArticle = {
   list: string[];
 };

@@ -10,7 +10,6 @@ export const ArticlesProvider = ({ children }: { children: ReactNode }) => {
   useEffect(() => {
     const getArticles = async () => {
       const articles = await getAllDocuments();
-      console.log("articles", articles)
       setArticlesArray(articles);
     };
 

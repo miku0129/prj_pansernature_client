@@ -1,13 +1,14 @@
 import { Fragment, useState, useContext } from "react";
+import { useLocation } from "react-router-dom";
 import ReactPaginate from "react-paginate";
+
+import { ArticlesContext } from "../../context/articles.context";
 
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { ArticlesPreviewCustomLink } from "./articles-preview.styles";
 import "./articles-preview.styles.scss";
-
-import { ArticlesContext } from "../../context/articles.context";
 
 type CurrentItems = {
   currentItems: Article[];
@@ -16,13 +17,38 @@ type ItemsPerPage = {
   itemsPerPage: number;
 };
 
+type PreviewPropsType = {
+  previewtype?: AgriJardin | VieAssociative | DesobeissanceCivile;
+};
+
 const ArticlesPreview = () => {
-  const articles = useContext(ArticlesContext)[0];
+  const location = useLocation();
+  const state = location.state as PreviewPropsType;
+
+  let articles = useContext(ArticlesContext)[0];
+
+  if (articles) {
+    if (state !== null) {
+      if (state.previewtype === "Agri-jardin") {
+        articles = articles.filter(
+          (article: Article) => article.category === "Agri-jardin"
+        );
+      } else if (state.previewtype === "Vie-associative") {
+        articles = articles.filter(
+          (article: Article) => article.category === "Vie associative"
+        );
+      } else {
+        articles = articles.filter(
+          (article: Article) => article.category === "Désobéissance civile"
+        );
+      }
+    }
+  }
 
   function Items({ currentItems }: CurrentItems) {
     return (
       <div className="items">
-        <Row xs={1} md={3} className="g-4">
+        <Row xs={1} md={3} lg={4} className="g-4">
           {currentItems &&
             currentItems.map((article, idx) => {
               let text_intro = "";
@@ -121,7 +147,7 @@ const ArticlesPreview = () => {
   return (
     <Fragment>
       <div id="container">
-        <PaginatedItems itemsPerPage={6} />,
+        <PaginatedItems itemsPerPage={8} />,
       </div>
     </Fragment>
   );

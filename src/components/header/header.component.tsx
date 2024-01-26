@@ -16,12 +16,6 @@ const Header = () => {
           <CustomLink to={"/"}>
             <h2 className="header-title">Panser Nature</h2>
           </CustomLink>
-
-          {/* <CustomLink to={"/"}>
-            <Navbar.Brand href="/">
-              <span className="header-title">Panser Nature</span>
-            </Navbar.Brand>
-          </CustomLink> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
@@ -31,23 +25,36 @@ const Header = () => {
                 <CustomHashLink to="/#books">Books</CustomHashLink>
                 <NavDropdown.Divider />
                 <CustomHashLink to="/#contact">Contact</CustomHashLink>
-
-                {/* <NavDropdown.Item href="/#about">
-                <CustomHashLink to="/#about">About us</CustomHashLink>
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/#support">
-                  <CustomHashLink to="/#support">Support</CustomHashLink>
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/#books">
-                  <CustomHashLink to="/#books">Books</CustomHashLink>
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Contact</NavDropdown.Item> */}
               </NavDropdown>
               <div className="header-articles-container">
-                <CustomLink className="header-articles" to={"/articles"}>
-                  Articles
-                </CustomLink>
+                <NavDropdown title="Articles" id="basic-nav-dropdown">
+                  <CustomLink
+                    className="header-articles"
+                    to={"/articles"}
+                    state={{ previewtype: "Agri-jardin" }}
+                  >
+                    Agri jardin
+                  </CustomLink>
+                  <CustomLink
+                    className="header-articles"
+                    to={"/articles"}
+                    state={{ previewtype: "Vie-associative" }}
+                  >
+                    Vie associative
+                  </CustomLink>
+                  <CustomLink
+                    className="header-articles"
+                    to={"/articles"}
+                    state={{ previewtype: "Désobéissance-civile" }}
+                  >
+                    Désobéissance civile
+                  </CustomLink>
+
+                  <NavDropdown.Divider />
+                  <CustomLink className="header-articles" to={"/articles"}>
+                    All articles
+                  </CustomLink>
+                </NavDropdown>
               </div>
 
               {/* <CustomLink to={"/articles"}>
