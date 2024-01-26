@@ -2,9 +2,6 @@ import { createContext, useEffect, useState, ReactNode } from "react";
 import { getAllDocuments } from "../utilities/firebase/firebase.utils";
 import { DocumentData } from "firebase/firestore/lite";
 
-// import { dummy_articles } from "./__dummy-article-data__";
-// const { articles } = dummy_articles;
-
 export const ArticlesContext = createContext<Article[] | any>([]);
 
 export const ArticlesProvider = ({ children }: { children: ReactNode }) => {
