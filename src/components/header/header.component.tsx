@@ -33,13 +33,13 @@ const Header = () => {
                   <CustomHashLink className="header-dropdown-menu" to="/#books">
                     Books
                   </CustomHashLink>
-                  <NavDropdown.Divider />
+                  {/* <NavDropdown.Divider />
                   <CustomHashLink
                     className="header-dropdown-menu"
                     to="/#contact"
                   >
                     Contact
-                  </CustomHashLink>
+                  </CustomHashLink> */}
                 </NavDropdown>
               </div>
               <div className="header-dropdown-menu-container">
