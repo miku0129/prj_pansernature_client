@@ -30,7 +30,6 @@ export const getAllDocuments = async () => {
 
 export const initializeItemsData = async () => {
   const { data } = articles;
-  console.log("data", data);
 
   data.forEach(async (article, idx) => {
     const article_id = String(idx);

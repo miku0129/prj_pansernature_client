@@ -73,10 +73,6 @@ const Header = () => {
                 </NavDropdown>
               </div>
 
-              {/* <CustomLink to={"/articles"}>
-                <Nav.Link href="/articles">Articles</Nav.Link>
-              </CustomLink> */}
-
               {/* 未ログイン状態の場合は"Sign in"というボタンを表示する */}
               {/* <NavDropdown title="Account" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">

@@ -33,7 +33,6 @@ export const buildArticle = (
   indexOfParagraph: number
 ) => {
   if (typeof paragraph === "string") {
-    console.log("para", paragraph);
     if (paragraph.includes("*")) {
       const sentence = paragraph.split("*");
       return (
