@@ -9,17 +9,14 @@ export const ArticlesContext = createContext<Article[] | any>([]);
 export const ArticlesProvider = ({ children }: { children: ReactNode }) => {
   const [articlesArray, setArticlesArray] = useState<Article[]>([]);
 
-  useEffect(() => {
-    const getArticles = async () => {
-      //   const db = await axios.get(
-      //     "https://boutique-de-sacs-winter-night-1102.fly.dev/articlesArray"
-      //   );
+  // useEffect(() => {
+  //   const getArticles = async () => {
 
-      setArticlesArray(articles);
-    };
+  //     setArticlesArray(articles);
+  //   };
 
-    getArticles();
-  }, []);
+  //   getArticles();
+  // }, []);
 
   return (
     <ArticlesContext.Provider value={[articlesArray, setArticlesArray]}>
