@@ -31,7 +31,7 @@ const ArticlesPreview = () => {
     if (state !== null) {
       if (state.previewtype === "Agri-jardin") {
         articles = articles.filter(
-          (article: Article) => article.category === "Agri-jardin"
+          (article: Article) => article.category === "Agri jardin"
         );
       } else if (state.previewtype === "Vie-associative") {
         articles = articles.filter(
@@ -69,7 +69,7 @@ const ArticlesPreview = () => {
             currentItems.map((article, idx) => {
               let text_intro = "";
               if (typeof article.text[0] === "string") {
-                text_intro = article.text[0].slice(0, 120);
+                text_intro = article.text[0].slice(0, 100).replaceAll("*", "");
               }
               return (
                 <Col key={idx}>
