@@ -46,8 +46,8 @@ const ArticlesPreview = () => {
   }
 
   //articleの個数がUIに影響する。後でデザイン調整が必要
-  if (articles && articles.length < 4) {
-    let counter = articles.length;
+  if (articles && articles.length % 4 !== 0) {
+    let counter = articles.length % 4;
     const empty_article = {
       id: 0,
       title: "place holder",

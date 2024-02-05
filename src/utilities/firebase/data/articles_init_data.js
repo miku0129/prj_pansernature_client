@@ -341,6 +341,220 @@ export const articles = {
         "Si on n'a pas soi-même récolté les graines, il ne faut acheter que les graines naturelles, qui peuvent se reproduire (Biau Germe, Kokopelli), ce qui évite les traitements chimiques sur les graines et les OGM. Les  semences du type  « hybrides,  F1, ... »  sont à éviter, elles ne peuvent se reproduire.",
       ],
     },
+    {
+      id: 12,
+      title:
+        "La qualité des aliments dépend directement de son mode de culture ",
+      category: "Agri-jardin",
+      published_date: "14/12/2013",
+      closing: [],
+      text: [
+        "La qualité des aliments est intimement liée à la façon dont on cultive le sol. La pollution amenée par l'air ou par l'eau, sera de moindre importance si au départ on respecte le système d'évolution que le sol utilise pour s'améliorer au cours des siècles, puisque la végétation parvient toujours à domestiquer les espaces libérés. Même dans les déserts, certaines plantes parviennent à se maintenir dès qu'on les réimplante, ce qui permet au climat de s'adoucir et aux pluies de revenir, faisant repartir le processus de fertilisation.",
+        "Quelques soient les modes de cultures, la seule chose qui restera primordiale, c'est l'équilibre du sol et plus exactement, l'équilibre de la terre végétale, l‘humus en étant la partie noble, nourricière, une qualité qui se transmet à la plante et aux fruits qu'elle porte.",
+        "Sans faire un cours d'agronomie, il est bon de revenir sur la constitution générale des sols et son mode de fonctionnement pour comprendre pourquoi et comment depuis l'origine de l'agriculture (et du jardinage) on est passé à côté de l'essentiel : le fonctionnement du sol. Le mode d'analyse des sols par la granulométrie est incomplet pour établir la composition exacte d'un sol et il n'explique pas son fonctionnement.",
+        "Grâce à une série de mesures (structures, minérales, électroniques), nous avons pu établir le véritable rôle et fonctionnement du sol : celui de coloniser la planète par un ensemble faune et flore qui apporte à  la planète Terre sa pérennité dans le système solaire, sans se contaminer.",
+        "Le sol crée la vie, les bactéries, les plantes, les animaux, les insectes, un ensemble qui lui sert à améliorer son équilibre et à le transmettre pour en récupérer les bienfaits. Or, en étudiant les modes de cultures utilisés depuis la nuit des temps, aucun de ces modes n'a repris depuis ce qui a été découvert, expérimenté  avec les études dirigées par :",
+
+        {
+          list: [
+            "*Pierre Delbet* : Grand chirurgien, académicien, sur les équilibres de la Terre Franche, le rôle du magnésium, la cytophylaxie. Sources : Politique du cancer, l'Agriculture et la Santé, édition La Vie Claire, Equilibre Minéral et Santé de Joseph Favier ;",
+            "*Jean Boucher* : Ingénieur agronome, docteur ès sciences, l'un des fondateurs de l'Agriculture   Biologique en France avec Roger Lemaire. Il a repris les travaux de Rudolf Steiner, Battisse et Robinet, Georges Lakhovsky, René Quinton, Sir Albert Howard, Pierre Delbet, Corentin Louis Kervran, etc. pour relancer l'agriculture biologique. Sources : Précis d'agriculture biologique  (le livre de chevet des agriculteurs bio), Pour une Véritable Agriculture Biologique. On peut affirmer que sans la prospection du monde agricole, par la société Lemaire-Boucher, le mode bio n'aurait pas eu le développement actuel, parce que cette prospection a fait participé à faire connaître la culture biologique.",
+          ],
+        },
+        "Au stade des recherches, dès la fin du dix-huitième siècle, les enseignants expliquaient qu'un sol est principalement composé de sept éléments de base :",
+        {
+          list: [
+            "L'argile, le calcaire et la silice (sable), les composants structurels ;",
+            "L'humus : la nourriture des plantes représentée par les végétaux en fin de décomposition ;",
+            "L'oxygène et le carbone (air) qui pénètrent dans le sol par la pression atmosphérique ;",
+            "L'eau de pluie principalement.",
+          ],
+        },
+        "Un sol équilibré en argile, calcaire, silice et humus donne des aliments de bonne qualité.",
+      ],
+    },
+    {
+      id: 13,
+      title: "Ohé du Jardin",
+      category: "Agri-jardin",
+      published_date: "12/06/2012",
+      closing: ["Michel  le jardiner de PANSERNATURE"],
+      text: [
+        "La saison s'avance un peu trop humide pour ceux dont les sols sont : ",
+
+        {
+          list: [
+            "Trop sableux et qui voient les apports fertilisants disparaître par lessivage, avant que d'être pleinement utilisés ;",
+            "Trop gras, avec une eau qui peine à pénétrer ou qui transforme le sol en boue.",
+          ],
+        },
+        "*On ne le redira jamais assez, tout commence par l'équilibre structurel des sols : argile, calcaire, sable + magnésium !* Si ce principe n'est pas pris en compte, rien ne peut véritablement fonctionner, parce c'est ce que la nature qui cherche à s'améliorer en faisant pousser les plantes naturellement. Tout vient du sol, tout y retourne, les plantes, les insectes, les animaux et nous.",
+        "Le cycle est immuable, la terre cherche à s'améliorer, elle fait pousser les plantes qui vont la nourrir ou palier à un manque d'équilibre notoire, local ou non. Chaque plante qui pousse, fleurit, fait des graines pour se reproduire, elle tire du sol des minéraux qui vont se modifier, se multiplier, sous l'action de la photosynthèse (air et soleil), puis en mourrant, elle se dessèche et rend au sol ce qu'elle a récolté, emmagasiné.",
+        "Si le sol fait pousser un type de plante à un endroit précis, c'est parce qu'il en a besoin, et elle correspond à la composition minérale que le sol a, à cet endroit. On peut donc affirmer que la plante naturelle est bio-indicatrice de l'état du sol à l'endroit où elle pousse et qu'elle est une sorte d'usine qui travaille pour le sol. Cela signifie que si l'on change la composition du sol, on va voir pousser d'autres plantes. A nous de rechercher la composition du sol et de  l'humus qui vont convenir à la plante, au légume ou à l'arbre fruitier, pour que le sol favorise la réussite souhaitée.",
+        "L'équilibre du sol que nous proposons, après analyse de sa structure est, pour les quantités que nous apportons, le résultat que des milliers de plantes auraient obtenu pendant des années. Les apports sont faits avec des terres naturelles, extraites des carrières, qui contiennent le même principe de vie que le sol que nous améliorons. Un résultat qu'on ne peut obtenir avec des engrais chimiques, du type NPK, qui sont le résultat de la neutralisation des acides par des bases.",
+        "De plus nous améliorons aussi :",
+        {
+          list: [
+            "Le pH (taux d'acidité-alcalinité) pour obtenir un pH constructeur de la vie qui se situe entre pH : 6,5 et  pH : 7,2 ;",
+            "L'apport du magnésium qui a disparu des sols de surface parce que les engrais chimiques ont  compacté les sols, les ont rendus imperméables, et supprimé de ce fait la libération des parties de roche mère que l'eau en s'infiltrant dérochait et que les vers de terre ramenaient. Sans un apport important de magnésium, la vie ne peut exister, parce que c'est à la fois un élément utilisé pour favoriser les équilibres, permettre les réactions de catalyse, et renforcer le système immunitaire de la vie.",
+          ],
+        },
+        "Voila comment un bon jardinier peut se débarrasser des mauvaises herbes sans utiliser de désherbant. C'est assez simple, quand on analyse le sol, c'est surtout très économique. Equilibrer, apport organique, semer, planter, arroser, pailler pour avoir de bonnes récoltes ! L'équilibre du sol amène l'équilibre de la plante, ce qui favorise la santé du consommateur. Nous avons un laboratoire pour effectuer les mesures, nous sommes à votre disposition.",
+      ],
+    },
+
+    {
+      id: 14,
+      title: "La chaleur de la Vie",
+      category: "Agri-jardin",
+      published_date: "08/02/2013",
+      closing: ["Michel le jardinier de PANSERNATURE."],
+      text: [
+        "C'est le printemps qui arrive, mais déjà en Février, la nature se réveille, elle est en avance. La moindre hausse de température, la pluie, fait sortir les bourgeons, les premières feuilles. Le dérèglement climatique en est la cause généralisée, on le sait et on y participe tous par les excès de notre confort, les transports, les industries pétrolières et agricoles. L'utilisation exagérée des énergies fossiles et nucléaires, entraînent les pollutions dont la Nature subit les conséquences et nous aussi. On s'en rend compte, nos élus le savent, mais rares sont les personnes qui agissent pour enrayer cette infernale course au gaspillage.",
+        "Pourtant on a les solutions, elle sont réellement efficaces et immédiatement disponibles, propres et renouvelables à profusion : l'induction du champ magnétique terrestre produit de l'électricité, il suffit de la capter par induction !  Nikola Tesla, ce physicien aux 900 brevets, l'a réalisée et utilisée.",
+        "La terre de notre jardin ou celle des grandes cultures, nous en seraient reconnaissantes si nous, chacun à notre niveau, nous agissions simplement avec un peu de bon sens et de réflexion. Ce n'est pas parce que nous retournons la terre, par bêchage ou par labourage, comme la tradition nous l'a appris, que nous avons raison.",
+        "Un reportage de la 5 « Silence ça pousse », a été diffusé en Janvier, il montrait comment et avec quelle facilité, la main rentrait dans le sol, sans vraiment rencontrer la moindre résistance, sous l'épais feuillage qui la recouvrait. La vie était là, présente, parce que le sol était protégé des rayons du soleil, parce que la vie pouvait ainsi se développer sans crainte, et que le travail des habitants du sol produisait leurs efforts.",
+        "Dans la forêt, où la main de l'homme n'intervient pas, les arbres poussent, grandissent. Les feuilles, les fruits tombent sur le sol, rien n'est là pour les enfouir. Les animaux qui se nourrissent des feuilles, des fruits, défèquent, urinent, et parfois meurent, sur le sol. Tous ces apports au sol forment le compost naturel, qui en transformant la matière, nourrit le sol. Rien n'est enfoui, la terre n'est jamais retournée.",
+        "Quand on déracine une plante, on observe que les racines présentent deux développements :",
+        {
+          list: [
+            "Un vertical qui va rechercher l'eau (jusqu'à 40 m de profondeur pour le liseron ou l'osier) ;",
+            "Un horizontal, près de la surface du sol, pour recueillir la nourriture apportée par le compostage, sous l'action de la pluie.",
+          ],
+        },
+        "Quand on observe une prairie naturelle, on voit que les vers de terre ont déposé sur le sol des petits tas ou turricules de terre, dont certains peuvent peser jusqu'à  20 g. L'analyse de cet apport naturel révèle que c'est l'engrais le plus puissant, le plus complet que l'on puisse espérer, il y manque juste un peu de magnésium et de carbone. Calculez ce que 200 trous de vers de terre par mètre carré, avec seulement 10 g par trou, peuvent représenter : 2 kg/m² (20 kg de fumier) soit 20 tonnes d'engrais par hectare, un apport gratuit.",
+        "Les plantes qui poussent sur un sol entretenu comme cela, deviennent résistantes aux maladies et aux insectes, ce qui évite de recourir aux désherbants et aux pesticides, et en plus elles sont dix fois moins consommatrices en eau, puisque les galeries abandonnées par les vers de terre (qui les renouvellent sans cesse) retiennent l'eau et l'air.",
+        "Il faut le rappeler, les compostages ménagers, ceux des fermes, ou produits par l'industrie sont des terreaux utiles mais incomplets, parce le compostage, en durant de 6 mois à 2 ans, a épuisé le carbone et le magnésium. On doit apporter ces éléments sous la forme de bicarbonate et de chlorure de magnésium, si on ne dispose pas de d'éléments naturels comme la Dolomie ou la Kiésérite.",
+        "Un beau jardin est un jardin qui vit, on doit protéger le sol, le couvrir avec de la paille, des feuilles, de la tonte de gazon, du broyage de ramure (élagage) de feuillus, ou de la sciure, pour protéger les plantes que l'on cultive. Une plante, un arbre qui n'ont plus de protection sous leurs feuilles sont des êtres qui souffrent de malnutrition, des plantes qui vont développer des maladies et êtres attaqués par les insectes. En protégeant le sol, c'est 90 % des problèmes que vous éviterez sur les plantes, c'est la santé que vous apporterez dans votre alimentation. C'est aussi de la pollution que vous supprimerez. On est là pour vous aider, pour effectuer les analyses et vous conseiller.",
+      ],
+    },
+
+    {
+      id: 15,
+      title:
+        "Bonne et heureuse année à tous, santé, bonheur et prospérité, surtout bonnes récoltes",
+      category: "Agri-jardin",
+      published_date: "07/01/2013",
+      closing: ["A bientôt", "Michel le jardinier de PANSERNATURE"],
+      text: [
+        "*Hiver pluvieux, hiver foutu !* Les larves vont résister, les insectes vont pulluler. On le doit au réchauffement climatique, qui n'est pas une lubie des météorologistes, puisqu'il se manifeste ainsi. La force des vents et des précipitations est la conséquence de la pollution d'une part et du manque de perméabilité des sols d'autre part.",
+        "Tant que les états ne contraindront pas les industriels à modifier leurs installations pour limiter et ne plus déverser dans la nature, ou rejeter dans l'air, les nuisances qu'ils produisent, tous les efforts que nous faisons seront plus que limités.",
+        "Tant que les énergies fossiles seront la panacée pour notre confort, nos activités et nos déplacements, il n'y aura pas de réduction de l'effet de serre.",
+        "Tant que l'on considèrera l'énergie nucléaire comme la source principale de production de l'électricité, les énormes quantités d'eau (vapeur) qui sont rejetées pour refroidir les réacteurs, s'ajouteront à l'évaporation des arrosages massifs que l'industrie agricole utilise. L'atmosphère devient plus dense, elle devient plus prompte à déverser l'eau qu'elle contient, avec plus de force, plus violemment parce qu'une atmosphère dense renforce la force des vents.",
+        "Les sols constamment dénudés par l'agriculture industrielle et par nombre de jardiniers provoquent une forme d'érosion des sols par la poussière de surface que cela produit, enlevée par les vents ou par les pluies.",
+        "*Pourtant, pour éviter tout cela, les solutions existent :*",
+        {
+          list: [
+            "*L'énergie libre*, propre, permanente, produite par induction du champ magnétique terrestre est *une réalité*, a été réalisée en 1930 par Nikola Tesla. C'est l'énergie de demain ! Plus de lignes à haute tension, puisqu'on peut la produire localement sur un immeuble ou sur une ferme. Plus d'énergie fossile puisqu'elle peut être intégrée à un véhicule, à un train ou à un avion. L'énergie nucléaire est plus polluante par les déchets qu'elle produit et par l'irradiation latente, sa production devient aussi plus onéreuse par la perte du transport de l'électricité par les lignes ;",
+            "*Un sol bien travaillé*, sans labour ou bêchage, sans engrais chimiques ni pesticides, et protégé des rayons du soleil  par un paillage ou des cultures additives, permet d'absorber presque 250 litres d'eau par mètre cube de terre ameublie par les vers de terre.",
+          ],
+        },
+        "Dans notre jardin, il faudra attendre Février, s'il ne gèle pas pour, pour préparer les sols, en binant, en ramenant du terreau, du magnésium, et couvrant les sols pour que début Mars on puisse être prêt à jardiner. Une serre, un châssis seront utile pour préparer les semis.",
+      ],
+    },
+    {
+      id: 16,
+      title: "Pétition pour une véritable organisation du ferroutage",
+      category: "Désobéissance civile",
+      published_date: "17/09/2014",
+      closing: ["Initiative soutenue par l'association PANSERNATURE"],
+      text: [
+        "A Madame la Ministre de l'Ecologie, du Développement Durable et de l'Energie",
+        "Mme Ségolène Royal",
+        "Grande Arche, Tour Pascal A et B, 92055 La Défense CEDEX France",
+        "A Monsieur le Secrétaire d'Etat aux Transports, et de l'Energie",
+        "Monsieur Alain Vidaliès",
+        "Arche Sud, 92055 Paris La Défense Cedex France",
+        "La France est traversée, chaque jour, par des dizaines de milliers de poids lourds qui ne s'arrêtent que pour les temps de repos, se restaurer dans leur cabine ou plus rarement pour remplir leurs réservoirs. Moins d'un tiers livrent en France.",
+        "Ce sont des millions de tonnes de carburant polluant (Diesel) qui chaque jour, empoisonnent l'air de notre pays, qui contaminent nos poumons et nos récoltes. La population française subit ce flot ininterrompu, par la pollution, la difficulté de circuler sur les grands axes, pour des transports qui ne la concerne pas ou très peu.",
+        "Des projets de ferroutage (Route Rail) sont à l'étude, mais aucun n'a la flexibilité offerte par le brevet français « SPLITT FAST » qui permet:",
+
+        {
+          list: [
+            "Par un simple aménagement des wagons traditionnels en wagons « SPLITT FAST » ; ",
+            "Une plateforme « SPLITT» sur le quai des grandes gares, qui facilite les opérations ;",
+            "De charger ou de décharger plusieurs dizaines de véhicules (tracteurs et remorques) avec leur chargement, des véhicules militaires à roue ou à chenille (chars), etc. *en moins d'une heure ;*",
+            "D'opérer des transferts de containers, par un portique transbordeur, ou de modifier le   chargement des wagons ou encore celui des camions ;",
+            "Un système automatisable qui ne concerne que le chauffeur du camion, le conducteur du train et éventuellement celui du portique ;",
+            "Une véritable réponse aux problèmes environnementaux, à la pollution, à la fluidité des axes routiers, avec une sérieuse économie d'énergie ;",
+            "La diminution des risques d'accident par la fluidité retrouvée de la circulation.",
+          ],
+        },
+        "On pourrait avoir des trains pour se charger dans les pays limitrophes et se décharger ailleurs, et des trains qui feraient de haltes sélectionnées et ponctuelles, ce qui ne ralentirait pratiquement pas les temps de transports habituels. Un projet pouvant être opérationnel en quelques mois, plus économique, plus souple que tous les autres projets, adaptable à tous les pays de la planète. Le système a été créé par Jean Paul Turcaud à La Rochelle. Ce projet a été présenté aux ministères, à tous les partis politiques, aux maires des grandes villes concernées, sans que cela ait suscité un véritable intérêt. C'est donc à nous les usagers, les associations, *d'agir pour notre sécurité, notre Santé*.",
+        "",
+      ],
+    },
+    {
+      id: 17,
+      title:
+        "La révélation des équilibres vitaux en agriculture ou en jardinage",
+      category: "Agri-jardin",
+      published_date: "30/09/2012",
+      closing: [
+        "PANSERNATURE",
+        "28 rue de Chambord",
+        "37300 JOUE LES TOURS",
+        "https://pansernature-37.web.app/",
+        "Panser la Nature, c'est Soigner la vie",
+      ],
+      text: [
+        "Nous sommes «*PANSERNATURE*», une association de défense de la qualité alimentaire, une qualité que nous voulons saine, apte à maintenir ou à restaurer un bon état de Santé. Nos recherches qui sont à la fois scientifiques et d'ordre pratique, nous ont conduits à concevoir une forme de travail du sol qui restaure les équilibres structurels et qui respecte son mode créatif et évolutif, que nous avons appelé « la culture par les procédés naturels ».",
+        "Nous ne sommes pas contre ce qui a été déjà réalisé avec les principes de la culture biologique ou biodynamique, bien au contraire, nous estimons seulement que les apports des sciences qui ont été censurées, cachées, peuvent nous permettre d'améliorer ces pratiques. Voici quelques-uns de ces travaux :",
+        "*Samuel Hahnemann (1800)* : Médecin, qui a découvert le pouvoir expansif de l'information produite par un poison expansée par la dynamisation infinitésimale. Le principe qui est à la base de l'homéopathie. Une avancée confirmée par les travaux de *Jacques Benveniste (1984)*.",
+        "*Antoine Béchamp  (1864)* : Médecin, biologiste, toxicologue, ce savant avait découvert, bien avant Pasteur, le fonctionnement des transformations du moût en vin par l'action des grains d'énergie, « les microzymas » ou petits ferments, des éléments indestructibles qui sont à la base de la construction de la vie. « La vie ne se développe et ne se transforme que pour recréer la vie en s'améliorant ».",
+        "*Pierre Delbet (1924)* : Médecin, chirurgien, académicien, créateur de la « cytophylaxie », le pouvoir régénérateur du système immunitaire par le magnésium, et les nombreuses applications effectuées par le Dr Neveu et de bien d'autres. Auteur de « Magnésium et Santé ».",
+        "Les chercheurs du Collège de France, démontraient en 1935 que les sols avaient des quantités suffisantes pour nourrir des dizaines d'années de récoltes, mais que moins 5% de ces quantités étaient disponibles par manque de libération par le jus de l'humus associé à l'acide carbonique. Ce qui les a amenés à redéfinir la proportion des structures de la «terre franche» et d'établir les rapports entre les minéraux pour produire des aliments équilibrés.",
+        "*Georges Lakhovsky (1931)* : Physicien, a découvert la fonction de l'oscillation cellulaire par le principe universel d'une charge électrique infinitésimale qu'il a appelée l'Univers Ion. Le taux de d'oscillation (fréquence vibratoire) est différent et caractérise chaque type de rayonnement (cosmique, solaire, terrestre, UV, X, couleurs visibles, sons, radio, micro-ondes, etc.). L'ADN des cellules vivantes est calé sur les taux de fréquence des rayonnements naturels, ce qui permet aux cellules de se créer, de se développer et de se reproduire de façon harmonieuse. Une variation de ces fréquences influe sur le fonctionnement cellulaire, tout comme les productions de champs magnétiques artificiels que nous créons par nos appareils industriels ou domestiques. L'application de champs magnétiques compensés permet de restaurer la qualité de la vie et guérir bien des maladies.",
+        "*Sir Howard (1035)* : diplômé d'agronomie, il a conduit des expériences grandeur nature, principalement en Inde, et a pu démontrer le rapport entre le carbone et l'azote (C/N), pour l'équilibre de la fermentation des composts. Il a aussi prouvé la valeur de ce même rapport a une importance déterminante pour l'action des composts sur la vie des sols et la production de bons aliments. Il a établi la relation de cause à effet entre les populations qui consommaient des produits issus d'une culture respectueuse de la vie telle qu'il la conduisait et le fait de l'amélioration de leur santé. Il a pu constater aussi que les populations se nourrissant de produits provenant de la culture avec les engrais chimiques et les pesticides, étaient beaucoup plus fragiles et sujettes à des maladies graves, envahissantes. Ces maladies qui s'estompaient dès que la nourriture provenait de sols sains.",
+        "*Gaston Naessens (1946)* : biologiste, «le Galilée du microscope» a révélé le mode de création cellulaire et l'évolution des « grains d'énergie » vers la bactérie, la construction de la vie. Cela démontre qu'à chaque instant, à chaque étape, selon l'état du milieu ambiant, « le terrain », selon le besoin à combler, la construction cellulaire peut se modifier pour créer un être différent.",
+        "*Louis Claude Vincent (1946)*, ingénieur hydrologue, professeur d'anthropologie à la Faculté de Médecine de Paris, créateur de la science de Bioélectronique, assisté de *Jeanne Rousseau*, Docteur en Pharmacie. Cette science est basée sur les potentiels d'énergie émis par les particules d'atomes (électrons et protons), ainsi que sur le potentiel d'échange de ces particules dans les solutions aqueuses (conductivité). Du point de vue électronique, les équilibres universels, obtenus par le calcul, sont pour le potentiel Hydrogène (pH) 7,07 et pour le rapport dihydrogène rH² la valeur 28 (pour 28 millions d'électrons). Des millions de mesures ont permis de déterminer que l'équilibre du sang humain avait en moyenne en 1960, un pH de 6,8 et un rH² de 21 (pour un individu en bonne santé). Aujourd'hui il est fréquent de constater des valeurs de pH 7,2 et de rH² de 22, des données qui se sont modifiées par une alimentation plus alcaline et plus oxydée. *L. C. Vincent* a créé une représentation graphique du fonctionnement électronique de la vie (pH - rH²) qui révèle le terrain électronique universel sur lequel on peut délimiter les limites de la vie, les zones d'activité des maladies et des zones d'équilibres qui peuvent varier selon les espèces mesurées (animaux, hommes, plantes végétaux). Ce graphique explicite le rapport entre le terrain d'activité des maladies, et les modifications de ces terrains effectuées par l'apport des aliments. Chaque aliment joue un rôle avec ses propres coordonnées électroniques, des éléments qui vont agir pour modifier le terrain de l'être qui les reçoit, dans le rapport poids/volume. C'est ainsi qu'il y a correspondance de cause à effet pour les personnes qui consomment des eaux de ville qui sont alcalines, oxydées, chlorées, sur-minéralisées et le développement des maladies modernes telles que les cancers, le diabète, la leucémie, les maladies cardio-vasculaires, les formes de stress, ou qui accentuent des maladies comme celle d'Alzheimer ou celle de Parkinson. Rapportées à l'étude du sol, ou des plantes, ces mesures nous permettent de comprendre le fonctionnement du sol, les défauts d'équilibre qui correspondent à des états de maladie des plantes, le fait que la nourriture (minéraux) peut être présente, mais non disponible, le lessivage… Les mesures de Bioélectronique sont incontournables pour comprendre le fonctionnement de la vie, dans les sols mais elles ne suffisent pas à tout expliquer, si on n'a pas déterminé l'état l'équilibre ou         de déséquilibre des structures (rapports entre argile, calcaire et sables). Pour affiner les apports, il faut aussi déterminer les rapportes d'équilibre des gaz et les minéraux, entre les oxydes tels que le l'azote, carbone, le calcium, le cuivre, le fer, le magnésium, le phosphate  hydroxyde, la potasse, le zinc...",
+        "*Louis Kervran (1960)* : Physicien, il a ouvert une nouvelle voie pour la compréhension des transformations de la         matière opérées par les bactéries, lors des assimilations et fermentations, qui ont lieu à l'échelle de la dimension monoatomique ou diatomique. Il a pu démontrer que les organismes vivants pouvaient produire et développer des éléments sans que ces éléments soient présents dans leur alimentation. L'exemple le plus simple est qu'un sujet n'ayant plus de sucre dans son alimentation, continuera de fabriquer le sucre dont il a besoin, pendant un certain temps. L. Kervran, pour expliquer ce phénomène, a émis une nouvelle  théorie de la construction atomique et de son fonctionnement, qu'il décrit dans son livre « Transmutations biologiques à faible énergie ». Il a décrit les principales transmutations qui peuvent se produire par l'apport ou l'export d'éléments mobiles, tels que l'électron, l'hydrogène, le carbone, l'azote.",
+        "*Jean Boucher (1964)* : Ingénieur agronome, docteur ès sciences, a étudié et compilé les sciences de son temps (Béchamp, Quinton, Steiner, Delbet, Howard), pour créer une forme d'agriculture biologique avec le généticien Raoul Lemaire, qui a été diffusée par leur société commerciale. Il a créé une méthode de compostage accéléré qui permet d'obtenir un compost en quelques semaines, ce qui permet de conserver un C/N compatible avec le développement des plantes, ce qu'il explique dans son livre : « Une Véritable Agriculture Biologique ».",
+        "*Notre étude dont nous rapportons les principales sciences redécouvertes,* a demandé plusieurs années, parce qu'on ne peut se contenter d'affirmer, il a fallu tout vérifier, refaire les principales expériences et expérimentations, d'abord en jardinage, puis en grandes cultures. Il est évident que sans ces connaissances, qui remettent en question tout le fonctionnement de base qui a été enseigné dans les écoles d'agronomie, il est presque impossible de réussir des cultures qui utilisent tout ce qui restreint ou détruit la vie.",
+        "C'est ainsi que la détermination des structures d'un sol par la méthode codifiée de la granulométrie se révèle incapable de déterminer les proportions exactes des roches (argile, calcaire et sable) puisque le terme de limon englobe ces trois matières, et bien souvent la totalité des éléments contenus dans l'échantillon. (Cette méthode ne sert qu'à mettre en place des engrais chimiques NPK). C'est pourquoi il a fallu tout reprendre à zéro, redéfinir les protocoles de mesure, et travailler avec l'outil de contrôle permanent qu'est la science de Bioélectronique qui s'applique à toutes les formes de vie.",
+        "*L'association PANSERNATURE* a créé une méthode qui s'appuie sur le fonctionnement naturel de la vie des sols, sur les équilibres vitaux et qui redonne aux modes de cultures biologiques ou biodynamiques, un nouvel élan. *Pour aller plus loin et partager notre savoir* :",
+
+        {
+          list: [
+            "*Nous avons créé un laboratoire* de mesure en définissant nos protocoles ;",
+
+            "*Nous avons ouvert un site internet* : https://pansernature-37.web.app/;",
+
+            "*Nous avons publié un livre* : « Précis d'agriculture et de Jardinage par les Procédés Naturels » paru en 2008 ;",
+
+            "*Nous avons ouvert un centre de formation* qui a déjà accueilli plus de cent personnes dont des ingénieurs, des conseillers, des thérapeutes, des agriculteurs, des jardiniers municipaux… ;",
+
+            "*Nous avons créé l'indice QUEANS* : « *Qu*alité *E*nergétique de l'*A*liment *N*aturel pour la *S*anté ». Il se calcule à partir des mesures de Bioélectronique, auxquelles on ajoute les résultats des formules d'équilibre minéral, des critères propres à l'aliment. On retranche un quota en fonction de la présence de pesticides ou d'OGM. Sans être obligés de retrancher quoi que soit, les mesures de Bioélectronique nous renseignent déjà sur les oxydations que les additifs (intrants) produisent. Ce qui n'avait jamais pu être explicité, démontré, sauf par la cristallisation sensible, sans avoir la possibilité d'en établir le niveau, la Bioélectronique nous apprend non seulement à quel stade d'équilibre se situe l'état d'un sol, mais aussi pourquoi ;",
+
+            "*Nous participons à la mise en place de conseillers agricoles* pour aider les agriculteurs et les éleveurs. Une prévision de 80 conseillers pour couvrir le pays, plusieurs sont déjà en place ;",
+
+            "*Nous agissons pour améliorer l'environnement par le rétablissement du cycle de l'eau, la limitation des nuisances, la conception d'une énergie libre* et gratuite, telle que Nikola Tesla l'avait imaginée et réalisée.",
+          ],
+        },
+        "*Cette méthode explicite que c'est le sol qui gère toutes les formes de vie*, c'est le sol qui fait pousser la plante qui va le nourrir ou le guérir, une plante dont les feuilles, seront selon le cas plus petites ou plus grandes. La plante va lui apporter ce dont il a besoin (les minéraux), pour améliorer son équilibre.",
+        "*Gérard Ducerf* a démontré que les plantes sont bio-indicatrices de la composition minérale du sol. Kervran a établi les formules d'équilibre entre les atomes qui produisent, par le travail des bactéries, un nouvel élément, un élément absent mais nécessaire à l'équilibre et qui fait émerger une nouvelle plante. En appliquant une formule de Kervran, nous avons fait pousser un champ de trèfle, sans jamais l'avoir semé, en remplacement d'une prairie rustique.",
+        "Un sol équilibré (structures des roches mères) et bien nourri par un compost ou terreau composté, ayant au moins 9 % de matières animales, peut faire pousser à peu près tout, avec un C/N compris entre 13 et 15. Il est presque immunisé contre les maladies, surtout s'il a un taux de magnésie dans le rapport MgO/K20 = 1.",
+        "Il faut rappeler que *la maladie n'est que l'effet apparent d'un déséquilibre interne* et que le fait de participer à rétablir l'équilibre interne par des amendements naturels avec ajout de magnésium, agit favorablement, parfois même de façon spectaculaire. *Nous sommes à votre disposition* pour aider à un partage général des connaissances, pour aller plus loin.",
+      ],
+    },
+    {
+      id: 18,
+      title: "Arnaques à la carte bancaire facilitées par les banques",
+      category: "Désobéissance civile",
+      published_date: "10/09/2014",
+      closing: [
+        "Une info à transmettre à tous vos contacts, à tout le monde : La nouvelle carte de paiement sans contact est copiable !",
+      ],
+      text: [
+        "Aviez-vous remarqué que votre carte bleue était équipée ainsi ? C'est comme quatre parenthèses blanches, à côté de la puce :   )))) ",
+        "La mienne l'est et personne ne m'en avait informé ! Vous ne l'avez même pas demandé à votre banque, elle vous l'a imposée ! Cela signifie que vous pouvez payer un achat simplement en approchant votre carte d'un terminal de payement !",
+        "Mais que l'on peut aussi copier vos coordonnées à votre insu,  dans la rue, dans le bus, dans le métro, ou le train…Il existe des terminaux portables qui peuvent scanner vos coordonnées bancaires, simplement en s'approchant de vous et s'en servir après pour vider votre compte bancaire, créer de fausses cartes, etc…",
+        "Comment alors prouver que vous n'avez pas fait les achats qui seront débités ? Les banquiers le reconnaissent et disent que cette carte n'est pas plus sécurisée que les anciennes, pourtant ils vous l'envoient chez vous par simple courrier postal.",
+        "Prenez le temps de regarder cette vidéo complète. Cliquer sur le lien ci-dessous (durée 15 mn) avant de vous faire arnaquer !",
+        "http://www.youtube.com/watch?v=W1Vtm4B6u60",
+        "*A vous de voir si vous la conservez ou si vous la modifiez. Soit vous demandez à votre banque de bloquer le système. Soit vous grattez la carte au dos pour détruire le lien de paiement. Soit vous la placez dans un étui aluminium…*",
+      ],
+    },
 
     // {
     //   id: ,
