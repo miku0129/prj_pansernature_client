@@ -25,7 +25,7 @@ const Article = () => {
     <ArticleLayout>
       <div>
         <h1>{article && article.title}</h1>
-        <p>Category: {article && article.category}</p>
+        <p>Category: {article && article.category.replace("-", " ")}</p>
         <p>Published date: {article && article.published_date}</p>
         <hr />
       </div>

@@ -31,15 +31,15 @@ const ArticlesPreview = () => {
     if (state !== null) {
       if (state.previewtype === "Agri-jardin") {
         articles = articles.filter(
-          (article: Article) => article.category === "Agri jardin"
+          (article: Article) => article.category.replace("-", " ") === "Agri jardin"
         );
       } else if (state.previewtype === "Vie-associative") {
         articles = articles.filter(
-          (article: Article) => article.category === "Vie associative"
+          (article: Article) => article.category.replace("-", " ") === "Vie associative"
         );
       } else {
         articles = articles.filter(
-          (article: Article) => article.category === "Désobéissance civile"
+          (article: Article) => article.category.replace("-", " ") === "Désobéissance civile"
         );
       }
     }
@@ -82,7 +82,7 @@ const ArticlesPreview = () => {
                       className="article-card"
                       style={{ width: "18rem" }}
                     >
-                      <Card.Header>{article.category}</Card.Header>
+                      <Card.Header>{article.category.replace("-", " ")}</Card.Header>
                       <Card.Body>
                         <Card.Title>{article.title}</Card.Title>
                         <Card.Text>{text_intro}...</Card.Text>
