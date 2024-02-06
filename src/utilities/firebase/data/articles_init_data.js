@@ -3,7 +3,7 @@ export const articles = {
     {
       id: 0,
       title: "La liberté du citoyen est un droit imprescriptible",
-      category: "Désobéissance civile",
+      category: "Désobéissance-civile",
       published_date: "07/10/2006",
       closing: [
         "Michel PROVOST",
@@ -38,7 +38,7 @@ export const articles = {
     {
       id: 1,
       title: "On récolte ce que l'on sème",
-      category: "Agri jardin",
+      category: "Agri-jardin",
       published_date: "19/05/2012",
       closing: ["Michel le Jardinier de PANSERNATURE"],
       text: [
@@ -56,7 +56,7 @@ export const articles = {
     {
       id: 2,
       title: "Les joies du jardinage",
-      category: "Agri jardin",
+      category: "Agri-jardin",
       published_date: "17/01/2011",
       closing: ["Bonnes récoltes", "Michel le jardinier de PANSERNATURE"],
       text: [
@@ -92,7 +92,7 @@ export const articles = {
     {
       id: 3,
       title: "Le Printemps revient, le temps des semis aussi",
-      category: "Agri jardin",
+      category: "Agri-jardin",
       published_date: "09/03/2012",
       closing: ["Michel le jardinier de PANSERNATURE"],
       text: [
@@ -129,7 +129,7 @@ export const articles = {
     {
       id: 4,
       title: "La rentrée au jardin",
-      category: "Agri jardin",
+      category: "Agri-jardin",
       published_date: "02/09/2011",
       closing: ["Michel, le jardinier de PANSERNATURE"],
       text: [
@@ -156,7 +156,7 @@ export const articles = {
     {
       id: 5,
       title: "L'action de PANSERNATURE en faveur des jardins",
-      category: "Vie associative",
+      category: "Vie-associative",
       published_date: "21/06/2011",
       closing: [],
       text: [
@@ -191,7 +191,7 @@ export const articles = {
     {
       id: 6,
       title: "Conseils de printemps",
-      category: "Agri jardin",
+      category: "Agri-jardin",
       published_date: "22/03/2011",
       closing: ["Michel le jardinier de PANSERNATURE"],
       text: [
@@ -213,7 +213,7 @@ export const articles = {
     {
       id: 7,
       title: "Courrier au Premier Ministre",
-      category: "Désobéissance civile",
+      category: "Désobéissance-civile",
       published_date: "01/06/2012",
       closing: ["Le Président", "Michel Provost"],
       text: [
@@ -243,7 +243,7 @@ export const articles = {
     {
       id: 8,
       title: "C'est l'hiver qui revient",
-      category: "Agri jardin",
+      category: "Agri-jardin",
       published_date: "13/11/2011",
       closing: ["Michel le jardiner de PANSERNATURE"],
       text: [
@@ -260,7 +260,7 @@ export const articles = {
     {
       id: 9,
       title: "Bonne pousse, bonnes récoltes !",
-      category: "Agri jardin",
+      category: "Agri-jardin",
       published_date: "28/12/2011",
       closing: ["Michel, le jardinier de PANSERNATURE"],
       text: [
@@ -295,7 +295,7 @@ export const articles = {
     {
       id: 10,
       title: "Au Jardin Potager",
-      category: "Agri jardin",
+      category: "Agri-jardin",
       published_date: "08/10/2010",
       closing: ["Michel, le jardinier de PANSERNATURE"],
       text: [
@@ -309,7 +309,7 @@ export const articles = {
     {
       id: 11,
       title: "Au Jardin cet hiver",
-      category: "Agri jardin",
+      category: "Agri-jardin",
       published_date: "21/12/2010",
       closing: ["A très bientôt", "Michel le jardinier de PANSERNATURE"],
       text: [
@@ -345,7 +345,7 @@ export const articles = {
       id: 12,
       title:
         "La qualité des aliments dépend directement de son mode de culture ",
-      category: "Agri jardin",
+      category: "Agri-jardin",
       published_date: "14/12/2013",
       closing: [],
       text: [
@@ -376,7 +376,7 @@ export const articles = {
     {
       id: 13,
       title: "Ohé du Jardin",
-      category: "Agri jardin",
+      category: "Agri-jardin",
       published_date: "12/06/2012",
       closing: ["Michel  le jardiner de PANSERNATURE"],
       text: [
@@ -406,7 +406,7 @@ export const articles = {
     {
       id: 14,
       title: "La chaleur de la Vie",
-      category: "Agri jardin",
+      category: "Agri-jardin",
       published_date: "08/02/2013",
       closing: ["Michel le jardinier de PANSERNATURE."],
       text: [
@@ -433,7 +433,7 @@ export const articles = {
       id: 15,
       title:
         "Bonne et heureuse année à tous, santé, bonheur et prospérité, surtout bonnes récoltes",
-      category: "Agri jardin",
+      category: "Agri-jardin",
       published_date: "07/01/2013",
       closing: ["A bientôt", "Michel le jardinier de PANSERNATURE"],
       text: [
@@ -455,7 +455,7 @@ export const articles = {
     {
       id: 16,
       title: "Pétition pour une véritable organisation du ferroutage",
-      category: "Désobéissance civile",
+      category: "Désobéissance-civile",
       published_date: "17/09/2014",
       closing: ["Initiative soutenue par l'association PANSERNATURE"],
       text: [
@@ -488,7 +488,7 @@ export const articles = {
       id: 17,
       title:
         "La révélation des équilibres vitaux en agriculture ou en jardinage",
-      category: "Agri jardin",
+      category: "Agri-jardin",
       published_date: "30/09/2012",
       closing: [
         "PANSERNATURE",
@@ -540,7 +540,7 @@ export const articles = {
     {
       id: 18,
       title: "Arnaques à la carte bancaire facilitées par les banques",
-      category: "Désobéissance civile",
+      category: "Désobéissance-civile",
       published_date: "10/09/2014",
       closing: [
         "Une info à transmettre à tous vos contacts, à tout le monde : La nouvelle carte de paiement sans contact est copiable !",
