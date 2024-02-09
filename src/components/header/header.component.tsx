@@ -77,7 +77,15 @@ const Header = () => {
               </div>
 
               <div className="header-dropdown-menu-container">
-                <CustomBtn className="header-button">Sign in</CustomBtn>
+                <CustomBtn className="header-button">
+                  {" "}
+                  <CustomLink
+                    className="header-dropdown-menu"
+                    to={"/authentication"}
+                  >
+                    Sign in
+                  </CustomLink>
+                </CustomBtn>
 
                 {/* <CustomBtn className="header-button">
                   <NavDropdown title="Account" id="basic-nav-dropdown">

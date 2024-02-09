@@ -5,7 +5,6 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 import { firebaseConfig } from "./firebase.config";
-
 import {
   getFirestore,
   collection,
@@ -15,8 +14,15 @@ import {
   setDoc,
 } from "firebase/firestore/lite";
 import { firestore as db } from "./firebase.utils";
+import {
+  getAuth,
+  signInWithPopup,
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  signOut,
+  onAuthStateChanged,
+} from "firebase/auth";
 
-//To initialize articles data
 import { articles } from "./data/articles_init_data";
 
 // Initialize Firebase
@@ -28,6 +34,9 @@ export const getAllDocuments = async () => {
   return querySnapshot.docs.map((docsnapshot) => docsnapshot.data());
 };
 
+export const auth = getAuth();
+
+//To initialize articles data
 export const initializeItemsData = async () => {
   const { data } = articles;
 
@@ -44,11 +53,40 @@ export const initializeItemsData = async () => {
           category: article.category,
           published_date: article.published_date,
           closing: article.closing,
-          text: article.text
+          text: article.text,
         });
       } catch (e) {
         console.error("Error adding document: ", e);
       }
     }
+  });
+};
+
+export const createAuthUserWithEmailAndPassword = async (email, password) => {
+  if (!email || !password) return;
+  return await createUserWithEmailAndPassword(auth, email, password);
+};
+
+export const signInAuthUserEmailAndPassword = async (auth, email, password) => {
+  if (!email || !password) return;
+
+  return await signInWithEmailAndPassword(auth, email, password);
+};
+
+export const signOutUser = async () => await signOut(auth);
+
+export const onAuthStateChangedListener = (callback) =>
+  onAuthStateChanged(auth, callback);
+
+export const getCurrentUser = () => {
+  return new Promise((resolve, reject) => {
+    const unsubscribe = onAuthStateChanged(
+      auth,
+      (userAuth) => {
+        unsubscribe();
+        resolve(userAuth);
+      },
+      reject
+    );
   });
 };
