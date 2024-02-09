@@ -4,9 +4,12 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { CustomLink } from "../../utilities/components.styles";
 import "./header.styles.scss";
-import { CustomHashLink } from "../../utilities/components.styles";
+import {
+  CustomLink,
+  CustomHashLink,
+  CustomBtn,
+} from "../../utilities/components.styles";
 
 const Header = () => {
   return (
@@ -73,16 +76,24 @@ const Header = () => {
                 </NavDropdown>
               </div>
 
-              {/* 未ログイン状態の場合は"Sign in"というボタンを表示する */}
-              {/* <NavDropdown title="Account" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">
-                  Your profile
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Setting</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Setting</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Sign out</NavDropdown.Item>
-              </NavDropdown> */}
+              <div className="header-dropdown-menu-container">
+                <CustomBtn className="header-button">Sign in</CustomBtn>
+
+                {/* <CustomBtn className="header-button">
+                  <NavDropdown title="Account" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="#action/3.1">
+                      Your profile
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">
+                      Setting
+                    </NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#action/3.4">
+                      Sign out
+                    </NavDropdown.Item>
+                  </NavDropdown>
+                </CustomBtn> */}
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>
