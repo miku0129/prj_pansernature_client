@@ -77,14 +77,18 @@ const Header = () => {
                   </CustomLink>
 
                   <NavDropdown.Divider />
+                  <CustomLink
+                    className="header-dropdown-menu"
+                    to={"/articles/23"}
+                  >
+                    L'auteur
+                  </CustomLink>
+                  
+                  <NavDropdown.Divider />
                   <CustomLink className="header-dropdown-menu" to={"/articles"}>
                     All articles
                   </CustomLink>
 
-                  <NavDropdown.Divider />
-                  <CustomLink className="header-dropdown-menu" to={"/michel-provost"}>
-                    L'auteur
-                  </CustomLink>
                 </NavDropdown>
               </div>
 
