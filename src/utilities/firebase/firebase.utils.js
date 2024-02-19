@@ -16,7 +16,7 @@ import {
 import { firestore as db } from "./firebase.utils";
 import {
   getAuth,
-  signInWithPopup,
+  // signInWithPopup,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   signOut,
