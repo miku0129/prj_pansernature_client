@@ -5,13 +5,13 @@ import FormInput from "../form-input/form-input.component";
 import { CustomBtn } from "../../utilities/components.styles";
 
 import {
-  signInAuthUserEmailAndPassword,
+  // signInAuthUserEmailAndPassword,
   //signInWithGooglePopup,
 } from "../../utilities/firebase/firebase.utils";
 
 // import { setCurrentUser } from "../../store/user/user.action";
 
-import { getAuth } from "firebase/auth";
+// import { getAuth } from "firebase/auth";
 import "./sign-in-form.styles.scss";
 
 const defaultFormField = {
@@ -25,7 +25,7 @@ const SignInForm = () => {
   const [field, setField] = useState(defaultFormField);
   const { email, password } = field;
 
-  const auth = getAuth();
+  // const auth = getAuth();
 
   const resetFormFields = () => {
     setField(defaultFormField);
@@ -38,7 +38,7 @@ const SignInForm = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-      const user = await signInAuthUserEmailAndPassword(auth, email, password);
+      // const user = await signInAuthUserEmailAndPassword(auth, email, password);
 
       //   console.log("user.user", user.user);
       //   dispatch(setCurrentUser(user.user));
