@@ -50,7 +50,7 @@ export const buildArticle = (
     } else {
       return (
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <img src={paragraph} alt="image of an article" />
+          <img src={paragraph} alt={paragraph} />
         </div>
       );
     }
