@@ -767,6 +767,17 @@ export const articles = {
         "*Le concept wagon FLAST  et plateforme  SPLITT*, à l'aube du XXI siècle, est l'outil indispensable d'une nouvelle logistique rail-route, qui devient plus fluide et plus respectueux de l'environnement et des personnes. Il apporte un avantage industriel et économique tel qu'aucun autre système actuel de ferroutage actuel ne peut le permettre. Le pays qui adoptera ce concept augmentera ses parts de marché, par la rapidité et la fluidité des transferts. Une vidéo a été réalisée par Jean Paul Turcaud (administrateur et inventeur, SAS ELTROVA).",
       ],
     },
+    {
+      id: 23,
+      title: "michel-bio-test",
+      category: "Autobiographie",
+      published_date: "01/01/2024",
+      closing: [],
+      text: [
+        "This is a test of showing biography of Michel Provost",
+        { list: [] },
+      ],
+    },
 
     // {
     //   id: ,

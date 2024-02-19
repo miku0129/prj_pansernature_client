@@ -2,6 +2,7 @@ type AgriJardin = "Agri-jardin";
 type VieAssociative = "Vie-associative";
 type DesobeissanceCivile = "Désobéissance-civile";
 type Sante = "Santé";
+type Autobiographie = "Autobiographie";
 
 type PreviewTypes = AgriJardin | VieAssociative | DesobeissanceCivile | Sante;
 

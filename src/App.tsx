@@ -10,6 +10,7 @@ import Contact from "./components/contact/contact.component";
 import Donation from "./components/donation/donation.component";
 import Checkout from "./components/checkout/checkout.component";
 import Authentication from "./routes/authentication/authentication.component";
+import AboutMichelProvost from "./components/about-michel-provost/about-michel-provost.component";
 
 import ScrollToTop from "./utilities/scroll-to-top";
 
@@ -35,6 +36,7 @@ function App() {
           <Route path="donation" element={<Donation />} />
           <Route path="checkout/*" element={<Checkout />} />
           <Route path="authentication" element={<Authentication />} />
+          <Route path="michel-provost" element={<AboutMichelProvost />}></Route>
         </Route>
       </Routes>
     </div>
