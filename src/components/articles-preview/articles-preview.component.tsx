@@ -18,7 +18,7 @@ type ItemsPerPage = {
 };
 
 type PreviewPropsType = {
-  previewtype?: AgriJardin | VieAssociative | DesobeissanceCivile;
+  previewtype?: AgriJardin | VieAssociative | DesobeissanceCivile | Sante;
 };
 
 const ArticlesPreview = () => {
@@ -31,15 +31,22 @@ const ArticlesPreview = () => {
     if (state !== null) {
       if (state.previewtype === "Agri-jardin") {
         articles = articles.filter(
-          (article: Article) => article.category.replace("-", " ") === "Agri jardin"
+          (article: Article) =>
+            article.category.replace("-", " ") === "Agri jardin"
         );
       } else if (state.previewtype === "Vie-associative") {
         articles = articles.filter(
-          (article: Article) => article.category.replace("-", " ") === "Vie associative"
+          (article: Article) =>
+            article.category.replace("-", " ") === "Vie associative"
         );
-      } else {
+      } else if (state.previewtype === "Désobéissance-civile") {
         articles = articles.filter(
-          (article: Article) => article.category.replace("-", " ") === "Désobéissance civile"
+          (article: Article) =>
+            article.category.replace("-", " ") === "Désobéissance civile"
+        );
+      } else if (state.previewtype === "Santé") {
+        articles = articles.filter(
+          (article: Article) => article.category.replace("-", " ") === "Santé"
         );
       }
     }
@@ -82,7 +89,9 @@ const ArticlesPreview = () => {
                       className="article-card"
                       style={{ width: "18rem" }}
                     >
-                      <Card.Header>{article.category.replace("-", " ")}</Card.Header>
+                      <Card.Header>
+                        {article.category.replace("-", " ")}
+                      </Card.Header>
                       <Card.Body>
                         <Card.Title>{article.title}</Card.Title>
                         <Card.Text>{text_intro}...</Card.Text>

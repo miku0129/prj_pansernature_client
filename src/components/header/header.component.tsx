@@ -68,6 +68,13 @@ const Header = () => {
                   >
                     Désobéissance civile
                   </CustomLink>
+                  <CustomLink
+                    className="header-dropdown-menu"
+                    to={"/articles"}
+                    state={{ previewtype: "Santé" }}
+                  >
+                    Santé
+                  </CustomLink>
 
                   <NavDropdown.Divider />
                   <CustomLink className="header-dropdown-menu" to={"/articles"}>

@@ -32,8 +32,11 @@ const Article = () => {
       <div className="article-text-container">
         <div>
           {article &&
-            article.text.map((paragraph: string | ListOfArticle, idx: number) =>
-              buildArticle(paragraph, idx)
+            article.text.map(
+              (
+                paragraph: string | ListOfArticle | ImageOfArticle,
+                idx: number
+              ) => buildArticle(paragraph, idx)
             )}
         </div>
         <div className="closing">
