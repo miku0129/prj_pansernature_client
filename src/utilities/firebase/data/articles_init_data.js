@@ -738,6 +738,35 @@ export const articles = {
         "*L'association PANSERNATURE* a pour objectif de tout faire pour améliorer la qualité intrinsèque des aliments, elle ne fait pas que de critiquer ou dénoncer les mauvaises pratiques, elle propose aussi des solutions qu'elle a créées, mises en place et expérimentées. Quand on va attribuer la véritable valeur énergétique des vins, quelque soient leurs cépages ou leur mode de production, ceux dont cette valeur n'atteindra pas 70/100 auront des soucis pour justifier leurs prix de vente.",
       ],
     },
+    {
+      id: 22,
+      title:
+        "CONCEPT SPLITT & FLAST: Système de ferroutage international au brevet français",
+      category: "Désobéissance-civile",
+      published_date: "04/09/2014",
+      closing: [],
+      text: [
+        "*SPLITT & FLAST* est un concept de logistique (ferroutage) innovant d'une grande flexibilité intégrant deux (2) systèmes brevetés (brevets déposés en PCT) de transport rail-route permettant une dynamisation du fret mondial, adaptable aux spécificités des diverses régions, pays et cultures. Pour une meilleure compréhension, veuillez  trouver ci-dessous un 'bullet point' récapitulant les grandes lignes du concept innovant de logistique rail-route (ferroutage) permettant de délester le flux routier vers le rail et permettant ainsi d'augmenter le transport fret sur rail dans le monde. L'innovation, la flexibilité d'utilisation et la fiabilité du système sont aujourd'hui sans concurrences et rendent les systèmes des concurrents (Modalohr / Iron Highway / RoadRailer / Megaswing, Cargo Beamer, etc...) totalement obsolètes. ",
+        "*SPLITT* (*S*tandardized *P*latform for *L*ogistic *I*ntelligent *T*rucks *T*ransfer) & *FLAST* (*F*lexible *L*ogistics *A*utomatic *S*tandard *T*ransporter) sont des approches intégrées à forte valeur ajoutée qui désengorge le trafic routier, réduit la pollution et les accidents, etc. *Les wagons FLAST* sont innovants et faciles à réaliser :",
+        {
+          list: [
+            "Leur infrastructure se trouve légèrement modifiée, mais cela permet d'accélérer le triage, le chargement ou le déchargement, ce qui réduit considérablement le temps d'immobilisation d'un convoi ;",
+            "Ils ne nécessitent aucune modification des infrastructures ferroviaires,  comme la hauteur des tunnels ou des autres ouvrages d'art ;",
+            "Ils permettent de charger tous types de camions avec et sans remorques ;",
+            "Ils permettent aussi le transbordement des containers 20' & 40' et les 'Double Stack' (Systèmes Twist-lock  embarqués) par un engin de levage (Terex)  ou avec  un portique ;",
+            "Le transfert du camion sur le wagon n'utilise que deux personnes : le chauffeur du camion celui de la locomotive, et ne nécessite aucun engin de levage ;",
+            "Cela n'est pas utile de dételer la semi-remorque du camion tracteur pour l'installer à bord du wagon FLAST, soit gain de temps au chargement comme au déchargement ;",
+            "Le mécanisme de verrouillage / déverrouillage de l'accès au wagon FLAST est automatisé, il est piloté et contrôlé par le conducteur du train à distance et/ou sur le site par la plateforme  SPLITT ;",
+            "On a ainsi le libre choix de charger ou décharger un wagon du convoi, là où il y a une plateforme SPLITT ;",
+            "Grâce à la plateforme SPLITT, installée dans les gares choisies, le chargement ou le déchargement d'un ensemble camion + remorque, peuvent se faire en quelques minutes, sans avoir à décrocher un wagon ;",
+            "On peut même automatiser le transfert du contenu d'un wagon FLAST en sélectionnant l'emplacement d'un container, celui d'un camion et son chargement, celui d'un engin de chantier ou celui d'un véhicule militaire (« Systèmes de tracking embarqués ») ;",
+            "On a aussi possibilité de charger plusieurs types de marchandises tels que les containers 20', 40' et double stack, (intermodal) des billes de bois, des rames d'acier, de fonte et même d'autres marchandises sur palette si nécessaire, celles-ci se verraient chargées et déchargées par un engin de levage ;",
+            "*Le chargement de 100 camions sur un convoi ferré peut se faire en moins  d'une heure (45 min)*, en toute sécurité pour le personnel et le matériel.",
+          ],
+        },
+        "*Le concept wagon FLAST  et plateforme  SPLITT*, à l'aube du XXI siècle, est l'outil indispensable d'une nouvelle logistique rail-route, qui devient plus fluide et plus respectueux de l'environnement et des personnes. Il apporte un avantage industriel et économique tel qu'aucun autre système actuel de ferroutage actuel ne peut le permettre. Le pays qui adoptera ce concept augmentera ses parts de marché, par la rapidité et la fluidité des transferts. Une vidéo a été réalisée par Jean Paul Turcaud (administrateur et inventeur, SAS ELTROVA).",
+      ],
+    },
 
     // {
     //   id: ,
