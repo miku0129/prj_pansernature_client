@@ -8,7 +8,7 @@ export const articles = {
       published_date: "28/04/2015",
       closing: [],
       text: [
-        "https://i.ibb.co/PD8q386/michel-autobiograph.jpg",
+        "https://i.ibb.co/NKDvs7B/michel-autobiograph-3.jpg",
         {
           list: [
             "Né le 19 avril 1943 à Lussac les Châteaux (86) ;",
