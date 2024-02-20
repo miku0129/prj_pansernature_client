@@ -79,7 +79,7 @@ const Header = () => {
                   <NavDropdown.Divider />
                   <CustomLink
                     className="header-dropdown-menu"
-                    to={"/articles/23"}
+                    to={"/articles/0"}
                   >
                     L'auteur
                   </CustomLink>

@@ -2,6 +2,96 @@ export const articles = {
   data: [
     {
       id: 0,
+      title:
+        "Curriculum Vitae de Michel PROVOST (fondateur et président de l'association de 2002 à 2024)",
+      category: "Autobiographie",
+      published_date: "28/04/2015",
+      closing: [],
+      text: [
+        "https://i.ibb.co/PD8q386/michel-autobiograph.jpg",
+        {
+          list: [
+            "Né le 19 avril 1943 à Lussac les Châteaux (86) ;",
+            "1955 : Certificat d'Etudes libre à Montmorillon (collège Saint Joseph) ;",
+            "1955 : Rentrée Collège technique de Montmorillon ;",
+            "1955 à 1960 : éclaireur de France ; stages de  préparation Militaire 1° et 2° niveau ; sorti 1° du stage d'aide mécanicien ALAT à Pau (Paques) ; brevet de secouriste ;",
+          ],
+        },
+        {
+          list: [
+            "1960 : CAP Ajusteur de précision à Montmorillon ; Emploi de manutention Brasseries de Montmorillon (1 mois d'été) ;",
+            "1961 : CAP Tourneurs sur métaux à Montmorillon ; Stage en soudure à l'arc, STE Sécatol à Poitiers (2 mois d'été) ; Initiation aux modèles réduits (avions) ;",
+            "1962 : Brevet Industriel de Fabrication Mécanique et en Machines-outils, Poitiers ;",
+            "1962 : Emploi en montage d'appareils et moules à chaussures  Poitiers (2 mois) ;",
+            "1962 : Tourneur sur métaux : Usine métallurgique de Domines (Naintré 86) de décembre 1962 à fin septembre 1963) ; Stage de 3 mois : Dessinateur petites études, préparation au CAP de dessinateur ;",
+            "1963 (27 juillet) : mariage, 3 enfants ;",
+            "1963 : Octobre : Appelé sous les drapeaux : Alat à Essai les Nancy (54) ;",
+            "1964 : Janvier : Stage chauffeur poids lourds à Toul (54) ;",
+            "1964 : Mars : Chauffeur multiple (Alat),  base du camp de Souges, 33 Martignas-sur-Jalle ;",
+            "1964 : novembre : aide cuisinier, 33°RA Poitiers (rapprochement familial) ;",
+            "1965 : Libéré des obligations militaires le 27 février ;",
+            "1965: Emploi de mécanicien d'entretien Usine Michelin de Joué-lès-Tours (37) (15 mars) ; formation en mécanique des fluides, air, eau blanche de 20 à 150 bars, vapeur à 180° ; formation en entretien des systèmes électriques à faible  intensité et électromécaniques (robots à came) ; formation en entretien des ascenseurs et -monte-charges ; certificat de conduite des chariot-élévateurs électriques et thermiques ; dépannages sur automatismes, entretien des presses de cuisson des pneus poids lourds ; entretien et dépannage des ascenseurs, monte-charges et du pont à charbon ; classé Ouvrier Professionnel 3° catégorie ; cours du soir à -Albert Bayet (Tours) : préparation au Brevet Professionnel ; cours du soir au Lycée Grammont (CNAM) : préparation aux licences de Chimie et de Physique ;",
+            "1967 à 1973 : délégué du personnel et délégué CHS ;",
+            "1968 : secrétaire syndicat CGT ;",
+          ],
+        },
+        {
+          list: [
+            "1973 : Départ usine Michelin  en avril, licencié pour actions syndicales ;",
+            "1973 (juin) : Tourneur, Aléseur Rectifieur sur vérins, Usine William Bardet  à La Ville aux Dames (37) ;",
+            "1974  (mars) : Chef d'équipe, contrôle tachygraphe poids lourds, Ets Jamet STA à Chambray-lès-Tours ;",
+            "1974 (septembre) : VRP en vin (STE Galeau), vente de grands vins Bordeaux et Champagne ;",
+            "1975 (avril) : VRP en produits d'entretien de surfaces industrielles, Ste ACIC Survillers (95) ;",
+            "1977 (octobre) : VRP en produits d'entretien de surfaces industrielles, Ste REICO à Nogent le Roi  (28) ;",
+          ],
+        },
+        {
+          list: [
+            "1980 (décembre) : Création Sarl Diffusion Tourangelle de Chimie (co-gérant – VRP, livreur) ;",
+            "1984 (janvier) : Gérant seul  Sarl D.T. chimie, début des fabrications de produits d'entretien industriel ; gardien de Week-end et jours fériés aux Ets Trusson (3 ans en complément de salaire) ; création d'emploi : 1 secrétaire, 2 préparateurs, 6  VRP, (dont 2 en multicartes) ; concepteur d'additifs de combustion pour chaudières à bois, fuel  « Croc'Suies » et  additif antigel gasoil et fuel (1987 : 32 000 flacon 1 l. pour Ets Montenay) ; fabrication de liquide refroidissement pour Sté d'autoroutes du sud : 24 tonnes/mois ; préparations de solutions pour l'entretien des dialyseurs du CHR Bretonneau Tours (1 200 L/mois) avec reprise des solutions usagées de dialyse pour destruction) ; solution pour retard du gel dans les bétons et colle d'accrochage sur chapes béton, murs ; création de 150 formules de produits pour tout  entretenir, décaper, protéger, sans avoir à chauffer ou refroidir les solutions ; opérations détartrage à façon sur des installations de chauffage industrielles ou collectives et des tours de refroidissement (chaudières de 1 à 9 m3) ; établissement de diagnostics de corrosion sur métaux après sinistre (tribunaux) ; enlèvement des solvants usagers (Aérolub Chambray, Ensival Tours Nord) et transports vers usine de retraitement ;",
+          ],
+        },
+        {
+          list: [
+            "1991 (mars) : dépôt de bilan suite à impayés clients et trop forte expansion (perte de trésorerie) ;",
+            "1991 (juin) : Chef d'équipe en nettoyages industriels et peintures (SOS Nettoyages à Tours) ;",
+            "1992 (octobre) : Chimiste à Ste Dona chimie à Monts sur Guesnes (86), produit d'entretien, formulation adaptées aux cahiers des charges ;  (Reprise des solutions pour dialyseurs pour l'hôpital Bretonneau de Tours ; reprise des enlèvements pour retraitement) ;",
+            "1993 à 1997 : secrétaire d'une association de défense des artisans et commerçants « Andac » ;",
+            "1994 (septembre) : Gérant de la Sarl  Dona Chimie, début de fabrication et conditionnement à façon ; emploi 1 salarié ;  Camif : produits de ramonage cheminée, allume feu liquide etc. ; Outiror : produits de nettoyage, lave glace, destructeurs de souche ;",
+            "1996 (juillet) : déménagement de l'usine de Monts sur Guesne à  Champigny le Sec (86) ;",
+            "Septembre à Novembre 1996 : chantier à Grasse (06) Ets Orgasynthe :",
+            {
+              list: [
+                "Réfection d'un local de production : décapage et enduit des surfaces avec revêtement (plastique, hydrofuge et antidéflagrant, résine Vinylester, mat de verre, fils de laiton et poudre métallisée au carbone ;",
+                "Réfection d'une cuve de 5 m3 de rétentions des effluents de fabrication (décapage de la protection époxy, redressage des surfaces au mortier époxy, constitution d'une gaine étanche au vinylester  + mat de verre 6 mm, collage de briques en céramique au mortier d'époxy et jointage à la résine furanique ;",
+              ],
+            },
+            "1997 (juin) : Un conseiller agricole, instigateur de la méthode dite de Réduction des Doses, par emploi de l'eau adoucie et acidifiée, nous demande de lui de fournir de l'acide sulfurique, équipements de protection, systèmes de contrôle de pH et dureté à 600 agriculteurs, viticulteurs, éleveurs répartis sur le grand ouest, de Bordeaux à Nantes et de l'océan à Bourges. Ce conseiller dit agir en application des sciences de Bio-Electronique Vincent, et des transmutations biologiques de Kervran ;",
+            "1999 (mai) : Adhésion à l'Association de Bio-Electronique Vincent et début des mesures de sols, plantes etc. ;",
+            "1999 (décembre) : la Ste Outiror demande des prix toujours plus bas, la faillite de la Camif, la modification des installations de dialyse à l'hôpital Bretonneau, (perte de 60 % du chiffre d'affaires), décision de provoquer la cessation d'activité de la SARL ;",
+          ],
+        },
+        {
+          list: [
+            "2000 (février) : artisan en traitement des eaux et analyses chimiques, création d'un laboratoire portable (pH –Redox – Conductivité, photomètre UV), travaux de mesures pour le conseiller de la Ste Velayscop qui les utilise pour améliorer les apports d'intrants chimiques industriels (engrais et pesticides) ;",
+            "2001 (mars) : rencontre avec Jeanne Rousseau, présidente de L'ABE. Formations à la  Science de BE, aux transmutations avec le Dr Bonafy. Stage avec Ulrich Schreier sur les applications biologiques agricoles ;",
+            "2002 (mars) : création et présidence l'association *PANSERNATURE* avec un groupe d'agriculteurs. Rencontre avec les Dr Rebière et Lavaud qui me conseillent de continuer mes recherches ;",
+            "2002 (mai) : rencontre avec Jean Boucher et l'association AFAB, participation au conseil d'administration de l'AFAB, initiation à la méthode d'agriculture biologique par Jean boucher qui m'explique ses recherches, ses résultats et l'incompréhension rencontrée, ses déceptions. Création du site internet de pansernature.com. Création du site internet de « vagb.com »  (pour l'AFAB) (site de l'AFAB : Association Française d'Agriculture Biologique) ; *1° plaquette de présentation des applications BE en Agriculture* ;",
+            "2003 (février) : rencontre avec Michel Barbeau à l'AG AFAB ; sortie du *livre sur l'aliment de la santé* ; participation au conseil d'administration de la  association BE ; rencontre avec le Dr Bonafy pour étudier les découvertes de Gaston Nessens sur la création de la vie ; sortie du *livret « L'eau la vie »* ; le Dr Bonafy l'approuve et le met dans son cabinet ;",
+            "2004 (décembre) : organisation d'un colloque pour redonner un coup de pouce à l'agriculture biologique, par l'asso *PANSERNATURE* et Michel Barbeau, à Béruges près de Poitiers, avec 40 personnalités, dont le bureau de l'AFAB avec Jean Boucher,  Dr Herzog, Dr Jaqueline Bousquet, René Gautron, des enseignants, des agriculteurs bio et non bio ; début des conférences sur divers sujets,  et stand sur la 1° foire Fougères à Tours ;",
+            "2005 (février) : envoi du *livre « Pour une agriculture naturelle »* résumant le colloque à tous les participants pour confirmer l'orientation à prendre ; l'association AFAB ne répond pas ;",
+            "2005 (mai) : l'association *PANSERNATURE* change ses statuts pour développer l'orientation du colloque et transfère son bureau à Joué-lès-Tours (rue des Martyrs).",
+            "2005 (août) : formation sur 3 semaines faite à un ingénieur agronome partant en Chine ;",
+            "2006 (novembre) : démission du conseil d'administration de la BE, pour mieux agir avec l'association *PANSERNATURE* ;",
+            "2008 (février) : sortie du *livre « Précis d'Agriculture et de Jardinage par les Procédés Naturels »*, visé par le Dr André Rebière et Phillipe Vincent. Ce livre est ma thèse de  chercheur indépendant en Sciences de la vie et de l'Agriculture naturelle. Création officielle de l'édition *PANSERNATURE* à la BNF ;",
+            "2008 (mars) : ouverture du centre de formation qui accueille un viticulteur bio, le groupe de conseil international « Méthode Cousiné » et un ingénieur agronome ;",
+            "2009 : sortie d'un *livre sur l'énergie libre* ; ouverture d'un programme de formation pour lancer des conseillers techniques départementaux ; révision du site internet ; création d'une boutique internet « Bo Pansern » ; création du projet « NaturOparc » ; création du site internet naturoparc.org. L'association est reconnue d'Intérêt Général pour son rôle environnemental. On doit fermer la boutique sur le net. L'association se développe, elle participe aux salons biologiques locaux, avec mesures de sol et conférences. L'association intervient sur les médias, auprès des instances officielles pour défendre la liberté de cultiver et le choix des semences et sortir du piège des pesticides. Son site internet reçoit plusieurs millions de visiteurs par an. *Le livre principal « Précis d'Agri »* a été vendu à plus de 1 000 exemplaires. Il est en cours de réédition.",
+          ],
+        },
+      ],
+    },
+    {
+      id: 1,
       title: "La liberté du citoyen est un droit imprescriptible",
       category: "Désobéissance-civile",
       published_date: "07/10/2006",
@@ -36,7 +126,7 @@ export const articles = {
       ],
     },
     {
-      id: 1,
+      id: 2,
       title: "On récolte ce que l'on sème",
       category: "Agri-jardin",
       published_date: "19/05/2012",
@@ -54,7 +144,7 @@ export const articles = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "Les joies du jardinage",
       category: "Agri-jardin",
       published_date: "17/01/2011",
@@ -90,7 +180,7 @@ export const articles = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "Le Printemps revient, le temps des semis aussi",
       category: "Agri-jardin",
       published_date: "09/03/2012",
@@ -127,7 +217,7 @@ export const articles = {
       ],
     },
     {
-      id: 4,
+      id: 5,
       title: "La rentrée au jardin",
       category: "Agri-jardin",
       published_date: "02/09/2011",
@@ -154,7 +244,7 @@ export const articles = {
       ],
     },
     {
-      id: 5,
+      id: 6,
       title: "L'action de PANSERNATURE en faveur des jardins",
       category: "Vie-associative",
       published_date: "21/06/2011",
@@ -189,7 +279,7 @@ export const articles = {
       ],
     },
     {
-      id: 6,
+      id: 7,
       title: "Conseils de printemps",
       category: "Agri-jardin",
       published_date: "22/03/2011",
@@ -211,7 +301,7 @@ export const articles = {
       ],
     },
     {
-      id: 7,
+      id: 8,
       title: "Courrier au Premier Ministre",
       category: "Désobéissance-civile",
       published_date: "01/06/2012",
@@ -241,7 +331,7 @@ export const articles = {
       ],
     },
     {
-      id: 8,
+      id: 9,
       title: "C'est l'hiver qui revient",
       category: "Agri-jardin",
       published_date: "13/11/2011",
@@ -258,7 +348,7 @@ export const articles = {
       ],
     },
     {
-      id: 9,
+      id: 10,
       title: "Bonne pousse, bonnes récoltes !",
       category: "Agri-jardin",
       published_date: "28/12/2011",
@@ -293,7 +383,7 @@ export const articles = {
       ],
     },
     {
-      id: 10,
+      id: 11,
       title: "Au Jardin Potager",
       category: "Agri-jardin",
       published_date: "08/10/2010",
@@ -307,7 +397,7 @@ export const articles = {
       ],
     },
     {
-      id: 11,
+      id: 12,
       title: "Au Jardin cet hiver",
       category: "Agri-jardin",
       published_date: "21/12/2010",
@@ -342,7 +432,7 @@ export const articles = {
       ],
     },
     {
-      id: 12,
+      id: 13,
       title:
         "La qualité des aliments dépend directement de son mode de culture ",
       category: "Agri-jardin",
@@ -374,7 +464,7 @@ export const articles = {
       ],
     },
     {
-      id: 13,
+      id: 14,
       title: "Ohé du Jardin",
       category: "Agri-jardin",
       published_date: "12/06/2012",
@@ -404,7 +494,7 @@ export const articles = {
     },
 
     {
-      id: 14,
+      id: 15,
       title: "La chaleur de la Vie",
       category: "Agri-jardin",
       published_date: "08/02/2013",
@@ -430,7 +520,7 @@ export const articles = {
     },
 
     {
-      id: 15,
+      id: 16,
       title:
         "Bonne et heureuse année à tous, santé, bonheur et prospérité, surtout bonnes récoltes",
       category: "Agri-jardin",
@@ -453,7 +543,7 @@ export const articles = {
       ],
     },
     {
-      id: 16,
+      id: 17,
       title: "Pétition pour une véritable organisation du ferroutage",
       category: "Désobéissance-civile",
       published_date: "17/09/2014",
@@ -485,7 +575,7 @@ export const articles = {
       ],
     },
     {
-      id: 17,
+      id: 18,
       title:
         "La révélation des équilibres vitaux en agriculture ou en jardinage",
       category: "Agri-jardin",
@@ -538,7 +628,7 @@ export const articles = {
       ],
     },
     {
-      id: 18,
+      id: 19,
       title: "Arnaques à la carte bancaire facilitées par les banques",
       category: "Désobéissance-civile",
       published_date: "10/09/2014",
@@ -556,7 +646,7 @@ export const articles = {
       ],
     },
     {
-      id: 19,
+      id: 20,
       title: "La vie du sol nourricier que l'on assassine",
       category: "Agri-jardin",
       published_date: "30/09/2012",
@@ -615,7 +705,7 @@ export const articles = {
       ],
     },
     {
-      id: 20,
+      id: 21,
       title: "Indignez-vous",
       category: "Désobéissance-civile",
       published_date: "22/12/2013",
@@ -701,7 +791,7 @@ export const articles = {
       ],
     },
     {
-      id: 21,
+      id: 22,
       title: "Le vin, un produit naturel ?",
       category: "Santé",
       published_date: "16/08/2014",
@@ -765,17 +855,6 @@ export const articles = {
           ],
         },
         "*Le concept wagon FLAST  et plateforme  SPLITT*, à l'aube du XXI siècle, est l'outil indispensable d'une nouvelle logistique rail-route, qui devient plus fluide et plus respectueux de l'environnement et des personnes. Il apporte un avantage industriel et économique tel qu'aucun autre système actuel de ferroutage actuel ne peut le permettre. Le pays qui adoptera ce concept augmentera ses parts de marché, par la rapidité et la fluidité des transferts. Une vidéo a été réalisée par Jean Paul Turcaud (administrateur et inventeur, SAS ELTROVA).",
-      ],
-    },
-    {
-      id: 23,
-      title: "michel-bio-test",
-      category: "Autobiographie",
-      published_date: "01/01/2024",
-      closing: [],
-      text: [
-        "This is a test of showing biography of Michel Provost",
-        { list: [] },
       ],
     },
 
