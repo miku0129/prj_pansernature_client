@@ -8,7 +8,7 @@ import "./header.styles.scss";
 import {
   CustomLink,
   CustomHashLink,
-  CustomBtn,
+  // CustomBtn,
 } from "../../utilities/components.styles";
 
 const Header = () => {
