@@ -36,13 +36,10 @@ const Header = () => {
                   <CustomHashLink className="header-dropdown-menu" to="/#books">
                     Books
                   </CustomHashLink>
-                  {/* <NavDropdown.Divider />
-                  <CustomHashLink
-                    className="header-dropdown-menu"
-                    to="/#contact"
-                  >
+                  <NavDropdown.Divider />
+                  <CustomLink className="header-dropdown-menu" to={"/contact"}>
                     Contact
-                  </CustomHashLink> */}
+                  </CustomLink>
                 </NavDropdown>
               </div>
               <div className="header-dropdown-menu-container">
@@ -83,12 +80,11 @@ const Header = () => {
                   >
                     L'auteur
                   </CustomLink>
-                  
+
                   <NavDropdown.Divider />
                   <CustomLink className="header-dropdown-menu" to={"/articles"}>
                     All articles
                   </CustomLink>
-
                 </NavDropdown>
               </div>
 
@@ -103,7 +99,7 @@ const Header = () => {
                   </CustomLink>
                 </CustomBtn> */}
 
-                {/* <CustomBtn className="header-button">
+              {/* <CustomBtn className="header-button">
                   <NavDropdown title="Account" id="basic-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">
                       Your profile
@@ -117,9 +113,8 @@ const Header = () => {
                     </NavDropdown.Item>
                   </NavDropdown>
                 </CustomBtn> */}
-                
-              {/* </div> */}
 
+              {/* </div> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
