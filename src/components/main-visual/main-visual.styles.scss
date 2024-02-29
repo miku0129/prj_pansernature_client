@@ -2,31 +2,32 @@
   //   position: absolute;
   //   top: 0;
   //   left: 0;
-  background: linear-gradient(
-      360deg,
-      #00925072,
-      rgb(220, 241, 231, 0)
-    ),
-    url("https://i.ibb.co/hfx2Lg4/pansernature-3.jpg");
+  background: 
+  // linear-gradient(
+    //   360deg,
+    //   #00925072,
+    //   rgb(220, 241, 231, 0)
+    // ),
+    url("https://i.ibb.co/sCHr6Vq/Panser-Nature.jpg");
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-position: center;
   max-height: 600px;
 
-  .main-visual-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+  // .main-visual-content {
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  //   color: white;
 
-    p {
-      font-size: 30px;
-    }
-    h2 {
-      font-size: 45px;
-      text-shadow: 0 0 10px gray;
-    }
-  }
+  //   p {
+  //     font-size: 30px;
+  //   }
+  //   h2 {
+  //     font-size: 45px;
+  //     text-shadow: 0 0 10px gray;
+  //   }
+  // }
 }

@@ -92,7 +92,7 @@ const Header = () => {
                 </NavDropdown>
               </div>
 
-              <div className="header-dropdown-menu-container">
+              {/* <div className="header-dropdown-menu-container">
                 <CustomBtn className="header-button">
                   {" "}
                   <CustomLink
@@ -101,7 +101,7 @@ const Header = () => {
                   >
                     Sign in
                   </CustomLink>
-                </CustomBtn>
+                </CustomBtn> */}
 
                 {/* <CustomBtn className="header-button">
                   <NavDropdown title="Account" id="basic-nav-dropdown">
@@ -117,7 +117,9 @@ const Header = () => {
                     </NavDropdown.Item>
                   </NavDropdown>
                 </CustomBtn> */}
-              </div>
+                
+              {/* </div> */}
+
             </Nav>
           </Navbar.Collapse>
         </Container>

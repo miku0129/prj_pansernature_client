@@ -5,9 +5,9 @@ const MainVisual = () => {
   return (
     <Fragment>
       <div className="main-visual-container">
-        <div className="main-visual-content">
+        {/* <div className="main-visual-content">
           <h2>PANSER NATURE</h2>
-        </div>
+        </div> */}
       </div>
     </Fragment>
   );
