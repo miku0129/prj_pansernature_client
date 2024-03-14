@@ -1,16 +1,20 @@
 .donation-card {
-  min-height: 50px;
-  & :hover {
-    cursor: pointer;
-  }
+  // & :hover {
+  //   cursor: pointer;
+  // }
 }
 
 .donation-card-img-container {
   overflow: hidden;
-  max-height: 200px;
+  max-height: 600px;
 }
 
-.donation-card-text-container {
-  display: grid;
-  grid-template-rows: 1fr auto;
+.donation-card-img {
+  min-height: 300px;
+}
+
+.donation-card-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }

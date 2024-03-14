@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { ArticlesContext } from "../../context/articles.context";
 import { CustomBtn } from "../../utilities/components.styles";
+import { buildArticle } from "../../utilities/helper";
 
 import { ArticleLayout } from "./article.styles";
 import "./article.styles.scss";
@@ -12,28 +13,43 @@ const Article = () => {
   const articles = useContext(ArticlesContext)[0];
   const params = useParams();
   let id = params.id !== undefined ? +params.id : "";
-  let article = articles.find((article: Article) => {
-    return article.id === id;
-  });
-  console.log("article", article);
+  let article = (() => {
+    if (articles) {
+      return articles.find((article: Article) => {
+        return article.id === id;
+      });
+    }
+  })();
 
   return (
-    article && (
-      <ArticleLayout>
+    <ArticleLayout>
+      <div>
+        <h1>{article && article.title}</h1>
+        <p>Category: {article && article.category.replace("-", " ")}</p>
+        <p>Published date: {article && article.published_date}</p>
+        <hr />
+      </div>
+      <div className="article-text-container">
         <div>
-          <h1>{article.title}</h1>
-          <hr />
+          {article &&
+            article.text.map(
+              (
+                paragraph: string | ListOfArticle | ImageOfArticle,
+                idx: number
+              ) => buildArticle(paragraph, idx)
+            )}
         </div>
-        <div className="article-text-container">
-          <p>Category: {article.category}</p>
-          <p>Published date: {article.published_date}</p>
-          <text>{article.text}</text>
+        <div className="closing">
+          {article &&
+            article.closing.map((signature: string, idx: number) => (
+              <p key={idx}>{signature}</p>
+            ))}
         </div>
-        <CustomBtn type="button" onClick={() => navigate(-1)}>
-          Retour
-        </CustomBtn>
-      </ArticleLayout>
-    )
+      </div>
+      <CustomBtn type="button" onClick={() => navigate(-1)}>
+        Retour
+      </CustomBtn>
+    </ArticleLayout>
   );
 };
 
