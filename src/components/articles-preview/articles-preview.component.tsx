@@ -18,7 +18,7 @@ type ItemsPerPage = {
 };
 
 type PreviewPropsType = {
-  previewtype?: AgriJardin | VieAssociative | DesobeissanceCivile;
+  previewtype?: AgriJardin | VieAssociative | DesobeissanceCivile | Sante;
 };
 
 const ArticlesPreview = () => {
@@ -31,23 +31,30 @@ const ArticlesPreview = () => {
     if (state !== null) {
       if (state.previewtype === "Agri-jardin") {
         articles = articles.filter(
-          (article: Article) => article.category === "Agri-jardin"
+          (article: Article) =>
+            article.category.replace("-", " ") === "Agri jardin"
         );
       } else if (state.previewtype === "Vie-associative") {
         articles = articles.filter(
-          (article: Article) => article.category === "Vie associative"
+          (article: Article) =>
+            article.category.replace("-", " ") === "Vie associative"
         );
-      } else {
+      } else if (state.previewtype === "Désobéissance-civile") {
         articles = articles.filter(
-          (article: Article) => article.category === "Désobéissance civile"
+          (article: Article) =>
+            article.category.replace("-", " ") === "Désobéissance civile"
+        );
+      } else if (state.previewtype === "Santé") {
+        articles = articles.filter(
+          (article: Article) => article.category.replace("-", " ") === "Santé"
         );
       }
     }
   }
 
   //articleの個数がUIに影響する。後でデザイン調整が必要
-  if (articles && articles.length < 4) {
-    let counter = articles.length;
+  if (articles && articles.length % 4 !== 0) {
+    let counter = articles.length % 4;
     const empty_article = {
       id: 0,
       title: "place holder",
@@ -69,7 +76,7 @@ const ArticlesPreview = () => {
             currentItems.map((article, idx) => {
               let text_intro = "";
               if (typeof article.text[0] === "string") {
-                text_intro = article.text[0].slice(0, 120);
+                text_intro = article.text[0].slice(0, 100).replaceAll("*", "");
               }
               return (
                 <Col key={idx}>
@@ -82,7 +89,9 @@ const ArticlesPreview = () => {
                       className="article-card"
                       style={{ width: "18rem" }}
                     >
-                      <Card.Header>{article.category}</Card.Header>
+                      <Card.Header>
+                        {article.category.replace("-", " ")}
+                      </Card.Header>
                       <Card.Body>
                         <Card.Title>{article.title}</Card.Title>
                         <Card.Text>{text_intro}...</Card.Text>

@@ -25,15 +25,18 @@ const Article = () => {
     <ArticleLayout>
       <div>
         <h1>{article && article.title}</h1>
-        <p>Category: {article && article.category}</p>
+        <p>Category: {article && article.category.replace("-", " ")}</p>
         <p>Published date: {article && article.published_date}</p>
         <hr />
       </div>
       <div className="article-text-container">
         <div>
           {article &&
-            article.text.map((paragraph: string | ListOfArticle, idx: number) =>
-              buildArticle(paragraph, idx)
+            article.text.map(
+              (
+                paragraph: string | ListOfArticle | ImageOfArticle,
+                idx: number
+              ) => buildArticle(paragraph, idx)
             )}
         </div>
         <div className="closing">

@@ -2,8 +2,98 @@ export const articles = {
   data: [
     {
       id: 0,
+      title:
+        "Curriculum Vitae de Michel PROVOST (fondateur et président de l'association de 2002 à 2024)",
+      category: "Autobiographie",
+      published_date: "28/04/2015",
+      closing: [],
+      text: [
+        "https://i.ibb.co/NKDvs7B/michel-autobiograph-3.jpg",
+        {
+          list: [
+            "Né le 19 avril 1943 à Lussac les Châteaux (86) ;",
+            "1955 : Certificat d'Etudes libre à Montmorillon (collège Saint Joseph) ;",
+            "1955 : Rentrée Collège technique de Montmorillon ;",
+            "1955 à 1960 : éclaireur de France ; stages de  préparation Militaire 1° et 2° niveau ; sorti 1° du stage d'aide mécanicien ALAT à Pau (Paques) ; brevet de secouriste ;",
+          ],
+        },
+        {
+          list: [
+            "1960 : CAP Ajusteur de précision à Montmorillon ; Emploi de manutention Brasseries de Montmorillon (1 mois d'été) ;",
+            "1961 : CAP Tourneurs sur métaux à Montmorillon ; Stage en soudure à l'arc, STE Sécatol à Poitiers (2 mois d'été) ; Initiation aux modèles réduits (avions) ;",
+            "1962 : Brevet Industriel de Fabrication Mécanique et en Machines-outils, Poitiers ;",
+            "1962 : Emploi en montage d'appareils et moules à chaussures  Poitiers (2 mois) ;",
+            "1962 : Tourneur sur métaux : Usine métallurgique de Domines (Naintré 86) de décembre 1962 à fin septembre 1963) ; Stage de 3 mois : Dessinateur petites études, préparation au CAP de dessinateur ;",
+            "1963 (27 juillet) : mariage, 3 enfants ;",
+            "1963 : Octobre : Appelé sous les drapeaux : Alat à Essai les Nancy (54) ;",
+            "1964 : Janvier : Stage chauffeur poids lourds à Toul (54) ;",
+            "1964 : Mars : Chauffeur multiple (Alat),  base du camp de Souges, 33 Martignas-sur-Jalle ;",
+            "1964 : novembre : aide cuisinier, 33°RA Poitiers (rapprochement familial) ;",
+            "1965 : Libéré des obligations militaires le 27 février ;",
+            "1965: Emploi de mécanicien d'entretien Usine Michelin de Joué-lès-Tours (37) (15 mars) ; formation en mécanique des fluides, air, eau blanche de 20 à 150 bars, vapeur à 180° ; formation en entretien des systèmes électriques à faible  intensité et électromécaniques (robots à came) ; formation en entretien des ascenseurs et -monte-charges ; certificat de conduite des chariot-élévateurs électriques et thermiques ; dépannages sur automatismes, entretien des presses de cuisson des pneus poids lourds ; entretien et dépannage des ascenseurs, monte-charges et du pont à charbon ; classé Ouvrier Professionnel 3° catégorie ; cours du soir à -Albert Bayet (Tours) : préparation au Brevet Professionnel ; cours du soir au Lycée Grammont (CNAM) : préparation aux licences de Chimie et de Physique ;",
+            "1967 à 1973 : délégué du personnel et délégué CHS ;",
+            "1968 : secrétaire syndicat CGT ;",
+          ],
+        },
+        {
+          list: [
+            "1973 : Départ usine Michelin  en avril, licencié pour actions syndicales ;",
+            "1973 (juin) : Tourneur, Aléseur Rectifieur sur vérins, Usine William Bardet  à La Ville aux Dames (37) ;",
+            "1974  (mars) : Chef d'équipe, contrôle tachygraphe poids lourds, Ets Jamet STA à Chambray-lès-Tours ;",
+            "1974 (septembre) : VRP en vin (STE Galeau), vente de grands vins Bordeaux et Champagne ;",
+            "1975 (avril) : VRP en produits d'entretien de surfaces industrielles, Ste ACIC Survillers (95) ;",
+            "1977 (octobre) : VRP en produits d'entretien de surfaces industrielles, Ste REICO à Nogent le Roi  (28) ;",
+          ],
+        },
+        {
+          list: [
+            "1980 (décembre) : Création Sarl Diffusion Tourangelle de Chimie (co-gérant – VRP, livreur) ;",
+            "1984 (janvier) : Gérant seul  Sarl D.T. chimie, début des fabrications de produits d'entretien industriel ; gardien de Week-end et jours fériés aux Ets Trusson (3 ans en complément de salaire) ; création d'emploi : 1 secrétaire, 2 préparateurs, 6  VRP, (dont 2 en multicartes) ; concepteur d'additifs de combustion pour chaudières à bois, fuel  « Croc'Suies » et  additif antigel gasoil et fuel (1987 : 32 000 flacon 1 l. pour Ets Montenay) ; fabrication de liquide refroidissement pour Sté d'autoroutes du sud : 24 tonnes/mois ; préparations de solutions pour l'entretien des dialyseurs du CHR Bretonneau Tours (1 200 L/mois) avec reprise des solutions usagées de dialyse pour destruction) ; solution pour retard du gel dans les bétons et colle d'accrochage sur chapes béton, murs ; création de 150 formules de produits pour tout  entretenir, décaper, protéger, sans avoir à chauffer ou refroidir les solutions ; opérations détartrage à façon sur des installations de chauffage industrielles ou collectives et des tours de refroidissement (chaudières de 1 à 9 m3) ; établissement de diagnostics de corrosion sur métaux après sinistre (tribunaux) ; enlèvement des solvants usagers (Aérolub Chambray, Ensival Tours Nord) et transports vers usine de retraitement ;",
+          ],
+        },
+        {
+          list: [
+            "1991 (mars) : dépôt de bilan suite à impayés clients et trop forte expansion (perte de trésorerie) ;",
+            "1991 (juin) : Chef d'équipe en nettoyages industriels et peintures (SOS Nettoyages à Tours) ;",
+            "1992 (octobre) : Chimiste à Ste Dona chimie à Monts sur Guesnes (86), produit d'entretien, formulation adaptées aux cahiers des charges ;  (Reprise des solutions pour dialyseurs pour l'hôpital Bretonneau de Tours ; reprise des enlèvements pour retraitement) ;",
+            "1993 à 1997 : secrétaire d'une association de défense des artisans et commerçants « Andac » ;",
+            "1994 (septembre) : Gérant de la Sarl  Dona Chimie, début de fabrication et conditionnement à façon ; emploi 1 salarié ;  Camif : produits de ramonage cheminée, allume feu liquide etc. ; Outiror : produits de nettoyage, lave glace, destructeurs de souche ;",
+            "1996 (juillet) : déménagement de l'usine de Monts sur Guesne à  Champigny le Sec (86) ;",
+            "Septembre à Novembre 1996 : chantier à Grasse (06) Ets Orgasynthe :",
+            {
+              list: [
+                "Réfection d'un local de production : décapage et enduit des surfaces avec revêtement (plastique, hydrofuge et antidéflagrant, résine Vinylester, mat de verre, fils de laiton et poudre métallisée au carbone ;",
+                "Réfection d'une cuve de 5 m3 de rétentions des effluents de fabrication (décapage de la protection époxy, redressage des surfaces au mortier époxy, constitution d'une gaine étanche au vinylester  + mat de verre 6 mm, collage de briques en céramique au mortier d'époxy et jointage à la résine furanique ;",
+              ],
+            },
+            "1997 (juin) : Un conseiller agricole, instigateur de la méthode dite de Réduction des Doses, par emploi de l'eau adoucie et acidifiée, nous demande de lui de fournir de l'acide sulfurique, équipements de protection, systèmes de contrôle de pH et dureté à 600 agriculteurs, viticulteurs, éleveurs répartis sur le grand ouest, de Bordeaux à Nantes et de l'océan à Bourges. Ce conseiller dit agir en application des sciences de Bio-Electronique Vincent, et des transmutations biologiques de Kervran ;",
+            "1999 (mai) : Adhésion à l'Association de Bio-Electronique Vincent et début des mesures de sols, plantes etc. ;",
+            "1999 (décembre) : la Ste Outiror demande des prix toujours plus bas, la faillite de la Camif, la modification des installations de dialyse à l'hôpital Bretonneau, (perte de 60 % du chiffre d'affaires), décision de provoquer la cessation d'activité de la SARL ;",
+          ],
+        },
+        {
+          list: [
+            "2000 (février) : artisan en traitement des eaux et analyses chimiques, création d'un laboratoire portable (pH –Redox – Conductivité, photomètre UV), travaux de mesures pour le conseiller de la Ste Velayscop qui les utilise pour améliorer les apports d'intrants chimiques industriels (engrais et pesticides) ;",
+            "2001 (mars) : rencontre avec Jeanne Rousseau, présidente de L'ABE. Formations à la  Science de BE, aux transmutations avec le Dr Bonafy. Stage avec Ulrich Schreier sur les applications biologiques agricoles ;",
+            "2002 (mars) : création et présidence l'association *PANSERNATURE* avec un groupe d'agriculteurs. Rencontre avec les Dr Rebière et Lavaud qui me conseillent de continuer mes recherches ;",
+            "2002 (mai) : rencontre avec Jean Boucher et l'association AFAB, participation au conseil d'administration de l'AFAB, initiation à la méthode d'agriculture biologique par Jean boucher qui m'explique ses recherches, ses résultats et l'incompréhension rencontrée, ses déceptions. Création du site internet de pansernature.com. Création du site internet de « vagb.com »  (pour l'AFAB) (site de l'AFAB : Association Française d'Agriculture Biologique) ; *1° plaquette de présentation des applications BE en Agriculture* ;",
+            "2003 (février) : rencontre avec Michel Barbeau à l'AG AFAB ; sortie du *livre sur l'aliment de la santé* ; participation au conseil d'administration de la  association BE ; rencontre avec le Dr Bonafy pour étudier les découvertes de Gaston Nessens sur la création de la vie ; sortie du *livret « L'eau la vie »* ; le Dr Bonafy l'approuve et le met dans son cabinet ;",
+            "2004 (décembre) : organisation d'un colloque pour redonner un coup de pouce à l'agriculture biologique, par l'asso *PANSERNATURE* et Michel Barbeau, à Béruges près de Poitiers, avec 40 personnalités, dont le bureau de l'AFAB avec Jean Boucher,  Dr Herzog, Dr Jaqueline Bousquet, René Gautron, des enseignants, des agriculteurs bio et non bio ; début des conférences sur divers sujets,  et stand sur la 1° foire Fougères à Tours ;",
+            "2005 (février) : envoi du *livre « Pour une agriculture naturelle »* résumant le colloque à tous les participants pour confirmer l'orientation à prendre ; l'association AFAB ne répond pas ;",
+            "2005 (mai) : l'association *PANSERNATURE* change ses statuts pour développer l'orientation du colloque et transfère son bureau à Joué-lès-Tours (rue des Martyrs).",
+            "2005 (août) : formation sur 3 semaines faite à un ingénieur agronome partant en Chine ;",
+            "2006 (novembre) : démission du conseil d'administration de la BE, pour mieux agir avec l'association *PANSERNATURE* ;",
+            "2008 (février) : sortie du *livre « Précis d'Agriculture et de Jardinage par les Procédés Naturels »*, visé par le Dr André Rebière et Phillipe Vincent. Ce livre est ma thèse de  chercheur indépendant en Sciences de la vie et de l'Agriculture naturelle. Création officielle de l'édition *PANSERNATURE* à la BNF ;",
+            "2008 (mars) : ouverture du centre de formation qui accueille un viticulteur bio, le groupe de conseil international « Méthode Cousiné » et un ingénieur agronome ;",
+            "2009 : sortie d'un *livre sur l'énergie libre* ; ouverture d'un programme de formation pour lancer des conseillers techniques départementaux ; révision du site internet ; création d'une boutique internet « Bo Pansern » ; création du projet « NaturOparc » ; création du site internet naturoparc.org. L'association est reconnue d'Intérêt Général pour son rôle environnemental. On doit fermer la boutique sur le net. L'association se développe, elle participe aux salons biologiques locaux, avec mesures de sol et conférences. L'association intervient sur les médias, auprès des instances officielles pour défendre la liberté de cultiver et le choix des semences et sortir du piège des pesticides. Son site internet reçoit plusieurs millions de visiteurs par an. *Le livre principal « Précis d'Agri »* a été vendu à plus de 1 000 exemplaires. Il est en cours de réédition.",
+          ],
+        },
+      ],
+    },
+    {
+      id: 1,
       title: "La liberté du citoyen est un droit imprescriptible",
-      category: "Désobéissance civile",
+      category: "Désobéissance-civile",
       published_date: "07/10/2006",
       closing: [
         "Michel PROVOST",
@@ -36,7 +126,7 @@ export const articles = {
       ],
     },
     {
-      id: 1,
+      id: 2,
       title: "On récolte ce que l'on sème",
       category: "Agri-jardin",
       published_date: "19/05/2012",
@@ -54,7 +144,7 @@ export const articles = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "Les joies du jardinage",
       category: "Agri-jardin",
       published_date: "17/01/2011",
@@ -90,7 +180,7 @@ export const articles = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "Le Printemps revient, le temps des semis aussi",
       category: "Agri-jardin",
       published_date: "09/03/2012",
@@ -127,7 +217,7 @@ export const articles = {
       ],
     },
     {
-      id: 4,
+      id: 5,
       title: "La rentrée au jardin",
       category: "Agri-jardin",
       published_date: "02/09/2011",
@@ -154,9 +244,9 @@ export const articles = {
       ],
     },
     {
-      id: 5,
+      id: 6,
       title: "L'action de PANSERNATURE en faveur des jardins",
-      category: "Vie associative",
+      category: "Vie-associative",
       published_date: "21/06/2011",
       closing: [],
       text: [
@@ -189,7 +279,7 @@ export const articles = {
       ],
     },
     {
-      id: 6,
+      id: 7,
       title: "Conseils de printemps",
       category: "Agri-jardin",
       published_date: "22/03/2011",
@@ -211,9 +301,9 @@ export const articles = {
       ],
     },
     {
-      id: 7,
+      id: 8,
       title: "Courrier au Premier Ministre",
-      category: "Désobéissance civile",
+      category: "Désobéissance-civile",
       published_date: "01/06/2012",
       closing: ["Le Président", "Michel Provost"],
       text: [
@@ -241,7 +331,7 @@ export const articles = {
       ],
     },
     {
-      id: 8,
+      id: 9,
       title: "C'est l'hiver qui revient",
       category: "Agri-jardin",
       published_date: "13/11/2011",
@@ -258,7 +348,7 @@ export const articles = {
       ],
     },
     {
-      id: 9,
+      id: 10,
       title: "Bonne pousse, bonnes récoltes !",
       category: "Agri-jardin",
       published_date: "28/12/2011",
@@ -293,7 +383,7 @@ export const articles = {
       ],
     },
     {
-      id: 10,
+      id: 11,
       title: "Au Jardin Potager",
       category: "Agri-jardin",
       published_date: "08/10/2010",
@@ -307,7 +397,7 @@ export const articles = {
       ],
     },
     {
-      id: 11,
+      id: 12,
       title: "Au Jardin cet hiver",
       category: "Agri-jardin",
       published_date: "21/12/2010",
@@ -339,6 +429,469 @@ export const articles = {
           ],
         },
         "Si on n'a pas soi-même récolté les graines, il ne faut acheter que les graines naturelles, qui peuvent se reproduire (Biau Germe, Kokopelli), ce qui évite les traitements chimiques sur les graines et les OGM. Les  semences du type  « hybrides,  F1, ... »  sont à éviter, elles ne peuvent se reproduire.",
+      ],
+    },
+    {
+      id: 13,
+      title:
+        "La qualité des aliments dépend directement de son mode de culture ",
+      category: "Agri-jardin",
+      published_date: "14/12/2013",
+      closing: [],
+      text: [
+        "La qualité des aliments est intimement liée à la façon dont on cultive le sol. La pollution amenée par l'air ou par l'eau, sera de moindre importance si au départ on respecte le système d'évolution que le sol utilise pour s'améliorer au cours des siècles, puisque la végétation parvient toujours à domestiquer les espaces libérés. Même dans les déserts, certaines plantes parviennent à se maintenir dès qu'on les réimplante, ce qui permet au climat de s'adoucir et aux pluies de revenir, faisant repartir le processus de fertilisation.",
+        "Quelques soient les modes de cultures, la seule chose qui restera primordiale, c'est l'équilibre du sol et plus exactement, l'équilibre de la terre végétale, l‘humus en étant la partie noble, nourricière, une qualité qui se transmet à la plante et aux fruits qu'elle porte.",
+        "Sans faire un cours d'agronomie, il est bon de revenir sur la constitution générale des sols et son mode de fonctionnement pour comprendre pourquoi et comment depuis l'origine de l'agriculture (et du jardinage) on est passé à côté de l'essentiel : le fonctionnement du sol. Le mode d'analyse des sols par la granulométrie est incomplet pour établir la composition exacte d'un sol et il n'explique pas son fonctionnement.",
+        "Grâce à une série de mesures (structures, minérales, électroniques), nous avons pu établir le véritable rôle et fonctionnement du sol : celui de coloniser la planète par un ensemble faune et flore qui apporte à  la planète Terre sa pérennité dans le système solaire, sans se contaminer.",
+        "Le sol crée la vie, les bactéries, les plantes, les animaux, les insectes, un ensemble qui lui sert à améliorer son équilibre et à le transmettre pour en récupérer les bienfaits. Or, en étudiant les modes de cultures utilisés depuis la nuit des temps, aucun de ces modes n'a repris depuis ce qui a été découvert, expérimenté  avec les études dirigées par :",
+
+        {
+          list: [
+            "*Pierre Delbet* : Grand chirurgien, académicien, sur les équilibres de la Terre Franche, le rôle du magnésium, la cytophylaxie. Sources : Politique du cancer, l'Agriculture et la Santé, édition La Vie Claire, Equilibre Minéral et Santé de Joseph Favier ;",
+            "*Jean Boucher* : Ingénieur agronome, docteur ès sciences, l'un des fondateurs de l'Agriculture   Biologique en France avec Roger Lemaire. Il a repris les travaux de Rudolf Steiner, Battisse et Robinet, Georges Lakhovsky, René Quinton, Sir Albert Howard, Pierre Delbet, Corentin Louis Kervran, etc. pour relancer l'agriculture biologique. Sources : Précis d'agriculture biologique  (le livre de chevet des agriculteurs bio), Pour une Véritable Agriculture Biologique. On peut affirmer que sans la prospection du monde agricole, par la société Lemaire-Boucher, le mode bio n'aurait pas eu le développement actuel, parce que cette prospection a fait participé à faire connaître la culture biologique.",
+          ],
+        },
+        "Au stade des recherches, dès la fin du dix-huitième siècle, les enseignants expliquaient qu'un sol est principalement composé de sept éléments de base :",
+        {
+          list: [
+            "L'argile, le calcaire et la silice (sable), les composants structurels ;",
+            "L'humus : la nourriture des plantes représentée par les végétaux en fin de décomposition ;",
+            "L'oxygène et le carbone (air) qui pénètrent dans le sol par la pression atmosphérique ;",
+            "L'eau de pluie principalement.",
+          ],
+        },
+        "Un sol équilibré en argile, calcaire, silice et humus donne des aliments de bonne qualité.",
+      ],
+    },
+    {
+      id: 14,
+      title: "Ohé du Jardin",
+      category: "Agri-jardin",
+      published_date: "12/06/2012",
+      closing: ["Michel  le jardiner de PANSERNATURE"],
+      text: [
+        "La saison s'avance un peu trop humide pour ceux dont les sols sont : ",
+
+        {
+          list: [
+            "Trop sableux et qui voient les apports fertilisants disparaître par lessivage, avant que d'être pleinement utilisés ;",
+            "Trop gras, avec une eau qui peine à pénétrer ou qui transforme le sol en boue.",
+          ],
+        },
+        "*On ne le redira jamais assez, tout commence par l'équilibre structurel des sols : argile, calcaire, sable + magnésium !* Si ce principe n'est pas pris en compte, rien ne peut véritablement fonctionner, parce c'est ce que la nature qui cherche à s'améliorer en faisant pousser les plantes naturellement. Tout vient du sol, tout y retourne, les plantes, les insectes, les animaux et nous.",
+        "Le cycle est immuable, la terre cherche à s'améliorer, elle fait pousser les plantes qui vont la nourrir ou palier à un manque d'équilibre notoire, local ou non. Chaque plante qui pousse, fleurit, fait des graines pour se reproduire, elle tire du sol des minéraux qui vont se modifier, se multiplier, sous l'action de la photosynthèse (air et soleil), puis en mourrant, elle se dessèche et rend au sol ce qu'elle a récolté, emmagasiné.",
+        "Si le sol fait pousser un type de plante à un endroit précis, c'est parce qu'il en a besoin, et elle correspond à la composition minérale que le sol a, à cet endroit. On peut donc affirmer que la plante naturelle est bio-indicatrice de l'état du sol à l'endroit où elle pousse et qu'elle est une sorte d'usine qui travaille pour le sol. Cela signifie que si l'on change la composition du sol, on va voir pousser d'autres plantes. A nous de rechercher la composition du sol et de  l'humus qui vont convenir à la plante, au légume ou à l'arbre fruitier, pour que le sol favorise la réussite souhaitée.",
+        "L'équilibre du sol que nous proposons, après analyse de sa structure est, pour les quantités que nous apportons, le résultat que des milliers de plantes auraient obtenu pendant des années. Les apports sont faits avec des terres naturelles, extraites des carrières, qui contiennent le même principe de vie que le sol que nous améliorons. Un résultat qu'on ne peut obtenir avec des engrais chimiques, du type NPK, qui sont le résultat de la neutralisation des acides par des bases.",
+        "De plus nous améliorons aussi :",
+        {
+          list: [
+            "Le pH (taux d'acidité-alcalinité) pour obtenir un pH constructeur de la vie qui se situe entre pH : 6,5 et  pH : 7,2 ;",
+            "L'apport du magnésium qui a disparu des sols de surface parce que les engrais chimiques ont  compacté les sols, les ont rendus imperméables, et supprimé de ce fait la libération des parties de roche mère que l'eau en s'infiltrant dérochait et que les vers de terre ramenaient. Sans un apport important de magnésium, la vie ne peut exister, parce que c'est à la fois un élément utilisé pour favoriser les équilibres, permettre les réactions de catalyse, et renforcer le système immunitaire de la vie.",
+          ],
+        },
+        "Voila comment un bon jardinier peut se débarrasser des mauvaises herbes sans utiliser de désherbant. C'est assez simple, quand on analyse le sol, c'est surtout très économique. Equilibrer, apport organique, semer, planter, arroser, pailler pour avoir de bonnes récoltes ! L'équilibre du sol amène l'équilibre de la plante, ce qui favorise la santé du consommateur. Nous avons un laboratoire pour effectuer les mesures, nous sommes à votre disposition.",
+      ],
+    },
+
+    {
+      id: 15,
+      title: "La chaleur de la Vie",
+      category: "Agri-jardin",
+      published_date: "08/02/2013",
+      closing: ["Michel le jardinier de PANSERNATURE."],
+      text: [
+        "C'est le printemps qui arrive, mais déjà en Février, la nature se réveille, elle est en avance. La moindre hausse de température, la pluie, fait sortir les bourgeons, les premières feuilles. Le dérèglement climatique en est la cause généralisée, on le sait et on y participe tous par les excès de notre confort, les transports, les industries pétrolières et agricoles. L'utilisation exagérée des énergies fossiles et nucléaires, entraînent les pollutions dont la Nature subit les conséquences et nous aussi. On s'en rend compte, nos élus le savent, mais rares sont les personnes qui agissent pour enrayer cette infernale course au gaspillage.",
+        "Pourtant on a les solutions, elle sont réellement efficaces et immédiatement disponibles, propres et renouvelables à profusion : l'induction du champ magnétique terrestre produit de l'électricité, il suffit de la capter par induction !  Nikola Tesla, ce physicien aux 900 brevets, l'a réalisée et utilisée.",
+        "La terre de notre jardin ou celle des grandes cultures, nous en seraient reconnaissantes si nous, chacun à notre niveau, nous agissions simplement avec un peu de bon sens et de réflexion. Ce n'est pas parce que nous retournons la terre, par bêchage ou par labourage, comme la tradition nous l'a appris, que nous avons raison.",
+        "Un reportage de la 5 « Silence ça pousse », a été diffusé en Janvier, il montrait comment et avec quelle facilité, la main rentrait dans le sol, sans vraiment rencontrer la moindre résistance, sous l'épais feuillage qui la recouvrait. La vie était là, présente, parce que le sol était protégé des rayons du soleil, parce que la vie pouvait ainsi se développer sans crainte, et que le travail des habitants du sol produisait leurs efforts.",
+        "Dans la forêt, où la main de l'homme n'intervient pas, les arbres poussent, grandissent. Les feuilles, les fruits tombent sur le sol, rien n'est là pour les enfouir. Les animaux qui se nourrissent des feuilles, des fruits, défèquent, urinent, et parfois meurent, sur le sol. Tous ces apports au sol forment le compost naturel, qui en transformant la matière, nourrit le sol. Rien n'est enfoui, la terre n'est jamais retournée.",
+        "Quand on déracine une plante, on observe que les racines présentent deux développements :",
+        {
+          list: [
+            "Un vertical qui va rechercher l'eau (jusqu'à 40 m de profondeur pour le liseron ou l'osier) ;",
+            "Un horizontal, près de la surface du sol, pour recueillir la nourriture apportée par le compostage, sous l'action de la pluie.",
+          ],
+        },
+        "Quand on observe une prairie naturelle, on voit que les vers de terre ont déposé sur le sol des petits tas ou turricules de terre, dont certains peuvent peser jusqu'à  20 g. L'analyse de cet apport naturel révèle que c'est l'engrais le plus puissant, le plus complet que l'on puisse espérer, il y manque juste un peu de magnésium et de carbone. Calculez ce que 200 trous de vers de terre par mètre carré, avec seulement 10 g par trou, peuvent représenter : 2 kg/m² (20 kg de fumier) soit 20 tonnes d'engrais par hectare, un apport gratuit.",
+        "Les plantes qui poussent sur un sol entretenu comme cela, deviennent résistantes aux maladies et aux insectes, ce qui évite de recourir aux désherbants et aux pesticides, et en plus elles sont dix fois moins consommatrices en eau, puisque les galeries abandonnées par les vers de terre (qui les renouvellent sans cesse) retiennent l'eau et l'air.",
+        "Il faut le rappeler, les compostages ménagers, ceux des fermes, ou produits par l'industrie sont des terreaux utiles mais incomplets, parce le compostage, en durant de 6 mois à 2 ans, a épuisé le carbone et le magnésium. On doit apporter ces éléments sous la forme de bicarbonate et de chlorure de magnésium, si on ne dispose pas de d'éléments naturels comme la Dolomie ou la Kiésérite.",
+        "Un beau jardin est un jardin qui vit, on doit protéger le sol, le couvrir avec de la paille, des feuilles, de la tonte de gazon, du broyage de ramure (élagage) de feuillus, ou de la sciure, pour protéger les plantes que l'on cultive. Une plante, un arbre qui n'ont plus de protection sous leurs feuilles sont des êtres qui souffrent de malnutrition, des plantes qui vont développer des maladies et êtres attaqués par les insectes. En protégeant le sol, c'est 90 % des problèmes que vous éviterez sur les plantes, c'est la santé que vous apporterez dans votre alimentation. C'est aussi de la pollution que vous supprimerez. On est là pour vous aider, pour effectuer les analyses et vous conseiller.",
+      ],
+    },
+
+    {
+      id: 16,
+      title:
+        "Bonne et heureuse année à tous, santé, bonheur et prospérité, surtout bonnes récoltes",
+      category: "Agri-jardin",
+      published_date: "07/01/2013",
+      closing: ["A bientôt", "Michel le jardinier de PANSERNATURE"],
+      text: [
+        "*Hiver pluvieux, hiver foutu !* Les larves vont résister, les insectes vont pulluler. On le doit au réchauffement climatique, qui n'est pas une lubie des météorologistes, puisqu'il se manifeste ainsi. La force des vents et des précipitations est la conséquence de la pollution d'une part et du manque de perméabilité des sols d'autre part.",
+        "Tant que les états ne contraindront pas les industriels à modifier leurs installations pour limiter et ne plus déverser dans la nature, ou rejeter dans l'air, les nuisances qu'ils produisent, tous les efforts que nous faisons seront plus que limités.",
+        "Tant que les énergies fossiles seront la panacée pour notre confort, nos activités et nos déplacements, il n'y aura pas de réduction de l'effet de serre.",
+        "Tant que l'on considèrera l'énergie nucléaire comme la source principale de production de l'électricité, les énormes quantités d'eau (vapeur) qui sont rejetées pour refroidir les réacteurs, s'ajouteront à l'évaporation des arrosages massifs que l'industrie agricole utilise. L'atmosphère devient plus dense, elle devient plus prompte à déverser l'eau qu'elle contient, avec plus de force, plus violemment parce qu'une atmosphère dense renforce la force des vents.",
+        "Les sols constamment dénudés par l'agriculture industrielle et par nombre de jardiniers provoquent une forme d'érosion des sols par la poussière de surface que cela produit, enlevée par les vents ou par les pluies.",
+        "*Pourtant, pour éviter tout cela, les solutions existent :*",
+        {
+          list: [
+            "*L'énergie libre*, propre, permanente, produite par induction du champ magnétique terrestre est *une réalité*, a été réalisée en 1930 par Nikola Tesla. C'est l'énergie de demain ! Plus de lignes à haute tension, puisqu'on peut la produire localement sur un immeuble ou sur une ferme. Plus d'énergie fossile puisqu'elle peut être intégrée à un véhicule, à un train ou à un avion. L'énergie nucléaire est plus polluante par les déchets qu'elle produit et par l'irradiation latente, sa production devient aussi plus onéreuse par la perte du transport de l'électricité par les lignes ;",
+            "*Un sol bien travaillé*, sans labour ou bêchage, sans engrais chimiques ni pesticides, et protégé des rayons du soleil  par un paillage ou des cultures additives, permet d'absorber presque 250 litres d'eau par mètre cube de terre ameublie par les vers de terre.",
+          ],
+        },
+        "Dans notre jardin, il faudra attendre Février, s'il ne gèle pas pour, pour préparer les sols, en binant, en ramenant du terreau, du magnésium, et couvrant les sols pour que début Mars on puisse être prêt à jardiner. Une serre, un châssis seront utile pour préparer les semis.",
+      ],
+    },
+    {
+      id: 17,
+      title: "Pétition pour une véritable organisation du ferroutage",
+      category: "Désobéissance-civile",
+      published_date: "17/09/2014",
+      closing: ["Initiative soutenue par l'association PANSERNATURE"],
+      text: [
+        "A Madame la Ministre de l'Ecologie, du Développement Durable et de l'Energie",
+        "Mme Ségolène Royal",
+        "Grande Arche, Tour Pascal A et B, 92055 La Défense CEDEX France",
+        "A Monsieur le Secrétaire d'Etat aux Transports, et de l'Energie",
+        "Monsieur Alain Vidaliès",
+        "Arche Sud, 92055 Paris La Défense Cedex France",
+        "La France est traversée, chaque jour, par des dizaines de milliers de poids lourds qui ne s'arrêtent que pour les temps de repos, se restaurer dans leur cabine ou plus rarement pour remplir leurs réservoirs. Moins d'un tiers livrent en France.",
+        "Ce sont des millions de tonnes de carburant polluant (Diesel) qui chaque jour, empoisonnent l'air de notre pays, qui contaminent nos poumons et nos récoltes. La population française subit ce flot ininterrompu, par la pollution, la difficulté de circuler sur les grands axes, pour des transports qui ne la concerne pas ou très peu.",
+        "Des projets de ferroutage (Route Rail) sont à l'étude, mais aucun n'a la flexibilité offerte par le brevet français « SPLITT FAST » qui permet:",
+
+        {
+          list: [
+            "Par un simple aménagement des wagons traditionnels en wagons « SPLITT FAST » ; ",
+            "Une plateforme « SPLITT» sur le quai des grandes gares, qui facilite les opérations ;",
+            "De charger ou de décharger plusieurs dizaines de véhicules (tracteurs et remorques) avec leur chargement, des véhicules militaires à roue ou à chenille (chars), etc. *en moins d'une heure ;*",
+            "D'opérer des transferts de containers, par un portique transbordeur, ou de modifier le   chargement des wagons ou encore celui des camions ;",
+            "Un système automatisable qui ne concerne que le chauffeur du camion, le conducteur du train et éventuellement celui du portique ;",
+            "Une véritable réponse aux problèmes environnementaux, à la pollution, à la fluidité des axes routiers, avec une sérieuse économie d'énergie ;",
+            "La diminution des risques d'accident par la fluidité retrouvée de la circulation.",
+          ],
+        },
+        "On pourrait avoir des trains pour se charger dans les pays limitrophes et se décharger ailleurs, et des trains qui feraient de haltes sélectionnées et ponctuelles, ce qui ne ralentirait pratiquement pas les temps de transports habituels. Un projet pouvant être opérationnel en quelques mois, plus économique, plus souple que tous les autres projets, adaptable à tous les pays de la planète. Le système a été créé par Jean Paul Turcaud à La Rochelle. Ce projet a été présenté aux ministères, à tous les partis politiques, aux maires des grandes villes concernées, sans que cela ait suscité un véritable intérêt. C'est donc à nous les usagers, les associations, *d'agir pour notre sécurité, notre Santé*.",
+        "",
+      ],
+    },
+    {
+      id: 18,
+      title:
+        "La révélation des équilibres vitaux en agriculture ou en jardinage",
+      category: "Agri-jardin",
+      published_date: "30/09/2012",
+      closing: [
+        "PANSERNATURE",
+        "28 rue de Chambord",
+        "37300 JOUE LES TOURS",
+        "https://pansernature-37.web.app/",
+        "Panser la Nature, c'est Soigner la vie",
+      ],
+      text: [
+        "Nous sommes «*PANSERNATURE*», une association de défense de la qualité alimentaire, une qualité que nous voulons saine, apte à maintenir ou à restaurer un bon état de Santé. Nos recherches qui sont à la fois scientifiques et d'ordre pratique, nous ont conduits à concevoir une forme de travail du sol qui restaure les équilibres structurels et qui respecte son mode créatif et évolutif, que nous avons appelé « la culture par les procédés naturels ».",
+        "Nous ne sommes pas contre ce qui a été déjà réalisé avec les principes de la culture biologique ou biodynamique, bien au contraire, nous estimons seulement que les apports des sciences qui ont été censurées, cachées, peuvent nous permettre d'améliorer ces pratiques. Voici quelques-uns de ces travaux :",
+        "*Samuel Hahnemann (1800)* : Médecin, qui a découvert le pouvoir expansif de l'information produite par un poison expansée par la dynamisation infinitésimale. Le principe qui est à la base de l'homéopathie. Une avancée confirmée par les travaux de *Jacques Benveniste (1984)*.",
+        "*Antoine Béchamp  (1864)* : Médecin, biologiste, toxicologue, ce savant avait découvert, bien avant Pasteur, le fonctionnement des transformations du moût en vin par l'action des grains d'énergie, « les microzymas » ou petits ferments, des éléments indestructibles qui sont à la base de la construction de la vie. « La vie ne se développe et ne se transforme que pour recréer la vie en s'améliorant ».",
+        "*Pierre Delbet (1924)* : Médecin, chirurgien, académicien, créateur de la « cytophylaxie », le pouvoir régénérateur du système immunitaire par le magnésium, et les nombreuses applications effectuées par le Dr Neveu et de bien d'autres. Auteur de « Magnésium et Santé ».",
+        "Les chercheurs du Collège de France, démontraient en 1935 que les sols avaient des quantités suffisantes pour nourrir des dizaines d'années de récoltes, mais que moins 5% de ces quantités étaient disponibles par manque de libération par le jus de l'humus associé à l'acide carbonique. Ce qui les a amenés à redéfinir la proportion des structures de la «terre franche» et d'établir les rapports entre les minéraux pour produire des aliments équilibrés.",
+        "*Georges Lakhovsky (1931)* : Physicien, a découvert la fonction de l'oscillation cellulaire par le principe universel d'une charge électrique infinitésimale qu'il a appelée l'Univers Ion. Le taux de d'oscillation (fréquence vibratoire) est différent et caractérise chaque type de rayonnement (cosmique, solaire, terrestre, UV, X, couleurs visibles, sons, radio, micro-ondes, etc.). L'ADN des cellules vivantes est calé sur les taux de fréquence des rayonnements naturels, ce qui permet aux cellules de se créer, de se développer et de se reproduire de façon harmonieuse. Une variation de ces fréquences influe sur le fonctionnement cellulaire, tout comme les productions de champs magnétiques artificiels que nous créons par nos appareils industriels ou domestiques. L'application de champs magnétiques compensés permet de restaurer la qualité de la vie et guérir bien des maladies.",
+        "*Sir Howard (1035)* : diplômé d'agronomie, il a conduit des expériences grandeur nature, principalement en Inde, et a pu démontrer le rapport entre le carbone et l'azote (C/N), pour l'équilibre de la fermentation des composts. Il a aussi prouvé la valeur de ce même rapport a une importance déterminante pour l'action des composts sur la vie des sols et la production de bons aliments. Il a établi la relation de cause à effet entre les populations qui consommaient des produits issus d'une culture respectueuse de la vie telle qu'il la conduisait et le fait de l'amélioration de leur santé. Il a pu constater aussi que les populations se nourrissant de produits provenant de la culture avec les engrais chimiques et les pesticides, étaient beaucoup plus fragiles et sujettes à des maladies graves, envahissantes. Ces maladies qui s'estompaient dès que la nourriture provenait de sols sains.",
+        "*Gaston Naessens (1946)* : biologiste, «le Galilée du microscope» a révélé le mode de création cellulaire et l'évolution des « grains d'énergie » vers la bactérie, la construction de la vie. Cela démontre qu'à chaque instant, à chaque étape, selon l'état du milieu ambiant, « le terrain », selon le besoin à combler, la construction cellulaire peut se modifier pour créer un être différent.",
+        "*Louis Claude Vincent (1946)*, ingénieur hydrologue, professeur d'anthropologie à la Faculté de Médecine de Paris, créateur de la science de Bioélectronique, assisté de *Jeanne Rousseau*, Docteur en Pharmacie. Cette science est basée sur les potentiels d'énergie émis par les particules d'atomes (électrons et protons), ainsi que sur le potentiel d'échange de ces particules dans les solutions aqueuses (conductivité). Du point de vue électronique, les équilibres universels, obtenus par le calcul, sont pour le potentiel Hydrogène (pH) 7,07 et pour le rapport dihydrogène rH² la valeur 28 (pour 28 millions d'électrons). Des millions de mesures ont permis de déterminer que l'équilibre du sang humain avait en moyenne en 1960, un pH de 6,8 et un rH² de 21 (pour un individu en bonne santé). Aujourd'hui il est fréquent de constater des valeurs de pH 7,2 et de rH² de 22, des données qui se sont modifiées par une alimentation plus alcaline et plus oxydée. *L. C. Vincent* a créé une représentation graphique du fonctionnement électronique de la vie (pH - rH²) qui révèle le terrain électronique universel sur lequel on peut délimiter les limites de la vie, les zones d'activité des maladies et des zones d'équilibres qui peuvent varier selon les espèces mesurées (animaux, hommes, plantes végétaux). Ce graphique explicite le rapport entre le terrain d'activité des maladies, et les modifications de ces terrains effectuées par l'apport des aliments. Chaque aliment joue un rôle avec ses propres coordonnées électroniques, des éléments qui vont agir pour modifier le terrain de l'être qui les reçoit, dans le rapport poids/volume. C'est ainsi qu'il y a correspondance de cause à effet pour les personnes qui consomment des eaux de ville qui sont alcalines, oxydées, chlorées, sur-minéralisées et le développement des maladies modernes telles que les cancers, le diabète, la leucémie, les maladies cardio-vasculaires, les formes de stress, ou qui accentuent des maladies comme celle d'Alzheimer ou celle de Parkinson. Rapportées à l'étude du sol, ou des plantes, ces mesures nous permettent de comprendre le fonctionnement du sol, les défauts d'équilibre qui correspondent à des états de maladie des plantes, le fait que la nourriture (minéraux) peut être présente, mais non disponible, le lessivage… Les mesures de Bioélectronique sont incontournables pour comprendre le fonctionnement de la vie, dans les sols mais elles ne suffisent pas à tout expliquer, si on n'a pas déterminé l'état l'équilibre ou         de déséquilibre des structures (rapports entre argile, calcaire et sables). Pour affiner les apports, il faut aussi déterminer les rapportes d'équilibre des gaz et les minéraux, entre les oxydes tels que le l'azote, carbone, le calcium, le cuivre, le fer, le magnésium, le phosphate  hydroxyde, la potasse, le zinc...",
+        "*Louis Kervran (1960)* : Physicien, il a ouvert une nouvelle voie pour la compréhension des transformations de la matière opérées par les bactéries, lors des assimilations et fermentations, qui ont lieu à l'échelle de la dimension monoatomique ou diatomique. Il a pu démontrer que les organismes vivants pouvaient produire et développer des éléments sans que ces éléments soient présents dans leur alimentation. L'exemple le plus simple est qu'un sujet n'ayant plus de sucre dans son alimentation, continuera de fabriquer le sucre dont il a besoin, pendant un certain temps. L. Kervran, pour expliquer ce phénomène, a émis une nouvelle  théorie de la construction atomique et de son fonctionnement, qu'il décrit dans son livre « Transmutations biologiques à faible énergie ». Il a décrit les principales transmutations qui peuvent se produire par l'apport ou l'export d'éléments mobiles, tels que l'électron, l'hydrogène, le carbone, l'azote.",
+        "*Jean Boucher (1964)* : Ingénieur agronome, docteur ès sciences, a étudié et compilé les sciences de son temps (Béchamp, Quinton, Steiner, Delbet, Howard), pour créer une forme d'agriculture biologique avec le généticien Raoul Lemaire, qui a été diffusée par leur société commerciale. Il a créé une méthode de compostage accéléré qui permet d'obtenir un compost en quelques semaines, ce qui permet de conserver un C/N compatible avec le développement des plantes, ce qu'il explique dans son livre : « Une Véritable Agriculture Biologique ».",
+        "*Notre étude dont nous rapportons les principales sciences redécouvertes,* a demandé plusieurs années, parce qu'on ne peut se contenter d'affirmer, il a fallu tout vérifier, refaire les principales expériences et expérimentations, d'abord en jardinage, puis en grandes cultures. Il est évident que sans ces connaissances, qui remettent en question tout le fonctionnement de base qui a été enseigné dans les écoles d'agronomie, il est presque impossible de réussir des cultures qui utilisent tout ce qui restreint ou détruit la vie.",
+        "C'est ainsi que la détermination des structures d'un sol par la méthode codifiée de la granulométrie se révèle incapable de déterminer les proportions exactes des roches (argile, calcaire et sable) puisque le terme de limon englobe ces trois matières, et bien souvent la totalité des éléments contenus dans l'échantillon. (Cette méthode ne sert qu'à mettre en place des engrais chimiques NPK). C'est pourquoi il a fallu tout reprendre à zéro, redéfinir les protocoles de mesure, et travailler avec l'outil de contrôle permanent qu'est la science de Bioélectronique qui s'applique à toutes les formes de vie.",
+        "*L'association PANSERNATURE* a créé une méthode qui s'appuie sur le fonctionnement naturel de la vie des sols, sur les équilibres vitaux et qui redonne aux modes de cultures biologiques ou biodynamiques, un nouvel élan. *Pour aller plus loin et partager notre savoir* :",
+
+        {
+          list: [
+            "*Nous avons créé un laboratoire* de mesure en définissant nos protocoles ;",
+
+            "*Nous avons ouvert un site internet* : https://pansernature-37.web.app/;",
+
+            "*Nous avons publié un livre* : « Précis d'agriculture et de Jardinage par les Procédés Naturels » paru en 2008 ;",
+
+            "*Nous avons ouvert un centre de formation* qui a déjà accueilli plus de cent personnes dont des ingénieurs, des conseillers, des thérapeutes, des agriculteurs, des jardiniers municipaux… ;",
+
+            "*Nous avons créé l'indice QUEANS* : « *Qu*alité *E*nergétique de l'*A*liment *N*aturel pour la *S*anté ». Il se calcule à partir des mesures de Bioélectronique, auxquelles on ajoute les résultats des formules d'équilibre minéral, des critères propres à l'aliment. On retranche un quota en fonction de la présence de pesticides ou d'OGM. Sans être obligés de retrancher quoi que soit, les mesures de Bioélectronique nous renseignent déjà sur les oxydations que les additifs (intrants) produisent. Ce qui n'avait jamais pu être explicité, démontré, sauf par la cristallisation sensible, sans avoir la possibilité d'en établir le niveau, la Bioélectronique nous apprend non seulement à quel stade d'équilibre se situe l'état d'un sol, mais aussi pourquoi ;",
+
+            "*Nous participons à la mise en place de conseillers agricoles* pour aider les agriculteurs et les éleveurs. Une prévision de 80 conseillers pour couvrir le pays, plusieurs sont déjà en place ;",
+
+            "*Nous agissons pour améliorer l'environnement par le rétablissement du cycle de l'eau, la limitation des nuisances, la conception d'une énergie libre* et gratuite, telle que Nikola Tesla l'avait imaginée et réalisée.",
+          ],
+        },
+        "*Cette méthode explicite que c'est le sol qui gère toutes les formes de vie*, c'est le sol qui fait pousser la plante qui va le nourrir ou le guérir, une plante dont les feuilles, seront selon le cas plus petites ou plus grandes. La plante va lui apporter ce dont il a besoin (les minéraux), pour améliorer son équilibre.",
+        "*Gérard Ducerf* a démontré que les plantes sont bio-indicatrices de la composition minérale du sol. Kervran a établi les formules d'équilibre entre les atomes qui produisent, par le travail des bactéries, un nouvel élément, un élément absent mais nécessaire à l'équilibre et qui fait émerger une nouvelle plante. En appliquant une formule de Kervran, nous avons fait pousser un champ de trèfle, sans jamais l'avoir semé, en remplacement d'une prairie rustique.",
+        "Un sol équilibré (structures des roches mères) et bien nourri par un compost ou terreau composté, ayant au moins 9 % de matières animales, peut faire pousser à peu près tout, avec un C/N compris entre 13 et 15. Il est presque immunisé contre les maladies, surtout s'il a un taux de magnésie dans le rapport MgO/K20 = 1.",
+        "Il faut rappeler que *la maladie n'est que l'effet apparent d'un déséquilibre interne* et que le fait de participer à rétablir l'équilibre interne par des amendements naturels avec ajout de magnésium, agit favorablement, parfois même de façon spectaculaire. *Nous sommes à votre disposition* pour aider à un partage général des connaissances, pour aller plus loin.",
+      ],
+    },
+    {
+      id: 19,
+      title: "Arnaques à la carte bancaire facilitées par les banques",
+      category: "Désobéissance-civile",
+      published_date: "10/09/2014",
+      closing: [
+        "Une info à transmettre à tous vos contacts, à tout le monde : La nouvelle carte de paiement sans contact est copiable !",
+      ],
+      text: [
+        "Aviez-vous remarqué que votre carte bleue était équipée ainsi ? C'est comme quatre parenthèses blanches, à côté de la puce :   )))) ",
+        "La mienne l'est et personne ne m'en avait informé ! Vous ne l'avez même pas demandé à votre banque, elle vous l'a imposée ! Cela signifie que vous pouvez payer un achat simplement en approchant votre carte d'un terminal de payement !",
+        "Mais que l'on peut aussi copier vos coordonnées à votre insu,  dans la rue, dans le bus, dans le métro, ou le train…Il existe des terminaux portables qui peuvent scanner vos coordonnées bancaires, simplement en s'approchant de vous et s'en servir après pour vider votre compte bancaire, créer de fausses cartes, etc…",
+        "Comment alors prouver que vous n'avez pas fait les achats qui seront débités ? Les banquiers le reconnaissent et disent que cette carte n'est pas plus sécurisée que les anciennes, pourtant ils vous l'envoient chez vous par simple courrier postal.",
+        "Prenez le temps de regarder cette vidéo complète. Cliquer sur le lien ci-dessous (durée 15 mn) avant de vous faire arnaquer !",
+        "http://www.youtube.com/watch?v=W1Vtm4B6u60",
+        "*A vous de voir si vous la conservez ou si vous la modifiez. Soit vous demandez à votre banque de bloquer le système. Soit vous grattez la carte au dos pour détruire le lien de paiement. Soit vous la placez dans un étui aluminium…*",
+      ],
+    },
+    {
+      id: 20,
+      title: "La vie du sol nourricier que l'on assassine",
+      category: "Agri-jardin",
+      published_date: "30/09/2012",
+      closing: [
+        "Michel Provost",
+        "Association PANSERNATURE",
+        "28 rue de Chambord",
+        "37300 JOUE-LES-TOURS",
+        "Site internet: https://pansernature-37.web.app/",
+      ],
+      text: [
+        "Nous sommes toujours surpris par les formes erronées d'appréciation de la conception de la vie des sols et une confusion entre les engrais, les amendements et leurs fonctions.",
+        "La vie naturelle des sols se résume à ses couches : l'humus, la terre végétale (arable), les roches mères. Les amendements ne sont pas des engrais, ce sont des roches broyées, extraites des carrières, destinées à rééquilibrer, à compenser les manques qui existent dans une terre arable. Ceux que nous utilisons le sont après une analyse de sol pour le rééquilibrer dans l'objectif d'avoir un humus qui ressemble à celui de la *Terre Franche* :",
+        {
+          list: ["*Argile 15 à 18 % - Calcaire 35 à 40 % - Silice 45 à 50 %.*"],
+        },
+        "Les engrais organiques sont des compositions de végétaux en cours de compostage (composts) ou des terreaux quand le compostage est terminé. C'est la nourriture des plantes qui est déposée en surface pour former l'humus. Les engrais chimiques sont des compositions artificielles destinées à remplacer les produits naturels, mais qui ont l'inconvénient  d'imposer une vie artificielle polluée et empoisonnée.",
+        "La couche d'humus se trouve en surface, au contact de l'air et de l'énergie solaire, parce que c'est là que se déposent les feuilles, les fruits, les dépouilles de la faune du sol et les fientes des animaux qui viennent manger l'herbe et les fruits. C'est sur le sol que les vers de terre viennent déposer l'engrais naturel le plus parfait pour la plante avoisinante : un mélange de minéraux et de décomposition organique.",
+        "Dans cet article voué à l'utilisation des engrais chimiques, par minimisation de la vie du sol, on oublie le rôle prépondérant des vers de terre qui régulent l'harmonisation de la fertilisation sans que la main de l'homme n'ait à intervenir. Dans un sol naturellement vivant, les vers de terre peuvent creuser jusqu'à 400 trous par m², en ramenant des turricules qui peuvent peser jusqu'à 15 g d'engrais minéral par dépôt. Calculez seulement ce que peuvent apporter 10 g de cet engrais organique et minéral, avec seulement 200 trous/m² ? Environ 2 Kg au m², soit  20 tonnes/hectare (200 tonnes de fumier) !",
+        "Quand on bêche ou quand on laboure le sol, comme la tradition nous l'a appris, on retourne la terre et on enfouit la vie dans le sol, une vie qui n'a plus de contact avec l'air, l'oxygène, l'eau, le soleil… On tue la vie, une vie qui ne pourra que partiellement se reconstituer qu'au bout de plusieurs semaines. Le bêchage ou le labourage enterrent aussi la végétation « verte », cela nettoie, mais c'est un piège pour des matières qui ne se décomposeront pas et qui pourriront, faisant pousser des liserons, du chiendent, des chardons, des orties, des ronces. Dans le sol, au contact de cette pourriture, des larves d'insectes viendront se nourrir (les taupins, les vers blancs, etc.).",
+        "Les galeries creusées par les vers de terre sont toutes aussi importantes pour :",
+        {
+          list: [
+            "*Abreuver le sol*, par les pluies, une réserve qui peut retenir jusqu'à 250 litres d'eau par mètre cube de terre végétale, et servir de drains pour regarnir les nappes phréatiques ;",
+            "*Apporter de l'air dans le sol* par la pression atmosphérique ;",
+            "*Diminuer la puissance des précipitations* (orages, tempêtes) parce que l'eau qui s'infiltre ne vient pas augmenter la densité de l'air, elle ruisselle moins les sols, n'entraîne pas les sols pour créer les torrents de boue.",
+          ],
+        },
+        "Nier l'activité de la faune du sol dont celle des vers de terre est une grave erreur, qui se traduit par des catastrophes (inondations, coulées de boues, dégâts environnementaux), des conséquences  qui pourraient être évitées avec un peu de réflexion et de bon sens. Cette négation est entretenue par une fausse éducation agricole qui perdure et qui permet la vente diverse et variée des formules empiriques que les industriels de la chimie nous imposent.",
+        "Les 4 ou 5 minéraux les plus utilisés par les plantes, ne peuvent pas remplacer les 80 minéraux fournis par les vers de terres ou les engrais organiques compostés à partir des fumiers. Pire, les engrais chimiques ne contiennent pas les acides aminés, les ferments qui permettent leur assimilation normale. Pour y parvenir, on leur ajoute de l'acide acétique (la chélation), ce qui perturbe davantage le sol.",
+        "Le sol s'améliore, se bonifie par les plantes qu'il fait pousser, des plantes considérées comme nuisibles, que l'on désherbe, plutôt que de les apprivoiser, parce que l'hérésie de la propreté des sols à nu, poussée à son excès, nuit à la vie du sol en le soumettant aux rayonnements solaires. Un ver de terre ne vient pas sur un sol mis à nu, il s'assècherait. Un sol qui n'a plus de vie, se densifie, s'imperméabilise, ce qui pousse les cultures industrielles à être arrosées, même quand il pleut, épuisant ainsi les ressources en eau, vidant les nappes souterraines, asséchant les ruisseaux. Un comportement irresponsable, imposant des restrictions aux populations, polluant les eaux.",
+        "Avant que de commencer à cultiver ou à jardiner n'importe quoi, n'importe où, ce qui conduit à appauvrir les sols, à abuser de la chimie et des poisons qu'elle véhicule, des poisons que nous sommes amenés à consommer et qui provoquent des maladies, il faudrait que :",
+        {
+          list: [
+            "L'on apporte au public les vraies informations, c'est le rôle des enseignants et des médias ;",
+            "Les pouvoirs publics, par nos représentants (les députés les maires, les conseillers) éditent des lois qui favorisent le respect de la vie, sa préservation, la libre biodiversité des  semences, et qui suppriment l'emploi des pesticides et des OGM (et les nouveaux pesticides) en les interdisant.",
+          ],
+        },
+        "L'Association PANSERNATURE a mis au point une « Méthode de Culture Naturelle », qui permet l'amélioration de la vie des sols, afin de produire des aliments exempts de polluants, en quantité, en qualité, à moindre coût, sans utiliser d'engrais d'origine chimique, de pesticide ou d'OGM. Elle forme tous ceux qui veulent l'utiliser, du jardinier à l'ingénieur agronome, en espérant que ceux qui se sont formés propagent cette méthode. Nous considérons qu'une bonne alimentation est notre première médecine, parce qu'il vaut mieux se prémunir en se portant bien plutôt que d'avoir à se guérir.",
+        "*Des précisions importantes sur les amendements naturels que nous utilisons :*",
+        {
+          list: [
+            "*L'argile* dite Montmorillonite, originaire du Poitou ;",
+            "Le *basalte* est une roche volcanique friable contenant de l'argile et du magnésium pour améliorer des sols trop lourds. Originaire de l'Auvergne ou de l'Hérault ;",
+            "Le *calcaire* : la marne ;",
+            "La *dolomie* (carbonate de calcium et carbonate de magnésium) pour apporter du calcium et rétablir le pH des sols trop acides. Originaire du Poitou ;",
+            "*Kiésérite* ou sulfate de magnésie, provenant des mines de sel gemme pour rétablir le pH des sols trop alcalins (basiques), originaire de l'Allemagne ;",
+            "Le *quartz broyé* (sable à projeter pour décaper les surfaces) vendu en magasin de bricolage ;",
+            "La *pouzzolane* est une roche dure qui s'apparente à la silice, mais qui contient de niches microscopiques permettant aux bactéries de se développer.",
+            "La *sciure de chêne* qui n'est pas un amendement minéral, mais que l'on utilise en paillage pour apporter le carbone, un élément essentiel pour la vie des plantes, issu de la cellulose (aubier de l'arbre), et qui disparaît des composts dès l'instant que le compostage s'éternise au-delà de quinze jours.",
+          ],
+        },
+        "Le magnésium est le seul élément qui est en insuffisance dans les sols et dans notre alimentation. Sa carence diminue gravement notre potentiel immunitaire. Nous ne pouvons pas risquer la surdose de magnésium, parce que son excès est éliminé dès que nous urinons.",
+        "Tout ce qui est amendement, engrais organique, s'apporte sur le sol. Tout de qui se sème, se plante, se fait dans l'épaisseur de l'humus, les vrais jardiniers sont les vers de terre. Notre rôle consiste juste à les aider. Tout vient du sol, tout y retourne, c'est par des apports au sol que l'on solutionne les ennuis tels que les maladies, les insectes ravageurs, les plantes invasives…",
+        "Agriculteurs, jardiniers on peut vous aider, répondre à vos questions pour vos analyses de terre. Un échantillon de 300 g par parcelle ou jardin nous suffisent, que l'on peut nous envoyer par la poste. En retour sous une huitaine de jours, vous aurez les résultats, les explications et les conseils.",
+      ],
+    },
+    {
+      id: 21,
+      title: "Indignez-vous",
+      category: "Désobéissance-civile",
+      published_date: "22/12/2013",
+      closing: ["Michel Provost", "Président de l'association PANSERNATURE"],
+      text: [
+        "*S'indigner est un devoir Constitutionnel. S'indigner c'est refuser de devenir complice de ceux qui agissent contre la Santé, et le bien-être du peuple. De toutes parts, on nous agresse, on nous impose des règles, des décrets, on nous pénalise.* Nos libertés les plus fondamentales sont bafouées par un système global (politique, financier, industriel) qui se place au-dessus de l'étique constitutionnelle qui sert de base au fondement de notre société civile : *La Charte des Droits de l'Homme et du Citoyen* (de la femme et de l'enfant aussi).",
+        "*Nous constatons que 95 % de la nourriture qui est mise largement à notre disposition dans les circuits  de vente est  polluée*, parce qu'elle contient des poisons utilisés par l'industrie agricole ou par les émanations et déversements résultants de l'industrie chimique ou de l'emploi des énergies fossiles comme c'est aussi le cas pour  les eaux de boisson. Un aliment sain ne contient aucune substance nocive ou toxique pouvant, par son absorption, causer un quelconque risque de maladie ou de contamination.",
+        "Nous préserver est pourtant du rôle de l'Etat et des ses commissions, supervisées par les  Ministères comme ceux de l'Agriculture et la pêche, la Santé et :",
+
+        {
+          list: [
+            "l'Agence Sanitaire et Sociale ;",
+            "L'Agence française de sécurité sanitaire des aliments (AFFSA) ;",
+            "L'Institut de veille sanitaire (INVS) ;",
+            "L'Agence française de sécurité sanitaire des produits de santé (AFSSAPS) ;",
+
+            "Le Comité national de sécurité sanitaire (CNSS) ;",
+            "Le Réseau national de surveillance des MCJ et maladies apparentées (RNSMA) (MJC : Maladie de Creutzfeldt-Jakob) ;",
+            "Sans oublier les centres de recherche INRA, CNRS, INSERM, les centres universitaires, etc.",
+          ],
+        },
+        "Malgré tout le personnel utilisé, à nos frais, on constate que le fonctionnement de ces institutions aboutit à un fonctionnement qui utilise des textes qui vont à l'encontre des buts recherchés : ",
+        {
+          list: [
+            "Tout faire pour améliorer la santé et la sérénité des êtres vivants ;",
+            "Tout faire pour que la population vive dans des conditions décentes.",
+          ],
+        },
+        "Où sont les textes qui interdisent clairement les pollutions, les résidus chimiques, pétroliers ou médicamenteux, dans les aliments, dans l'air ou dans l'eau, dans les semences, et quand les textes existent, comment se fait-il qu'ils ne soient pas vraiment appliqués ? Pourquoi les laboratoires ne sont organisés que pour rechercher des produits qui ne doivent servir qu'à supprimer les effets constatés sur les êtres vivants, sans jamais s'attaquer aux véritables causes, sans même rechercher ces causes ? Pourquoi attend-on qu'il y ait des victimes, des malades par centaines ou plus, pour intervenir, malgré les pétitions, les articles de presse ? Pour ne pas mettre en cause ceux qui ont permis ou laissé faire ? Pourquoi laisse-t-on un délai pour continuer à produire et vendre des matières empoisonnées et  par là à contaminer d'autres personnes, d'autres animaux, si ce n'est pour garantir les profits de ceux qui nous empoisonnent, pour qu'ils puissent continuer à nous nuire en Bourse ? Alors que de vraies solutions existent, elles ont été expérimentées, on peut les rendre applicables de suite, il suffit simplement de le rendre possible, mais la volonté politique est curieusement absente, malgré les vaines promesses, les discours trompeurs.",
+        "*Règlements limitant ou interdisant l'accès à une nourriture saine :* Dès 1940, sous le gouvernement Pétain, dans le cadre de la « Révolution Nationale », sous la pression allemande (SS), pour encadrer les professions de l'Agriculture et de la Santé, pour les soumettre à la volonté de l'uniformisation des conceptions hitlérienne. Plus de 16 500 lois et décrets ont été publiés en 4 ans ! Tous les secteurs de la vie publique et sociale sont concernés, mais l'encadrement des professions sera déterminant pour modifier radicalement les libertés individuelles et collectives.",
+        "*L'ordre des Médecins :* Afin que les médecins uniformisent leur procédure de soin en privilégiant les médicaments pharmaceutiques produits industriellement en Allemagne (Bayer, Byk Gulden, Boehringer, Hoechst, etc.). Poulenc  est  pratiquement  sabordé, démantelé. Les médecins n'ont plus la liberté de faire des recherches médicales, ces recherches sont réservées aux laboratoires universitaires ou de production.",
+        "*L'ordre des pharmaciens :* Pour que les officines distribuent principalement les produits  manufacturés industriellement, les brevets sont pillés et  les filiales des industries françaises sont désorganisées. L'herboristerie est encadrée, elle est et reste soumise au monopole pharmaceutique. Même si à la libération en 1945, bien des textes ont été abrogés, supprimés, le principe du contrôle et de l'encadrement des professions restent, sont toujours appliqués, renforcés, et certains ordres professionnels sont devenus de véritables monopoles qui se considèrent au-dessus des lois, légiférant, condamnant quiconque oserait empiéter sur leur prérogatives, allant jusqu'à répudier ceux qui ne suivent pas leurs directives à la lettre. Les médecins ainsi révoqués ont-ils démérité, perdu les connaissances qu'ils ont acquis pendant de si longues études ? Non, ils ont  découvert que bien souvent les maladies sont mieux soignées, voir guéries avec des plantes ou des solutions naturelles, avec beaucoup moins de risques, sans devoir dégénérer lentement la santé de ceux qui leur font confiance. Chaque mois, des associations interviennent ici ou là pour défendre ces médecins qui n'ont plus le choix que celui de devenir naturopathes ou de quitter leur profession, à moins qu'ils ne s'unissent pour créer un syndicat de médecins dissidents.",
+        "*L'agriculture* n'échappe pas à la règle, l'uniformisation va essayer de contrôler la production des   fruits et des légumes, en imposant une seule variété par espèce fruit ou de légume, dans un *'Codex Alimentarius'*. Le codex est à l'origine du 'Catalogue officiel des espèces et variétés' qui régit les espèces produites en France dont la production est destinée à l'alimentation, aux usages pharmaceutiques ou vétérinaires. L'inscription des espèces est codifiée et se fait par des décrets publiés au Journal Officiel de l'Etat Français sous la pression des semenciers industriels. Les semenciers veulent ne voir figurer au catalogue que les produits qu'ils ont créés, brevetés, pour les imposer à la vente, pour devenir les seules possibilités disponibles dans les magasins (hybrides F1, par exemple), ce qui tend à exclure toute biodiversité. On constate que le nombre des produits inscrits au catalogue diminue d'années en années, au profit des semences modifiées certifiées. *Le Codex Alimentarius* sera repris en 1963 par l'Organisation Mondiale de la Santé (OMS) et la Fondation de l'Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO), sous le principe de servir de base à la réglementation des denrées alimentaires qui devait avoir pour but de garantir la protection de la santé des consommateurs ! La France et l'Union Européenne sont adhérentes de ce codex et en adoptent les directives. *Les conséquences sont dramatiques pour les agriculteurs (bio) et pour les jardiniers !* Sous le prétexte de garantir une bonne alimentation, on interdit de vendre tout ce qui n'est pas inscrit, codifié dans le catalogue officiel, dont les produits d'origine naturelle ont été écartés. Tout est soumis au contrôle de l'Etat.",
+        "*Le Service de la Répression de Fraudes*, qui a pour mission de protéger la population contre les méfaits de ceux qui concourent à dénaturer la qualité des aliments,  tout ce qui pourrait être ou devenir un risque de contamination pour les consommateurs :",
+        {
+          list: [
+            "Propreté et hygiène des établissements qui vendent ou qui transforment les aliments (cuisines, restaurants, usines, etc.) ;",
+            "Rupture de la chaîne du froid ;",
+            "Contrefaçons des produits manufacturés, labellisés par une marque.",
+          ],
+        },
+        "Curieusement cet organisme ne rechercherait pas la présence des intrants dans les aliments (pesticides, OGM) et dans les semences. Un de ses agents a affirmé que le nitrate de potasse, n'est pas un produit dangereux parce qu'il  est autorisé pour 'rosir' la viande de veau ! (A-t-il eu conscience de l'action insidieuse que ce produit fait dans un estomac ?) On constate que les laboratoires privés ou universitaires doivent rentrer en dissidence pour pouvoir signaler les risques, les dangers que représentent les produits dégénérés, empoisonnés. Dès que les résultats sont publiés dans la presse, ou assiste à une levée de bouclier par de « bons scientifiques » en blouse blanche, qui viennent affirmer le contraire, réfutant la qualité des laborantins ou des associations, dénaturant le mode d'analyse utilisé, pour minimiser, puis essayer de démontrer par des analyses nouvelles que les contaminations ne sont pas réelles.",
+        "Ce mode de dénigrement de la vérité a été utilisé par Pasteur qui a réfuté les découvertes d'Antoine Béchamp en 1865, pour s'en attribuer les mérites quelques années après. C'est ainsi que les plus illustres de nos savants, internationalement reconnus par leurs travaux sont contraints de s'expatrier, de stopper leurs recherches, parce qu'ils osent révéler la vérité en la publiant, s'opposant à la dictature des lobbies industriels et financiers :",
+        {
+          list: [
+            "Gaston Naessens : la réalité du mode de la contamination, le 714X qui rétablit l'immunité ;",
+            "Jacques Benveniste (l'efficacité de l'homéopathie, par la mémoire de l'eau) ;",
+            "Mirko Beljanski (le pouvoir régénérateur de l'ARN) ;",
+            "Corentin Louis Kervran (l'efficacité des transmutations biologiques) ;",
+            "Louis Claude Vincent (la réalité du terrain biologique, l'action du polymorphisme) etc.",
+          ],
+        },
+        "On assiste à chaque fois au silence prudent des politiques qui laissent la place à la désinformation quand ils ne l'entretiennent pas. On a toujours en mémoire le passage du nuage radioactif provenant de Tchernobyl et  le « savant » qui a aussitôt affirmé : 'Vous ne risquez rien, le nuage a été détourné par les vents à la frontière de notre pays !' Cela n'est pas nouveau, les scandales du sang contaminé, ceux de la maladie de la vache folle (ESB), avec les fausses alarmes sur les contaminations grippales, avec le flop des commandes pharamineuses de vaccins, ou encore avec les nombreux médicaments vendus sans de réelles études d'innocuité et qui sont à l'origine des décès, des traumatismes. Les fameux responsables, mais pas coupables ! Mais on a pu constater que les aliments cultivés, les champignons, avaient reçu des doses importantes de radiation bien au-delà du passage réel du nuage.",
+        "*Les attaques contre les agriculteurs* et contre ceux qui veulent respecter la vie de leurs sols, en privilégiant l'emploi des semences de qualité naturelle, originelle, se multiplient. Les aliments obtenus de façon naturelle, en travaillant le sol, dont l'origine ancienne fait partie du patrimoine universel de notre pays, dont la sélection, l'amélioration a toujours été faite par les agriculteurs. Les graines, les plants ainsi obtenus ne peuvent être considérés comme la copie, le plagiat d'un brevet, puisqu'ils n'ont pas subi les manipulations génétiques, les ajouts de pesticides par les semenciers qui obtiennent ainsi des produits dénaturés, qu'ils font breveter et inscrire au dit catalogue officiel qui devient une hérésie. La Ferme de Sainte Marthe près de Blois (41) au dû cesser ses sélections, ses expérimentations. Kokopelli, est attaqué pour proposer aux jardiniers des semences originelles non inscrites au fameux catalogue. On constate que dans cette attaque, la personne du Gouvernement, envoyée à Bruxelles pour « soutenir » Kokopelli, fait aussi partie du comité directeur d'un groupement de semenciers industriels. Cherchez l'erreur…",
+        "C'est tout le principe de la liberté du choix ce que l'on peut avoir pour obtenir des aliments plus sains, conformes à notre alimentation qui doit être exempte des poisons, pesticides, OGM. L'alimentation saine est la véritable solution pour être la véritable médecine préventive, celle qui nous permet de rester en bonne santé ou d'en améliorer les conditions. Si  notre Santé est mise à mal, c'est parce que tout est organisé pour entretenir un climat d'insécurité qui commence par l'entretien de la peur des catastrophes, des conflits morbides, et des soi-disant contaminations, ce qui est largement entretenu par les médias.",
+        "Pire, dans le berceau, avant même que nous puissions nous y opposer, on nous injecte dans notre organisme, des substances polluées par des oxydants métalliques, appelées vaccins, dont on constate bien après les conséquences désastreuses, les décès, les invalidités, les maladies immunes, etc… Les oxydants métalliques, dont l'aluminium, sont reconnus aux Etats-Unis comme étant à l'origine d'une forme d'autisme par le Vaccin ROR, de sclérose en plaque par le vaccin de l'hépatite B, déficience immunitaire par le BCG, etc.",
+        "Toutes les commissions de contrôle des aliments, des médicaments, des vaccins sont  noyautées par la présence de personnes affiliées aux lobbies industriels de la chimie et du pétrole, parce que tout a été ainsi organisé dans ce sens, puis qu'on a supprimé les crédits aux laboratoires officiels et de ce fait on leur a ôté toute possibilité de contrôle véritablement indépendant et objectif. (Il est de bon ton de prévenir que l'on va venir faire un contrôle).",
+        "Même l'éducation est gangrenée par les industries parce qu'elle est obligée de passer des contrats avec l'industrie, on l'y incite, pour palier le manque de crédits accordés par l'état. L'état accorde des sommes importantes pour soutenir l'internationalisation des industries qui font d'importants bénéfices, mais qui se délocalisent, qui licencient et placent les bénéfices en bourse. Les places boursières sont la gangrène des nations, des états, des industries, en leur imposant des règles financières, sans aucun rapport avec leur fonctionnement. Le système boursier est placé sous la férule des agents boursiers qui sont les représentants des possesseurs de fortunes gagnées sur la misère et la déchéance des peuples, par quelques groupes (familles). Des sommes colossales ont été détournées de leurs objectifs alors qu'elles étaient destinées, à l'origine, à éduquer (les universités américaines), à garantir les retraites (fonds de pension), etc. De l'argent qui sert pour alimenter la spéculation tous azimuts, de l'argent qui se moque des populations, de leur existence, de leur avenir, de leur santé. Pire les boursicoteurs, ceux qui mettent leurs économies, ceux qui jouent en bourse les rapports immédiats de leur activité, participent à désorganiser l'équilibre de leur propre situation, à obérer leur avenir, pour gagner parfois quelques centaines d'euros, quand ils ne doivent pas rembourser les pertes. Jouer en bourse contribue à couper la branche sur laquelle on est assis ! Que représentent-ils face aux traders à la solde des banques et des sociétés de placement qui organisent la déchéance des entreprises, des civilisations, des pays, parce que le simple fait de déplacer, d'un simple clic de souris, des milliards d'euros, cela leur permet de gagner de  5 % à 10 % de bénéfice net par heure.",
+        "Les catastrophes, les émeutes, les guerres ont souvent pour origine quelques clics de souris parce qu'on spécule aussi bien sur la réussite que sur les pertes, en imposant des prêts de restructuration à des taux usuraires, quasi-impossible à rembourser, ce qui amène la faillite assurée des états et des entreprises nationales ou privées. (Les mercenaires ont de l'avenir). La déchéance, la désorganisation est aussi un des facteurs de bénéfices, par la récupération des espaces libérés par les faillites, la vente ou la dispersion des matériels, des machines, ce qui contribue le fait d'appauvrir une ville, une région, un pays, le tissus social. Rien n'est plus facile que de contraindre un pays à surtaxer ses entreprises, à démunir les salariés, a réduire à néant les subventions accordées aux villes, aux associations, parce que cela entretient la peur, la déchéance, la précarité, la défiance et qu'ainsi les remboursements accordés aux spéculateurs seront encore plus rémunérateurs.",
+        "*Organiser la désobéissance civile est devenu une nécessité !* Que représente le poids d'un pays comme la France sur l'échiquier international, avec ses presque 70 millions d'habitants, face aux géants comme ceux des Etats-Unis, de la Chine, de l'Inde, ou du Bloc de l'Est reconstitué, qui eux totalisent des milliards d'habitants et autant de possibilités financières ? Ils ne peuvent pourtant être notre modèle de société parce que leur mode de fonctionnement  génère plus de pauvreté chez eux, plus de précarité que nos 5 ou 6 millions de demandeurs  d'emploi, déclarés ou non, avec pour excès tous ceux à qui l'on a fait croire que notre pays est  un eldorado et dont une partie vient piller nos habitants. Il faut non seulement s'indigner contre les exactions, commises sur les maigres revenus du peuple, qui sont continuellement rognés par la finance, mais aussi contre le placement en état  de déchéance de tout ce qui nous permet de vivre, de survire.",
+        "Qui peut encore croire que le patronat et ceux qui les soutiennent, ceux dont les dirigeants ont des salaires exagérément gonflés, des stocks options, des parachutes dorés, des primes de départ en retraite mirifiques. Qui peut encore penser que ces dirigeants (patrons, politiciens) vont agir pour aider la population, garantir les emplois, alors qu'ils organisent les licenciements, les délocalisations tout en engrangeant les bénéfices et les aides de l'Etat ? Qui peut encore soutenir un élu français, européen, qui vote (souvent par obligation politique) la déchéance des institutions, la mainmise des lobbies financiers et industriels, sur le moindre de nos avantages, de nos libertés ?  Quel maire d'une ville peut encore penser qu'il va pouvoir récupérer des fonds pour sa ville,         endiguer la vague des diminutions financières opérées par l'Etat, en se portant Député ou Sénateur, quand il sera obligé de suivre les décisions imposées par le parti qu'il l'a fait élire et dont les décisions se retournent contre lui, ses convictions en trompant ainsi la confiance accordée par ceux qui les ont élus.",
+        "*On peut et on doit agir maintenant et ouvertement !* Légalement parce que c'est prévu par notre Constitution (Celle du Droit des Hommes et des Citoyens). Comme l'on fait nos parents sous l'occupation allemande, en devenant résistant, parce que notre devoir est de s'opposer aux despotes, aux oppresseurs et aux tyrans. On commémore chaque année ces héros, martyrisés, tombés, pour nous avoir transmis leur conception d'une Liberté, d'une Egalité, d'une Fraternité, d'une Laïcité impartiale. L'exemple de Nelson Mandela était le plus porteur de l'opposition constructive. Les oppresseurs d'aujourd'hui n'ont plus de frontières, ils sont chez nous, ils nous volent nos libertés, ils agressent notre Santé, notre mental, ils empoisonnent notre alimentation, ils réduisent nos possibilités d'éducation, d'évolution.",
+        "*Notre devoir est de s'opposer à toute décision qui peut nous priver de nos libertés élémentaires :*",
+        {
+          list: [
+            "*L'agriculture, le jardinage, sont nos sources d'alimentation et de Santé ! Il faut Agir pour améliorer notre alimentation, la rendre plus saine parce qu'une alimentation saine permet de rétablir et de préserver la santé.* Chaque mètre carré doit être utilisé pour obtenir des légumes, des fruits, des plantes aromatiques, de façon naturelle, en préservant les équilibres, la vie biologique des sols, c'est facile, c'est utile, on a la méthode et la technique. Moins d'engrais chimiques, c'est moins de pesticides, plus d'OGM, leur diminution réduira d'autant les profits des lobbies ;",
+            "*Nous devons privilégier les circuits courts pour que les aliments soient à proximité.* Chaque kilomètre parcouru est une perte inutile d'énergie qui grève les prix, qui fait perdre du temps, use du matériel, il faut donc inciter les producteurs à organiser les marchés locaux, les dépôts marchands, les ventes de paniers garnis ;",
+            "*Nous devons préserver la Biodiversité.* Retrouver le goût naturel des bons produits, c'est aussi protéger la diversité, on doit s'opposer à tout ce qui peut nous priver de tout ce que la nature nous a offert, alors on va multiplier nous-même les graines et les plants et les offrir à nos voisins, pour qu'eux aussi en bénéficient et les multiplient. Chaque graine, chaque plant ainsi obtenu, feront un manque de vente aux semenciers et l'accumulation de leurs pertes feront leur disparition. Que nous importe si nous devions perdre le titre de 1° nation agricole exportatrice si cela doit l'être avec des produits dénaturés, impropres à la consommation, qui sont réservés au bétail ou à la nourriture des peuples maintenus à l'état de sous-développement ;",
+            "*Améliorer la qualité* ne passe pas par la suppression programmée des espèces naturelles pour la remplacer par des clones bricolés avec des composés chimiques dénaturés dans lesquels on insère un peu n'importe quoi. La qualité s'obtient par la sélection des meilleures semences naturelles, produites sur un sol sain et préservé, comme l'ont toujours fait la multitude des générations d'agriculteurs qui sont succédées et dont le mérite leur revient, leur appartient. L'exemple nous est donné par les associations indépendantes de producteurs locaux comme Semences  Paysannes, Biau Germe, Kokopelli, etc. Aidons-les en achetant leurs graines, leurs plants, en les multipliant, en soutenant leurs actions ;",
+            "*Organisons nos propres circuits de distribution :* C'est par la qualité que nous gagnerons nos propres marchés, ceux que nous organiserons en dehors des systèmes actuels qui sont à la solde des lobbies de la finance et des marchés internationaux, avec des prix qui préserveront nos ressources. *Nous disposons en plus d'un atout magistral : l'indice QUEANS* qui établit le niveau de la qualité énergétique que chaque aliment peut transmettre, l'outil qui permet d'établir un juste prix. Le marché de la qualité existe, il n'attend que les produits adéquats, puisque pour notre consommation de produits sains (bio), nous les importons 95 %, en provenance des pays éloignés, comme ceux de l'Amérique du sud (il est difficile d'aller y contrôler s'ils sont bio) ;",
+            "*Il faut supprimer les sources d'énergies polluantes comme le sont les énergies fossiles ou celles nucléaires* (qui sont énormément plus consommatrices d'énergie qu'elles n'en apportent). A quoi  cela nous servirait de tout faire pour améliorer notre alimentation si par ailleurs nous         sommes à la merci des pollutions produites par l'usage des produits pétroliers, qui engendrent  de véritables catastrophes sanitaires dans :",
+            {
+              list: [
+                "*l'air :* gaz d'échappement, fumées d'usine ou de chauffage, les aérosols, les émanations des  pesticides ;",
+                "*l'eau* par les fuites plus ou moins accidentelles, le ruissellement provenant des parcelles industrielles, avec les pesticides qui sont tirées du pétrole ;",
+                "*les plantes* qui 'récupèrent' les polluants ce qui nous oblige à augmenter les apports régénérateurs (magnésium) ;",
+              ],
+            },
+            "*Il faut se protéger des radiations latentes*, comme nous avons subies celles de Tchernobyl, de Fukushima, ou celles que nous subissons par les radiofréquences émises par les lignes à haute tension, les antennes relais des téléphones portables. Ce qui va encore s'aggraver avec les radiations émises par les antennes relais de la 4 G  et les nouveaux compteurs électriques Linky qui diffusent des micro-ondes.",
+            "*Nous devons faire en sorte que chaque parcelle d'énergie utilisée*, puisse être obtenue sans la moindre source d'origine polluante (agricole, chimique, pétrolière ou nucléaire). Il faut que chaque Watt obtenu ainsi, le soit par des solutions propres, en utilisant celles qui sont naturellement  disponibles comme avec le soleil ou le vent, sans les grandes éoliennes ou les capteurs solaires dont le coût est  prohibitif ou encore en obtenant l'énergie issue du champ magnétique terrestre par induction. Non seulement c'est faisable, mais cela a été réalisé, expérimenté et est déjà utilisé, les expériences sont relatées sur le Net qui est une source inépuisable d'informations. Améliorer la qualité des habitats par la construction en terre crue, mélangée ou non avec la cellulose, c'est obtenir des qualités acoustiques, thermiques, d'un confort inégalé, avec de véritables économies de construction et d'énergie. Améliorer l'alimentation, la rendre plus saine, supprimer les engrais chimiques, les pesticides, interdire les OGM et toute modification génétique, réduire la consommation énergétique, remplacer les sources des énergies polluantes, c'est autant de produits, de matières nocives ou toxiques, qui seront évités.",
+          ],
+        },
+      ],
+    },
+    {
+      id: 22,
+      title: "Le vin, un produit naturel ?",
+      category: "Santé",
+      published_date: "16/08/2014",
+      closing: ["Michel Provost"],
+      text: [
+        "Le vin est l'un des aliments que certains voudraient considérer comme une drogue, au même titre que l'alcool, le tabac ou les produits dopants illicites. Notre approche concernant les produits addictifs, que ce soit des drogues ou des jeux, se résume en une question : *Pourquoi des êtres humains recherchent-ils une forme de réponse à un problème qu'ils ne parviennent pas à résoudre, par des solutions qui sont inappropriées ?*",
+        "Notre forme de société civile sous le joug de la finance, crée des situations traumatisantes et elle ne recherche pas les moyens de venir en aide pour compenser les dégâts qu'elle provoque : chômage, handicaps, maladies, décès, perte de salaire, de moyens d'être, dislocation familiale,  asservissement, frustrations, harcèlement, etc... Cette société crée plus de besoins que les gens ne peuvent acheter, plus de rêves que chacun de nous ne peut réaliser. Pire, elle organise les addictions : le tabac n'est plus ce qu'il était, on y a rajouté des produits qui décuplent l'envie, le besoin, l'état étant lui-même l'un des pourvoyeurs. Ce n'est pas en accusant un produit alimentaire dont la consommation exagérée produit de mauvais effets, que l'on résoudra les problèmes de société. On ne fait que déplacer les problèmes, ou on cherche de nouvelles sources de revenus fiscales.",
+        "*Le vin est un aliment noble, naturel, ancestral, comme pour tous les aliments la qualité du vin doit être préservée, améliorée.* Considérer le vin comme une simple drogue est un crime contre la Santé, puis qu'il est reconnu qu'un vin de bonne qualité, consommé modérément est un élément qui prévient les maladies cardiaques, les maladies dégénératives. De nombreuses études le confirment. Il y a de bons vignerons, de bons viticulteurs, et des gens qui n'ont pas la compétence pour exercer ces métiers. Il y a aussi des mécréants qui recherchent uniquement le rapport financier immédiat. La facilité, n'est et n'a jamais été une bonne conseillère, seuls les bons professionnels qualifiés ont acquis l'expérience qui allie le sérieux et le respect de la vie à tous ses niveaux. Les dérives viennent essentiellement de la façon de cultiver, de bonifier les sols, ce qui évite ensuite d'avoir à rattraper dans le chai ce qui a été mal fait dans la vigne. Dès lors, une méthode de culture inappropriée, l'emploi des engrais chimiques, les pesticides, les additifs, le sulfitage, etc. ne peuvent que produire un breuvage dénaturé, empoisonné par les résidus qu'il contient.",
+        "Une étude sérieuse effectuée sur les vins a été faite par l'association « Mouvement pour les Générations Futures ». Elle a permis de constater les dérives et les traces des poisons utilisés à tous les niveaux, depuis le sol jusqu'à la mise en bouteille. Cette association a gagné le mauvais procès qui lui a été fait, non pas sur les analyses de la mauvaise qualité des vins, mais sur les pertes financières à venir, à cause de cette révélation. Il est vrai qu'en agriculture intensive, les produits dégénérés obtenus, ne le sont que par l'apport des aides financières et ils servent à nourrir les populations des pays dits sous-développés ou à entretenir les spéculations. Tout n'est pas blanc ou noir, dans la profession viticole, il y a du très bon, du bon et du mauvais. On sait que des grands vins sont produits de façon très proche des méthodes biologiques, les producteurs ne veulent pas le révéler, parce que le « Bio » est décrié et nuit au commerce. L'association *PANSERNATURE* considère qu'un aliment, quel qu'il soit, devient un poison pour l'organisme, à plus ou moins long terme, s'il contient des éléments pouvant nuire à celui-ci.",
+        "Notre étude a porté sur un vin de Bourgueil (Touraine) qui était très bien conservé. Il est produit par un cépage Cabernet franc dit « Breton » cultivé sur un sol argilo-calcaire sans autre apports sur le sol que du fumier. Vendangé à la main, écrasé à la presse, le moût s'est fait avec la pulpe et la rafle. Le vin a été mis dans des foudres, mis en barrique, ouillé et soutiré puis collé et filtré au drap, et enfin, tiré en bouteille au bout d'un an. On utilisait pendant des années les mêmes barriques, ce qui n'influait pas sur le goût du vin. On souffrait les barriques pour éviter les fermentations bactériennes avant de les remplir. Une pratique qui a aujourd'hui disparue avec la mécanisation. Le vin est séparé de la pulpe et de la rafle, la fermentation du jus se fait en cuve, la filtration est faite après sur diatomées, le vin est mis au repos en barrique, ou en cuve inox, avant la mise en bouteille. Or, c'est bien dans la pulpe que se trouvent les ferments naturels, dont le bisulfite organique qui permet au vin de démarrer la fermentation. C'est par le tanin de la pulpe et de la rafle (tige du raisin) que la conservation du vin acquière sa valeur de durabilité. Le pressage en fin de moût permet d'obtenir le jus de presse (bernache) qui finira seul sa fermentation en foudre ou en cuve. Le tartre du vin (cristaux d'acide tartrique de potassium) qui se figent dans les barriques, fûts et cuves est un phénomène naturel qui est inhérent à la composition minérale des vins.",
+        "Depuis des générations, on a exagéré les quantités de potasse déposées sur les sols, surtout quand ils sont calcaires, ce qui accentue largement de phénomène de re-déposition avec le stockage du vin, à tous les stades. Le vin boisé artificiellement donne une fausse idée de la qualité d'un vin, une forme de tromperie. Une culture qui ne respecte pas le fonctionnement séculaire de la vie des sols, le non respect de l'équilibre des sols au niveau de l'humus, la terre restée à nu y compris sous les ceps, sont autant de facteurs qui ont été et sont à l'origine des maladies, des larves ou des insectes qui atteignent la vigne. On peut considérer que le labourage des vignes avec l'enfouissement du fumier, la méthode ancestrale, est à prendre en considération pour la propagation des maladies comme le phylloxéra. Celui de l'enfouissement des sarments permet la diffusion les termites, puisque dans le sol, le bois ne se composte pas. Le fait d'utiliser des engrais chimiques, des pesticides accentue les contaminations, la fragilité des ceps. Une étude (Mouvement des générations futures) a démontré leur présence dans le vin. La mécanisation, le pressage avec l'élimination de la pulpe et de la rafle, le filtrage sur les diatomées, éliminent les éléments vitaux du vin et nuisent à sa conservation, mais cela permet de rendre le vin plus rapidement consommable. Les ajouts de bisulfites ou autres conservateurs, le boisage, sont des oxydants puissants qui acidifient (baisse du pH) et oxydent (augmentation du Redox qui passe de 10 à 20). Le fait de ne plus obtenir des moûts avec la pulpe et la rafle, a pour effet de ne plus avoir dans le jus les conservateurs naturels, de modifier les arômes, d'où l'action de l'œnologue pour « rattraper » ce qui n'a pas été fait en amont, dans la vigne ou par la fermentation normale.",
+        "*Dès lors quelle valeur peut-on attribuer à un vin qui doit être et doit rester l'un des garants de notre santé, dans la mesure d'une consommation responsable et raisonnable, si on n'a pas respecté sa nature, sa culture et son processus d'obtention naturelle ?*",
+        "On critique tout et n'importe quoi, mais si l'on commençait par rétablir les processus vitaux, ceux que la nature nous a permis d'observer et d'appliquer, on ne serait pas obligé d'utiliser tout un arsenal d'artifices plus néfastes qu'utiles. Dès lors, la qualité intrinsèque du vin naturel, devient un gage de rentabilité, reconnue par la qualité obtenue, une qualité que les instruments confirment. Nous ne savons pas tout, mais ce que nous avons découvert, vérifié, nous permet d'affirmer que le renforcement de l'équilibre des sols ne peut que limiter les inconvénients qui surviennent lors de la transformation biologique qui s'opère dans la fabrication, l'élaboration des aliments. Il y a des reportages, des vidéos :",
+        {
+          list: [
+            "« L'agriculture biologique » sur le travail des sols et du boulanger, diffusé en 1998 ;",
+            " « La culture directe » diffusée sur la Télé Agricole ;",
+            "Les explications du couple Bourguignon sur la qualité des sols ;",
+            "Le travail et les enseignements de Pierre Rabhi, ceux d' Hérody…",
+          ],
+        },
+        "Mais personne ne s'est soucié de reprendre avant nous, les travaux de Jean Boucher (l'équilibre des sols, « La terre Franche ») ; la fabrication du « Compost Eubiotique » ; l'excès de la potasse limité par le magnésium et tout le travail de Delbet sur les équilibres. Personne n'a véritablement développé les travaux de Louis Claude Vincent et de Jeanne Rousseau sur les équilibres électroniques des plantes et des sols, comme nous l‘avons fait depuis plus de quinze ans, sur le terrain. *La Bioélectronique est la seule science qui révèle le fonctionnement intime de la vie.* Des données qui sont absentes des enseignements de l'agriculture biologique, comme l'ont constaté nos adhérents qui les ont suivis. Dès lors on peut comprendre que l'on utilise les artifices biologiques (tisanes, plantes) à la manière de ceux de l'agriculture intensive, parce que la méconnaissance et l'obstination de certains à rester dans ce contexte, sans chercher à le dépasser, ne peur conduire qu'à ne pas considérer que d'autres possibilités s'offrent à nous. Notre rôle n'est pas de juger, ni de stigmatiser ce qui existe, parce que dans l'ensemble de la filière biologique il y a beaucoup de bon sens et de respect de la vie, mais d'apporter notre travail et de le partager.",
+        "La culture de la vigne est l'exemple typique qui permet de mieux comprendre le rapport des équilibres. Une liane sauvage, apprivoisée, modifiée selon les terroirs et les traditions par l'hybridation, est un arbuste qui concentre dans ses fruits :",
+        {
+          list: [
+            "Les hydrates de carbone qui par la fermentation donnent du vin ;",
+            "Le calcaire et la potasse (acide tartrique, gravelle…) qui se déposent dans les cuves, les fûts, les bouteilles ;",
+            "Des principes élémentaires alimentaires (enzymes, protéines, vitamines) donnant des gages de santé aux consommateurs à doses réduites. C'est un fait établi, vérifié. (Des médecins ont utilisé du bon vin rouge pour remplacer le lait pour les nourrissons dans des cas de son intolérance, à la dose d'une cuillère à soupe par biberon).",
+          ],
+        },
+        "Le dépôt de tartre, plutôt significatif de qualité, a été retiré par le filtrage à la presse, mais on a aussi enlevé les trois quarts des éléments (enzymes, protéines, vitamines) nécessaires à la santé, des éléments qui participent à la qualité et à la conservation du vin. L'équilibre des sols, l'apport du magnésium, le pressage sur les grains, la fermentation avec la pulpe et la rafle, sont autant de facteurs qui améliorent la qualité de la vinification et de la conservation des vins sans le recours aux potions magiques.",
+        "https://i.ibb.co/DRMQ04k/le-vin-un-produit-naturel-image-1.jpg",
+        "Chaque intervalle de ligne représente une valeur d'un million de millivolts, on peut donc observer l'étendue de l'oxydation opérée par les apports faits aux vins. Ce graphique est très révélateur des effets nocifs et oxydants que l'on retrouve dans les vins d'aujourd'hui, alors qu'ils devraient se retrouver en *EV*.",
+        "*L'association PANSERNATURE* a pour objectif de tout faire pour améliorer la qualité intrinsèque des aliments, elle ne fait pas que de critiquer ou dénoncer les mauvaises pratiques, elle propose aussi des solutions qu'elle a créées, mises en place et expérimentées. Quand on va attribuer la véritable valeur énergétique des vins, quelque soient leurs cépages ou leur mode de production, ceux dont cette valeur n'atteindra pas 70/100 auront des soucis pour justifier leurs prix de vente.",
+      ],
+    },
+    {
+      id: 23,
+      title:
+        "CONCEPT SPLITT & FLAST: Système de ferroutage international au brevet français",
+      category: "Désobéissance-civile",
+      published_date: "04/09/2014",
+      closing: [],
+      text: [
+        "*SPLITT & FLAST* est un concept de logistique (ferroutage) innovant d'une grande flexibilité intégrant deux (2) systèmes brevetés (brevets déposés en PCT) de transport rail-route permettant une dynamisation du fret mondial, adaptable aux spécificités des diverses régions, pays et cultures. Pour une meilleure compréhension, veuillez  trouver ci-dessous un 'bullet point' récapitulant les grandes lignes du concept innovant de logistique rail-route (ferroutage) permettant de délester le flux routier vers le rail et permettant ainsi d'augmenter le transport fret sur rail dans le monde. L'innovation, la flexibilité d'utilisation et la fiabilité du système sont aujourd'hui sans concurrences et rendent les systèmes des concurrents (Modalohr / Iron Highway / RoadRailer / Megaswing, Cargo Beamer, etc...) totalement obsolètes. ",
+        "*SPLITT* (*S*tandardized *P*latform for *L*ogistic *I*ntelligent *T*rucks *T*ransfer) & *FLAST* (*F*lexible *L*ogistics *A*utomatic *S*tandard *T*ransporter) sont des approches intégrées à forte valeur ajoutée qui désengorge le trafic routier, réduit la pollution et les accidents, etc. *Les wagons FLAST* sont innovants et faciles à réaliser :",
+        {
+          list: [
+            "Leur infrastructure se trouve légèrement modifiée, mais cela permet d'accélérer le triage, le chargement ou le déchargement, ce qui réduit considérablement le temps d'immobilisation d'un convoi ;",
+            "Ils ne nécessitent aucune modification des infrastructures ferroviaires,  comme la hauteur des tunnels ou des autres ouvrages d'art ;",
+            "Ils permettent de charger tous types de camions avec et sans remorques ;",
+            "Ils permettent aussi le transbordement des containers 20' & 40' et les 'Double Stack' (Systèmes Twist-lock  embarqués) par un engin de levage (Terex)  ou avec  un portique ;",
+            "Le transfert du camion sur le wagon n'utilise que deux personnes : le chauffeur du camion celui de la locomotive, et ne nécessite aucun engin de levage ;",
+            "Cela n'est pas utile de dételer la semi-remorque du camion tracteur pour l'installer à bord du wagon FLAST, soit gain de temps au chargement comme au déchargement ;",
+            "Le mécanisme de verrouillage / déverrouillage de l'accès au wagon FLAST est automatisé, il est piloté et contrôlé par le conducteur du train à distance et/ou sur le site par la plateforme  SPLITT ;",
+            "On a ainsi le libre choix de charger ou décharger un wagon du convoi, là où il y a une plateforme SPLITT ;",
+            "Grâce à la plateforme SPLITT, installée dans les gares choisies, le chargement ou le déchargement d'un ensemble camion + remorque, peuvent se faire en quelques minutes, sans avoir à décrocher un wagon ;",
+            "On peut même automatiser le transfert du contenu d'un wagon FLAST en sélectionnant l'emplacement d'un container, celui d'un camion et son chargement, celui d'un engin de chantier ou celui d'un véhicule militaire (« Systèmes de tracking embarqués ») ;",
+            "On a aussi possibilité de charger plusieurs types de marchandises tels que les containers 20', 40' et double stack, (intermodal) des billes de bois, des rames d'acier, de fonte et même d'autres marchandises sur palette si nécessaire, celles-ci se verraient chargées et déchargées par un engin de levage ;",
+            "*Le chargement de 100 camions sur un convoi ferré peut se faire en moins  d'une heure (45 min)*, en toute sécurité pour le personnel et le matériel.",
+          ],
+        },
+        "*Le concept wagon FLAST  et plateforme  SPLITT*, à l'aube du XXI siècle, est l'outil indispensable d'une nouvelle logistique rail-route, qui devient plus fluide et plus respectueux de l'environnement et des personnes. Il apporte un avantage industriel et économique tel qu'aucun autre système actuel de ferroutage actuel ne peut le permettre. Le pays qui adoptera ce concept augmentera ses parts de marché, par la rapidité et la fluidité des transferts. Une vidéo a été réalisée par Jean Paul Turcaud (administrateur et inventeur, SAS ELTROVA).",
+      ],
+    },
+    {
+      id: 24,
+      title: "Agriculture - climat - santé",
+      category: "Agri-jardin",
+      published_date: "25/02/2015",
+      closing: ["Michel Provost"],
+      text: [
+        "L'environnement est l'enjeu majeur d'aujourd'hui pour demain matin. On a beau se blinder contre les aléas de la vie, on est toujours surpris, effarés, de constater que nous sommes dans un monde qui creuse sa tombe avec ses mains. Nous sommes de plus en plus soumis à des informations catastrophiques, plus importantes, plus morbides les unes que les autres. *Le climat se dérègle*, c'est une évidence, on fustige, on condamne les élus, les promoteurs qui ont autorisé les constructions sur des zones à risque, mais on oublie, ou on ne veut pas voir les choses en face, et rechercher l'une des causes principales. Le cycle de l'eau est relativement simple, tel que l'on l'apprend à l'école, pour qui fait l'effort de l'approfondir, alors qu'avec un peu de bon sens, on pourrait réduire son déséquilibre.",
+        "https://i.ibb.co/9pPSqCf/image-1-Agriculture-climat-sant-w300px.png",
+        "Plus de 10 % de l'eau potable est souterraine, elle est due à l'infiltration des eaux de pluies dans les sols pour former les nappes souterraines ! Les milliards des milliards de tonnes de déchets  industriels, nucléaires ou ménager, qui ont été enfouis et qui continuent à être enfouis dans les sols ne sont pas traités, neutralisés, pourtant, ils polluent les eaux.",
+        "Sur la planète terre, près de 40 %  de la surface des sols est cultivée et 98 % de ces terres sont cultivées industriellement. Ces terres sont des zones de risques certifiés potentiels de pollutions par les engrais chimiques et les pesticides. La culture industrielle des sols, dite « conventionnelle », a pour effet direct la stérilisation des sols, parce qu'elle remplace les engrais naturels (composts) par des engrais chimiques. La faune biologique du sol est détruite par ces engrais, ce qui fait que les vers de terre ne vont plus chercher les parcelles de minéraux contenus dans les roches mères pour les ramener en surface.",
+        "Les engrais chimiques sont obtenus par un craquage qui se fait à haute température, en neutralisant des matières acides par des matières alcalines Par exemple : l'acide nitrique est neutralisé par la potasse, cela donne le nitrate de potasse, auxquels on ajoute du calcaire pour éviter son explosion, lors du transport ou des manipulations. Le caractère de ces engrais c'est qu'ils sont oxydés, alcalins, ce qui est contraire à l'évolution de la vie, et sans l'activité de la faune du sol (les bactéries, les insectes, les vers de terre) la terre se compacte, durcit, s'imperméabilise. C'est tout une partie du cycle de l'eau qui est supprimée, qui tarit nappes souterraines, les sources, les cours d'eau.",
+        "https://i.ibb.co/7YYvsX6/image-2-agriculture-climat-sant-w300px.png",
+        "Pire, l'industrialisation de la culture dite « conventionnelle et intensive » ne fait pas que de contribuer à l'imperméabilisation des sols, elle l'accentue par le retournement des sols, qui enterre la vie, ensevelissant la verdure (pour faire propre), ce qui crée des pourritures, accentuant la venue des mauvaises herbes et des insectes prédateurs (nématodes). Poussés à l'excès, le labourage, le bêchage font remonter en surface la roche mère, là où la vie n'est pas possible, occasionnant les taches claires que l'on voit sur les sols, au milieu des cultures.",
+        "*Tout part du sol, tout y revient !* Là encore, personne ne semble expliquer, enseigner, le véritable fonctionnement des sols, tel que nous l'avons découvert, quand on a cherché à améliorer les aliments, alors que c'est là, à partir de ce fonctionnement, que nous pouvons agir localement sur le climat, par le cycle de l'eau. Dès que la terre s'est crée, qu'elle s'est refroidie suffisamment, la vie du sol s'est créée, organisée grâce à l'eau, elle a activé la végétation pour se protéger des rayons solaires, mais aussi pour que les plantes accumulent, transforment les minéraux, qu'elles tirent du sol, pour les rapporter au sol en mourant. L'organisation du fonctionnement de la flore (végétation) et celui de la faune (les animaux) est directement complémentaire à celui du fonctionnement du sol qui cherche à parfaire son équilibre minéral, structurel proche d'un standard que l'on appelle  « Terre Franche », un équilibre entre les composants principaux du sol : l'argile, le calcaire et la silice. Un premier cycle de végétalisation qui a demandé des milliards d'années, avant que nous commencions à le dérégler, par de mauvaises pratiques. On peut comparer le sol de surface (l'humus) comme une entité vivante, un système qui cherche à parfaire son équilibre minéral, en créant, organisant, gérant la végétation, et la vie animale, à un tel point que tout est parfaitement coordonné, comme un système nutritionnel perfectionné.",
+        "Une plante naturelle qui pousse sur un sol, est caractérisée par la composition minérale du sol sur lequel elle pousse, ce qui revient à affirmer que la plante est bio- indicatrice de la qualité de ce sol. Par exemple : la marguerite pousse sur un sol calcaire, alors que le pissenlit vit dans un sol argileux. On peut considérer que les plantes naturelles sont comme les usines chimiques du sol, elles participent à créer l'humus en mourrant, en se compostant, avec les déjections, les dépouilles des animaux, par le travail de la faune du sol  (bactéries insectes, vers de terre) a vie biologique du sol se fait à la surface du sol, dans l'humus.",
+        "Les plantes que nous cultivons (légumes, arbres fruitiers) sont des plantes naturelles qui ont été modifiées pour les adapter à notre nutrition, ou pour en accroître le rendement, par la recherche des meilleurs semis ou par le mariage des espèces (hybridation naturelle). Quand nous confions nos semis à un sol, ils ne correspondent plus à la composition minérale du sol là où ils sont mis, et le sol qui recherche son équilibre, va préférer faire germer en premier sa plante, celle que l'on nomme adventice, elle sera en déséquilibre avec le sol. Dès lors, le cultivateur, le jardinier, en mode industriel, n'ont pas d'autre choix que d'utiliser un désherbant pour détruire les adventices ou prévenir leur venue,  De plus, un semis qui n'est pas adapté à son sol, produira une plante déséquilibrée, une plante sujette aux maladies (chlorose, mildiou, oïdium, etc.).",
+        "Pour prévenir les maladies ou pour soigner les plantes, le cultivateur, le jardinier, en mode industriel, vont utiliser des préparations chimiques nocives, de véritables poisons, qui s'ajoutent à ceux des désherbants, pour empoisonner les récoltes. *Un cycle infernal*. Le sol qui ne s'équilibre pas fera quand même pousser ses plantes et en plus des plantes pour contrer les désherbants, les pesticides etc. Il sera toujours gagnant, il ira jusqu'à faire pousser des plantes comme l'amarante, ce qui rend stérile des milliers d'hectares chaque année.",
+        "Cela pourrait être évité si l'on apportait au sol les matières qui lui manquent, cela annulerait la venue des adventices, dont c'est le rôle principal. L'analyse d'un sol, telle qu'elle est faite par les laboratoires (granulométrie), ne peut pas différencier les vrais composants du sol, puisqu'elle utilise le terme de *« limon »*, un mot qui est inadapté pour définir les différences entre les roches mères : l'argile, le calcaire et la silice.",
+        "*Ce n'est pas fini, il y a encore les insectes* ! On a pu constater que les insectes, selon les espèces, avaient deux rôles principaux :",
+
+        {
+          list: [
+            "Participer au développement et à la conservation de la vie, par le butinage des fleurs, en les fécondant pour que les fruits se développent ;",
+
+            "Détruire les  plantes  malades, éliminer les résidus indésirables, comme le font les termites dans le sol pour résorber les bois morts, les racines, et les fourmis qui nourrissent le sol des végétaux qu'ils digèrent pour reformer l'humus.",
+          ],
+        },
+        "On a remarqué que chaque type de plante déséquilibrée a son prédateur préféré, un seul pour chaque espèce de plante et en fonction du type de sol sur laquelle elle pousse. Un prédateur qui s'invite pour manger les feuilles ou se gaver de la sève. Là encore le cultivateur, le jardinier, en mode industriel, va utiliser toute une panoplie de poisons, pour essayer d'endiguer ces fléaux qui détruisent tout. Là encore, les insecticides vont s'ajouter à ceux des désherbants, des fongicides, aux OGM, empoisonnant davantage les fruits et les légumes, un cocktail qui sera porteur de maladies pour les organismes qui les absorberont.",
+        "*Et ce n'est pas tout !* Les pratiques culturales ancestrales que sont le bêchage et le labourage, en retournant le sol, ont contribué à la propagation de certains fléaux,  comme le phylloxéra dans les vignes, parce qu'en plus le fumier enterré, sans être composté, accentuait le déséquilibre. Dans la forêt, la où l'homme n'intervient pas, la nourriture du sol, des plantes, se fait sur le sol par le compostage naturel de ce qui tombe au sol. On a découvert, là encore, que la polarité du sol est négative, en mode biologique, comme l'est l'intérieur des organismes vivants, alors qu'un sol industriel est positif. Cela a un impact réel et actif sur le climat pour créer des microclimats bénéfiques qui agissent pour réguler la pluviométrie, la fréquence des éclairs, les orages, le gel, etc. Un sol industriel est compact et imperméable, il se transforme en poussière, par la sécheresse, une poussière que les pluies torrentielles emmènent en boue vers les vallées",
+        "https://i.ibb.co/pXJfcd5/image-3-agriculture-climat-sant-w300px.png",
+        "Une plante industrielle qui pousse sur un sol dégradé, compact, n'a que quelques centimètres pour s'enraciner, le sol est surchauffé par le moindre ensoleillement, les plantes ont donc toujours soif, et il faut les arroser même quand il pleut. Un arrosage qui épuise les cours d'eau, les rivières, les nappes souterraines, privant des villes d'un apport vital, une eau douce qui appartient à tous et que des prédateurs accaparent, pour faire pousser des plantes en des lieux inappropriés, pour espérer des euros de plus, sans se soucier des dégâts qu'ils occasionnent. 80 % de l'eau qui est répandue sur un sol surchauffé, s'évapore avant même de toucher le sol, elle se transforme en nuages qui grossissent, qui augmentent la densité de l'air, qui renforcent la puissance des vents et des précipitations… Les nuages gonflés par les millions de tonnes de vapeur d'au, transforment les pluies en orage, les orages en ouragans. Les dégâts occasionnés par les intempéries sont dramatiques par les destructions des biens et des personnes, coûtent à tous, aux assurances et aux impôts qui augmentent. L'augmentation de l'humidité, de la moiteur de l'air, accentue la fragilité des organismes, elle est propice à l'augmentation des maladies qui sont accentuées par l'empoisonnement des aliments par les pesticides,  utilisés par la culture industrielle, intensive, aveugle et sourde, cela a été constaté, démontré par de nombreux chercheurs.",
+        "Les maladies, les traumatismes, la mortalité, qui en découlent, ont été signalées depuis des décennies.  Cela aurait dû faire réagir les autorités sanitaires, l'état, mais voilà, on préfère profiter des gains à la diffusion, à l'exportation, de produits pollués, dégénérés, plutôt que d'agir dans le bon sens et préserver la vie. Curer les fossés, entretenir le lit des rivières, construire des digues, ce ne sera pas suffisant, si on ne traite pas le problème du climat à la base, sur la principale cause du dérèglement des climats : la mauvaise utilisation de l'eau, son gaspillage industrialisé par des puisages qui ont épuisé les nappes souterraines et les rivières. On ne doit plus permettre à des prédateurs qui gaspillent nos ressources naturelles de continuer à le faire, en leur donnant des moyens d'assouvir leur soif de profit. Il y a là des responsabilités qu'il faut faire assumer, y compris à ceux qui permettent, qui autorisent, qui couvrent les mauvaises pratiques, et ce, à tous les échelons. Même si la France n'est pas la seule en cause dans cette course aux profits qui dégradent la nature, elle est l'un des pays les plus verts, les plus couverts de lacs et de rivières. Il suffirait que l'on interdise les puisages, qu'on cesse de financer les pesticides, les engrais chimiques, les énergies polluantes pour que chez nous, cela aille mieux.",
+        "*Un simple constat* : un sol cultivé en favorisant la vie de la faune et de la flore, par l'équilibre des sols, le compostage des végétaux (non résineux), l'aération des sols sans retournement, et la protection des sols à nu,  cela permettra en peu de temps d'obtenir un sol vivant. Un sol vivant c'est des centaines de vers de terre au mètre carré qui creusent des galeries, qui ameublissent le sol, qui peuvent ainsi retenir près de 250 litres d'eau par mètre cube de terre arable, et de regarnir les nappes, par l'infiltration de l'eau dans les galeries, cela fera repartir le cycle de l'eau. Un sol vivant c'est aussi des centaines de turricules, cet engrais naturel déposé sur le sol par les vers de terre, des tonnes d'engrais utiles à l'hectare. Un apport gratuit que la nature offre à qui sait la respecter, la bonifier.",
+        "Nous ne sommes pas les seuls à le dire, à l'expliquer, à le démontrer, mais nous avons choisi de travailler à la réussite de l'amélioration alimentaire par une bonne culture naturelle avec des moyens d'analyse adaptés, afin d'agir pour notre alimentation et préserver la Nature. Pour agir,  prendre une décision, rappelez-vous  que rien n'est anodin, et que les conséquences peuvent être dramatiques.",
       ],
     },
 

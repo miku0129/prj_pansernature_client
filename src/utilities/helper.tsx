@@ -29,22 +29,30 @@ const buildList = (
 };
 
 export const buildArticle = (
-  paragraph: string | ListOfArticle,
+  paragraph: string | ListOfArticle | ImageOfArticle,
   indexOfParagraph: number
 ) => {
   if (typeof paragraph === "string") {
-    console.log("para", paragraph);
-    if (paragraph.includes("*")) {
-      const sentence = paragraph.split("*");
-      return (
-        <p key={indexOfParagraph}>
-          {sentence.map((words, indexOfSentence) =>
-            highlightWord(words, indexOfSentence)
-          )}
-        </p>
-      );
+    const regexp = new RegExp("https://i.ibb.co/", "i");
+    if (regexp.exec(paragraph) === null) {
+      if (paragraph.includes("*")) {
+        const sentence = paragraph.split("*");
+        return (
+          <p key={indexOfParagraph}>
+            {sentence.map((words, indexOfSentence) =>
+              highlightWord(words, indexOfSentence)
+            )}
+          </p>
+        );
+      } else {
+        return <p key={indexOfParagraph}>{paragraph}</p>;
+      }
     } else {
-      return <p key={indexOfParagraph}>{paragraph}</p>;
+      return (
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <img src={paragraph} alt={paragraph} style={{marginTop: "10px", marginBottom: "20px"}}/>
+        </div>
+      );
     }
   } else {
     return (

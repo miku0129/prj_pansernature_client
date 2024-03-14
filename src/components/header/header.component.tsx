@@ -4,9 +4,12 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { CustomLink } from "../../utilities/components.styles";
 import "./header.styles.scss";
-import { CustomHashLink } from "../../utilities/components.styles";
+import {
+  CustomLink,
+  CustomHashLink,
+  // CustomBtn,
+} from "../../utilities/components.styles";
 
 const Header = () => {
   return (
@@ -33,13 +36,10 @@ const Header = () => {
                   <CustomHashLink className="header-dropdown-menu" to="/#books">
                     Books
                   </CustomHashLink>
-                  {/* <NavDropdown.Divider />
-                  <CustomHashLink
-                    className="header-dropdown-menu"
-                    to="/#contact"
-                  >
+                  <NavDropdown.Divider />
+                  <CustomLink className="header-dropdown-menu" to={"/contact"}>
                     Contact
-                  </CustomHashLink> */}
+                  </CustomLink>
                 </NavDropdown>
               </div>
               <div className="header-dropdown-menu-container">
@@ -65,6 +65,21 @@ const Header = () => {
                   >
                     Désobéissance civile
                   </CustomLink>
+                  <CustomLink
+                    className="header-dropdown-menu"
+                    to={"/articles"}
+                    state={{ previewtype: "Santé" }}
+                  >
+                    Santé
+                  </CustomLink>
+
+                  <NavDropdown.Divider />
+                  <CustomLink
+                    className="header-dropdown-menu"
+                    to={"/articles/0"}
+                  >
+                    L'auteur
+                  </CustomLink>
 
                   <NavDropdown.Divider />
                   <CustomLink className="header-dropdown-menu" to={"/articles"}>
@@ -73,20 +88,33 @@ const Header = () => {
                 </NavDropdown>
               </div>
 
-              {/* <CustomLink to={"/articles"}>
-                <Nav.Link href="/articles">Articles</Nav.Link>
-              </CustomLink> */}
+              {/* <div className="header-dropdown-menu-container">
+                <CustomBtn className="header-button">
+                  {" "}
+                  <CustomLink
+                    className="header-dropdown-menu"
+                    to={"/authentication"}
+                  >
+                    Sign in
+                  </CustomLink>
+                </CustomBtn> */}
 
-              {/* 未ログイン状態の場合は"Sign in"というボタンを表示する */}
-              {/* <NavDropdown title="Account" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">
-                  Your profile
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Setting</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Setting</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Sign out</NavDropdown.Item>
-              </NavDropdown> */}
+              {/* <CustomBtn className="header-button">
+                  <NavDropdown title="Account" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="#action/3.1">
+                      Your profile
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">
+                      Setting
+                    </NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#action/3.4">
+                      Sign out
+                    </NavDropdown.Item>
+                  </NavDropdown>
+                </CustomBtn> */}
+
+              {/* </div> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

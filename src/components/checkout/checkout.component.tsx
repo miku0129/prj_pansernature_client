@@ -29,7 +29,6 @@ const Checkout = () => {
 
   const location = useLocation();
   const state = location.state as AmountType;
-  console.log("state", state);
 
   let amount: undefined | number;
   if (state) {
@@ -74,7 +73,6 @@ const Checkout = () => {
               <br /> Thank you for your support.
             </div>
           )}
-          {/* <CheckoutForm /> */}
           <Routes>
             <Route path="/*" element={<CheckoutForm />} />
             <Route path="/checkout-status" element={<CheckoutStatus />} />

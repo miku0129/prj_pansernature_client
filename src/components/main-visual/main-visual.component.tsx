@@ -4,11 +4,7 @@ import "./main-visual.styles.scss";
 const MainVisual = () => {
   return (
     <Fragment>
-      <div className="main-visual-container">
-        <div className="main-visual-content">
-          <h2>PANSER NATURE</h2>
-        </div>
-      </div>
+      <div className="main-visual-container" />
     </Fragment>
   );
 };
