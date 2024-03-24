@@ -1,4 +1,7 @@
-import { Fragment } from "react";
+import { Fragment, useEffect, useState } from "react";
+
+import { dummy_news } from "./__dummy-news-data__";
+import { getPostsFromFacebook } from "../../utilities/helper";
 
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
@@ -7,10 +10,20 @@ import Row from "react-bootstrap/Row";
 import { ContentLayout } from "../../utilities/components.styles";
 import "./news.styles.scss";
 
-import { dummy_news } from "./__dummy-news-data__";
 const { news } = dummy_news;
 
 const News = () => {
+  const [posts, setPosts] = useState([])
+  useEffect(() => {
+    const getPostsFromFB = async () => {
+      const posts = await getPostsFromFacebook();
+      setPosts(posts)
+    };
+    getPostsFromFB();
+  }, []);
+  console.log("posts", posts);
+
+
   return (
     <Fragment>
       <ContentLayout>
@@ -25,7 +38,11 @@ const News = () => {
                   <Col key={idx}>
                     <Card>
                       <div className="news-img-container">
-                        <Card.Img className="news-img" variant="top" src={item.img} />
+                        <Card.Img
+                          className="news-img"
+                          variant="top"
+                          src={item.img}
+                        />
                       </div>
                       <Card.Body>
                         <Card.Title>{item && item.title}</Card.Title>
