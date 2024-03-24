@@ -1,47 +1,23 @@
-# Getting Started with Create React App
+# Panser Nature
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the codebase of a website for <strong>Panser Nature</strong> - NGO group that practices natural farming and opens up its knowledge to all those seeking a healthier life. 🌿🌿🌿
+<img src="https://i.ibb.co/Bjy5Pwn/pansernature-header.jpg" alt="img" width="500px"/>
 
-## Available Scripts
 
-In the project directory, you can run:
+## Motivation
 
-### `npm start`
+To create an opportunity to approach a wider audience with excellent natural farming wisdom by creating a website.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Stripe** introduced, enabling transactions to be completed within the app
+- **Emailjs, SendGrid** enables seamless contact from the app
+- Introducing **React-bootstrap**, streamlining design implementation.
+- **Responsive design:** That takes into account both mobile and PCs.
+- **Highly reliable database:** by using nestjs and TypeORM.
+- **Architected test driven application:** Jest and Docker contribute to improve the quality of backend.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Link
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# prj_pansernature_client
+[Backend of this project](https://github.com/miku0129/prj_pansernature_backend)
