@@ -1,7 +1,6 @@
 # Panser Nature
 
 This repository contains the codebase of a website for <strong>Panser Nature</strong> - NGO group that practices natural farming and opens up its knowledge to all those seeking a healthier life. 🌿🌿🌿
-<img src="https://i.ibb.co/Bjy5Pwn/pansernature-header.jpg" alt="img" width="500px"/>
 
 ## Motivation
 
@@ -16,6 +15,7 @@ To create an opportunity to approach a wider audience with excellent natural far
 - **Highly reliable database:** by using nestjs and TypeORM.
 - **Architected test driven application:** Jest and Docker contribute to improve the quality of backend.
 
+<img src="https://i.ibb.co/Bjy5Pwn/pansernature-header.jpg" alt="img" width="500px"/>
 
 ## Link
 
