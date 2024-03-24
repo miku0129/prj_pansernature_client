@@ -3,7 +3,6 @@
 This repository contains the codebase of a website for <strong>Panser Nature</strong> - NGO group that practices natural farming and opens up its knowledge to all those seeking a healthier life. 🌿🌿🌿
 <img src="https://i.ibb.co/Bjy5Pwn/pansernature-header.jpg" alt="img" width="500px"/>
 
-
 ## Motivation
 
 To create an opportunity to approach a wider audience with excellent natural farming wisdom by creating a website.
