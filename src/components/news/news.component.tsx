@@ -47,7 +47,6 @@ const News = () => {
                     date.getFullYear(),
                   ];
                   const pub_date = `${month}/${day}/${year}`;
-                  console.log("pub_date", pub_date);
                   return (
                     <Col key={idx}>
                       <a
