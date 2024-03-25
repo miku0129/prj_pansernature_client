@@ -1,8 +1,16 @@
+.news-container {
+  max-height: 300px;
+  min-height: 300px;
+}
 .news-img-container {
-    max-height: 200px;
-    overflow: hidden;
+  max-height: 200px;
+  overflow: hidden;
 }
 
-.news-img{
-    background-size: cover;
+.news-img {
+  background-size: cover;
+}
+
+.fb-link {
+  text-decoration: none;
 }
