@@ -7,8 +7,29 @@ import Col from "react-bootstrap/Col";
 import { BooksContentLayout } from "./books.styles";
 
 import "./books.styles.scss";
-
 import { dummy_book_list } from "./__dummy-books-data__";
+
+//test: getting link of PDF in nextcloud
+import axios from "axios";
+const getResponse = async () => {
+  const res = await axios.post(
+    process.env.REACT_APP_NEXTCLOUD_BASE_URL!,
+    `${process.env.REACT_APP_NEXTCLOUD_PDF1_URL!}&shareType=3`,
+    {
+      headers: {
+        "OCS-APIRequest": "true",
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+      auth: {
+        username: process.env.REACT_APP_NEXTCLOUD_USERNAME!,
+        password: process.env.REACT_APP_NEXTCLOUD_PASSWORD!,
+      },
+    }
+  );
+
+  console.log("res: ",res.data.ocs.data.url );
+};
+
 const { book_list } = dummy_book_list;
 
 const Books = () => {
@@ -33,6 +54,7 @@ const Books = () => {
                     <Card.Body>
                       <Card.Text>{book_desc_intro}</Card.Text>
                       <Card.Link>Learn more</Card.Link>
+                      <button onClick={getResponse}>click me</button>
                     </Card.Body>
                   </Card>
                 </Col>
