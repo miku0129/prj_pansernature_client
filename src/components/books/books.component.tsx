@@ -54,7 +54,7 @@ const Books = () => {
                     <Card.Body>
                       <Card.Text>{book_desc_intro}</Card.Text>
                       <Card.Link>Learn more</Card.Link>
-                      <button onClick={getResponse}>click me</button>
+                      <button onClick={getResponse}>download</button>
                     </Card.Body>
                   </Card>
                 </Col>
