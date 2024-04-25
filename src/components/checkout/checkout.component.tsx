@@ -38,7 +38,7 @@ const Checkout = () => {
   const stripePromise = initStripe();
 
   useEffect(() => {
-    async function createPaymentIntent(amt = 50) {
+    async function createPaymentIntent(amt: number | undefined) {
       const response = await axios.post("http://localhost:8080/stripe", {
         amount: amt,
       });
