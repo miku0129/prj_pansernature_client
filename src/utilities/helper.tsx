@@ -1,3 +1,5 @@
+import axios from "axios";
+
 const highlightWord = (word: string, indexOfWord: number) => {
   if (indexOfWord % 2 === 1) {
     return <strong key={indexOfWord}>{word}</strong>;
@@ -62,3 +64,16 @@ export const buildArticle = (
     );
   }
 };
+
+
+export const getPostsFromFacebook = async () => {
+  try {
+    const res = await axios.get(
+      `https://graph.facebook.com/v19.0/${process.env.REACT_APP_PAGE_ID}/feed?fields=id,permalink_url,created_time,message,full_picture,story&access_token=${process.env.REACT_APP_FB_ACCESS_TOKEN}`
+    );
+    return res.data.data;
+  } catch (e) {
+    console.log(e);
+  }
+};
+
