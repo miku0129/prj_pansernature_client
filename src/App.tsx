@@ -11,7 +11,7 @@ import Donation from "./components/donation/donation.component";
 import Checkout from "./components/checkout/checkout.component";
 import Authentication from "./routes/authentication/authentication.component";
 
-import ScrollToTop from "./utilities/scroll-to-top";
+// import ScrollToTop from "./utilities/scroll-to-top";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -25,7 +25,7 @@ function App() {
   // }, []);
   return (
     <div>
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
       <Routes>
         <Route path="/*" element={<BasicLayout />}>
           <Route index element={<Home />} />
