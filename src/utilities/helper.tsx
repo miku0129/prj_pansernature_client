@@ -3,11 +3,10 @@ import axios from "axios";
 const highlightWord = (word: string, indexOfWord: number) => {
   if (indexOfWord % 2 === 1) {
     return <strong key={indexOfWord}>{word}</strong>;
-  } else if ( word !== '') {
+  } else if (word !== "") {
     // return <span key={indexOfWord}>{word}</span>;
     return word;
-
-  } 
+  }
 };
 
 const buildList = (
@@ -33,7 +32,7 @@ const buildList = (
 };
 
 export const buildArticle = (
-  paragraph: string | ListOfArticle | ImageOfArticle,
+  paragraph: string | ImageOfArticle | ListOfArticle,
   indexOfParagraph: number
 ) => {
   if (typeof paragraph === "string") {
@@ -43,10 +42,9 @@ export const buildArticle = (
         const sentences = paragraph.split("*");
         return (
           <p key={indexOfParagraph}>
-            {sentences
-              .map((words, indexOfSentence) =>
-                highlightWord(words, indexOfSentence)
-              )}
+            {sentences.map((words, indexOfSentence) =>
+              highlightWord(words, indexOfSentence)
+            )}
           </p>
         );
       } else {
