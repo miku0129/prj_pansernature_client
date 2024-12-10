@@ -11,7 +11,7 @@ export const HeaderAndFooterLayout = styled.div`
 export const HomeLayout = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 1rem;
 `;
 
 export const CustomLink = styled(Link)`
