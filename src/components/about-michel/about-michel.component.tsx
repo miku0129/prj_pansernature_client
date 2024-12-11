@@ -9,7 +9,7 @@ import {
 } from "../../asset";
 import "./about-michel.styles.scss";
 
-import { CustomBtn, CustomLink } from "../../utilities/components.styles";
+import { CustomBtn } from "../../utilities/components.styles";
 
 const AboutMichel = () => {
   return (
@@ -21,7 +21,9 @@ const AboutMichel = () => {
             <span>{aboutMichelText}</span>
           </div>
           <Link to={"/articles"}>
-            <CustomBtn className="about-michel-articles">{aboutMichelBtnLabel}</CustomBtn>
+            <CustomBtn className="about-michel-articles">
+              {aboutMichelBtnLabel}
+            </CustomBtn>
           </Link>
         </div>
         <div className="about-us-img-container">
