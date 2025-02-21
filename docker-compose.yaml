@@ -1,0 +1,20 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pansernature
+    environment:
+      - REACT_APP_FIREBASE_APIKEY=${REACT_APP_FIREBASE_APIKEY}
+      - REACT_APP_FIREBASE_AUTHDOMAIN=${REACT_APP_FIREBASE_AUTHDOMAIN}
+      - REACT_APP_FIREBASE_PROJECTID=${REACT_APP_FIREBASE_PROJECTID}
+      - REACT_APP_FIREBASE_STORAGEBUCKET=${REACT_APP_FIREBASE_STORAGEBUCKET}
+      - REACT_APP_FIREBASE_MESSAGINGSENDERID=${REACT_APP_FIREBASE_MESSAGINGSENDERID}
+      - REACT_APP_FIREBASE_APPID=${REACT_APP_FIREBASE_APPID}
+    volumes:
+      - .:/app
+      - ./node_modules:/app/node_modules
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true
