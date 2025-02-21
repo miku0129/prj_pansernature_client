@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 import { BooksContentLayout } from "./books.styles";
 
 import "./books.styles.scss";
-import { dummy_book_list } from "./__dummy-books-data__";
+import { dummy_items_list } from "../../asset/__dummy-items-list";
 
 //test: getting link of PDF in nextcloud
 // import axios from "axios";
@@ -30,7 +30,7 @@ import { dummy_book_list } from "./__dummy-books-data__";
 //   console.log("res: ",res.data.ocs.data.url );
 // };
 
-const { book_list } = dummy_book_list;
+const { data } = dummy_items_list;
 
 const Books = () => {
   return (
@@ -38,9 +38,9 @@ const Books = () => {
       <BooksContentLayout id="books">
         <h2 className="books-title">Our Books</h2>
         <Row xs={1} md={2} className="g-4">
-          {book_list &&
-            book_list.map((book, idx) => {
-              const book_desc_intro = book.desc.slice(0, 100);
+          {data &&
+            data.map((book, idx) => {
+              const book_desc_intro = book.detail.slice(0, 100);
               return (
                 <Col key={idx}>
                   <Card>
@@ -48,7 +48,7 @@ const Books = () => {
                       <Card.Img
                         className="book-img"
                         variant="top"
-                        src={book.img}
+                        src={book.image_url}
                       />
                     </div>
                     <Card.Body>
