@@ -12,7 +12,6 @@ services:
       - REACT_APP_FIREBASE_MESSAGINGSENDERID=${REACT_APP_FIREBASE_MESSAGINGSENDERID}
       - REACT_APP_FIREBASE_APPID=${REACT_APP_FIREBASE_APPID}
     volumes:
-      - .:/app
       - ./node_modules:/app/node_modules
     ports:
       - "3000:3000"
