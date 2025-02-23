@@ -56,3 +56,11 @@ export const CustomBtnGroup = styled.div`
 export const ContentLayout = styled.div`
   padding: 20px;
 `;
+
+export const CustomHeadline = styled.div`
+  font-size: xx-large; 
+  color: #009250;
+`
+export const CustomArticle = styled.div`
+  font-size: large; 
+`
