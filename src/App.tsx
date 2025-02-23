@@ -11,7 +11,6 @@ import Contact from "./components/contact.component";
 import ScrollToTop from "./utilities/scroll-to-top";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
 
 function App() {
   // useEffect(() => {
