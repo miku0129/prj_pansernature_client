@@ -7,13 +7,14 @@ import {
   CustomLink,
   CustomHashLink,
 } from "../utilities/components.styles";
+import { orgName } from "../asset";
 
 const Header = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <CustomLink className="mr-20" to={"/"}>
-          <CustomHeadline>Panser Nature</CustomHeadline>
+          <CustomHeadline>{orgName}</CustomHeadline>
         </CustomLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
