@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { Outlet } from "react-router-dom";
 
-import Header from "../components/header/header.component";
+import Header from "../components/header.component";
 import Footer from "../components/footer/footer.component";
 import { HeaderAndFooterLayout } from "../utilities/components.styles";
 
