@@ -8,12 +8,6 @@ export const HeaderAndFooterLayout = styled.div`
   min-height: 100vh;
 `;
 
-export const HomeLayout = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-`;
-
 export const CustomLink = styled(Link)`
   text-decoration: none;
 `;
