@@ -6,12 +6,12 @@ import EntryPayasso from "../components/entry-payasso/entry-payasso.component";
 
 const Home = () => {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-10">
+      <MainVisual />
       <div>
-        <MainVisual />
         <AboutUs />
+        <AboutMichel />
       </div>
-      <AboutMichel />
       <News />
       <EntryPayasso />
     </div>

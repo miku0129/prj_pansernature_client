@@ -20,8 +20,8 @@ const AboutUs = () => {
       </div>
       <div className="flex flex-col justify-center">
         <img
-          className="w-full bg-cover object-cover"
-          alt="about us visual"
+          className="h-full bg-center object-cover"
+          alt="memebers are woking in the garden"
           src={aboutUsImg}
         />
       </div>

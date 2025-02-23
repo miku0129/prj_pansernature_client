@@ -29,16 +29,15 @@ const AboutMichel = () => {
       <div className="min-w-sm flex flex-col justify-center">
         <CustomHeadline>{aboutMichelHeadline}</CustomHeadline>
         <CustomArticle>{aboutMichelText}</CustomArticle>
-        <div className="h-3" />
         <Link to={"/articles"}>
-          <CustomBtn className="about-michel-articles">
+          <CustomBtn className="mt-2 mb-2">
             {aboutMichelBtnLabel}
           </CustomBtn>
         </Link>
       </div>
       <div className="flex flex-col justify-center">
         <img
-          className="w-full max-h-96 bg-cover object-cover"
+          className="h-full bg-center object-cover"
           alt="michel's face"
           src={aboutMichelImg}
         />
