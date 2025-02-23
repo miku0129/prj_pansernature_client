@@ -20,7 +20,7 @@ const AboutMichel = () => {
           grid 
           px-5
           gap-2
-          grid-rows-[1fr_1fr] 
+      grid-rows-[1fr_auto] 
           lg:grid-rows-none
           lg:grid-cols-[1fr_1fr]
             "
