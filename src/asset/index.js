@@ -13,3 +13,6 @@ export const aboutMichelBtnLabel = "Lire ses articles";
 export const entryPayassoHeadline = "En savoir plus";
 export const entryPayasoText =
   "Nous disposons d'une riche collection d'ouvrages captivants sur l'agriculture naturelle et la conservation de l'environnement. Ces livres offrent des connaissances précieuses pour comprendre et protéger notre planète. Par ailleurs, vous avez l'opportunité de vous impliquer davantage en devenant membre de cette association engagée, afin de soutenir ses actions et participer activement à ses initiatives. Ensemble, nous pouvons promouvoir un avenir plus respectueux de la nature et plus durable pour les générations futures!";
+
+export const orgName = "Panser Nature"; 
+export const address = "Address of PanserNature";
