@@ -14,7 +14,7 @@ const EntryPayasso = () => {
         <CustomHeadline>{entryPayassoHeadline}</CustomHeadline>
         <CustomArticle>{entryPayasoText}</CustomArticle>
       </div>
-      <CustomLink to={"/donation"}>
+      <CustomLink to={"/pay-asso-url"}>
         <CustomBtn>Découvrir</CustomBtn>
       </CustomLink>
     </div>
