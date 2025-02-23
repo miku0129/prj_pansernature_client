@@ -53,9 +53,3 @@ export const CustomHashLink = styled(HashLink)`
   text-decoration: none;
   color: initial;
 `;
-
-export const HeaderAndFooterLayout = styled.div`
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
-`;

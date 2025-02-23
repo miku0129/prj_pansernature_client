@@ -1,19 +1,15 @@
-import { Fragment } from "react";
 import { Outlet } from "react-router-dom";
 
 import Header from "../components/header.component";
 import Footer from "../components/footer.component";
-import { HeaderAndFooterLayout } from "../utilities/components.styles";
 
 const BasicLayout = () => {
   return (
-    <Fragment>
-      <HeaderAndFooterLayout>
+      <div className="grid grid-rows-[auto_1fr_auto] min-h-screen">
         <Header />
         <Outlet />
         <Footer />
-      </HeaderAndFooterLayout>
-    </Fragment>
+      </div>
   );
 };
 
