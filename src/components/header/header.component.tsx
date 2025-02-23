@@ -8,7 +8,6 @@ import "./header.styles.scss";
 import {
   CustomLink,
   CustomHashLink,
-  // CustomBtn,
 } from "../../utilities/components.styles";
 
 const Header = () => {
@@ -16,77 +15,71 @@ const Header = () => {
     <Fragment>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          <CustomLink className="header-title-container" to={"/"}>
-            <h2 className="header-title">Panser Nature</h2>
+          <CustomLink className="mr-20" to={"/"}>
+            <h2 className="text-green-700 text-4xl">Panser Nature</h2>
           </CustomLink>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <div className="header-dropdown-menu-container">
-                <NavDropdown title="About" id="basic-nav-dropdown">
-                  <CustomHashLink className="header-dropdown-menu" to="/#about">
-                    About us
-                  </CustomHashLink>
-                  <CustomHashLink
-                    className="header-dropdown-menu"
-                    to="/#support"
-                  >
-                    Support
-                  </CustomHashLink>
-                  <CustomHashLink className="header-dropdown-menu" to="/#books">
-                    Books
-                  </CustomHashLink>
-                  <NavDropdown.Divider />
-                  <CustomLink className="header-dropdown-menu" to={"/contact"}>
-                    Contact
-                  </CustomLink>
-                </NavDropdown>
-              </div>
-              <div className="header-dropdown-menu-container">
-                <NavDropdown title="Articles" id="basic-nav-dropdown">
-                  <CustomLink
-                    className="header-dropdown-menu"
-                    to={"/articles"}
-                    state={{ previewtype: "Agri-jardin" }}
-                  >
-                    Agri jardin
-                  </CustomLink>
-                  <CustomLink
-                    className="header-dropdown-menu"
-                    to={"/articles"}
-                    state={{ previewtype: "Vie-associative" }}
-                  >
-                    Vie associative
-                  </CustomLink>
-                  <CustomLink
-                    className="header-dropdown-menu"
-                    to={"/articles"}
-                    state={{ previewtype: "Désobéissance-civile" }}
-                  >
-                    Désobéissance civile
-                  </CustomLink>
-                  <CustomLink
-                    className="header-dropdown-menu"
-                    to={"/articles"}
-                    state={{ previewtype: "Santé" }}
-                  >
-                    Santé
-                  </CustomLink>
+              {/* <div className="header-dropdown-menu-container"> */}
+              <NavDropdown title="About" id="basic-nav-dropdown">
+                <CustomHashLink className="m-1" to="/#about">
+                  About us
+                </CustomHashLink>
+                <CustomHashLink className="m-1" to="/#support">
+                  Support
+                </CustomHashLink>
+                <CustomHashLink className="m-1" to="/#books">
+                  Books
+                </CustomHashLink>
+                <NavDropdown.Divider />
+                <CustomLink className="m-1 text-slate-600" to={"/contact"}>
+                  Contact
+                </CustomLink>
+              </NavDropdown>
+              {/* </div> */}
+              {/* <div className="header-dropdown-menu-container"> */}
+              <NavDropdown title="Articles" id="basic-nav-dropdown">
+                <CustomLink
+                  className="m-1 text-slate-600"
+                  to={"/articles"}
+                  state={{ previewtype: "Agri-jardin" }}
+                >
+                  Agri jardin
+                </CustomLink>
+                <CustomLink
+                  className="m-1 text-slate-600"
+                  to={"/articles"}
+                  state={{ previewtype: "Vie-associative" }}
+                >
+                  Vie associative
+                </CustomLink>
+                <CustomLink
+                  className="m-1 text-slate-600"
+                  to={"/articles"}
+                  state={{ previewtype: "Désobéissance-civile" }}
+                >
+                  Désobéissance civile
+                </CustomLink>
+                <CustomLink
+                  className="m-1 text-slate-600"
+                  to={"/articles"}
+                  state={{ previewtype: "Santé" }}
+                >
+                  Santé
+                </CustomLink>
 
-                  <NavDropdown.Divider />
-                  <CustomLink
-                    className="header-dropdown-menu"
-                    to={"/articles/0"}
-                  >
-                    L'auteur
-                  </CustomLink>
+                <NavDropdown.Divider />
+                <CustomLink className="m-1 text-slate-600" to={"/articles/0"}>
+                  L'auteur
+                </CustomLink>
 
-                  <NavDropdown.Divider />
-                  <CustomLink className="header-dropdown-menu" to={"/articles"}>
-                    All articles
-                  </CustomLink>
-                </NavDropdown>
-              </div>
+                <NavDropdown.Divider />
+                <CustomLink className="m-1 text-slate-600" to={"/articles"}>
+                  All articles
+                </CustomLink>
+              </NavDropdown>
+              {/* </div> */}
 
               {/* <div className="header-dropdown-menu-container">
                 <CustomBtn className="header-button">

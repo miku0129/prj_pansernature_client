@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 
-import { aboutUs, aboutUsText, aboutUsImg } from "../../asset";
+import { aboutUsHeadline, aboutUsText, aboutUsImg } from "../../asset";
 import "./about-us.styles.scss";
 
 const AboutUs = () => {
@@ -8,7 +8,7 @@ const AboutUs = () => {
     <Fragment>
       <div className="about-us-contentainer" id="about">
         <div className="about-us-card-container">
-          <h2 className="about-us-card-title" >{aboutUs}</h2>
+          <h2 className="about-us-card-title">{aboutUsHeadline}</h2>
           <div className="about-us-card">
             <span>{aboutUsText}</span>
           </div>

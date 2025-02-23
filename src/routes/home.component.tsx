@@ -2,9 +2,9 @@ import { Fragment } from "react";
 
 import MainVisual from "../components/main-visual/main-visual.component";
 import AboutUs from "../components/about-us/about-us.component";
+import AboutMichel from "../components/about-michel/about-michel.component";
 import News from "../components/news/news.component";
-import Support from "../components/support/support.component";
-import Books from "../components/books/books.component";
+import EntryPayasso from "../components/entry-payasso/entry-payasso.component";
 
 import { HomeLayout } from "../utilities/components.styles";
 
@@ -14,9 +14,9 @@ const Home = () => {
       <HomeLayout>
         <MainVisual />
         <AboutUs />
+        <AboutMichel />
         <News />
-        <Support />
-        <Books />
+        <EntryPayasso />
       </HomeLayout>
     </Fragment>
   );
