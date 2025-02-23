@@ -2,34 +2,44 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
-export const HeaderAndFooterLayout = styled.div`
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
+const mainColor = "#009250";
+const mainColorReverse = "white";
+
+export const CustomHeadline = styled.div`
+  font-size: xx-large;
+  color: ${mainColor};
+`;
+export const CustomArticle = styled.div`
+  font-size: large;
 `;
 
 export const CustomLink = styled(Link)`
   text-decoration: none;
 `;
 
+export const CustomBtn = styled.button`
+  height: 3rem;
+  background-color: ${mainColor};
+  border: transparent;
+  color: ${mainColorReverse};
+  border-radius: 5px;
+  padding: 1rem;
+  &:hover {
+    background-color: ${mainColorReverse};
+    border: solid 1px ${mainColor};
+    color: ${mainColor};
+  }
+`;
+
+export const HeaderAndFooterLayout = styled.div`
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+`;
+
 export const CustomHashLink = styled(HashLink)`
   text-decoration: none;
   color: initial;
-`;
-
-export const CustomBtn = styled.button`
-  background-color: #009250;
-  border: none;
-  color: white;
-  border-radius: 5px;
-  height: 30px;
-  max-width: 150px;
-
-  &:hover {
-    background-color: white;
-    color: #009250;
-    border: solid 1px #009250;
-  }
 `;
 
 export const CustomBtnSayYes = styled(CustomBtn)`
@@ -56,11 +66,3 @@ export const CustomBtnGroup = styled.div`
 export const ContentLayout = styled.div`
   padding: 20px;
 `;
-
-export const CustomHeadline = styled.div`
-  font-size: xx-large; 
-  color: #009250;
-`
-export const CustomArticle = styled.div`
-  font-size: large; 
-`
