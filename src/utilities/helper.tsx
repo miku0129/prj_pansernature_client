@@ -3,8 +3,9 @@ import axios from "axios";
 const highlightWord = (word: string, indexOfWord: number) => {
   if (indexOfWord % 2 === 1) {
     return <strong key={indexOfWord}>{word}</strong>;
-  } else {
-    return <span key={indexOfWord}>{word}</span>;
+  } else if (word !== "") {
+    // return <span key={indexOfWord}>{word}</span>;
+    return word;
   }
 };
 
@@ -31,17 +32,17 @@ const buildList = (
 };
 
 export const buildArticle = (
-  paragraph: string | ListOfArticle | ImageOfArticle,
+  paragraph: string | ImageOfArticle | ListOfArticle,
   indexOfParagraph: number
 ) => {
   if (typeof paragraph === "string") {
     const regexp = new RegExp("https://i.ibb.co/", "i");
     if (regexp.exec(paragraph) === null) {
       if (paragraph.includes("*")) {
-        const sentence = paragraph.split("*");
+        const sentences = paragraph.split("*");
         return (
           <p key={indexOfParagraph}>
-            {sentence.map((words, indexOfSentence) =>
+            {sentences.map((words, indexOfSentence) =>
               highlightWord(words, indexOfSentence)
             )}
           </p>
@@ -52,7 +53,11 @@ export const buildArticle = (
     } else {
       return (
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <img src={paragraph} alt={paragraph} style={{marginTop: "10px", marginBottom: "20px"}}/>
+          <img
+            src={paragraph}
+            alt={paragraph}
+            style={{ marginTop: "10px", marginBottom: "20px" }}
+          />
         </div>
       );
     }
@@ -65,7 +70,6 @@ export const buildArticle = (
   }
 };
 
-
 export const getPostsFromFacebook = async () => {
   try {
     const res = await axios.get(
@@ -76,4 +80,3 @@ export const getPostsFromFacebook = async () => {
     console.log(e);
   }
 };
-

@@ -1,24 +1,20 @@
-import { Fragment } from "react";
-
-import MainVisual from "../components/main-visual/main-visual.component";
-import AboutUs from "../components/about-us/about-us.component";
-import News from "../components/news/news.component";
-import Support from "../components/support/support.component";
-import Books from "../components/books/books.component";
-
-import { HomeLayout } from "../utilities/components.styles";
+import MainVisual from "../components/main-visual.component";
+import AboutUs from "../components/about-us.component";
+import AboutMichel from "../components/about-michel.component";
+import News from "../components/news.component";
+import EntryPayasso from "../components/entry-payasso.component";
 
 const Home = () => {
   return (
-    <Fragment>
-      <HomeLayout>
-        <MainVisual />
+    <div className="flex flex-col gap-10">
+      <MainVisual />
+      <div>
         <AboutUs />
-        <News />
-        <Support />
-        <Books />
-      </HomeLayout>
-    </Fragment>
+        <AboutMichel />
+      </div>
+      <News />
+      <EntryPayasso />
+    </div>
   );
 };
 
