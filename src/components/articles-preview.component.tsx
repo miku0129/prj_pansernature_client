@@ -56,7 +56,7 @@ const ArticlesPreview = () => {
     let counter = articles.length % 4;
     const empty_article = {
       id: 0,
-      title: "place holder",
+      title: "",
       category: "",
       published_date: "",
       text: "",
@@ -81,7 +81,9 @@ const ArticlesPreview = () => {
                 <Col key={idx} className="flex justify-center">
                   <CustomLink
                     to={`/articles/${article.id}`}
-                    className="hover:opacity-80"
+                    className={`${
+                      article.text ? "hover:opacity-80" : "pointer-events-none"
+                    }`}
                   >
                     <Card
                       border="success"

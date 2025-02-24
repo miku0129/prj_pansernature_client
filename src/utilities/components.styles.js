@@ -13,10 +13,6 @@ export const CustomArticle = styled.div`
   font-size: large;
 `;
 
-export const CustomLink = styled(Link)`
-  text-decoration: none;
-`;
-
 export const CustomBtn = styled.button`
   height: 3rem;
   background-color: ${mainColor};
@@ -47,6 +43,10 @@ export const CustomBtnGroup = styled.div`
   margin: 20px;
   display: flex;
   gap: 10px;
+`;
+
+export const CustomLink = styled(Link)`
+  text-decoration: none;
 `;
 
 export const CustomHashLink = styled(HashLink)`
