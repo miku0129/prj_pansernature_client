@@ -4,7 +4,7 @@ This repository contains the codebase of a website for <strong>Panser Nature</st
 
 ## Motivation
 
-To create an opportunity to approach a wider audience with excellent natural farming wisdom by creating a website.
+Archiving the articles of a great natural farming researcher so that everyone can have access to his findings.
 
 ## Features
 
@@ -16,7 +16,3 @@ To create an opportunity to approach a wider audience with excellent natural far
 - **Architected test driven application:** Jest and Docker contribute to improve the quality of backend.
 
 <img src="https://i.ibb.co/Bjy5Pwn/pansernature-header.jpg" alt="img" width="500px"/>
-
-## Link
-
-[Backend of this project](https://github.com/miku0129/prj_pansernature_backend)
