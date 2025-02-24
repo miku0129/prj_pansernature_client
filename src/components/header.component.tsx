@@ -7,7 +7,13 @@ import {
   CustomLink,
   CustomHashLink,
 } from "../utilities/components.styles";
-import { orgName } from "../asset";
+import {
+  aboutUsHeadline,
+  aboutMichelHeadline,
+  desInfosHeadline,
+  entryPayassoHeadline,
+  orgName,
+} from "../asset";
 
 const Header = () => {
   return (
@@ -21,14 +27,17 @@ const Header = () => {
           <Nav className="me-auto">
             <NavDropdown title="About" id="basic-nav-dropdown">
               <div className="flex flex-col p-2">
-                <CustomHashLink className="m-1" to="/#about">
-                  About us
+                <CustomHashLink className="m-1" to="/#about-us">
+                  <span className="text-slate-600">{aboutUsHeadline}</span>
                 </CustomHashLink>
-                <CustomHashLink className="m-1" to="/#support">
-                  Support
+                <CustomHashLink className="m-1" to="/#about-michel">
+                  <span className="text-slate-600">{aboutMichelHeadline}</span>
                 </CustomHashLink>
-                <CustomHashLink className="m-1" to="/#books">
-                  Books
+                <CustomHashLink className="m-1" to="/#infos">
+                  <span className="text-slate-600">{desInfosHeadline}</span>
+                </CustomHashLink>
+                <CustomHashLink className="m-1" to="/#entry-payasso">
+                  <span className="text-slate-600">{entryPayassoHeadline}</span>
                 </CustomHashLink>
                 <NavDropdown.Divider />
                 <CustomLink className="m-1 text-slate-600" to={"/contact"}>
@@ -68,12 +77,12 @@ const Header = () => {
                   Santé
                 </CustomLink>
                 <NavDropdown.Divider />
-                <CustomLink className="m-1 text-slate-600" to={"/articles/0"}>
-                  L'auteur
+                <CustomLink className="m-1 text-slate-600" to={"/articles"}>
+                  Tous les articles
                 </CustomLink>
                 <NavDropdown.Divider />
-                <CustomLink className="m-1 text-slate-600" to={"/articles"}>
-                  All articles
+                <CustomLink className="m-1 text-slate-600" to={"/articles/0"}>
+                  L'auteur
                 </CustomLink>
               </div>
             </NavDropdown>

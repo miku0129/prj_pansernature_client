@@ -24,7 +24,7 @@ const AboutMichel = () => {
           lg:grid-rows-none
           lg:grid-cols-[1fr_1fr]
             "
-      id="about"
+      id="about-michel"
     >
       <div className="min-w-sm flex flex-col justify-center">
         <CustomHeadline>{aboutMichelHeadline}</CustomHeadline>
