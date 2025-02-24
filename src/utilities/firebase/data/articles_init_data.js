@@ -823,7 +823,7 @@ export const articles = {
           ],
         },
         "Le dépôt de tartre, plutôt significatif de qualité, a été retiré par le filtrage à la presse, mais on a aussi enlevé les trois quarts des éléments (enzymes, protéines, vitamines) nécessaires à la santé, des éléments qui participent à la qualité et à la conservation du vin. L'équilibre des sols, l'apport du magnésium, le pressage sur les grains, la fermentation avec la pulpe et la rafle, sont autant de facteurs qui améliorent la qualité de la vinification et de la conservation des vins sans le recours aux potions magiques.",
-        "https://i.ibb.co/DRMQ04k/le-vin-un-produit-naturel-image-1.jpg",
+        "https://i.ibb.co/nM6HRjtx/le-vin-un-produit-naturel.png",
         "Chaque intervalle de ligne représente une valeur d'un million de millivolts, on peut donc observer l'étendue de l'oxydation opérée par les apports faits aux vins. Ce graphique est très révélateur des effets nocifs et oxydants que l'on retrouve dans les vins d'aujourd'hui, alors qu'ils devraient se retrouver en *EV*.",
         "*L'association PANSERNATURE* a pour objectif de tout faire pour améliorer la qualité intrinsèque des aliments, elle ne fait pas que de critiquer ou dénoncer les mauvaises pratiques, elle propose aussi des solutions qu'elle a créées, mises en place et expérimentées. Quand on va attribuer la véritable valeur énergétique des vins, quelque soient leurs cépages ou leur mode de production, ceux dont cette valeur n'atteindra pas 70/100 auront des soucis pour justifier leurs prix de vente.",
       ],
