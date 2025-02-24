@@ -28,16 +28,16 @@ const Header = () => {
             <NavDropdown title="About" id="basic-nav-dropdown">
               <div className="flex flex-col p-2">
                 <CustomHashLink className="m-1" to="/#about-us">
-                  {aboutUsHeadline}
+                  <span className="text-slate-600">{aboutUsHeadline}</span>
                 </CustomHashLink>
                 <CustomHashLink className="m-1" to="/#about-michel">
-                  {aboutMichelHeadline}
+                  <span className="text-slate-600">{aboutMichelHeadline}</span>
                 </CustomHashLink>
                 <CustomHashLink className="m-1" to="/#infos">
-                  {desInfosHeadline}
+                  <span className="text-slate-600">{desInfosHeadline}</span>
                 </CustomHashLink>
                 <CustomHashLink className="m-1" to="/#entry-payasso">
-                  {entryPayassoHeadline}
+                  <span className="text-slate-600">{entryPayassoHeadline}</span>
                 </CustomHashLink>
                 <NavDropdown.Divider />
                 <CustomLink className="m-1 text-slate-600" to={"/contact"}>
