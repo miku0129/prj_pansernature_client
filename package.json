@@ -39,7 +39,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "npm run build && serve -s build"
+    "start": "npm run build && serve -s build --no-clipboard"
   },
   "eslintConfig": {
     "extends": [
