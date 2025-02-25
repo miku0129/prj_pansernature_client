@@ -9,7 +9,7 @@ This repository contains the codebase of a website for <strong>Panser Nature</st
 ## Motivation
 Archiving the articles of **Michel PROVOST** so that everyone can access his discoveries.
 
-Michel PROVOST (1943-2025) was a influential practitioner of natural farming. He was a president of Panther Nature and published books with his passion for natural farming.
+Michel PROVOST (1943-2025) was an influential practitioner of natural farming. He was a president of Panther Nature and published books with his passion for natural farming.
 
 ## Features
 
