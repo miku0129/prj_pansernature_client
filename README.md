@@ -1,18 +1,25 @@
-# Panser Nature
+# Panser Nature 
+<p align='center'>
+<img src="https://i.ibb.co/Bjy5Pwn/pansernature-header.jpg" alt="img" width="500px"/>
+</p>
 
-This repository contains the codebase of a website for <strong>Panser Nature</strong> - NGO group that practices natural farming and opens up its knowledge to all those seeking a healthier life. 🌿🌿🌿
+## Overview
+This repository contains the codebase of a website for <strong>Panser Nature</strong> - NGO group that practices natural farming and opens up its knowledge to all those seeking a healthier life. 🌱🌱🌱
 
 ## Motivation
+Archiving the articles of **Michel PROVOST** so that everyone can access his discoveries.
 
-Archiving the articles of a great natural farming researcher so that everyone can have access to his findings.
+Michel PROVOST (1943-2025) was a influential practitioner of natural farming. He was a president of Panther Nature and published books with his passion for natural farming.
 
 ## Features
 
-- **Stripe** introduced, enabling transactions to be completed within the app
-- **Emailjs, SendGrid** enables seamless contact from the app
-- Introducing **React-bootstrap**, streamlining design implementation.
-- **Responsive design:** That takes into account both mobile and PCs.
-- **Highly reliable database:** by using nestjs and TypeORM.
-- **Architected test driven application:** Jest and Docker contribute to improve the quality of backend.
+- To implement **CI/CD**, this application is deployed on a **VPS**.
 
-<img src="https://i.ibb.co/Bjy5Pwn/pansernature-header.jpg" alt="img" width="500px"/>
+    - Hosting setup is scripted with **Docker** and managed via **Portainer**.
+    - A user-friendly and memorable URL is routed using **Nginx Proxy Manager**.
+    - **Firestore** is used for hosting articles and interacting with the application.
+    - **EmailJS** and **SendGrid** enable seamless in-app contact functionality.
+
+## Closing
+I appreciate Michel and the organization Panser Nature for allowing me to be part of this great project of archiving Michel's articles.
+
