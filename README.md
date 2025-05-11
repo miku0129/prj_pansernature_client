@@ -20,6 +20,8 @@ Michel PROVOST (1943-2025) was an influential practitioner of natural farming. H
     - **Firestore** is used for hosting articles and interacting with the application.
     - **EmailJS** and **SendGrid** enable seamless in-app contact functionality.
 
+You can read more in my blog: ['Deploy web application in VPS via Portainer'](https://hugo.msano.ovh/posts/vps-deploy-app/). 
+
 ## Closing
 I appreciate Michel and the organization Panser Nature for allowing me to be part of this great project of archiving Michel's articles.
 
