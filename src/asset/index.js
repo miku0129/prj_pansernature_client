@@ -10,7 +10,8 @@ export const aboutUsImg = "https://i.ibb.co/WDRL90W/pansenature-4.jpg";
 
 export const aboutUsBtnLabel = "Savoir plus";
 
-export const aboutUsHelloAssoLink = "https://www.helloasso.com/associations/association-pansernature?54cezp4rruhcvjans7dqjkz5ty=uj5DWdiOdB3KQWNRXrLRQ9In6Or7Wv7IyzCaqU2usFuh4hBY8ghXmQrOvkZEqXOKkhA1PFP4"
+export const aboutUsHelloAssoLink =
+  "https://www.helloasso.com/associations/association-pansernature?54cezp4rruhcvjans7dqjkz5ty=uj5DWdiOdB3KQWNRXrLRQ9In6Or7Wv7IyzCaqU2usFuh4hBY8ghXmQrOvkZEqXOKkhA1PFP4";
 
 //About Michel
 export const aboutMichelHeadline = "Qui est Michel?";
@@ -22,9 +23,9 @@ export const aboutMichelBtnLabel = "Lire ses articles";
 
 export const desInfosHeadline = "Infos";
 
-export const entryPayassoHeadline = "Savoir plus";
-export const entryPayasoText =
-  "Nous disposons d'une riche collection d'ouvrages captivants sur l'agriculture naturelle et la conservation de l'environnement. Ces livres offrent des connaissances précieuses pour comprendre et protéger notre planète. Par ailleurs, vous avez l'opportunité de vous impliquer davantage en devenant membre de cette association engagée, afin de soutenir ses actions et participer activement à ses initiatives. Ensemble, nous pouvons promouvoir un avenir plus respectueux de la nature et plus durable pour les générations futures!";
+export const entryHelloAssoHeadline = "En savoir plus";
+export const entryHelloAssoText =
+  "PANSERNATURE est une association (loi 1901) fondée en 2002, engagée pour une agriculture naturelle au service de la santé et de l’environnement. Nous croyons qu’une alimentation saine est la première des préventions : mieux vaut prévenir que guérir ! Rejoignez-nous pour promouvoir un mode de vie plus sain et respectueux de la nature !";
 
 export const orgName = "Panser Nature";
 export const address = "contact@pansernature.org";
