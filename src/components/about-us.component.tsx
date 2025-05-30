@@ -1,5 +1,16 @@
-import { CustomHeadline, CustomArticle } from "../utilities/components.styles";
-import { aboutUsHeadline, aboutUsText, aboutUsImg } from "../asset";
+import {
+  CustomHeadline,
+  CustomArticle,
+  CustomBtn,
+} from "../utilities/components.styles";
+import {
+  aboutUsHeadline,
+  aboutUsText_1,
+  aboutUsText_2,
+  aboutUsImg,
+  aboutUsBtnLabel,
+  aboutUsHelloAssoLink,
+} from "../asset";
 
 const AboutUs = () => {
   return (
@@ -16,7 +27,13 @@ const AboutUs = () => {
     >
       <div className="min-w-sm flex flex-col justify-center">
         <CustomHeadline>{aboutUsHeadline}</CustomHeadline>
-        <CustomArticle>{aboutUsText}</CustomArticle>
+        <CustomArticle>{aboutUsText_1}</CustomArticle>
+        <CustomArticle>{aboutUsText_2}</CustomArticle>
+        <div>
+          <a target="_blank" rel="noreferrer" href={aboutUsHelloAssoLink}>
+            <CustomBtn className="mt-2 mb-2">{aboutUsBtnLabel}</CustomBtn>
+          </a>
+        </div>
       </div>
       <div className="flex flex-col justify-center">
         <img
