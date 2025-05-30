@@ -50,6 +50,15 @@ const Header = () => {
 
             <NavDropdown title="Articles" id="basic-nav-dropdown">
               <div className="flex flex-col p-2">
+                <CustomLink className="m-1 text-slate-600" to={"/articles/0"}>
+                  L'auteur
+                </CustomLink>
+                <NavDropdown.Divider />
+                <CustomLink className="m-1 text-slate-600" to={"/articles"}>
+                  Tous les articles
+                </CustomLink>
+                <NavDropdown.Divider />
+
                 <CustomLink
                   className="m-1 text-slate-600"
                   to={"/articles"}
@@ -77,14 +86,6 @@ const Header = () => {
                   state={{ previewtype: "Santé" }}
                 >
                   Santé
-                </CustomLink>
-                <NavDropdown.Divider />
-                <CustomLink className="m-1 text-slate-600" to={"/articles"}>
-                  Tous les articles
-                </CustomLink>
-                <NavDropdown.Divider />
-                <CustomLink className="m-1 text-slate-600" to={"/articles/0"}>
-                  L'auteur
                 </CustomLink>
               </div>
             </NavDropdown>
