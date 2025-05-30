@@ -4,7 +4,7 @@ export const aboutUsHeadline = "Qui sommes-nous ?";
 export const aboutUsText_1 =
   "PANSERNATURE est une association Loi 1901 pour la Promotion de l'Agriculture Naturelle pour la Santé et l'Environnement Restauré, créée en 2002.";
 export const aboutUsText_2 =
-  "Nous considérons qu'une alimentation saine est la première médecine préventive : Mieux vaut Prévenir que d'avoir à se guérir plus tard.";
+  "Les objectifs de l'association sont : Informer sur des savoirs pratiques permettant de renforcer le vivant, Former ceux qui souhaitent comprendre et restaurer les bases de la vie, Agir ensemble pour diffuser les solutions existantes, en développer de nouvelles, protéger les acquis et soutenir les personnes en difficulté.";
 
 export const aboutUsImg = "https://i.ibb.co/WDRL90W/pansenature-4.jpg";
 
