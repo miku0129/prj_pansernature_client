@@ -26,9 +26,17 @@ export const desInfosHeadline = "Infos";
 export const entryHelloAssoHeadline = "Découvrir";
 
 export const entryHelloAssoText =
-  "PANSERNATURE est une association (loi 1901) fondée en 2002, engagée pour une agriculture naturelle au service de la santé et de l’environnement. Nous croyons qu’une alimentation saine est la première des préventions : mieux vaut prévenir que guérir ! Rejoignez-nous pour promouvoir un mode de vie plus sain et respectueux de la nature !";
+  "PANSERNATURE est une association (loi 1901) fondée en 2002, engagée pour une agriculture naturelle au service de la santé et de l'environnement. Nous croyons qu'une alimentation saine est la première des préventions : mieux vaut prévenir que guérir ! Rejoignez-nous pour promouvoir un mode de vie plus sain et respectueux de la nature !";
 
-//others
+//Contact
+export const entryContactHeadline = "Contact";
+
+export const entryContactText =
+  "Vous avez une question, une demande, une suggestion ? Contactez-nous 😊";
+
+export const entryContactBtnLabel = "Contact";
+
+//Others
 export const savoirPlusBtnLavel = "Savoir plus";
 
 export const orgName = "Panser Nature";
