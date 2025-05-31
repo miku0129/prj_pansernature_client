@@ -11,7 +11,7 @@ import {
   aboutUsHeadline,
   aboutMichelHeadline,
   desInfosHeadline,
-  entryPayassoHeadline,
+  entryHelloAssoHeadline,
   orgName,
 } from "../asset";
 
@@ -36,8 +36,10 @@ const Header = () => {
                 <CustomHashLink className="m-1" to="/#infos">
                   <span className="text-slate-600">{desInfosHeadline}</span>
                 </CustomHashLink>
-                <CustomHashLink className="m-1" to="/#entry-payasso">
-                  <span className="text-slate-600">{entryPayassoHeadline}</span>
+                <CustomHashLink className="m-1" to="/#entry-helloasso">
+                  <span className="text-slate-600">
+                    {entryHelloAssoHeadline}
+                  </span>
                 </CustomHashLink>
                 <NavDropdown.Divider />
                 <CustomLink className="m-1 text-slate-600" to={"/contact"}>
@@ -48,6 +50,15 @@ const Header = () => {
 
             <NavDropdown title="Articles" id="basic-nav-dropdown">
               <div className="flex flex-col p-2">
+                <CustomLink className="m-1 text-slate-600" to={"/articles/0"}>
+                  L'auteur
+                </CustomLink>
+                <NavDropdown.Divider />
+                <CustomLink className="m-1 text-slate-600" to={"/articles"}>
+                  Tous les articles
+                </CustomLink>
+                <NavDropdown.Divider />
+
                 <CustomLink
                   className="m-1 text-slate-600"
                   to={"/articles"}
@@ -75,14 +86,6 @@ const Header = () => {
                   state={{ previewtype: "Santé" }}
                 >
                   Santé
-                </CustomLink>
-                <NavDropdown.Divider />
-                <CustomLink className="m-1 text-slate-600" to={"/articles"}>
-                  Tous les articles
-                </CustomLink>
-                <NavDropdown.Divider />
-                <CustomLink className="m-1 text-slate-600" to={"/articles/0"}>
-                  L'auteur
                 </CustomLink>
               </div>
             </NavDropdown>

@@ -1,20 +1,45 @@
-export const aboutUsHeadline = "Nous sommes qui?";
-export const aboutUsText =
-  "Bonjour! Comment ça va aujourd'hui? Le soleil brille et journée promet d'être magnifique. Profitez bien de chaque moment!Bonjour! Comment ça va aujourd'hui? J'espère que votre journée se déroule bien. Aujourd'hui, le temps est magnifique ici à Paris. Le ciel est clair, le soleil brille et il y a une légère brise qui rend l'atmosphère très agréable.";
+//About Us
+export const aboutUsHeadline = "Qui sommes-nous";
+
+export const aboutUsText_1 =
+  "PANSERNATURE est une association Loi 1901 pour la Promotion de l'Agriculture Naturelle pour la Santé et l'Environnement Restauré, créée en 2002.";
+export const aboutUsText_2 =
+  "Les objectifs de l'association sont : Informer sur des savoirs pratiques permettant de renforcer le vivant, Former ceux qui souhaitent comprendre et restaurer les bases de la vie, Agir ensemble pour diffuser les solutions existantes, en développer de nouvelles, protéger les acquis et soutenir les personnes en difficulté.";
+
 export const aboutUsImg = "https://i.ibb.co/WDRL90W/pansenature-4.jpg";
 
-export const aboutMichelHeadline = "Qui est Michel?";
+//About Michel
+export const aboutMichelHeadline = "Qui est Michel";
+
 export const aboutMichelText =
-  "Michel est un grand écrivain dont les œuvres captivent et inspirent des lecteurs de tous horizons. Avec une plume élégante et une imagination débordante, il crée des univers riches et des personnages profonds qui résonnent avec authenticité. Ses récits explorent des thèmes universels comme l’amour, la quête de soi et les défis de la vie moderne, offrant à chaque lecture une nouvelle perspective.";
+  "Michel Provost est le fondateur et président de l'association de 2002 à 2024. Il a écrit 12 livres et une trentaine d'articles le long de sa carrière sur des sujets variés, allant de l'agriculture naturelle à la santé et les énergies.";
+
 export const aboutMichelImg =
   "https://i.ibb.co/6tQTp7f/pansernature-organiser.jpg";
+
 export const aboutMichelBtnLabel = "Lire ses articles";
 
-export const desInfosHeadline = "Infos"
+//Infos
+export const desInfosHeadline = "Infos";
 
-export const entryPayassoHeadline = "En savoir plus";
-export const entryPayasoText =
-  "Nous disposons d'une riche collection d'ouvrages captivants sur l'agriculture naturelle et la conservation de l'environnement. Ces livres offrent des connaissances précieuses pour comprendre et protéger notre planète. Par ailleurs, vous avez l'opportunité de vous impliquer davantage en devenant membre de cette association engagée, afin de soutenir ses actions et participer activement à ses initiatives. Ensemble, nous pouvons promouvoir un avenir plus respectueux de la nature et plus durable pour les générations futures!";
+//Découvrir
+export const entryHelloAssoHeadline = "Découvrir";
 
-export const orgName = "Panser Nature"; 
+export const entryHelloAssoText =
+  "PANSERNATURE est une association (loi 1901) fondée en 2002, engagée pour une agriculture naturelle au service de la santé et de l'environnement. Nous croyons qu'une alimentation saine est la première des préventions : mieux vaut prévenir que guérir ! Rejoignez-nous pour promouvoir un mode de vie plus sain et respectueux de la nature !";
+
+//Contact
+export const entryContactHeadline = "Contact";
+
+export const entryContactText =
+  "Vous avez une question, une demande, une suggestion ? Contactez-nous 😊";
+
+export const entryContactBtnLabel = "Contact";
+
+//Others
+export const savoirPlusBtnLavel = "Savoir plus";
+
+export const orgName = "Panser Nature";
 export const address = "contact@pansernature.org";
+export const helloAssoLink =
+  "https://www.helloasso.com/associations/association-pansernature";
