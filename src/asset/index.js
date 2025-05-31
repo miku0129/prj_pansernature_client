@@ -12,7 +12,7 @@ export const aboutUsImg = "https://i.ibb.co/WDRL90W/pansenature-4.jpg";
 export const aboutMichelHeadline = "Qui est Michel";
 
 export const aboutMichelText =
-  "Michel est un grand écrivain dont les œuvres captivent et inspirent des lecteurs de tous horizons. Avec une plume élégante et une imagination débordante, il crée des univers riches et des personnages profonds qui résonnent avec authenticité. Ses récits explorent des thèmes universels comme l’amour, la quête de soi et les défis de la vie moderne, offrant à chaque lecture une nouvelle perspective.";
+  "Michel Provost est le fondateur et président de l'association de 2002 à 2024. Il a écrit 12 livres et une trentaine d'articles le long de sa carrière sur des sujets variés, allant de l'agriculture naturelle à la santé et les énergies.";
 
 export const aboutMichelImg =
   "https://i.ibb.co/6tQTp7f/pansernature-organiser.jpg";
