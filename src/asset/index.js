@@ -8,11 +8,6 @@ export const aboutUsText_2 =
 
 export const aboutUsImg = "https://i.ibb.co/WDRL90W/pansenature-4.jpg";
 
-export const aboutUsBtnLabel = "Savoir plus";
-
-export const aboutUsHelloAssoLink =
-  "https://www.helloasso.com/associations/association-pansernature?54cezp4rruhcvjans7dqjkz5ty=uj5DWdiOdB3KQWNRXrLRQ9In6Or7Wv7IyzCaqU2usFuh4hBY8ghXmQrOvkZEqXOKkhA1PFP4";
-
 //About Michel
 export const aboutMichelHeadline = "Qui est Michel";
 
@@ -27,12 +22,16 @@ export const aboutMichelBtnLabel = "Lire ses articles";
 //Infos
 export const desInfosHeadline = "Infos";
 
-//En savoir plus
-export const entryHelloAssoHeadline = "En savoir plus";
+//Découvrir
+export const entryHelloAssoHeadline = "Découvrir";
 
 export const entryHelloAssoText =
   "PANSERNATURE est une association (loi 1901) fondée en 2002, engagée pour une agriculture naturelle au service de la santé et de l’environnement. Nous croyons qu’une alimentation saine est la première des préventions : mieux vaut prévenir que guérir ! Rejoignez-nous pour promouvoir un mode de vie plus sain et respectueux de la nature !";
 
-  //others
+//others
+export const savoirPlusBtnLavel = "Savoir plus";
+
 export const orgName = "Panser Nature";
 export const address = "contact@pansernature.org";
+export const helloAssoLink =
+  "https://www.helloasso.com/associations/association-pansernature";

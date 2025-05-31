@@ -2,10 +2,14 @@ import {
   CustomHeadline,
   CustomArticle,
   CustomBtn,
-  CustomLink,
 } from "../utilities/components.styles";
 
-import { entryHelloAssoHeadline, entryHelloAssoText } from "../asset";
+import {
+  entryHelloAssoHeadline,
+  entryHelloAssoText,
+  helloAssoLink,
+  savoirPlusBtnLavel,
+} from "../asset";
 
 const EntryHelloAsso = () => {
   return (
@@ -13,10 +17,12 @@ const EntryHelloAsso = () => {
       <div>
         <CustomHeadline>{entryHelloAssoHeadline}</CustomHeadline>
         <CustomArticle>{entryHelloAssoText}</CustomArticle>
+        <div>
+          <a target="_blank" rel="noreferrer" href={helloAssoLink}>
+            <CustomBtn className="mt-2 mb-2">{savoirPlusBtnLavel}</CustomBtn>
+          </a>
+        </div>
       </div>
-      <CustomLink to={"/pay-asso-url"}>
-        <CustomBtn>Découvrir</CustomBtn>
-      </CustomLink>
     </div>
   );
 };

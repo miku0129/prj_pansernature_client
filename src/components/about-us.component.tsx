@@ -8,8 +8,8 @@ import {
   aboutUsText_1,
   aboutUsText_2,
   aboutUsImg,
-  aboutUsBtnLabel,
-  aboutUsHelloAssoLink,
+  savoirPlusBtnLavel,
+  helloAssoLink,
 } from "../asset";
 
 const AboutUs = () => {
@@ -30,8 +30,8 @@ const AboutUs = () => {
         <CustomArticle>{aboutUsText_1}</CustomArticle>
         <CustomArticle>{aboutUsText_2}</CustomArticle>
         <div>
-          <a target="_blank" rel="noreferrer" href={aboutUsHelloAssoLink}>
-            <CustomBtn className="mt-2 mb-2">{aboutUsBtnLabel}</CustomBtn>
+          <a target="_blank" rel="noreferrer" href={helloAssoLink}>
+            <CustomBtn className="mt-2 mb-2">{savoirPlusBtnLavel}</CustomBtn>
           </a>
         </div>
       </div>
