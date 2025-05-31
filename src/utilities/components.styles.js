@@ -27,7 +27,7 @@ export const CustomBtn = styled.button`
   }
 `;
 
-export const CustomBtnYes = styled(CustomBtn)`
+export const CustomBtnCancel = styled(CustomBtn)`
   background-color: white;
   border: solid 1px ${yesColor};
   color: ${yesColor};

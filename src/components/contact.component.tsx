@@ -8,7 +8,7 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import {
   CustomBtn,
-  CustomBtnYes,
+  CustomBtnCancel,
   CustomBtnGroup,
 } from "../utilities/components.styles";
 
@@ -104,10 +104,10 @@ const Contact = () => {
         </Form.Group>
 
         <CustomBtnGroup>
-          <CustomBtn type="button" onClick={() => navigate(-1)}>
+          <CustomBtnCancel type="button" onClick={() => navigate(-1)}>
             Retour
-          </CustomBtn>
-          <CustomBtnYes type="submit">Soumettre</CustomBtnYes>
+          </CustomBtnCancel>
+          <CustomBtn type="submit">Soumettre</CustomBtn>
         </CustomBtnGroup>
       </Form>
     </div>
