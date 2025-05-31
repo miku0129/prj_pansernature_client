@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Panser Nature",
+  "name": "Panser Nature",
+  "description": "Panser Nature est une association indépendante de Recherche et de Développement. qui apporte des solutions pour améliorer la Santé des populations.",
   "icons": [
     {
       "src": "favicon.ico",
