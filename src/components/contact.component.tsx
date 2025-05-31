@@ -1,5 +1,5 @@
 import { FormEvent, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { init, send } from "@emailjs/browser";
 
@@ -17,8 +17,6 @@ const Contact = () => {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [text, setText] = useState("");
-
-  const navigate = useNavigate();
 
   const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
     // フォームのデフォルトの動作をキャンセル
@@ -104,9 +102,11 @@ const Contact = () => {
         </Form.Group>
 
         <CustomBtnGroup>
-          <CustomBtnCancel type="button" onClick={() => navigate(-1)}>
-            Retour
-          </CustomBtnCancel>
+          <div>
+            <Link to={"/"}>
+              <CustomBtnCancel type="button">Retour</CustomBtnCancel>
+            </Link>
+          </div>
           <CustomBtn type="submit">Soumettre</CustomBtn>
         </CustomBtnGroup>
       </Form>
