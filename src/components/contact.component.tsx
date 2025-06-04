@@ -23,9 +23,9 @@ const Contact = () => {
     e.preventDefault();
 
     // 必要なIDをそれぞれ環境変数から取得
-    const userID = process.env.REACT_APP_EMAILJS_USER_ID;
-    const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-    const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+    const userID = import.meta.env.VITE_EMAILJS_USER_ID;
+    const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 
     if (userID && serviceID && templateID) {
       // emailJS初期化

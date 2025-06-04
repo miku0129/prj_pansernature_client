@@ -73,7 +73,7 @@ export const buildArticle = (
 export const getPostsFromFacebook = async () => {
   try {
     const res = await axios.get(
-      `https://graph.facebook.com/v19.0/${process.env.REACT_APP_PAGE_ID}/feed?fields=id,permalink_url,created_time,message,full_picture,story&access_token=${process.env.REACT_APP_FB_ACCESS_TOKEN}`
+      `https://graph.facebook.com/v19.0/${import.meta.env.VITE_PAGE_ID}/feed?fields=id,permalink_url,created_time,message,full_picture,story&access_token=${import.meta.env.VITE_FB_ACCESS_TOKEN}`
     );
     return res.data.data;
   } catch (e) {
