@@ -48,7 +48,7 @@ const News = () => {
                 return (
                   <Col key={idx}>
                     <a
-                      className="no-underline"
+                      className="!no-underline"
                       href={item.permalink_url}
                       target="blank"
                     >
