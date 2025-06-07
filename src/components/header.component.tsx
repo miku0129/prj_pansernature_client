@@ -42,50 +42,50 @@ const Header = () => {
                   </span>
                 </CustomHashLink>
                 <NavDropdown.Divider />
-                <CustomLink className="m-1 text-slate-600" to={"/contact"}>
-                  Contact
+                <CustomLink className="m-1" to={"/contact"}>
+                  <span className="text-slate-600">Contact</span>
                 </CustomLink>
               </div>
             </NavDropdown>
 
             <NavDropdown title="Articles" id="basic-nav-dropdown">
               <div className="flex flex-col p-2">
-                <CustomLink className="m-1 text-slate-600" to={"/articles/0"}>
-                  L'auteur
+                <CustomLink className="m-1" to={"/articles/0"}>
+                  <span className="text-slate-600">L'auteur</span>
                 </CustomLink>
                 <NavDropdown.Divider />
-                <CustomLink className="m-1 text-slate-600" to={"/articles"}>
-                  Tous les articles
+                <CustomLink className="m-1" to={"/articles"}>
+                  <span className="text-slate-600">Tous les articles</span>
                 </CustomLink>
                 <NavDropdown.Divider />
 
                 <CustomLink
-                  className="m-1 text-slate-600"
+                  className="m-1"
                   to={"/articles"}
                   state={{ previewtype: "Agri-jardin" }}
                 >
-                  Agri jardin
+                  <span className="text-slate-600">Agri jardin</span>
                 </CustomLink>
                 <CustomLink
-                  className="m-1 text-slate-600"
+                  className="m-1"
                   to={"/articles"}
                   state={{ previewtype: "Vie-associative" }}
                 >
-                  Vie associative
+                  <span className="text-slate-600">Vie associative</span>
                 </CustomLink>
                 <CustomLink
-                  className="m-1 text-slate-600"
+                  className="m-1"
                   to={"/articles"}
                   state={{ previewtype: "Désobéissance-civile" }}
                 >
-                  Désobéissance civile
+                  <span className="text-slate-600">Désobéissance civile</span>
                 </CustomLink>
                 <CustomLink
-                  className="m-1 text-slate-600"
+                  className="m-1"
                   to={"/articles"}
                   state={{ previewtype: "Santé" }}
                 >
-                  Santé
+                  <span className="text-slate-600">Santé</span>
                 </CustomLink>
               </div>
             </NavDropdown>
