@@ -1,7 +1,7 @@
+import { Button } from "@msano/prj_msano_lib";
 import {
   CustomHeadline,
   CustomArticle,
-  CustomBtn,
 } from "../utilities/components.styles";
 import {
   aboutUsHeadline,
@@ -31,7 +31,9 @@ const AboutUs = () => {
         <CustomArticle>{aboutUsText_2}</CustomArticle>
         <div>
           <a target="_blank" rel="noreferrer" href={helloAssoLink}>
-            <CustomBtn className="mt-2 mb-2">{savoirPlusBtnLavel}</CustomBtn>
+            <Button variant="secondary" size="md" className="mt-2 mb-2">
+              {savoirPlusBtnLavel}
+            </Button>
           </a>
         </div>
       </div>
