@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Button } from "@msano/prj_msano_lib";
 
 import {
   aboutMichelHeadline,
@@ -10,7 +11,6 @@ import {
 import {
   CustomHeadline,
   CustomArticle,
-  CustomBtn,
 } from "../utilities/components.styles";
 
 const AboutMichel = () => {
@@ -30,9 +30,9 @@ const AboutMichel = () => {
         <CustomHeadline>{aboutMichelHeadline}</CustomHeadline>
         <CustomArticle>{aboutMichelText}</CustomArticle>
         <Link to={"/articles"}>
-          <CustomBtn className="mt-2 mb-2">
+          <Button variant="secondary" size="md" className="mt-2 mb-2">
             {aboutMichelBtnLabel}
-          </CustomBtn>
+          </Button>
         </Link>
       </div>
       <div className="flex flex-col justify-center">

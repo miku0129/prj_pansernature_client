@@ -1,6 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "bootstrap/dist/css/bootstrap.min.css" layer(components);
+
+@theme {
+  --color-main: #009250;
+  --color-maindark: #004928;
+  --color-gainsboro: #dcdcdc;
+}
 
 body {
   margin: 0;
@@ -9,7 +14,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  font-family: 'Vollkorn', serif;}
+  font-family: "Vollkorn", serif;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

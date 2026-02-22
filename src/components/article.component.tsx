@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { ArticlesContext } from "../context/articles.context";
-import { CustomBtn } from "../utilities/components.styles";
+import { Button } from "@msano/prj_msano_lib";
 import { buildArticle } from "../utilities/helper";
 
 const Article = () => {
@@ -43,9 +43,9 @@ const Article = () => {
             ))}
         </div>
       </div>
-      <CustomBtn className="w-fit" type="button" onClick={() => navigate(-1)}>
+      <Button variant="secondary" size="md" onClick={() => navigate(-1)}>
         Retour
-      </CustomBtn>
+      </Button>
     </div>
   );
 };

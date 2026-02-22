@@ -6,7 +6,7 @@ export const aboutUsText_1 =
 export const aboutUsText_2 =
   "Les objectifs de l'association sont : Informer sur des savoirs pratiques permettant de renforcer le vivant, Former ceux qui souhaitent comprendre et restaurer les bases de la vie, Agir ensemble pour diffuser les solutions existantes, en développer de nouvelles, protéger les acquis et soutenir les personnes en difficulté.";
 
-export const aboutUsImg = process.env.REACT_APP_ABOUT_US_IMG;
+export const aboutUsImg = import.meta.env.VITE_ABOUT_US_IMG;
 
 //About Michel
 export const aboutMichelHeadline = "Qui est Michel";
@@ -14,7 +14,7 @@ export const aboutMichelHeadline = "Qui est Michel";
 export const aboutMichelText =
   "Michel Provost est le fondateur et président de l'association de 2002 à 2024. Il a écrit 12 livres et une trentaine d'articles le long de sa carrière sur des sujets variés, allant de l'agriculture naturelle à la santé et les énergies.";
 
-export const aboutMichelImg = process.env.REACT_APP_ABOUT_MICHEL_IMG;
+export const aboutMichelImg = import.meta.env.VITE_ABOUT_MICHEL_IMG;
 
 export const aboutMichelBtnLabel = "Lire ses articles";
 
@@ -39,5 +39,5 @@ export const entryContactBtnLabel = "Contact";
 export const savoirPlusBtnLavel = "Savoir plus";
 
 export const orgName = "Panser Nature";
-export const address = process.env.REACT_APP_ORG_EMAIL;
-export const helloAssoLink = process.env.REACT_APP_ORG_HELLOASSO_LINK;
+export const address = import.meta.env.VITE_ORG_EMAIL;
+export const helloAssoLink = import.meta.env.VITE_ORG_HELLOASSO_LINK;

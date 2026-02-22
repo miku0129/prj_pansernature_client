@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
+import { Button } from "@msano/prj_msano_lib";
 
 import {
   CustomHeadline,
   CustomArticle,
-  CustomBtn,
 } from "../utilities/components.styles";
 
 import {
@@ -19,7 +19,9 @@ const EntryContact = () => {
         <CustomHeadline>{entryContactHeadline}</CustomHeadline>
         <CustomArticle>{entryContactText}</CustomArticle>
         <Link to={"/contact"}>
-          <CustomBtn className="mt-2 mb-2">{entryContactBtnLabel}</CustomBtn>
+          <Button variant="secondary" size="md" className="mt-2 mb-2">
+            {entryContactBtnLabel}
+          </Button>
         </Link>
       </div>
     </div>

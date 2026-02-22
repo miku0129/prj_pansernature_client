@@ -1,5 +1,6 @@
 import { FormEvent, useState } from "react";
 import { Link } from "react-router-dom";
+import { Button } from "@msano/prj_msano_lib";
 
 import { init, send } from "@emailjs/browser";
 
@@ -7,8 +8,6 @@ import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import {
-  CustomBtn,
-  CustomBtnCancel,
   CustomBtnGroup,
 } from "../utilities/components.styles";
 
@@ -23,9 +22,9 @@ const Contact = () => {
     e.preventDefault();
 
     // 必要なIDをそれぞれ環境変数から取得
-    const userID = process.env.REACT_APP_EMAILJS_USER_ID;
-    const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-    const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+    const userID = import.meta.env.VITE_EMAILJS_USER_ID;
+    const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 
     if (userID && serviceID && templateID) {
       // emailJS初期化
@@ -104,10 +103,24 @@ const Contact = () => {
         <CustomBtnGroup>
           <div>
             <Link to={"/"}>
-              <CustomBtnCancel type="button">Retour</CustomBtnCancel>
+              <Button
+                variant="warning"
+                size="md"
+                className="mt-2 mb-2"
+                type="button"
+              >
+                Retour
+              </Button>
             </Link>
           </div>
-          <CustomBtn type="submit">Soumettre</CustomBtn>
+          <Button
+            variant="secondary"
+            size="md"
+            className="mt-2 mb-2"
+            type="submit"
+          >
+            Soumettre
+          </Button>
         </CustomBtnGroup>
       </Form>
     </div>
