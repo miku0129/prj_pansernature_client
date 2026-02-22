@@ -1,12 +1,9 @@
 import { useEffect, useState } from "react";
 import { getPostsFromFacebook } from "../utilities/helper";
 
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+import { Card, Col, Row } from "react-bootstrap";
 
 import { desInfosHeadline } from "../asset";
-import { CustomHeadline } from "../utilities/components.styles";
 
 type Post = {
   id: string;
@@ -29,7 +26,7 @@ const News = () => {
   return (
     posts && (
       <div className="px-5" id="infos">
-        <CustomHeadline>{desInfosHeadline}</CustomHeadline>
+        <div className="text-4xl">{desInfosHeadline}</div>
         <Row xs={1} md={3} className="g-4">
           {posts &&
             //最新のニュースを3つだけ表示させる

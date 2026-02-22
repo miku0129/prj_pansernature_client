@@ -1,15 +1,10 @@
+import { Button } from "@msano/prj_msano_lib";
 import { FormEvent, useState } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "@msano/prj_msano_lib";
 
 import { init, send } from "@emailjs/browser";
 
-import Col from "react-bootstrap/Col";
-import Form from "react-bootstrap/Form";
-import Row from "react-bootstrap/Row";
-import {
-  CustomBtnGroup,
-} from "../utilities/components.styles";
+import { Col, Form, Row } from "react-bootstrap";
 
 const Contact = () => {
   const [firstName, setFirstName] = useState("");
@@ -100,7 +95,7 @@ const Contact = () => {
           </Form.Text>
         </Form.Group>
 
-        <CustomBtnGroup>
+        <div className="m-5 flex gap-2.5">
           <div>
             <Link to={"/"}>
               <Button
@@ -121,7 +116,7 @@ const Contact = () => {
           >
             Soumettre
           </Button>
-        </CustomBtnGroup>
+        </div>
       </Form>
     </div>
   );

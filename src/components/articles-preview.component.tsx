@@ -1,13 +1,10 @@
-import { useState, useContext } from "react";
-import { useLocation } from "react-router-dom";
+import { useContext, useState } from "react";
 import ReactPaginate from "react-paginate";
+import { Link, useLocation } from "react-router-dom";
 
 import { ArticlesContext } from "../context/articles.context";
 
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
-import { CustomLink } from "../utilities/components.styles";
+import { Card, Col, Row } from "react-bootstrap";
 
 type CurrentItems = {
   currentItems: Article[];
@@ -31,21 +28,21 @@ const ArticlesPreview = () => {
       if (state.previewtype === "Agri-jardin") {
         articles = articles.filter(
           (article: Article) =>
-            article.category.replace("-", " ") === "Agri jardin"
+            article.category.replace("-", " ") === "Agri jardin",
         );
       } else if (state.previewtype === "Vie-associative") {
         articles = articles.filter(
           (article: Article) =>
-            article.category.replace("-", " ") === "Vie associative"
+            article.category.replace("-", " ") === "Vie associative",
         );
       } else if (state.previewtype === "Désobéissance-civile") {
         articles = articles.filter(
           (article: Article) =>
-            article.category.replace("-", " ") === "Désobéissance civile"
+            article.category.replace("-", " ") === "Désobéissance civile",
         );
       } else if (state.previewtype === "Santé") {
         articles = articles.filter(
-          (article: Article) => article.category.replace("-", " ") === "Santé"
+          (article: Article) => article.category.replace("-", " ") === "Santé",
         );
       }
     }
@@ -79,9 +76,9 @@ const ArticlesPreview = () => {
               }
               return (
                 <Col key={idx} className="flex justify-center">
-                  <CustomLink
+                  <Link
                     to={`/articles/${article.id}`}
-                    className={`${
+                    className={`no-underline ${
                       article.text ? "hover:opacity-80" : "pointer-events-none"
                     }`}
                   >
@@ -98,7 +95,7 @@ const ArticlesPreview = () => {
                         <Card.Text>{text_intro}...</Card.Text>
                       </Card.Body>
                     </Card>
-                  </CustomLink>
+                  </Link>
                 </Col>
               );
             })}
@@ -144,7 +141,7 @@ const ArticlesPreview = () => {
                 return 0;
               };
               console.log(
-                `User requested page number ${selected}, which is offset ${newOffset}`
+                `User requested page number ${selected}, which is offset ${newOffset}`,
               );
               setItemOffset(newOffset());
             }}
