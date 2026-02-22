@@ -1,15 +1,11 @@
 import { Button } from "@msano/prj_msano_lib";
 import {
-  CustomHeadline,
-  CustomArticle,
-} from "../utilities/components.styles";
-import {
   aboutUsHeadline,
+  aboutUsImg,
   aboutUsText_1,
   aboutUsText_2,
-  aboutUsImg,
-  savoirPlusBtnLavel,
   helloAssoLink,
+  savoirPlusBtnLavel,
 } from "../asset";
 
 const AboutUs = () => {
@@ -26,9 +22,9 @@ const AboutUs = () => {
       id="about-us"
     >
       <div className="min-w-sm flex flex-col justify-center">
-        <CustomHeadline>{aboutUsHeadline}</CustomHeadline>
-        <CustomArticle>{aboutUsText_1}</CustomArticle>
-        <CustomArticle>{aboutUsText_2}</CustomArticle>
+        <div className="text-4xl">{aboutUsHeadline}</div>
+        <div className="text-xl">{aboutUsText_1}</div>
+        <div className="text-xl">{aboutUsText_2}</div>
         <div>
           <a target="_blank" rel="noreferrer" href={helloAssoLink}>
             <Button variant="secondary" size="md" className="mt-2 mb-2">

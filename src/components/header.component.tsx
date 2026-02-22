@@ -1,15 +1,10 @@
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import {
-  CustomHeadline,
-  CustomLink,
-  CustomHashLink,
-} from "../utilities/components.styles";
-import {
-  aboutUsHeadline,
   aboutMichelHeadline,
+  aboutUsHeadline,
   desInfosHeadline,
   entryHelloAssoHeadline,
   orgName,
@@ -19,74 +14,74 @@ const Header = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <CustomLink className="mr-20" to={"/"}>
-          <CustomHeadline>{orgName}</CustomHeadline>
-        </CustomLink>
+        <Link className="mr-20 no-underline" to={"/"}>
+          <div className="text-4xl text-main">{orgName}</div>
+        </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <NavDropdown title="About" id="basic-nav-dropdown">
               <div className="flex flex-col p-2">
-                <CustomHashLink className="m-1" to="/#about-us">
+                <HashLink className="m-1 no-underline" to="/#about-us">
                   <span className="text-slate-600">{aboutUsHeadline}</span>
-                </CustomHashLink>
-                <CustomHashLink className="m-1" to="/#about-michel">
+                </HashLink>
+                <HashLink className="m-1 no-underline" to="/#about-michel">
                   <span className="text-slate-600">{aboutMichelHeadline}</span>
-                </CustomHashLink>
-                <CustomHashLink className="m-1" to="/#infos">
+                </HashLink>
+                <HashLink className="m-1 no-underline" to="/#infos">
                   <span className="text-slate-600">{desInfosHeadline}</span>
-                </CustomHashLink>
-                <CustomHashLink className="m-1" to="/#entry-helloasso">
+                </HashLink>
+                <HashLink className="m-1 no-underline" to="/#entry-helloasso">
                   <span className="text-slate-600">
                     {entryHelloAssoHeadline}
                   </span>
-                </CustomHashLink>
+                </HashLink>
                 <NavDropdown.Divider />
-                <CustomLink className="m-1" to={"/contact"}>
+                <Link className="m-1 no-underline" to={"/contact"}>
                   <span className="text-slate-600">Contact</span>
-                </CustomLink>
+                </Link>
               </div>
             </NavDropdown>
 
             <NavDropdown title="Articles" id="basic-nav-dropdown">
               <div className="flex flex-col p-2">
-                <CustomLink className="m-1" to={"/articles/0"}>
+                <Link className="m-1 no-underline" to={"/articles/0"}>
                   <span className="text-slate-600">L'auteur</span>
-                </CustomLink>
+                </Link>
                 <NavDropdown.Divider />
-                <CustomLink className="m-1" to={"/articles"}>
+                <Link className="m-1 no-underline" to={"/articles"}>
                   <span className="text-slate-600">Tous les articles</span>
-                </CustomLink>
+                </Link>
                 <NavDropdown.Divider />
 
-                <CustomLink
-                  className="m-1"
+                <Link
+                  className="m-1 no-underline"
                   to={"/articles"}
                   state={{ previewtype: "Agri-jardin" }}
                 >
                   <span className="text-slate-600">Agri jardin</span>
-                </CustomLink>
-                <CustomLink
-                  className="m-1"
+                </Link>
+                <Link
+                  className="m-1 no-underline"
                   to={"/articles"}
                   state={{ previewtype: "Vie-associative" }}
                 >
                   <span className="text-slate-600">Vie associative</span>
-                </CustomLink>
-                <CustomLink
-                  className="m-1"
+                </Link>
+                <Link
+                  className="m-1 no-underline"
                   to={"/articles"}
                   state={{ previewtype: "Désobéissance-civile" }}
                 >
                   <span className="text-slate-600">Désobéissance civile</span>
-                </CustomLink>
-                <CustomLink
-                  className="m-1"
+                </Link>
+                <Link
+                  className="m-1 no-underline"
                   to={"/articles"}
                   state={{ previewtype: "Santé" }}
                 >
                   <span className="text-slate-600">Santé</span>
-                </CustomLink>
+                </Link>
               </div>
             </NavDropdown>
           </Nav>

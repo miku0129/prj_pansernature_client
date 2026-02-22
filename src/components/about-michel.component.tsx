@@ -1,17 +1,12 @@
-import { Link } from "react-router-dom";
 import { Button } from "@msano/prj_msano_lib";
+import { Link } from "react-router-dom";
 
 import {
-  aboutMichelHeadline,
-  aboutMichelText,
-  aboutMichelImg,
   aboutMichelBtnLabel,
+  aboutMichelHeadline,
+  aboutMichelImg,
+  aboutMichelText,
 } from "../asset";
-
-import {
-  CustomHeadline,
-  CustomArticle,
-} from "../utilities/components.styles";
 
 const AboutMichel = () => {
   return (
@@ -27,8 +22,8 @@ const AboutMichel = () => {
       id="about-michel"
     >
       <div className="min-w-sm flex flex-col justify-center">
-        <CustomHeadline>{aboutMichelHeadline}</CustomHeadline>
-        <CustomArticle>{aboutMichelText}</CustomArticle>
+        <div className="text-4xl">{aboutMichelHeadline}</div>
+        <div className="text-xl">{aboutMichelText}</div>
         <Link to={"/articles"}>
           <Button variant="secondary" size="md" className="mt-2 mb-2">
             {aboutMichelBtnLabel}
