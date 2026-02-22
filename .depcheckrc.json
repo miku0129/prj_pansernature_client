@@ -1,0 +1,9 @@
+{
+  "skip-missing": false,
+  "ignore-patterns": [
+    "build"
+  ],
+  "ignores": [
+    "tailwindcss"
+  ]
+}
