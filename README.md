@@ -12,16 +12,8 @@ Archiving the articles of **Michel PROVOST** so that everyone can access his dis
 Michel PROVOST (1943-2025) was an influential practitioner of natural farming. He was a president of Panther Nature and published books with his passion for natural farming.
 
 ## Features
-
-- To implement **CI/CD**, this application is deployed on a **VPS**.
-
-    - Hosting setup is scripted with **Docker** and managed via **Portainer**.
-    - A user-friendly and memorable URL is routed using **Nginx Proxy Manager**.
-    - **Firestore** is used for hosting articles and interacting with the application.
-    - **EmailJS** and **SendGrid** enable seamless in-app contact functionality.
-
-You can read more in my blog: ['Deploy web application in VPS via Portainer'](https://hugo.msano.ovh/posts/vps-deploy-app/). 
-
-## Closing
-I appreciate Michel and the organization Panser Nature for allowing me to be part of this great project of archiving Michel's articles.
+- This application is written in TypeScript to ensure data consistency and type safety.
+- The React framework is used to create an interactive web application.
+- Firestore is used to host articles and handle data interactions.
+- EmailJS and SendGrid enable seamless in-app contact functionality.
 
