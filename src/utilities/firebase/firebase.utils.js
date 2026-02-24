@@ -29,10 +29,11 @@ import { articles } from "./data/articles_init_data";
 const app = initializeApp(firebaseConfig);
 export const firestore = getFirestore(app);
 
-export const getAllDocuments = async () => {
-  const querySnapshot = await getDocs(collection(db, "articles"));
-  return querySnapshot.docs.map((docsnapshot) => docsnapshot.data());
-};
+export const getStoredDocumentsPromise = getDocs(
+  collection(db, "articles"),
+).then((querySnapshot) =>
+  querySnapshot.docs.map((docsnapshot) => docsnapshot.data()),
+);
 
 export const auth = getAuth();
 
