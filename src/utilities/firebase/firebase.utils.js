@@ -4,24 +4,24 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-import { firebaseConfig } from "./firebase.config";
 import {
-  getFirestore,
+  // signInWithPopup,
+  createUserWithEmailAndPassword,
+  getAuth,
+  onAuthStateChanged,
+  signInWithEmailAndPassword,
+  signOut,
+} from "firebase/auth";
+import {
   collection,
   doc,
   getDoc,
   getDocs,
+  getFirestore,
   setDoc,
 } from "firebase/firestore/lite";
+import { firebaseConfig } from "./firebase.config";
 import { firestore as db } from "./firebase.utils";
-import {
-  getAuth,
-  // signInWithPopup,
-  createUserWithEmailAndPassword,
-  signInWithEmailAndPassword,
-  signOut,
-  onAuthStateChanged,
-} from "firebase/auth";
 
 import { articles } from "./data/articles_init_data";
 
@@ -29,10 +29,11 @@ import { articles } from "./data/articles_init_data";
 const app = initializeApp(firebaseConfig);
 export const firestore = getFirestore(app);
 
-export const getAllDocuments = async () => {
-  const querySnapshot = await getDocs(collection(db, "articles"));
-  return querySnapshot.docs.map((docsnapshot) => docsnapshot.data());
-};
+export const getStoredDocumentsPromise = getDocs(
+  collection(db, "articles"),
+).then((querySnapshot) =>
+  querySnapshot.docs.map((docsnapshot) => docsnapshot.data()),
+);
 
 export const auth = getAuth();
 
@@ -86,7 +87,11 @@ export const getCurrentUser = () => {
         unsubscribe();
         resolve(userAuth);
       },
-      reject
+      reject,
     );
   });
 };
+
+export const getStoredPicturesPromise = getDocs(collection(db, "images")).then(
+  (res) => res.docs.map((docsnapshot) => docsnapshot.data()),
+);

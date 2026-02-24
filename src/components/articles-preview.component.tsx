@@ -1,10 +1,8 @@
-import { useContext, useState } from "react";
+import { use, useState } from "react";
+import { Card, Col, Row } from "react-bootstrap";
 import ReactPaginate from "react-paginate";
 import { Link, useLocation } from "react-router-dom";
-
-import { ArticlesContext } from "../context/articles.context";
-
-import { Card, Col, Row } from "react-bootstrap";
+import { getStoredDocumentsPromise } from "../utilities/firebase/firebase.utils";
 
 type CurrentItems = {
   currentItems: Article[];
@@ -12,16 +10,15 @@ type CurrentItems = {
 type ItemsPerPage = {
   itemsPerPage: number;
 };
-
 type PreviewPropsType = {
   previewtype?: AgriJardin | VieAssociative | DesobeissanceCivile | Sante;
 };
 
-const ArticlesPreview = () => {
+export default function ArticlesPreview() {
   const location = useLocation();
   const state = location.state as PreviewPropsType;
 
-  let articles = useContext(ArticlesContext)[0];
+  let articles = use(getStoredDocumentsPromise) as Article[];
 
   if (articles) {
     if (state !== null) {
@@ -30,17 +27,20 @@ const ArticlesPreview = () => {
           (article: Article) =>
             article.category.replace("-", " ") === "Agri jardin",
         );
-      } else if (state.previewtype === "Vie-associative") {
+      }
+      if (state.previewtype === "Vie-associative") {
         articles = articles.filter(
           (article: Article) =>
             article.category.replace("-", " ") === "Vie associative",
         );
-      } else if (state.previewtype === "Désobéissance-civile") {
+      }
+      if (state.previewtype === "Désobéissance-civile") {
         articles = articles.filter(
           (article: Article) =>
             article.category.replace("-", " ") === "Désobéissance civile",
         );
-      } else if (state.previewtype === "Santé") {
+      }
+      if (state.previewtype === "Santé") {
         articles = articles.filter(
           (article: Article) => article.category.replace("-", " ") === "Santé",
         );
@@ -57,7 +57,8 @@ const ArticlesPreview = () => {
       category: "",
       published_date: "",
       text: "",
-    };
+      closing: [""],
+    } as unknown as Article;
     while (counter < 4) {
       articles.push(empty_article);
       counter += 1;
@@ -103,6 +104,7 @@ const ArticlesPreview = () => {
       </div>
     );
   }
+
   function PaginatedItems({ itemsPerPage }: ItemsPerPage) {
     // Here we use item offsets; we could also use page offsets
     // following the API or data you're working with.
@@ -113,11 +115,12 @@ const ArticlesPreview = () => {
     // from an API endpoint with useEffect and useState)
     const endOffset = itemOffset + itemsPerPage;
     console.log(`Loading items from ${itemOffset} to ${endOffset}`);
-    const currentItems = () => {
+    const getCurrentItems = () => {
       if (articles) {
         return articles.slice(itemOffset, endOffset);
       }
     };
+    const currentItems = getCurrentItems();
     const pageCount = () => {
       if (articles) {
         return Math.ceil(articles.length / itemsPerPage);
@@ -126,44 +129,46 @@ const ArticlesPreview = () => {
     };
 
     return (
-      <>
-        <Items currentItems={currentItems()} />
-        <div className="flex justify-center">
-          <ReactPaginate
-            nextLabel="next >"
-            onPageChange={(e) => {
-              // Invoke when user click to request another page.
-              const { selected } = e;
-              const newOffset = () => {
-                if (articles) {
-                  return (selected * itemsPerPage) % articles.length;
-                }
-                return 0;
-              };
-              console.log(
-                `User requested page number ${selected}, which is offset ${newOffset}`,
-              );
-              setItemOffset(newOffset());
-            }}
-            pageRangeDisplayed={3}
-            marginPagesDisplayed={2}
-            pageCount={pageCount()}
-            previousLabel="< previous"
-            pageClassName="page-item"
-            pageLinkClassName="page-link"
-            previousClassName="page-item"
-            previousLinkClassName="page-link"
-            nextClassName="page-item"
-            nextLinkClassName="page-link"
-            breakLabel="..."
-            breakClassName="page-item"
-            breakLinkClassName="page-link"
-            containerClassName="pagination"
-            activeClassName="active"
-            renderOnZeroPageCount={null}
-          />
-        </div>
-      </>
+      currentItems && (
+        <>
+          <Items currentItems={currentItems} />
+          <div className="flex justify-center">
+            <ReactPaginate
+              nextLabel="next >"
+              onPageChange={(e) => {
+                // Invoke when user click to request another page.
+                const { selected } = e;
+                const newOffset = () => {
+                  if (articles) {
+                    return (selected * itemsPerPage) % articles.length;
+                  }
+                  return 0;
+                };
+                console.log(
+                  `User requested page number ${selected}, which is offset ${newOffset}`,
+                );
+                setItemOffset(newOffset());
+              }}
+              pageRangeDisplayed={3}
+              marginPagesDisplayed={2}
+              pageCount={pageCount()}
+              previousLabel="< previous"
+              pageClassName="page-item"
+              pageLinkClassName="page-link"
+              previousClassName="page-item"
+              previousLinkClassName="page-link"
+              nextClassName="page-item"
+              nextLinkClassName="page-link"
+              breakLabel="..."
+              breakClassName="page-item"
+              breakLinkClassName="page-link"
+              containerClassName="pagination"
+              activeClassName="active"
+              renderOnZeroPageCount={null}
+            />
+          </div>
+        </>
+      )
     );
   }
 
@@ -172,6 +177,4 @@ const ArticlesPreview = () => {
       <PaginatedItems itemsPerPage={8} />,
     </div>
   );
-};
-
-export default ArticlesPreview;
+}

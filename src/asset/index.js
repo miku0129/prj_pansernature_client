@@ -9,7 +9,7 @@ export const aboutUsText_2 =
 export const aboutUsImg = import.meta.env.VITE_ABOUT_US_IMG;
 
 //About Michel
-export const aboutMichelHeadline = "Qui est Michel";
+export const aboutMichelHeadline = "Nous vous présentons notre Michel";
 
 export const aboutMichelText =
   "Michel Provost est le fondateur et président de l'association de 2002 à 2024. Il a écrit 12 livres et une trentaine d'articles le long de sa carrière sur des sujets variés, allant de l'agriculture naturelle à la santé et les énergies.";
@@ -31,7 +31,7 @@ export const entryHelloAssoText =
 export const entryContactHeadline = "Contact";
 
 export const entryContactText =
-  "Vous avez une question, une demande, une suggestion ? Contactez-nous 😊";
+  "Vous avez une question, une demande, une suggestion ? Contactez-nous!";
 
 export const entryContactBtnLabel = "Contact";
 

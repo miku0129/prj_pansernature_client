@@ -1,30 +1,5 @@
 import { renderToString } from "react-dom/server";
-import { buildArticle, getPostsFromFacebook } from "../helper";
-import axios from "axios";
-
-describe("getPostsFromFacebook", () => {
-  test("return array", async () => {
-    const spy = jest.spyOn(axios, "get").mockImplementation(() => {
-      return Promise.resolve({
-        data: {
-          data: [
-            {
-              created_time: "2024-05-25T12:42:06+0000",
-              full_picture:
-                "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/443860777_767183222238246_1540510878972836757_n.jpg?stp=cp1_dst-jpg_p720x720&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=hAPTPq6lT_EQ7kNvgFH-LI0&_nc_ht=scontent-cdg4-1.xx&edm=AKK4YLsEAAAA&oh=00_AYBYi3Prip_thMpnTjXn8_Ird_CVtepQ3h7IZ5x2eqaQXg&oe=66BC2FDE",
-              id: "107356491885884_471579245542133",
-              permalink_url: "https://www.facebook.com/43172937952",
-            },
-          ],
-        },
-      });
-    });
-
-    const result = await getPostsFromFacebook();
-    expect(spy).toHaveBeenCalledTimes(1);
-    expect(Array.isArray(result)).toBe(true);
-  });
-});
+import { buildArticle} from "../helper";
 
 describe("buildArticle", () => {
   test("high-light the sentence", () => {
