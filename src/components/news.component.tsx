@@ -1,9 +1,7 @@
-import { useEffect, useState } from "react";
-import { getPostsFromFacebook } from "../utilities/helper";
-
+import { use } from "react";
 import { Card, Col, Row } from "react-bootstrap";
-
 import { desInfosHeadline } from "../asset";
+import { getFacebookPostsPromise } from "../utilities/helper";
 
 type Post = {
   id: string;
@@ -13,27 +11,19 @@ type Post = {
   permalink_url: string;
 };
 
-const News = () => {
-  const [posts, setPosts] = useState([]);
-  useEffect(() => {
-    const getPostsFromFB = async () => {
-      const posts = await getPostsFromFacebook();
-      setPosts(posts);
-    };
-    getPostsFromFB();
-  }, []);
+export default function News() {
+  const posts = use(getFacebookPostsPromise);
 
   return (
     posts && (
       <div className="px-5" id="infos">
-        <div className="text-4xl">{desInfosHeadline}</div>
+        <div className="mb-3 text-4xl">{desInfosHeadline}</div>
         <Row xs={1} md={3} className="g-4">
           {posts &&
-            //最新のニュースを3つだけ表示させる
             posts
-              .filter((item: Post) => item.message)
-              .filter((_, idx) => idx < 3)
-              .map((item: Post, idx) => {
+              .filter((item: Post) => item.message) //メッセージのある投稿のみ
+              .filter((_: Post, idx: number) => idx < 3) //最新のものを3つのみ取得
+              .map((item: Post, idx: number) => {
                 const text_intro = item.message.slice(0, 50);
                 const date = new Date(item.created_time);
                 const [month, day, year] = [
@@ -70,6 +60,4 @@ const News = () => {
       </div>
     )
   );
-};
-
-export default News;
+}
