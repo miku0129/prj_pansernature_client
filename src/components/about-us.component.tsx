@@ -1,47 +1,40 @@
-import { Button } from "@msano/prj_msano_lib";
-import {
-  aboutUsHeadline,
-  aboutUsImg,
-  aboutUsText_1,
-  aboutUsText_2,
-  helloAssoLink,
-  savoirPlusBtnLavel,
-} from "../asset";
+import { use } from "react";
+import { Carousel } from "react-bootstrap";
+import { aboutUsHeadline, aboutUsText_1, aboutUsText_2 } from "../asset";
+import { getStoredPicturesPromise } from "../utilities/firebase/firebase.utils";
 
-const AboutUs = () => {
+export default function AboutUs() {
+  const pictures = use(getStoredPicturesPromise);
+
   return (
     <div
-      className="
-      grid 
-      p-5
-      gap-2
-      grid-rows-[1fr_auto] 
-      lg:grid-rows-none
-      lg:grid-cols-[1fr_1fr]
-        "
+      className="grid grid-rows-[1fr_auto] gap-2 p-5 lg:grid-cols-[1fr_1fr] lg:grid-rows-none"
       id="about-us"
     >
-      <div className="min-w-sm flex flex-col justify-center">
-        <div className="text-4xl">{aboutUsHeadline}</div>
-        <div className="text-xl">{aboutUsText_1}</div>
-        <div className="text-xl">{aboutUsText_2}</div>
-        <div>
-          <a target="_blank" rel="noreferrer" href={helloAssoLink}>
-            <Button variant="secondary" size="md" className="mt-2 mb-2">
-              {savoirPlusBtnLavel}
-            </Button>
-          </a>
-        </div>
+      <div className="flex min-w-sm flex-col justify-center">
+        <div className="mb-3 text-4xl">{aboutUsHeadline}</div>
+        <p className="text-xl">{aboutUsText_1}</p>
+        <p className="text-xl">{aboutUsText_2}</p>
       </div>
       <div className="flex flex-col justify-center">
-        <img
-          className="h-full bg-center object-cover"
-          alt="memebers are woking in the garden"
-          src={aboutUsImg}
-        />
+        <Carousel
+          fade
+          interval={null} // stop auto-play
+          className="bg-main"
+        >
+          {pictures.map((picture) => (
+            <Carousel.Item
+              className="h-80 w-full md:h-[700px]"
+              key={picture.pictureUrl}
+            >
+              <img
+                src={picture.pictureUrl}
+                className="h-full w-full object-cover object-center"
+              />
+            </Carousel.Item>
+          ))}
+        </Carousel>
       </div>
     </div>
   );
-};
-
-export default AboutUs;
+}
