@@ -1,4 +1,3 @@
-import { Button } from "@msano/prj_msano_lib";
 import { Link } from "react-router-dom";
 
 import {
@@ -8,27 +7,21 @@ import {
   aboutMichelText,
 } from "../asset";
 
-const AboutMichel = () => {
+export default function AboutMichel() {
   return (
     <div
-      className="
-          grid 
-          px-5
-          gap-2
-      grid-rows-[1fr_auto] 
-          lg:grid-rows-none
-          lg:grid-cols-[1fr_1fr]
-            "
+      className="grid grid-rows-[1fr_auto] gap-2 px-5 lg:grid-cols-[1fr_1fr] lg:grid-rows-none"
       id="about-michel"
     >
-      <div className="min-w-sm flex flex-col justify-center">
-        <div className="text-4xl">{aboutMichelHeadline}</div>
-        <div className="text-xl">{aboutMichelText}</div>
-        <Link to={"/articles"}>
-          <Button variant="secondary" size="md" className="mt-2 mb-2">
-            {aboutMichelBtnLabel}
-          </Button>
-        </Link>
+      <div className="flex min-w-sm flex-col justify-center">
+        <div className="mb-3 text-4xl">{aboutMichelHeadline}</div>
+        <p className="text-xl">{aboutMichelText}</p>
+
+        <div>
+          <Link to={"/articles"}>
+            <p className="text-xl">{aboutMichelBtnLabel}</p>
+          </Link>
+        </div>
       </div>
       <div className="flex flex-col justify-center">
         <img
@@ -39,6 +32,4 @@ const AboutMichel = () => {
       </div>
     </div>
   );
-};
-
-export default AboutMichel;
+}
