@@ -15,11 +15,11 @@ const Header = () => {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Link className="mr-20 no-underline" to={"/"}>
-          <div className="text-4xl text-main">{orgName}</div>
+          <div className="text-main text-4xl">{orgName}</div>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto items-center gap-2">
             <NavDropdown title="About" id="basic-nav-dropdown">
               <div className="flex flex-col p-2">
                 <HashLink className="m-1 no-underline" to="/#about-us">
@@ -84,6 +84,12 @@ const Header = () => {
                 </Link>
               </div>
             </NavDropdown>
+            <Link
+              className="no-underline"
+              to={"/gallery"}
+            >
+              <span className="text-slate-600">Photos</span>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

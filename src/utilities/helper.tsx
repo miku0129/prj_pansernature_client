@@ -1,4 +1,5 @@
 import axios from "axios";
+import { createFlickr } from "flickr-sdk";
 
 const highlightWord = (word: string, indexOfWord: number) => {
   if (indexOfWord % 2 === 1) {
@@ -76,3 +77,24 @@ export const getFacebookPostsPromise = axios
   )
   .then((res) => res.data.data)
   .catch((e) => console.log(e));
+
+export const getPhotosForGallery = async () => {
+  const { flickr } = createFlickr(import.meta.env.VITE_FLICKR_API_KEY!);
+
+  const serverId = import.meta.env.VITE_FLICKR_SERVER_ID;
+  const res = await flickr("flickr.photosets.getPhotos", {
+    photoset_id: import.meta.env.VITE_FLICKR_GALLERY_PHOTOSET_ID!,
+    user_id: import.meta.env.VITE_FLICKR_USER_ID!,
+  });
+
+  const photos = await res.photoset.photo.map((item: FlickrPhotoInfo) => {
+    const size = item.title.split("_");
+    return {
+      src: `https://live.staticflickr.com/${serverId}/${item.id}_${item.secret}_b.jpg`,
+      width: size[0],
+      height: size[1],
+    };
+  });
+
+  return photos;
+};

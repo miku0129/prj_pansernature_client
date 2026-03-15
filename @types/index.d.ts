@@ -24,3 +24,15 @@ type Article = {
   closing: string[];
   text: (string | ListOfArticle | ImageOfArticle)[];
 };
+
+type FlickrPhotoInfo = {
+  farm: number;
+  id: string;
+  isfamily: number;
+  isfriend: number;
+  isprimary: string;
+  ispublic: number;
+  secret: string;
+  server: string;
+  title: string;
+};

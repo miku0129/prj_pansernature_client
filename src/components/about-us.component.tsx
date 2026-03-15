@@ -1,11 +1,11 @@
-import { use } from "react";
-import { Carousel } from "react-bootstrap";
-import { aboutUsHeadline, aboutUsText_1, aboutUsText_2 } from "../asset";
-import { getStoredPicturesPromise } from "../utilities/firebase/firebase.utils";
+import {
+  aboutUsHeadline,
+  aboutUsImg,
+  aboutUsText_1,
+  aboutUsText_2,
+} from "../asset";
 
 export default function AboutUs() {
-  const pictures = use(getStoredPicturesPromise);
-
   return (
     <div
       className="grid grid-rows-[1fr_auto] gap-2 p-5 lg:grid-cols-[1fr_1fr] lg:grid-rows-none"
@@ -17,23 +17,11 @@ export default function AboutUs() {
         <p className="text-xl">{aboutUsText_2}</p>
       </div>
       <div className="flex flex-col justify-center">
-        <Carousel
-          fade
-          interval={null} // stop auto-play
-          className="bg-main"
-        >
-          {pictures.map((picture) => (
-            <Carousel.Item
-              className="h-80 w-full md:h-[700px]"
-              key={picture.pictureUrl}
-            >
-              <img
-                src={picture.pictureUrl}
-                className="h-full w-full object-cover object-center"
-              />
-            </Carousel.Item>
-          ))}
-        </Carousel>
+        <img
+          className="h-full bg-center object-cover"
+          alt="memebers are woking in the garden"
+          src={aboutUsImg}
+        />
       </div>
     </div>
   );
