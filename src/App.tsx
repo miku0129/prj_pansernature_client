@@ -1,16 +1,17 @@
 // import { useEffect } from "react";
 // import { initializeItemsData } from "./utilities/firebase/firebase.utils";
-import { Routes, Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
+import Article from "./components/article.component";
+import ArticlesPreview from "./components/articles-preview.component";
+import Contact from "./components/contact.component";
+import PhotoGallery from "./components/photo-gallery.component";
 import BasicLayout from "./routes/basic-layout.component";
 import Home from "./routes/home.component";
-import ArticlesPreview from "./components/articles-preview.component";
-import Article from "./components/article.component";
-import Contact from "./components/contact.component";
 
 import ScrollToTop from "./utilities/scroll-to-top";
 
-import "@msano/prj_msano_lib/dist/style.css"
+import "@msano/prj_msano_lib/dist/style.css";
 
 function App() {
   // useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
           <Route path="articles" element={<ArticlesPreview />} />
           <Route path="articles/:id" element={<Article />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="gallery" element={<PhotoGallery />} />
         </Route>
       </Routes>
     </div>

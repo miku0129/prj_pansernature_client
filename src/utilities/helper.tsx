@@ -1,4 +1,5 @@
 import axios from "axios";
+import { createFlickr } from "flickr-sdk";
 
 const highlightWord = (word: string, indexOfWord: number) => {
   if (indexOfWord % 2 === 1) {
@@ -11,7 +12,7 @@ const highlightWord = (word: string, indexOfWord: number) => {
 
 const buildList = (
   listItem: string | InnerListOfArticle,
-  indexOfListItem: number
+  indexOfListItem: number,
 ) => {
   if (typeof listItem === "string") {
     if (listItem.includes("*")) {
@@ -33,7 +34,7 @@ const buildList = (
 
 export const buildArticle = (
   paragraph: string | ImageOfArticle | ListOfArticle,
-  indexOfParagraph: number
+  indexOfParagraph: number,
 ) => {
   if (typeof paragraph === "string") {
     const regexp = new RegExp("https://i.ibb.co/", "i");
@@ -43,7 +44,7 @@ export const buildArticle = (
         return (
           <p key={indexOfParagraph}>
             {sentences.map((words, indexOfSentence) =>
-              highlightWord(words, indexOfSentence)
+              highlightWord(words, indexOfSentence),
             )}
           </p>
         );
@@ -70,13 +71,30 @@ export const buildArticle = (
   }
 };
 
-export const getPostsFromFacebook = async () => {
-  try {
-    const res = await axios.get(
-      `https://graph.facebook.com/v19.0/${import.meta.env.VITE_PAGE_ID}/feed?fields=id,permalink_url,created_time,message,full_picture,story&access_token=${import.meta.env.VITE_FB_ACCESS_TOKEN}`
-    );
-    return res.data.data;
-  } catch (e) {
-    console.log(e);
-  }
+export const getFacebookPostsPromise = axios
+  .get(
+    `https://graph.facebook.com/v19.0/${import.meta.env.VITE_PAGE_ID}/feed?fields=id,permalink_url,created_time,message,full_picture,story&access_token=${import.meta.env.VITE_FB_ACCESS_TOKEN}`,
+  )
+  .then((res) => res.data.data)
+  .catch((e) => console.log(e));
+
+export const getPhotosForGallery = async () => {
+  const { flickr } = createFlickr(import.meta.env.VITE_FLICKR_API_KEY!);
+
+  const serverId = import.meta.env.VITE_FLICKR_SERVER_ID;
+  const res = await flickr("flickr.photosets.getPhotos", {
+    photoset_id: import.meta.env.VITE_FLICKR_GALLERY_PHOTOSET_ID!,
+    user_id: import.meta.env.VITE_FLICKR_USER_ID!,
+  });
+
+  const photos = await res.photoset.photo.map((item: FlickrPhotoInfo) => {
+    const size = item.title.split("_");
+    return {
+      src: `https://live.staticflickr.com/${serverId}/${item.id}_${item.secret}_b.jpg`,
+      width: size[0],
+      height: size[1],
+    };
+  });
+
+  return photos;
 };

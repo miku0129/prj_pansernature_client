@@ -7,20 +7,18 @@ import {
   entryContactText,
 } from "../asset";
 
-const EntryContact = () => {
+export default function EntryContact() {
   return (
     <div className="flex flex-col gap-3 px-5 pb-5" id="entry-helloasso">
       <div>
-        <div className="text-4xl">{entryContactHeadline}</div>
-        <div className="text-xl">{entryContactText}</div>
+        <div className="mb-3 text-4xl">{entryContactHeadline}</div>
+        <p className="text-xl">{entryContactText}</p>
         <Link to={"/contact"}>
-          <Button variant="secondary" size="md" className="mt-2 mb-2">
+          <Button variant="secondary" size="md" className="mt-1 mb-2">
             {entryContactBtnLabel}
           </Button>
         </Link>
       </div>
     </div>
   );
-};
-
-export default EntryContact;
+}

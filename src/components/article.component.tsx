@@ -1,25 +1,24 @@
-import { useContext } from "react";
-import { useNavigate, useParams } from "react-router-dom";
-import { ArticlesContext } from "../context/articles.context";
 import { Button } from "@msano/prj_msano_lib";
+import { use } from "react";
+import { useNavigate, useParams } from "react-router-dom";
+import { getStoredDocumentsPromise } from "../utilities/firebase/firebase.utils";
 import { buildArticle } from "../utilities/helper";
 
 const Article = () => {
   const navigate = useNavigate();
 
-  const articles = useContext(ArticlesContext)[0];
   const params = useParams();
-  let id = params.id !== undefined ? +params.id : "";
-  let article = (() => {
+  const id = params.id !== undefined ? +params.id : "";
+
+  const articles = use(getStoredDocumentsPromise);
+  const article = (() => {
     if (articles) {
-      return articles.find((article: Article) => {
-        return article.id === id;
-      });
+      return (articles as Article[]).find((article) => article.id === id);
     }
   })();
 
   return (
-    <div className="min-h-screen grid grid-rows-[auto_1fr_auto] p-5">
+    <div className="grid min-h-screen grid-rows-[auto_1fr_auto] p-5">
       <div>
         <h1>{article && article.title}</h1>
         <p>Category: {article && article.category.replace("-", " ")}</p>
@@ -32,8 +31,8 @@ const Article = () => {
             article.text.map(
               (
                 paragraph: string | ListOfArticle | ImageOfArticle,
-                idx: number
-              ) => buildArticle(paragraph, idx)
+                idx: number,
+              ) => buildArticle(paragraph, idx),
             )}
         </div>
         <div className="text-right">
