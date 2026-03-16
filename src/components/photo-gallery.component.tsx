@@ -25,7 +25,7 @@ export default function PhotoGallery() {
   }, []);
 
   return (
-    <div className="mx-1">
+    <div className="mx-1 mb-1">
       <RowsPhotoAlbum
         photos={photos}
         onClick={({ index }) => setIndex(index)}

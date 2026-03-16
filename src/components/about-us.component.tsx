@@ -11,7 +11,7 @@ export default function AboutUs() {
       className="grid grid-rows-[1fr_auto] gap-2 p-5 lg:grid-cols-[1fr_1fr] lg:grid-rows-none"
       id="about-us"
     >
-      <div className="flex min-w-sm flex-col justify-center">
+      <div className="flex flex-col justify-center">
         <div className="mb-3 text-4xl">{aboutUsHeadline}</div>
         <p className="text-xl">{aboutUsText_1}</p>
         <p className="text-xl">{aboutUsText_2}</p>

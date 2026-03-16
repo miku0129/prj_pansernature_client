@@ -13,13 +13,13 @@ import {
 const Header = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
+      <Container className="mx-0">
         <Link className="mr-20 no-underline" to={"/"}>
           <div className="text-main text-4xl">{orgName}</div>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto items-center gap-2">
+          <Nav className="gap-2 md:items-center">
             <NavDropdown title="About" id="basic-nav-dropdown">
               <div className="flex flex-col p-2">
                 <HashLink className="m-1 no-underline" to="/#about-us">
@@ -84,11 +84,8 @@ const Header = () => {
                 </Link>
               </div>
             </NavDropdown>
-            <Link
-              className="no-underline"
-              to={"/gallery"}
-            >
-              <span className="text-slate-600">Photos</span>
+            <Link className="mt-1 no-underline md:mt-0" to={"/gallery"}>
+              <span className="text-gray-500">Photos</span>
             </Link>
           </Nav>
         </Navbar.Collapse>
